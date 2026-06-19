@@ -1,0 +1,249 @@
+version: '4.0'
+
+actions:
+
+  extract_fixed:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_fixed.py
+      --output output/1-extract/extract_fixed.arrow
+      --dummy-data-file analysis/1-extract/dummy-data/dummy_fixed.arrow
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_fixed.arrow
+
+  extract_varying:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_varying.py
+      --output output/1-extract/extract_varying:arrow
+      #--dummy-data-file analysis/1-extract/dummy-data/dummy_varying.arrow
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_varying/*.arrow
+
+  vax_data_quality:
+    run: r:v2 analysis/2-prepare/vax_data_quality.R
+    needs: [extract_varying]
+    outputs:
+      moderately_sensitive:
+        csv: output/2-prepare/vax_data_quality/*.csv
+        #txt: output/2-prepare/vax_data_quality/*.txt
+
+  prepare:
+    run: r:v2 analysis/2-prepare/prepare.R
+    needs: [extract_fixed, extract_varying]
+    outputs:
+      highly_sensitive:
+        arrow: output/2-prepare/prepare/*.arrow
+      moderately_sensitive:
+        #csv: output/2-prepare/prepare/*.csv
+        txt: output/2-prepare/prepare/*.txt
+
+# report vaccine history over entire observational period ---
+  report_history:
+    run: r:v2 analysis/3-history/report_history.R
+    needs: [prepare]
+    outputs:
+      moderately_sensitive:
+        csv: output/3-history/report_history/*.csv
+        png: output/3-history/report_history/*.png
+
+ # report detailed vaccine history at specific snapshots in time ----
+
+ # 2020-12-07
+  extract_snapshot_20201207:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_snapshot.py
+      --output output/1-extract/extract_snapshot_20201207.arrow
+      --dummy-data-file analysis/1-extract/dummy-data/dummy_snapshot_20201207.arrow
+      --
+      --snapshot_date 20201207
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_snapshot_20201207.arrow
+
+  report_snapshot_20201207:
+    run: r:v2 analysis/4-snapshot/report_snapshot.R 20201207
+    needs: [extract_snapshot_20201207, prepare]
+    outputs:
+      moderately_sensitive:
+        csv: output/4-snapshot/report_snapshot_20201207/*.csv
+        png: output/4-snapshot/report_snapshot_20201207/*.png
+        txt: output/4-snapshot/report_snapshot_20201207/*.txt
+
+ # 2021-09-06
+  extract_snapshot_20210906:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_snapshot.py
+      --output output/1-extract/extract_snapshot_20210906.arrow
+      --dummy-data-file analysis/1-extract/dummy-data/dummy_snapshot_20210906.arrow
+      --
+      --snapshot_date 20210906
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_snapshot_20210906.arrow
+
+  report_snapshot_20210906:
+    run: r:v2 analysis/4-snapshot/report_snapshot.R 20210906
+    needs: [extract_snapshot_20210906, prepare]
+    outputs:
+      moderately_sensitive:
+        csv: output/4-snapshot/report_snapshot_20210906/*.csv
+        png: output/4-snapshot/report_snapshot_20210906/*.png
+        txt: output/4-snapshot/report_snapshot_20210906/*.txt
+
+ # 2022-03-21
+  extract_snapshot_20220321:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_snapshot.py
+      --output output/1-extract/extract_snapshot_20220321.arrow
+      --dummy-data-file analysis/1-extract/dummy-data/dummy_snapshot_20220321.arrow
+      --
+      --snapshot_date 20220321
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_snapshot_20220321.arrow
+
+  report_snapshot_20220321:
+    run: r:v2 analysis/4-snapshot/report_snapshot.R 20220321
+    needs: [extract_snapshot_20220321, prepare]
+    outputs:
+      moderately_sensitive:
+        csv: output/4-snapshot/report_snapshot_20220321/*.csv
+        png: output/4-snapshot/report_snapshot_20220321/*.png
+        txt: output/4-snapshot/report_snapshot_20220321/*.txt
+
+ # 2022-08-29
+  extract_snapshot_20220829:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_snapshot.py
+      --output output/1-extract/extract_snapshot_20220829.arrow
+      --dummy-data-file analysis/1-extract/dummy-data/dummy_snapshot_20220829.arrow
+      --
+      --snapshot_date 20220829
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_snapshot_20220829.arrow
+
+  report_snapshot_20220829:
+    run: r:v2 analysis/4-snapshot/report_snapshot.R 20220829
+    needs: [extract_snapshot_20220829, prepare]
+    outputs:
+      moderately_sensitive:
+        csv: output/4-snapshot/report_snapshot_20220829/*.csv
+        png: output/4-snapshot/report_snapshot_20220829/*.png
+        txt: output/4-snapshot/report_snapshot_20220829/*.txt
+
+ # 2023-04-03
+  extract_snapshot_20230403:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_snapshot.py
+      --output output/1-extract/extract_snapshot_20230403.arrow
+      --dummy-data-file analysis/1-extract/dummy-data/dummy_snapshot_20230403.arrow
+      --
+      --snapshot_date 20230403
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_snapshot_20230403.arrow
+
+  report_snapshot_20230403:
+    run: r:v2 analysis/4-snapshot/report_snapshot.R 20230403
+    needs: [extract_snapshot_20230403, prepare]
+    outputs:
+      moderately_sensitive:
+        csv: output/4-snapshot/report_snapshot_20230403/*.csv
+        png: output/4-snapshot/report_snapshot_20230403/*.png
+        txt: output/4-snapshot/report_snapshot_20230403/*.txt
+
+ # 2023-08-28
+  extract_snapshot_20230828:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_snapshot.py
+      --output output/1-extract/extract_snapshot_20230828.arrow
+      --dummy-data-file analysis/1-extract/dummy-data/dummy_snapshot_20230828.arrow
+      --
+      --snapshot_date 20230828
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_snapshot_20230828.arrow
+
+  report_snapshot_20230828:
+    run: r:v2 analysis/4-snapshot/report_snapshot.R 20230828
+    needs: [extract_snapshot_20230828, prepare]
+    outputs:
+      moderately_sensitive:
+        csv: output/4-snapshot/report_snapshot_20230828/*.csv
+        png: output/4-snapshot/report_snapshot_20230828/*.png
+        txt: output/4-snapshot/report_snapshot_20230828/*.txt
+
+ # 2024-04-15
+  extract_snapshot_20240415:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_snapshot.py
+      --output output/1-extract/extract_snapshot_20240415.arrow
+      --dummy-data-file analysis/1-extract/dummy-data/dummy_snapshot_20240415.arrow
+      --
+      --snapshot_date 20240415
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_snapshot_20240415.arrow
+
+  report_snapshot_20240415:
+    run: r:v2 analysis/4-snapshot/report_snapshot.R 20240415
+    needs: [extract_snapshot_20240415, prepare]
+    outputs:
+      moderately_sensitive:
+        csv: output/4-snapshot/report_snapshot_20240415/*.csv
+        png: output/4-snapshot/report_snapshot_20240415/*.png
+        txt: output/4-snapshot/report_snapshot_20240415/*.txt
+
+ # 2024-09-30
+  extract_snapshot_20240930:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_snapshot.py
+      --output output/1-extract/extract_snapshot_20240930.arrow
+      --dummy-data-file analysis/1-extract/dummy-data/dummy_snapshot_20240930.arrow
+      --
+      --snapshot_date 20240930
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_snapshot_20240930.arrow
+
+  report_snapshot_20240930:
+    run: r:v2 analysis/4-snapshot/report_snapshot.R 20240930
+    needs: [extract_snapshot_20240930, prepare]
+    outputs:
+      moderately_sensitive:
+        csv: output/4-snapshot/report_snapshot_20240930/*.csv
+        png: output/4-snapshot/report_snapshot_20240930/*.png
+        txt: output/4-snapshot/report_snapshot_20240930/*.txt
+
+ # 2025-03-31
+  extract_snapshot_20250331:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_snapshot.py
+      --output output/1-extract/extract_snapshot_20250331.arrow
+      --dummy-data-file analysis/1-extract/dummy-data/dummy_snapshot_20250331.arrow
+      --
+      --snapshot_date 20250331
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_snapshot_20250331.arrow
+
+  report_snapshot_20250331:
+    run: r:v2 analysis/4-snapshot/report_snapshot.R 20250331
+    needs: [extract_snapshot_20250331, prepare]
+    outputs:
+      moderately_sensitive:
+        csv: output/4-snapshot/report_snapshot_20250331/*.csv
+        png: output/4-snapshot/report_snapshot_20250331/*.png
+        txt: output/4-snapshot/report_snapshot_20250331/*.txt
+
+# 2025-09-29
+
+  extract_snapshot_20250929:
+    run: ehrql:v1 generate-dataset analysis/1-extract/dataset_definition_snapshot.py
+      --output output/1-extract/extract_snapshot_20250929.arrow
+      --dummy-data-file analysis/1-extract/dummy-data/dummy_snapshot_20250929.arrow
+      --
+      --snapshot_date 20250929
+    outputs:
+      highly_sensitive:
+        cohort: output/1-extract/extract_snapshot_20250929.arrow
+
+  report_snapshot_20250929:
+    run: r:v2 analysis/4-snapshot/report_snapshot.R 20250929
+    needs: [extract_snapshot_20250929, prepare]
+    outputs:
+      moderately_sensitive:
+        csv: output/4-snapshot/report_snapshot_20250929/*.csv
+        png: output/4-snapshot/report_snapshot_20250929/*.png
+        txt: output/4-snapshot/report_snapshot_20250929/*.txt

@@ -1,0 +1,118 @@
+# Ethnicity
+opensafely/ethnicity-snomed-0removed/22911876
+
+
+#Asthma
+primis-covid19-vacc-uptake/astadm/v2.5
+primis-covid19-vacc-uptake/ast/v2.5
+primis-covid19-vacc-uptake/astrxm2/v2.5
+primis-covid19-vacc-uptake/astrxm1/v2.5
+
+#Resp
+primis-covid19-vacc-uptake/resp_cov/v2.5
+
+#Chronic heart disease
+primis-covid19-vacc-uptake/chd_cov/v2.5
+
+#Chronic kidney disease
+primis-covid19-vacc-uptake/ckd15/v2.5
+primis-covid19-vacc-uptake/ckd35/v2.5
+primis-covid19-vacc-uptake/ckd_cov/v2.5
+
+#Chronic liver disease
+primis-covid19-vacc-uptake/cld/v2.5
+
+#DM + addison
+primis-covid19-vacc-uptake/diab/v2.5
+primis-covid19-vacc-uptake/dmres/v2.5
+primis-covid19-vacc-uptake/addis_cod/v2.5
+primis-covid19-vacc-uptake/gdiab_cod/v2.5
+
+#Pregnancy
+primis-covid19-vacc-uptake/preg/v2.5
+primis-covid19-vacc-uptake/pregdel/v2.5
+
+#Severe mental
+primis-covid19-vacc-uptake/smhres/v2.5
+primis-covid19-vacc-uptake/sev_mental/v2.5
+
+#Chronic neurological disease
+primis-covid19-vacc-uptake/cns_cov/v2.5
+
+#Immuno
+primis-covid19-vacc-uptake/immdx_cov/v2.5
+primis-covid19-vacc-uptake/immrx/v2.5
+primis-covid19-vacc-uptake/immunosuppression-admin-codes/v2.5
+
+#Chemotherapy
+primis-covid19-vacc-uptake/dxt_chemo_cod/v2.5
+
+#Asplenia
+primis-covid19-vacc-uptake/spln_cov/v2.5
+
+#Severe obesity
+primis-covid19-vacc-uptake/bmi/v2.5
+primis-covid19-vacc-uptake/bmi_stage/v2.5
+primis-covid19-vacc-uptake/sev_obesity/v2.5
+
+
+#Learning disability
+primis-covid19-vacc-uptake/learndis/v2.5
+
+# care home residency status
+primis-covid19-vacc-uptake/longres/v2.5
+
+#carehome employment status
+primis-covid19-vacc-uptake/carehome/v2.5
+primis-covid19-vacc-uptake/nursehome/v2.5
+primis-covid19-vacc-uptake/domcare/v2.5
+
+# HIV/SIDA
+nhsd/hiv-aids-snomed/68ca529e
+
+#Solid organ transplant
+opensafely/solid-organ-transplantation-snomed/2020-04-10
+
+#Cancer
+#Non haem-lung cancer
+opensafely/cancer-excluding-lung-and-haematological-snomed/2020-04-15
+
+#Chemotherapy
+opensafely/chemotherapy-or-radiotherapy-snomed/2020-04-15
+
+#Lung cancer
+opensafely/lung-cancer-snomed/2020-04-15
+
+# Haem cancer
+opensafely/haematological-cancer-snomed/2020-04-15
+
+#Other
+#nhsd/haematopoietic-stem-cell-transplant-snomed/3ec3ac16
+#nhsd/haematological-malignancies-snomed/31a49191
+#nhsd/sickle-spl-atriskv4-snomed-ct/7083ed37
+
+# care home residency, NHS refset
+nhsd-primary-care-domain-refsets/carehome_cod/20250627
+
+# Extended subgroups
+nhsd-primary-care-domain-refsets/renaltransp_cod/20250627
+nhsd-primary-care-domain-refsets/dialysis_cod/20250627
+nhsd-primary-care-domain-refsets/cre_cod/20250627
+nhsd-primary-care-domain-refsets/copd_cod/20250627
+nhsd-primary-care-domain-refsets/ds_cod/20250627
+nhsd/sickle-spl-atriskv4-snomed-ct/7083ed37
+nhsd-primary-care-domain-refsets/cirrhosis_cod/20250627
+
+# Cochlear implant
+nhsd-primary-care-domain-refsets/cocimpatrisk1_cod/20250912
+nhsd-primary-care-domain-refsets/cocimprematrisk1_cod/20250912
+
+# Cystic fibrosis
+opensafely/cystic-fibrosis-snomed/1eb02212
+
+# Cerebrospinal fluid leak
+nhsd-primary-care-domain-refsets/csflatrisk1_cod/20250912
+
+# Homeless
+primis-covid19-vacc-uptake/homeless_cod/v2.5
+primis-covid19-vacc-uptake/reside_cod/v2.5

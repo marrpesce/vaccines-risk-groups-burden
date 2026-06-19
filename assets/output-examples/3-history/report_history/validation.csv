@@ -1,0 +1,2 @@
+n,n_missing_date,pct_missing_date,n_earlier_than_start_date,pct_earlier_than_start_date,n_earlier_than_firstpossiblevax_date,pct_earlier_than_firstpossiblevax_date,n_interval_within_14days,pct_interval_within_14days
+3060,0,0,2860,0.934640522875817,2840,0.9281045751633987,30,0.00980392156862745

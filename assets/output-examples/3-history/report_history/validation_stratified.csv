@@ -1,0 +1,17 @@
+vax_dosenumber,vax_product8,n,n_missing_date,pct_missing_date,n_earlier_than_start_date,pct_earlier_than_start_date,n_earlier_than_firstpossiblevax_date,pct_earlier_than_firstpossiblevax_date,n_interval_within_14days,pct_interval_within_14days
+Dose 1,Other,1000,0,0,970,0.97,970,0.97,0,0
+Dose 2,Other,680,0,0,650,0.9558823529411765,650,0.9558823529411765,0,0
+Dose 3,Other,460,0,0,430,0.9347826086956522,430,0.9347826086956522,10,0.021739130434782608
+Dose 4,Other,310,0,0,280,0.9032258064516129,280,0.9032258064516129,0,0
+Dose 5,Other,210,0,0,190,0.9047619047619048,180,0.8571428571428571,0,0
+Dose 6,Other,140,0,0,130,0.9285714285714286,130,0.9285714285714286,10,0.07142857142857142
+Dose 7,Other,80,0,0,70,0.875,70,0.875,0,0
+Dose 8,Other,60,0,0,40,0.6666666666666666,40,0.6666666666666666,0,0
+Dose 9,Other,30,0,0,30,1,30,1,0,0
+Dose 10,Other,20,0,0,20,1,20,1,0,0
+Dose 11,Other,20,0,0,20,1,20,1,0,0
+Dose 12,Other,20,0,0,10,0.5,10,0.5,0,0
+Dose 13,Other,10,0,0,10,1,10,1,0,0
+Dose 14,Other,0,0,NA,0,NA,0,NA,0,NA
+Dose 15,Other,0,0,NA,0,NA,0,NA,0,NA
+Dose 16,Other,0,0,NA,0,NA,0,NA,0,NA

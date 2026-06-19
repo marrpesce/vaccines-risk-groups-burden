@@ -1,0 +1,482 @@
+vax_product,campaign,count_total,count_before20200101,count_onorafter20200101,count_onorafter20201201,earliest_date,count_on_earliest_date
+1x az_original,Pre-2020-07-01,15,5,5,0,2019-01-25,1
+1x az_original,Pre-roll-out,5,0,5,0,2020-09-04,1
+1x az_original,Primary series,5,0,5,5,2021-05-30,1
+1x az_original,Autumn 2021,5,0,5,5,2021-09-20,1
+1x az_original,Spring 2022,5,0,5,5,2022-04-09,1
+1x az_original,Autumn 2022,5,0,5,5,2022-12-16,1
+1x az_original,Spring 2023,5,0,5,5,2023-06-27,1
+1x az_original,Autumn 2023,5,0,5,5,2023-10-01,1
+1x az_original,Spring 2024,5,0,5,5,2024-04-19,1
+1x az_original,Autumn 2024,5,0,5,5,2025-02-12,1
+1x az_original,Spring 2025,5,0,5,5,2025-05-03,1
+1x az_original_half,Pre-2020-07-01,5,5,5,0,2019-06-03,1
+1x az_original_half,Pre-roll-out,5,0,5,5,2020-12-03,1
+1x az_original_half,Primary series,5,0,5,5,2021-02-24,1
+1x az_original_half,Autumn 2021,5,0,5,5,2022-01-18,1
+1x az_original_half,Spring 2022,5,0,5,5,2022-03-24,1
+1x az_original_half,Autumn 2022,5,0,5,5,2022-11-11,1
+1x az_original_half,Spring 2023,5,0,5,5,2023-05-19,1
+1x az_original_half,Autumn 2023,5,0,5,5,2023-09-17,1
+1x az_original_half,Spring 2024,5,0,5,5,2024-05-13,1
+1x az_original_half,Autumn 2024,5,0,5,5,2024-12-17,1
+1x az_original_half,Spring 2025,5,0,5,5,2025-04-01,1
+1x az_original_half,Autumn 2025,5,0,5,5,2025-10-05,1
+1x convidecia,Pre-2020-07-01,15,5,5,0,2019-02-22,1
+1x convidecia,Pre-roll-out,5,0,5,0,2020-09-16,1
+1x convidecia,Primary series,5,0,5,5,2021-01-02,1
+1x convidecia,Autumn 2021,5,0,5,5,2021-10-07,1
+1x convidecia,Spring 2022,5,0,5,5,2022-04-04,1
+1x convidecia,Autumn 2022,5,0,5,5,2023-03-15,1
+1x convidecia,Spring 2023,5,0,5,5,2023-07-12,1
+1x convidecia,Autumn 2023,5,0,5,5,2023-12-01,1
+1x convidecia,Spring 2024,5,0,5,5,2024-07-25,1
+1x convidecia,Autumn 2024,5,0,5,5,2024-10-25,1
+1x convidecia,Spring 2025,5,0,5,5,2025-05-06,1
+1x coronavac,Pre-2020-07-01,5,5,5,0,2019-08-31,1
+1x coronavac,Pre-roll-out,5,0,5,0,2020-07-25,1
+1x coronavac,Primary series,5,0,5,5,2020-12-12,1
+1x coronavac,Autumn 2021,5,0,5,5,2022-02-19,1
+1x coronavac,Spring 2022,5,0,5,5,2022-03-22,1
+1x coronavac,Autumn 2022,5,0,5,5,2023-01-08,1
+1x coronavac,Spring 2023,5,0,5,5,2023-04-09,1
+1x coronavac,Autumn 2023,5,0,5,5,2023-11-26,1
+1x coronavac,Spring 2024,5,0,5,5,2024-07-04,1
+1x coronavac,Autumn 2024,5,0,5,5,2024-10-19,1
+1x coronavac,Spring 2025,5,0,5,5,2025-06-04,1
+1x coronavac,Autumn 2025,5,0,5,5,2025-10-15,1
+1x covaxin,Pre-2020-07-01,5,5,5,0,2019-02-28,1
+1x covaxin,Pre-roll-out,5,0,5,0,2020-09-08,1
+1x covaxin,Primary series,5,0,5,5,2021-02-18,1
+1x covaxin,Autumn 2021,5,0,5,5,2021-09-28,1
+1x covaxin,Spring 2022,5,0,5,5,2022-06-17,1
+1x covaxin,Autumn 2022,5,0,5,5,2022-09-24,1
+1x covaxin,Spring 2023,5,0,5,5,2023-06-23,1
+1x covaxin,Autumn 2023,5,0,5,5,2023-11-18,1
+1x covaxin,Spring 2024,5,0,5,5,2024-07-08,1
+1x covaxin,Autumn 2024,5,0,5,5,2024-11-18,1
+1x covaxin,Spring 2025,5,0,5,5,2025-05-18,1
+1x covishield,Pre-2020-07-01,5,5,5,0,2019-01-13,1
+1x covishield,Pre-roll-out,5,0,5,0,2020-07-25,1
+1x covishield,Primary series,5,0,5,5,2021-01-10,1
+1x covishield,Autumn 2021,5,0,5,5,2021-09-16,1
+1x covishield,Spring 2022,5,0,5,5,2022-04-08,1
+1x covishield,Autumn 2022,5,0,5,5,2022-09-01,1
+1x covishield,Spring 2023,5,0,5,5,2023-06-06,1
+1x covishield,Autumn 2023,5,0,5,5,2023-09-09,1
+1x covishield,Autumn 2024,5,0,5,5,2025-01-27,1
+1x covishield,Spring 2025,5,0,5,5,2025-07-01,1
+1x covishield,Autumn 2025,5,0,5,5,2025-09-29,1
+1x covovax,Pre-2020-07-01,5,5,0,0,2019-01-15,1
+1x covovax,Primary series,5,0,5,5,2020-12-25,1
+1x covovax,Autumn 2021,5,0,5,5,2022-01-19,1
+1x covovax,Spring 2022,5,0,5,5,2022-04-29,1
+1x covovax,Autumn 2022,5,0,5,5,2022-09-10,1
+1x covovax,Spring 2023,5,0,5,5,2023-05-23,1
+1x covovax,Autumn 2023,5,0,5,5,2023-08-30,1
+1x covovax,Spring 2024,5,0,5,5,2024-09-17,1
+1x covovax,Autumn 2024,5,0,5,5,2024-10-13,1
+1x covovax,Spring 2025,5,0,5,5,2025-04-06,1
+1x jansenn,Pre-2020-07-01,5,5,5,0,2019-02-27,1
+1x jansenn,Pre-roll-out,5,0,5,0,2020-08-11,1
+1x jansenn,Primary series,5,0,5,5,2021-02-06,1
+1x jansenn,Autumn 2021,5,0,5,5,2021-09-17,1
+1x jansenn,Spring 2022,5,0,5,5,2022-04-11,1
+1x jansenn,Autumn 2022,5,0,5,5,2022-10-01,1
+1x jansenn,Autumn 2023,5,0,5,5,2024-03-16,1
+1x jansenn,Spring 2024,5,0,5,5,2024-08-10,1
+1x jansenn,Autumn 2024,5,0,5,5,2024-10-20,1
+1x jansenn,Spring 2025,5,0,5,5,2025-04-01,1
+1x medicago,Pre-2020-07-01,5,5,5,0,2019-05-22,1
+1x medicago,Pre-roll-out,5,0,5,0,2020-07-15,1
+1x medicago,Primary series,5,0,5,5,2020-12-31,1
+1x medicago,Autumn 2021,5,0,5,5,2021-10-06,1
+1x medicago,Spring 2022,5,0,5,5,2022-04-07,1
+1x medicago,Autumn 2022,5,0,5,5,2022-09-17,1
+1x medicago,Spring 2023,5,0,5,5,2023-04-28,1
+1x medicago,Autumn 2023,5,0,5,5,2023-10-08,1
+1x medicago,Spring 2024,5,0,5,5,2024-05-07,1
+1x medicago,Autumn 2024,5,0,5,5,2024-11-06,1
+1x medicago,Spring 2025,5,0,5,5,2025-05-20,1
+1x moderna_BA45,Pre-2020-07-01,5,5,5,0,2019-01-25,1
+1x moderna_BA45,Pre-roll-out,5,0,5,0,2020-11-07,1
+1x moderna_BA45,Primary series,5,0,5,5,2020-12-10,1
+1x moderna_BA45,Autumn 2021,5,0,5,5,2021-09-25,1
+1x moderna_BA45,Spring 2022,5,0,5,5,2022-04-08,1
+1x moderna_BA45,Autumn 2022,5,0,5,5,2022-11-10,1
+1x moderna_BA45,Spring 2023,5,0,5,5,2023-08-06,1
+1x moderna_BA45,Autumn 2023,5,0,5,5,2023-09-16,1
+1x moderna_BA45,Spring 2024,5,0,5,5,2024-04-28,1
+1x moderna_BA45,Autumn 2024,5,0,5,5,2024-09-30,1
+1x moderna_BA45,Spring 2025,5,0,5,5,2025-04-04,1
+1x moderna_BA45,Autumn 2025,5,0,5,5,2025-11-09,1
+1x moderna_JN1,Pre-2020-07-01,5,5,5,0,2019-01-28,1
+1x moderna_JN1,Pre-roll-out,5,0,5,0,2020-07-10,1
+1x moderna_JN1,Primary series,5,0,5,5,2020-12-21,1
+1x moderna_JN1,Autumn 2021,5,0,5,5,2021-10-09,1
+1x moderna_JN1,Spring 2022,5,0,5,5,2022-05-26,1
+1x moderna_JN1,Autumn 2022,5,0,5,5,2022-10-15,1
+1x moderna_JN1,Spring 2023,5,0,5,5,2023-05-27,1
+1x moderna_JN1,Autumn 2023,5,0,5,5,2023-10-26,1
+1x moderna_JN1,Spring 2024,5,0,5,5,2024-06-15,1
+1x moderna_JN1,Autumn 2024,5,0,5,5,2024-12-14,1
+1x moderna_JN1,Spring 2025,5,0,5,5,2025-05-08,1
+1x moderna_JN1,Autumn 2025,5,0,5,5,2025-10-09,1
+1x moderna_XBB15,Pre-2020-07-01,5,5,5,0,2019-03-17,1
+1x moderna_XBB15,Pre-roll-out,5,0,5,0,2020-08-08,1
+1x moderna_XBB15,Primary series,5,0,5,5,2021-01-05,1
+1x moderna_XBB15,Autumn 2021,5,0,5,5,2021-09-18,1
+1x moderna_XBB15,Spring 2022,5,0,5,5,2022-04-19,1
+1x moderna_XBB15,Autumn 2022,5,0,5,5,2023-01-10,1
+1x moderna_XBB15,Spring 2023,5,0,5,5,2023-04-13,1
+1x moderna_XBB15,Autumn 2023,5,0,5,5,2023-09-10,1
+1x moderna_XBB15,Spring 2024,5,0,5,5,2024-04-16,1
+1x moderna_XBB15,Autumn 2024,5,0,5,5,2024-11-27,1
+1x moderna_XBB15,Spring 2025,5,0,5,5,2025-05-14,1
+1x moderna_omicron,Pre-2020-07-01,5,5,5,0,2019-02-11,1
+1x moderna_omicron,Pre-roll-out,5,0,5,0,2020-07-25,1
+1x moderna_omicron,Primary series,5,0,5,5,2020-12-20,1
+1x moderna_omicron,Autumn 2021,5,0,5,5,2021-11-11,1
+1x moderna_omicron,Autumn 2022,5,0,5,5,2022-10-07,1
+1x moderna_omicron,Spring 2023,5,0,5,5,2023-04-07,1
+1x moderna_omicron,Spring 2024,5,0,5,5,2024-05-12,1
+1x moderna_omicron,Autumn 2024,5,0,5,5,2025-02-22,1
+1x moderna_omicron,Spring 2025,5,0,5,5,2025-04-19,1
+1x moderna_omicron,Autumn 2025,5,0,5,5,2025-10-14,1
+1x moderna_omicron2,Pre-2020-07-01,5,5,5,0,2019-01-28,1
+1x moderna_omicron2,Pre-roll-out,5,0,5,0,2020-07-01,1
+1x moderna_omicron2,Primary series,5,0,5,5,2021-02-03,1
+1x moderna_omicron2,Autumn 2021,5,0,5,5,2021-11-12,1
+1x moderna_omicron2,Spring 2022,5,0,5,5,2022-08-02,1
+1x moderna_omicron2,Autumn 2022,5,0,5,5,2023-02-22,1
+1x moderna_omicron2,Spring 2023,5,0,5,5,2023-06-22,1
+1x moderna_omicron2,Autumn 2023,5,0,5,5,2023-10-02,1
+1x moderna_omicron2,Spring 2024,5,0,5,5,2024-04-20,1
+1x moderna_omicron2,Autumn 2024,5,0,5,5,2024-12-11,1
+1x moderna_omicron2,Spring 2025,5,0,5,5,2025-07-21,1
+1x moderna_omicron2,Autumn 2025,5,0,5,5,2025-11-04,1
+1x moderna_original,Pre-2020-07-01,15,5,5,0,2019-02-05,1
+1x moderna_original,Pre-roll-out,5,0,5,0,2020-09-19,1
+1x moderna_original,Primary series,5,0,5,5,2020-12-30,1
+1x moderna_original,Autumn 2021,5,0,5,5,2021-11-25,1
+1x moderna_original,Spring 2022,5,0,5,5,2022-04-21,1
+1x moderna_original,Autumn 2022,5,0,5,5,2022-09-26,1
+1x moderna_original,Spring 2023,5,0,5,5,2023-07-26,1
+1x moderna_original,Autumn 2023,5,0,5,5,2023-09-19,1
+1x moderna_original,Spring 2024,5,0,5,5,2024-05-02,1
+1x moderna_original,Autumn 2024,5,0,5,5,2025-02-13,1
+1x moderna_original,Spring 2025,5,0,5,5,2025-08-16,1
+1x moderna_unspecified,Pre-2020-07-01,15,15,5,0,2019-02-19,1
+1x moderna_unspecified,Pre-roll-out,5,0,5,0,2020-09-21,1
+1x moderna_unspecified,Primary series,5,0,5,5,2021-02-08,1
+1x moderna_unspecified,Autumn 2021,5,0,5,5,2021-10-02,1
+1x moderna_unspecified,Spring 2022,5,0,5,5,2022-04-17,1
+1x moderna_unspecified,Autumn 2022,5,0,5,5,2022-09-17,1
+1x moderna_unspecified,Spring 2023,5,0,5,5,2023-06-20,1
+1x moderna_unspecified,Autumn 2023,5,0,5,5,2023-09-24,1
+1x moderna_unspecified,Spring 2024,5,0,5,5,2024-05-27,1
+1x moderna_unspecified,Autumn 2024,5,0,5,5,2024-10-15,1
+1x moderna_unspecified,Spring 2025,5,0,5,5,2025-04-12,1
+1x moderna_unspecified,Autumn 2025,5,0,5,5,2025-11-09,1
+1x novavax,Pre-2020-07-01,5,5,5,0,2019-03-25,1
+1x novavax,Pre-roll-out,5,0,5,0,2020-10-29,1
+1x novavax,Primary series,5,0,5,5,2021-01-03,1
+1x novavax,Autumn 2021,5,0,5,5,2021-11-03,1
+1x novavax,Spring 2022,5,0,5,5,2022-05-01,1
+1x novavax,Autumn 2022,5,0,5,5,2022-09-04,1
+1x novavax,Autumn 2023,5,0,5,5,2023-10-20,1
+1x novavax,Spring 2024,5,0,5,5,2024-05-14,1
+1x novavax,Autumn 2024,5,0,5,5,2024-10-09,1
+1x novavax,Spring 2025,5,0,5,5,2025-04-04,1
+1x novavax,Autumn 2025,5,0,5,5,2025-10-22,1
+1x pfizer_BA1,Pre-2020-07-01,5,5,5,0,2019-02-05,1
+1x pfizer_BA1,Pre-roll-out,5,0,5,5,2020-07-08,1
+1x pfizer_BA1,Primary series,5,0,5,5,2021-04-11,1
+1x pfizer_BA1,Autumn 2021,5,0,5,5,2021-09-06,1
+1x pfizer_BA1,Spring 2022,5,0,5,5,2022-05-01,1
+1x pfizer_BA1,Autumn 2022,5,0,5,5,2022-11-16,1
+1x pfizer_BA1,Spring 2023,5,0,5,5,2023-05-08,1
+1x pfizer_BA1,Autumn 2023,5,0,5,5,2023-10-20,1
+1x pfizer_BA1,Autumn 2024,5,0,5,5,2024-11-16,1
+1x pfizer_BA1,Spring 2025,5,0,5,5,2025-04-22,1
+1x pfizer_BA45,Pre-2020-07-01,5,5,5,0,2019-01-17,1
+1x pfizer_BA45,Pre-roll-out,5,0,5,0,2020-09-11,1
+1x pfizer_BA45,Primary series,5,0,5,5,2020-12-18,1
+1x pfizer_BA45,Autumn 2021,5,0,5,5,2021-10-01,1
+1x pfizer_BA45,Spring 2022,5,0,5,5,2022-06-06,1
+1x pfizer_BA45,Autumn 2022,5,0,5,5,2022-09-14,1
+1x pfizer_BA45,Spring 2023,5,0,5,5,2023-07-19,1
+1x pfizer_BA45,Autumn 2023,5,0,5,5,2023-09-23,1
+1x pfizer_BA45,Spring 2024,5,0,5,5,2024-06-18,1
+1x pfizer_BA45,Autumn 2024,5,0,5,5,2024-12-30,1
+1x pfizer_BA45,Spring 2025,5,0,5,5,2025-04-10,1
+1x pfizer_JN1,Pre-2020-07-01,5,5,5,0,2019-01-16,1
+1x pfizer_JN1,Pre-roll-out,5,0,5,0,2020-11-05,1
+1x pfizer_JN1,Primary series,5,0,5,5,2020-12-28,1
+1x pfizer_JN1,Autumn 2021,5,0,5,5,2021-09-17,1
+1x pfizer_JN1,Spring 2022,5,0,5,5,2022-05-30,1
+1x pfizer_JN1,Autumn 2022,5,0,5,5,2022-09-29,1
+1x pfizer_JN1,Autumn 2023,5,0,5,5,2023-09-14,1
+1x pfizer_JN1,Spring 2024,5,0,5,5,2024-07-26,1
+1x pfizer_JN1,Autumn 2024,5,0,5,5,2024-11-06,1
+1x pfizer_JN1,Spring 2025,5,0,5,5,2025-06-11,1
+1x pfizer_JN1,Autumn 2025,5,0,5,5,2025-10-07,1
+1x pfizer_JN1_children,Pre-2020-07-01,5,5,5,0,2019-02-10,1
+1x pfizer_JN1_children,Pre-roll-out,5,0,5,0,2020-08-26,1
+1x pfizer_JN1_children,Primary series,5,0,5,5,2020-12-20,1
+1x pfizer_JN1_children,Autumn 2021,5,0,5,5,2022-02-10,1
+1x pfizer_JN1_children,Spring 2022,5,0,5,5,2022-04-04,1
+1x pfizer_JN1_children,Autumn 2022,5,0,5,5,2022-10-31,1
+1x pfizer_JN1_children,Spring 2023,5,0,5,5,2023-05-24,1
+1x pfizer_JN1_children,Autumn 2023,5,0,5,5,2023-10-11,1
+1x pfizer_JN1_children,Spring 2024,5,0,5,5,2024-04-27,1
+1x pfizer_JN1_children,Spring 2025,5,0,5,5,2025-08-04,1
+1x pfizer_JN1_under5,Pre-2020-07-01,5,5,5,0,2019-06-10,1
+1x pfizer_JN1_under5,Pre-roll-out,5,0,5,0,2020-11-01,1
+1x pfizer_JN1_under5,Primary series,5,0,5,5,2021-01-14,1
+1x pfizer_JN1_under5,Spring 2022,5,0,5,5,2022-07-15,1
+1x pfizer_JN1_under5,Autumn 2022,5,0,5,5,2022-09-07,2
+1x pfizer_JN1_under5,Spring 2023,5,0,5,5,2023-05-18,1
+1x pfizer_JN1_under5,Autumn 2023,5,0,5,5,2023-09-03,1
+1x pfizer_JN1_under5,Spring 2024,5,0,5,5,2024-07-23,1
+1x pfizer_JN1_under5,Autumn 2024,5,0,5,5,2025-02-07,1
+1x pfizer_JN1_under5,Spring 2025,5,0,5,5,2025-04-07,1
+1x pfizer_JN1_under5,Autumn 2025,5,0,5,5,2025-10-12,1
+1x pfizer_KP2,Pre-2020-07-01,5,5,5,0,2019-09-22,1
+1x pfizer_KP2,Pre-roll-out,5,0,5,0,2020-07-11,1
+1x pfizer_KP2,Primary series,5,0,5,5,2021-01-12,1
+1x pfizer_KP2,Autumn 2021,5,0,5,5,2021-09-07,1
+1x pfizer_KP2,Spring 2022,5,0,5,5,2022-07-05,1
+1x pfizer_KP2,Autumn 2022,5,0,5,5,2022-08-31,1
+1x pfizer_KP2,Spring 2023,5,0,5,5,2023-05-02,1
+1x pfizer_KP2,Autumn 2023,5,0,5,5,2023-12-18,1
+1x pfizer_KP2,Spring 2025,5,0,5,5,2025-06-26,1
+1x pfizer_KP2,Autumn 2025,5,0,5,5,2025-10-28,1
+1x pfizer_KP2_pfs,Pre-2020-07-01,5,5,5,0,2019-01-14,1
+1x pfizer_KP2_pfs,Pre-roll-out,5,0,5,0,2020-09-03,1
+1x pfizer_KP2_pfs,Primary series,5,0,5,5,2021-02-18,2
+1x pfizer_KP2_pfs,Spring 2022,5,0,5,5,2022-05-01,1
+1x pfizer_KP2_pfs,Autumn 2022,5,0,5,5,2022-09-07,1
+1x pfizer_KP2_pfs,Spring 2023,5,0,5,5,2023-04-10,1
+1x pfizer_KP2_pfs,Autumn 2023,5,0,5,5,2023-09-24,1
+1x pfizer_KP2_pfs,Spring 2024,5,0,5,5,2024-08-30,1
+1x pfizer_KP2_pfs,Autumn 2024,5,0,5,5,2024-11-01,1
+1x pfizer_KP2_pfs,Spring 2025,5,0,5,5,2025-05-09,1
+1x pfizer_LP81,Pre-2020-07-01,5,5,0,0,2019-03-01,1
+1x pfizer_LP81,Pre-roll-out,5,0,5,0,2020-07-19,1
+1x pfizer_LP81,Primary series,5,0,5,5,2021-05-11,1
+1x pfizer_LP81,Autumn 2021,5,0,5,5,2021-12-04,1
+1x pfizer_LP81,Spring 2022,5,0,5,5,2022-04-08,1
+1x pfizer_LP81,Autumn 2022,5,0,5,5,2022-09-08,1
+1x pfizer_LP81,Spring 2023,5,0,5,5,2023-06-02,1
+1x pfizer_LP81,Autumn 2023,5,0,5,5,2023-09-06,1
+1x pfizer_LP81,Spring 2024,5,0,5,5,2024-05-03,1
+1x pfizer_LP81,Autumn 2024,5,0,5,5,2024-10-08,1
+1x pfizer_LP81,Spring 2025,5,0,5,5,2025-06-09,1
+1x pfizer_LP81_children,Pre-2020-07-01,5,5,0,0,2019-02-12,1
+1x pfizer_LP81_children,Pre-roll-out,5,0,5,0,2020-09-06,1
+1x pfizer_LP81_children,Primary series,5,0,5,5,2021-03-22,1
+1x pfizer_LP81_children,Autumn 2021,5,0,5,5,2021-10-10,1
+1x pfizer_LP81_children,Spring 2022,5,0,5,5,2022-07-22,1
+1x pfizer_LP81_children,Autumn 2022,5,0,5,5,2022-11-03,1
+1x pfizer_LP81_children,Spring 2023,5,0,5,5,2023-05-03,1
+1x pfizer_LP81_children,Autumn 2023,5,0,5,5,2023-09-11,1
+1x pfizer_LP81_children,Spring 2024,5,0,5,5,2024-08-04,1
+1x pfizer_LP81_children,Autumn 2024,5,0,5,5,2024-10-23,1
+1x pfizer_LP81_children,Spring 2025,5,0,5,5,2025-05-13,1
+1x pfizer_LP81_children,Autumn 2025,5,0,5,5,2025-10-29,1
+1x pfizer_LP81_under5,Pre-2020-07-01,15,5,5,0,2019-01-20,1
+1x pfizer_LP81_under5,Pre-roll-out,5,0,5,0,2020-07-23,1
+1x pfizer_LP81_under5,Autumn 2021,5,0,5,5,2022-02-09,1
+1x pfizer_LP81_under5,Spring 2022,5,0,5,5,2022-06-11,1
+1x pfizer_LP81_under5,Autumn 2022,5,0,5,5,2022-09-23,1
+1x pfizer_LP81_under5,Spring 2023,5,0,5,5,2023-04-13,1
+1x pfizer_LP81_under5,Autumn 2023,5,0,5,5,2023-10-03,1
+1x pfizer_LP81_under5,Spring 2024,5,0,5,5,2024-06-07,1
+1x pfizer_LP81_under5,Autumn 2024,5,0,5,5,2024-11-23,1
+1x pfizer_LP81_under5,Spring 2025,15,0,15,15,2025-04-04,2
+1x pfizer_XBB15,Pre-2020-07-01,5,5,5,0,2019-02-18,1
+1x pfizer_XBB15,Pre-roll-out,5,0,5,0,2020-07-09,1
+1x pfizer_XBB15,Primary series,5,0,5,5,2020-12-29,1
+1x pfizer_XBB15,Autumn 2021,5,0,5,5,2022-02-05,1
+1x pfizer_XBB15,Spring 2022,5,0,5,5,2022-07-04,1
+1x pfizer_XBB15,Autumn 2022,5,0,5,5,2022-09-29,1
+1x pfizer_XBB15,Spring 2023,5,0,5,5,2023-04-09,1
+1x pfizer_XBB15,Autumn 2023,5,0,5,5,2023-10-05,1
+1x pfizer_XBB15,Spring 2024,5,0,5,5,2024-07-12,1
+1x pfizer_XBB15,Autumn 2024,5,0,5,5,2024-10-05,1
+1x pfizer_XBB15,Spring 2025,5,0,5,5,2025-04-17,1
+1x pfizer_XBB15,Autumn 2025,5,0,5,5,2025-11-13,1
+1x pfizer_XBB15_children,Pre-2020-07-01,5,5,5,0,2019-05-14,1
+1x pfizer_XBB15_children,Pre-roll-out,5,0,5,0,2020-07-05,1
+1x pfizer_XBB15_children,Primary series,5,0,5,5,2021-02-04,1
+1x pfizer_XBB15_children,Autumn 2021,5,0,5,5,2022-03-05,1
+1x pfizer_XBB15_children,Spring 2022,5,0,5,5,2022-07-15,1
+1x pfizer_XBB15_children,Autumn 2022,5,0,5,5,2022-10-02,1
+1x pfizer_XBB15_children,Autumn 2023,5,0,5,5,2023-10-14,1
+1x pfizer_XBB15_children,Spring 2024,5,0,5,5,2024-08-03,1
+1x pfizer_XBB15_children,Autumn 2024,5,0,5,5,2024-12-28,1
+1x pfizer_XBB15_children,Spring 2025,5,0,5,5,2025-06-09,1
+1x pfizer_XBB15_under5,Pre-2020-07-01,5,5,5,0,2019-05-20,1
+1x pfizer_XBB15_under5,Pre-roll-out,5,0,5,0,2020-07-20,1
+1x pfizer_XBB15_under5,Primary series,5,0,5,5,2021-01-27,1
+1x pfizer_XBB15_under5,Autumn 2021,5,0,5,5,2021-12-23,1
+1x pfizer_XBB15_under5,Spring 2022,5,0,5,5,2022-03-26,1
+1x pfizer_XBB15_under5,Autumn 2022,5,0,5,5,2022-09-05,1
+1x pfizer_XBB15_under5,Autumn 2023,5,0,5,5,2023-09-05,1
+1x pfizer_XBB15_under5,Spring 2024,5,0,5,5,2024-05-05,1
+1x pfizer_XBB15_under5,Autumn 2024,5,0,5,5,2024-11-09,1
+1x pfizer_XBB15_under5,Spring 2025,5,0,5,5,2025-04-03,1
+1x pfizer_original,Pre-2020-07-01,5,5,5,0,2019-02-05,1
+1x pfizer_original,Pre-roll-out,5,0,5,0,2020-09-05,1
+1x pfizer_original,Primary series,5,0,5,5,2021-01-01,1
+1x pfizer_original,Autumn 2021,5,0,5,5,2021-09-06,1
+1x pfizer_original,Spring 2022,5,0,5,5,2022-04-15,1
+1x pfizer_original,Autumn 2022,5,0,5,5,2022-09-03,1
+1x pfizer_original,Spring 2023,5,0,5,5,2023-06-22,1
+1x pfizer_original,Autumn 2023,5,0,5,5,2023-09-07,1
+1x pfizer_original,Spring 2024,5,0,5,5,2024-05-21,1
+1x pfizer_original,Spring 2025,5,0,5,5,2025-07-24,1
+1x pfizer_original,Autumn 2025,5,0,5,5,2025-10-08,1
+1x pfizer_original_children,Pre-2020-07-01,5,5,5,0,2019-01-30,1
+1x pfizer_original_children,Pre-roll-out,5,0,5,5,2020-12-04,1
+1x pfizer_original_children,Primary series,5,0,5,5,2020-12-13,1
+1x pfizer_original_children,Autumn 2021,5,0,5,5,2021-09-30,1
+1x pfizer_original_children,Spring 2022,5,0,5,5,2022-03-21,1
+1x pfizer_original_children,Autumn 2022,5,0,5,5,2023-02-03,1
+1x pfizer_original_children,Spring 2023,5,0,5,5,2023-05-09,1
+1x pfizer_original_children,Autumn 2023,5,0,5,5,2023-10-19,1
+1x pfizer_original_children,Spring 2024,5,0,5,5,2024-08-23,1
+1x pfizer_original_children,Autumn 2024,5,0,5,5,2025-01-22,1
+1x pfizer_original_children,Autumn 2025,5,0,5,5,2025-10-22,1
+1x pfizer_original_under5,Pre-2020-07-01,15,5,5,0,2019-04-08,1
+1x pfizer_original_under5,Pre-roll-out,5,0,5,0,2020-07-26,1
+1x pfizer_original_under5,Primary series,5,0,5,5,2021-01-13,1
+1x pfizer_original_under5,Spring 2022,5,0,5,5,2022-04-04,1
+1x pfizer_original_under5,Autumn 2022,5,0,5,5,2022-11-28,1
+1x pfizer_original_under5,Spring 2023,5,0,5,5,2023-06-19,1
+1x pfizer_original_under5,Autumn 2023,5,0,5,5,2023-10-18,1
+1x pfizer_original_under5,Spring 2024,5,0,5,5,2024-09-15,1
+1x pfizer_original_under5,Autumn 2024,5,0,5,5,2024-10-22,1
+1x pfizer_original_under5,Spring 2025,5,0,5,5,2025-05-14,1
+1x pfizer_original_under5,Autumn 2025,5,0,5,5,2025-10-18,1
+1x pfizer_unspecified,Pre-2020-07-01,5,5,5,0,2019-11-26,1
+1x pfizer_unspecified,Pre-roll-out,5,0,5,0,2020-09-08,1
+1x pfizer_unspecified,Primary series,5,0,5,5,2021-01-18,1
+1x pfizer_unspecified,Autumn 2021,5,0,5,5,2021-11-22,1
+1x pfizer_unspecified,Spring 2022,5,0,5,5,2022-04-26,1
+1x pfizer_unspecified,Autumn 2022,5,0,5,5,2022-09-13,1
+1x pfizer_unspecified,Spring 2023,5,0,5,5,2023-05-27,1
+1x pfizer_unspecified,Autumn 2023,5,0,5,5,2023-11-16,1
+1x pfizer_unspecified,Spring 2024,5,0,5,5,2024-07-02,1
+1x pfizer_unspecified,Autumn 2024,5,0,5,5,2025-01-29,1
+1x pfizer_unspecified,Spring 2025,5,0,5,5,2025-04-22,1
+1x sanofigsk_B1,Pre-2020-07-01,5,5,5,0,2019-06-06,1
+1x sanofigsk_B1,Pre-roll-out,5,0,5,0,2020-07-12,1
+1x sanofigsk_B1,Primary series,5,0,5,5,2021-01-06,1
+1x sanofigsk_B1,Autumn 2021,5,0,5,5,2021-11-30,1
+1x sanofigsk_B1,Spring 2022,5,0,5,5,2022-03-29,1
+1x sanofigsk_B1,Autumn 2022,5,0,5,5,2022-10-23,1
+1x sanofigsk_B1,Spring 2023,5,0,5,5,2023-04-29,1
+1x sanofigsk_B1,Autumn 2023,5,0,5,5,2023-09-12,1
+1x sanofigsk_B1,Spring 2024,5,0,5,5,2024-06-29,1
+1x sanofigsk_B1,Autumn 2024,5,0,5,5,2025-01-13,1
+1x sanofigsk_B1,Spring 2025,5,0,5,5,2025-04-27,1
+1x sanofigsk_D614,Pre-2020-07-01,5,5,5,0,2019-02-15,1
+1x sanofigsk_D614,Pre-roll-out,5,0,5,0,2020-08-16,1
+1x sanofigsk_D614,Primary series,15,0,15,15,2020-12-18,1
+1x sanofigsk_D614,Spring 2022,5,0,5,5,2022-05-06,1
+1x sanofigsk_D614,Autumn 2022,5,0,5,5,2022-09-23,1
+1x sanofigsk_D614,Spring 2023,5,0,5,5,2023-08-22,1
+1x sanofigsk_D614,Autumn 2023,5,0,5,5,2023-09-11,1
+1x sanofigsk_D614,Spring 2024,5,0,5,5,2024-06-17,1
+1x sanofigsk_D614,Autumn 2024,5,0,5,5,2024-10-20,1
+1x sanofigsk_D614,Spring 2025,5,0,5,5,2025-06-05,1
+1x sanofigsk_D614,Autumn 2025,5,0,5,5,2025-10-09,1
+1x sanofigsk_D614B1,Pre-2020-07-01,5,5,5,0,2019-01-14,1
+1x sanofigsk_D614B1,Pre-roll-out,5,0,5,0,2020-11-14,1
+1x sanofigsk_D614B1,Primary series,5,0,5,5,2021-03-30,1
+1x sanofigsk_D614B1,Autumn 2021,5,0,5,5,2021-10-14,2
+1x sanofigsk_D614B1,Spring 2022,5,0,5,5,2022-04-22,1
+1x sanofigsk_D614B1,Autumn 2022,5,0,5,5,2022-09-10,1
+1x sanofigsk_D614B1,Spring 2023,5,0,5,5,2023-05-05,1
+1x sanofigsk_D614B1,Spring 2024,5,0,5,5,2024-05-05,1
+1x sanofigsk_D614B1,Autumn 2024,5,0,5,5,2024-10-19,1
+1x sanofigsk_D614B1,Spring 2025,5,0,5,5,2025-04-26,1
+1x sanofigsk_D614B1,Autumn 2025,5,0,5,5,2025-10-04,1
+1x sinopharm,Pre-2020-07-01,5,5,5,0,2019-03-19,1
+1x sinopharm,Pre-roll-out,5,0,5,0,2020-08-11,1
+1x sinopharm,Primary series,5,0,5,5,2021-04-24,1
+1x sinopharm,Autumn 2021,5,0,5,5,2021-09-23,1
+1x sinopharm,Spring 2022,5,0,5,5,2022-05-18,1
+1x sinopharm,Autumn 2022,5,0,5,5,2023-01-18,1
+1x sinopharm,Spring 2023,5,0,5,5,2023-04-10,1
+1x sinopharm,Autumn 2023,5,0,5,5,2023-10-03,1
+1x sinopharm,Spring 2024,5,0,5,5,2024-06-03,1
+1x sinopharm,Autumn 2024,5,0,5,5,2024-11-16,1
+1x sinopharm,Spring 2025,5,0,5,5,2025-06-10,1
+1x sinopharm,Autumn 2025,5,0,5,5,2025-11-08,1
+1x sputnik_i_inj,Pre-2020-07-01,15,15,5,0,2019-01-16,1
+1x sputnik_i_inj,Pre-roll-out,5,0,5,0,2020-08-07,1
+1x sputnik_i_inj,Primary series,5,0,5,5,2020-12-30,1
+1x sputnik_i_inj,Autumn 2021,5,0,5,5,2021-12-23,1
+1x sputnik_i_inj,Autumn 2022,5,0,5,5,2022-09-26,1
+1x sputnik_i_inj,Spring 2023,5,0,5,5,2023-04-04,1
+1x sputnik_i_inj,Autumn 2023,5,0,5,5,2023-08-30,1
+1x sputnik_i_inj,Spring 2024,5,0,5,5,2024-05-09,1
+1x sputnik_i_inj,Autumn 2024,5,0,5,5,2024-11-04,1
+1x sputnik_i_inj,Spring 2025,5,0,5,5,2025-08-14,1
+1x sputnik_i_multi,Pre-2020-07-01,5,5,5,0,2019-03-07,1
+1x sputnik_i_multi,Pre-roll-out,5,0,5,5,2020-07-03,1
+1x sputnik_i_multi,Primary series,5,0,5,5,2021-02-14,1
+1x sputnik_i_multi,Autumn 2021,5,0,5,5,2022-03-09,1
+1x sputnik_i_multi,Spring 2022,5,0,5,5,2022-07-13,1
+1x sputnik_i_multi,Autumn 2022,5,0,5,5,2023-03-10,1
+1x sputnik_i_multi,Spring 2023,5,0,5,5,2023-04-06,1
+1x sputnik_i_multi,Autumn 2023,5,0,5,5,2023-09-13,1
+1x sputnik_i_multi,Spring 2024,5,0,5,5,2024-04-30,1
+1x sputnik_i_multi,Autumn 2024,5,0,5,5,2024-11-17,1
+1x sputnik_i_multi,Spring 2025,5,0,5,5,2025-05-05,1
+1x sputnik_ii_inj,Pre-2020-07-01,5,5,5,0,2019-07-20,1
+1x sputnik_ii_inj,Pre-roll-out,5,0,5,0,2020-11-14,1
+1x sputnik_ii_inj,Primary series,5,0,5,5,2020-12-12,1
+1x sputnik_ii_inj,Autumn 2021,5,0,5,5,2021-09-11,1
+1x sputnik_ii_inj,Autumn 2022,5,0,5,5,2022-11-20,1
+1x sputnik_ii_inj,Spring 2023,5,0,5,5,2023-05-11,1
+1x sputnik_ii_inj,Autumn 2023,5,0,5,5,2023-10-05,1
+1x sputnik_ii_inj,Spring 2024,5,0,5,5,2024-04-18,1
+1x sputnik_ii_inj,Autumn 2024,5,0,5,5,2024-11-26,2
+1x sputnik_ii_inj,Spring 2025,5,0,5,5,2025-05-02,1
+1x sputnik_ii_inj,Autumn 2025,5,0,5,5,2025-11-22,1
+1x sputnik_ii_multi,Pre-2020-07-01,5,5,5,0,2019-02-16,1
+1x sputnik_ii_multi,Pre-roll-out,5,0,5,0,2020-08-09,1
+1x sputnik_ii_multi,Primary series,5,0,5,5,2021-07-21,1
+1x sputnik_ii_multi,Autumn 2021,5,0,5,5,2021-12-12,1
+1x sputnik_ii_multi,Spring 2022,5,0,5,5,2022-04-17,1
+1x sputnik_ii_multi,Autumn 2022,5,0,5,5,2022-09-14,1
+1x sputnik_ii_multi,Spring 2023,5,0,5,5,2023-04-10,1
+1x sputnik_ii_multi,Autumn 2023,5,0,5,5,2023-10-29,1
+1x sputnik_ii_multi,Spring 2024,5,0,5,5,2024-07-10,1
+1x sputnik_ii_multi,Autumn 2024,5,0,5,5,2024-10-31,1
+1x sputnik_ii_multi,Spring 2025,5,0,5,5,2025-04-12,1
+1x unspecified,Pre-2020-07-01,5,5,5,0,2019-02-11,1
+1x unspecified,Pre-roll-out,5,0,5,0,2020-07-08,1
+1x unspecified,Primary series,5,0,5,5,2021-01-21,1
+1x unspecified,Autumn 2021,5,0,5,5,2021-09-08,1
+1x unspecified,Spring 2022,5,0,5,5,2022-04-02,1
+1x unspecified,Autumn 2022,5,0,5,5,2022-10-07,1
+1x unspecified,Autumn 2023,5,0,5,5,2024-01-11,1
+1x unspecified,Spring 2024,5,0,5,5,2024-05-03,1
+1x unspecified,Autumn 2024,5,0,5,5,2025-03-12,1
+1x unspecified,Spring 2025,5,0,5,5,2025-04-08,1
+1x unspecified,Autumn 2025,5,0,5,5,2025-10-02,1
+1x valneva,Pre-2020-07-01,15,5,5,0,2019-03-19,1
+1x valneva,Pre-roll-out,5,0,5,0,2020-07-18,1
+1x valneva,Primary series,5,0,5,5,2020-12-14,1
+1x valneva,Autumn 2021,5,0,5,5,2021-09-09,1
+1x valneva,Spring 2022,5,0,5,5,2022-08-03,1
+1x valneva,Autumn 2022,5,0,5,5,2022-09-07,1
+1x valneva,Spring 2023,5,0,5,5,2023-06-09,1
+1x valneva,Autumn 2023,5,0,5,5,2023-09-13,1
+1x valneva,Spring 2024,5,0,5,5,2024-05-17,1
+1x valneva,Spring 2025,5,0,5,5,2025-04-25,1

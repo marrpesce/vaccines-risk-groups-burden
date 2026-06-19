@@ -1,0 +1,45 @@
+── Data Summary ────────────────────────
+                           Values        
+Name                       data_vax_clean
+Number of rows             196           
+Number of columns          16            
+_______________________                  
+Column type frequency:                   
+  character                2             
+  Date                     2             
+  factor                   6             
+  logical                  1             
+  numeric                  5             
+________________________                 
+Group variables            None          
+
+── Variable type: character ────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable   n_missing complete_rate min max empty n_unique whitespace
+1 stp                     0             1   9   9     0       76          0
+2 vax_product_raw         0             1   0  15     9      184          0
+
+── Variable type: Date ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate min        max        median     n_unique
+1 vax_date              0             1 2020-12-09 2026-01-20 2023-05-14      187
+2 deregistered        196             0 Inf        -Inf       NA                0
+
+── Variable type: factor ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate ordered n_unique top_counts                        
+1 vax_product           0         1     FALSE          1 UNM: 196, pfi: 0, pfi: 0, pfi: 0  
+2 region               46         0.765 FALSE          7 Mid: 45, Nor: 25, Sou: 22, Nor: 20
+3 ageband4              0         1     FALSE          5 12-: 122, und: 39, 50-: 19, 75-: 9
+4 ageband13             0         1     FALSE         14 18-: 56, und: 39, 12-: 30, 30-: 23
+5 imd_quintile        147         0.25  FALSE          5 3: 19, 1 (: 10, 2: 9, 4: 6        
+6 vax_campaign          0         1     FALSE         10 Pri: 33, Aut: 24, Aut: 21, Aut: 20
+
+── Variable type: logical ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate mean count   
+1 registered            0             1    1 TRU: 196
+
+── Variable type: numeric ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate     mean       sd   p0   p25   p50    p75  p100
+1 patient_id            0         1       941.    536.      29  407    974  1460.  1864
+2 vax_index             0         1         1.43    0.804    1    1      1     2      5
+3 age                   0         1        29.3    20.7      6   14     22    38     95
+4 imd                 147         0.25  15063.   7713.    3100 8100  16700 19100  32500
+5 vax_interval         32         0.837  2706.   3291.      16  534.  1532  3620. 18131

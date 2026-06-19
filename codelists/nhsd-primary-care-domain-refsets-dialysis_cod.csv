@@ -1,0 +1,287 @@
+code,term
+1035471000000100,Dialysis therapy started by renal service
+105502003,Dependence on renal dialysis
+1076461000000100,Assessment prior to construction of renal dialysis vascular access
+1076481000000109,Assessment of existing renal dialysis vascular access
+108241001,Dialysis procedure
+1082851000000108,Treatment Escalation Plan decision - appropriate for dialysis
+10848006,Removal of peritoneal dialysis catheter
+11000731000119102,Dependence on continuous ambulatory peritoneal dialysis
+11000771000119104,Dependence on continuous cycling peritoneal dialysis
+11009631000119100,Renal dialysis done
+1153581007,Matrix stone formation during renal dialysis
+1172563000,Insertion of peritoneal dialysis catheter
+11932001,Stabilizing hemodialysis
+1196993005,Repositioning of peritoneal dialysis catheter using imaging guidance
+12001621000119100,Hemorrhage associated with hemodialysis catheter
+12267851000119108,Thrombosis associated with hemodialysis catheter
+1231768001,Nocturnal home hemodialysis
+125141000119102,Non-compliance with renal dialysis
+1258878005,Irrigation of Tenckhoff catheter
+1259584009,Dementia due to and following dialysis
+127991000119101,Hypertension concurrent and due to end stage renal disease on dialysis due to type 2 diabetes mellitus
+128001000119105,Hypertension concurrent and due to end stage renal disease on dialysis due to type 1 diabetes mellitus
+1284922006,Hemodialysis catheter care
+12963004,Dialysis-associated ascites
+129721000119106,Acute renal failure on dialysis
+133031000119106,Thrombosis of arteriovenous graft caused by hemodialysis arteriovenous access device
+14030001000004108,Insertion of dialysis catheter into femoral vein
+14684005,Peritoneal dialysis excluding cannulation
+152421000119107,Hemodialysis procedure done
+153891000119101,End stage renal disease on dialysis due to hypertension
+15859004,Chronic hemodialysis diet
+16218721000119107,Hyperparathyroidism due to end stage renal disease on dialysis
+16320631000119104,Dependence on continuous ambulatory peritoneal dialysis due to end stage renal disease
+17778006,Mechanical complication of dialysis catheter
+180272001,Insertion of chronic ambulatory peritoneal dialysis catheter
+182750009,Ultrafiltration
+182753006,Intestinal dialysis
+1875341000000104,Fluoroscopic angiography of arteriovenous dialysis graft of lower limb with contrast
+1875351000000101,Fluoroscopic angiography of arteriovenous dialysis graft of left lower limb with contrast
+1875361000000103,Fluoroscopic angiography of arteriovenous dialysis graft of right lower limb with contrast
+19765000,Complication of dialysis
+216904007,Foreign object left in body during kidney dialysis
+216933008,Failure of sterile precautions during kidney dialysis
+224967001,Revision of cannula for dialysis
+225228006,Putting additive into peritoneal dialysis bag
+225229003,Peritoneal dialysis bag procedure
+225230008,Chronic peritoneal dialysis
+225231007,Stab peritoneal dialysis
+225892009,Revision of arteriovenous shunt for renal dialysis
+233547003,Cannulation of arteriovenous dialysis fistula
+233579007,Continuous arteriovenous hemodialysis
+233580005,Continuous venovenous hemodialysis
+233581009,Hemofiltration
+233582002,Intermittent hemofiltration
+233583007,Continuous hemofiltration
+233584001,Continuous arteriovenous hemofiltration
+233585000,Continuous venovenous hemofiltration
+233586004,Hemodiafiltration
+233588003,Continuous hemodiafiltration
+233589006,Continuous arteriovenous hemodiafiltration
+233590002,Continuous venovenous hemodiafiltration
+233766001,Dialysis-associated hypoxia
+236435004,End stage renal failure on dialysis
+236538004,Acute disorder of hemodialysis
+236539007,First use syndrome of dialysis
+236540009,Non-allergic hypersensitivity reaction during dialysis
+236541008,Hyperchloremic acidosis associated with dialysis
+236544000,Matrix stone formation of dialysis
+236550005,Polyserositis syndrome of dialysis
+236551009,Underdialysis
+236554001,Pain during inflow of dialysate
+236555000,Pain during outflow of dialysate
+236556004,Bloodstained peritoneal dialysis effluent
+236558003,Peritoneal dialysis catheter tunnel infection
+236559006,Loss of ultrafiltration
+236560001,Loss of solute clearance
+236561002,Disorder of peritoneal dialysis catheter
+236562009,Obstruction of peritoneal dialysis catheter
+236563004,Migration of peritoneal dialysis catheter
+236564005,Omental wrapping around peritoneal dialysis catheter
+236565006,Poor drainage of peritoneal dialysis catheter
+236566007,Extrusion of peritoneal dialysis catheter cuff
+236567003,Misplacement of acute peritoneal dialysis catheter
+238314006,Renewal of chronic ambulatory peritoneal dialysis catheter
+238315007,Adjustment of chronic ambulatory peritoneal dialysis catheter
+238316008,Aspiration of chronic ambulatory peritoneal dialysis catheter
+238317004,Flushing of chronic ambulatory peritoneal dialysis catheter
+238318009,Continuous ambulatory peritoneal dialysis
+238319001,Continuous cycling peritoneal dialysis
+238321006,Intermittent peritoneal dialysis
+238322004,Tidal peritoneal dialysis
+238323009,Night-time intermittent peritoneal dialysis
+241103007,Skeletal survey - dialysis
+241104001,Skeletal survey - dialysis follow-up
+241951000,Non-allergic hypersensitivity reaction caused by dialysis membrane
+251859005,Dialysis finding
+251869004,Adequacy of hemodialysis
+265764009,Renal dialysis
+26944003,Acute megaloblastic anemia due to dialysis
+269698004,Mechanical failure of instrument or apparatus during kidney dialysis
+278904002,Hemodialysis diet
+278905001,Continuous ambulatory peritoneal dialysis diet
+28281000087109,History of peritoneal dialysis
+282828000,Recirculation of the dialysis machine
+286371000119107,Malignant hypertensive end stage renal disease on dialysis
+292760002,Dialysis fluid adverse reaction
+292761003,Peritoneal dialysis solution adverse reaction
+292762005,Hemodialysis fluid adverse reaction
+292763000,Hemofiltration solution adverse reaction
+294299005,Allergy to dialysis fluid
+300478000,Finding of measures of dialysis
+302497006,Hemodialysis
+31619003,Culture of dialysis fluid
+3257008,Empty and measure peritoneal dialysis fluid
+32599008,Hemodialysis-associated amyloidosis
+32751000119100,Line sepsis associated with dialysis catheter
+331000124109,Hemodialysis finding
+33603003,Complication of renal dialysis
+341000124104,Peritoneal dialysis finding
+341939001,Extracorporeal hemofiltration
+34897002,"Hemodialysis, maintenance in hospital"
+361000124100,Error in prescription for peritoneal dialysis
+364761000000109,Fibrin formation around peritoneal dialysis catheter
+365001000000107,Peritoneal dialysis associated encapsulating peritoneal sclerosis
+365399009,Finding of adequacy of dialysis
+366871000000101,Checking adequacy of dialysis
+368471000119109,End stage renal disease on dialysis due to drug induced diabetes mellitus
+381000124105,Increase dialyzer size for hemodialysis
+385970002,Dialysis care assessment
+385971003,Dialysis care
+385972005,Dialysis care education
+385973000,Dialysis care management
+402458002,Hemodialysis-associated secondary amyloidosis of skin
+402762007,Skin lesion associated with hemodialysis
+403732009,Hemodialysis-associated pseudoporphyria
+404813001,Peritoneal dialysis leakage
+406168002,Dialysis access maintenance
+408667000,Hemodialysis-associated hypotension
+417038009,Referral for dialysis
+428118009,Procedure involving peritoneal dialysis catheter
+428648006,Automated peritoneal dialysis
+428937001,Dependence on peritoneal dialysis due to end stage renal disease
+428982002,Dependence on hemodialysis due to end stage renal disease
+429075005,Dependence on dialysis due to end stage renal disease
+430332005,Infection of arteriovenous graft for hemodialysis
+430333000,Hematoma of dialysis access site
+430958003,Infection of peritoneal dialysis catheter
+431000124102,Hemodialysis access site non-patent
+431028002,Mechanical complication of peritoneal dialysis catheter
+431252000,Percutaneous thrombolysis of dialysis fistula using fluoroscopic guidance
+431418000,Fluoroscopic percutaneous angiography of dialysis fistula with insertion of drug eluting stent
+431440009,Fluoroscopic angiography of dialysis fistula using contrast with insertion of stent
+431543008,Percutaneous embolization of dialysis fistula using fluoroscopic guidance
+431544002,Percutaneous aspiration thrombectomy of dialysis fistula using fluoroscopic guidance
+431607007,Percutaneous mechanical thrombectomy of dialysis fistula using fluoroscopic guidance
+431781000,Insertion of tunneled dialysis catheter using fluoroscopic guidance
+431873008,Peritonitis due to infected peritoneal dialysis catheter
+432018009,Replacement of dialysis catheter using fluoroscopic guidance
+432509002,Insertion of dialysis catheter using Doppler ultrasound guidance
+432621000124105,Hospital admission from dialysis facility
+432654009,Insertion of peritoneal dialysis catheter using fluoroscopy guidance with contrast
+432952005,Percutaneous transluminal angioplasty of dialysis fistula using fluoroscopic guidance
+433631008,Percutaneous transluminal cutting balloon angioplasty of dialysis fistula using fluoroscopic guidance
+434435000,Fluoroscopic angiography of dialysis fistula using contrast with insertion of stent graft
+438341004,Laparoscopic insertion of peritoneal dialysis catheter
+438342006,Replacement of peritoneal dialysis catheter
+438546008,Ligation of arteriovenous dialysis fistula
+438548009,Ligation of arteriovenous dialysis graft
+438787007,Doppler ultrasonography of arteriovenous fistula for hemodialysis
+439073006,Peritoneal dialysis catheter in situ
+439360004,Peritoneal dialysis catheter fell out
+439534001,Shaving of peritoneal dialysis catheter cuff
+440084005,Assessment of adequacy of dialysis
+440228000,Leakage of peritoneal dialysate into subcutaneous tissue of abdominal wall
+440310004,Leakage of peritoneal dialysate into pleural cavity
+440551001,Malposition of peritoneal dialysis catheter
+440597004,Obstruction of peritoneal dialysis catheter by fibrin formation
+440663004,Encapsulating peritoneal sclerosis associated with peritoneal dialysis
+440926006,Temporary peritoneal dialysis catheter in situ
+441000124107,Hemodialysis access site patent
+442326005,Cloudy peritoneal dialysis effluent
+443143006,Dependence on hemodialysis
+443596009,Dependence on peritoneal dialysis
+444887005,Inadequate flow to support prescribed dialysis blood flow
+448591002,Repositioning of Tenckhoff catheter
+449394000,Replacement of peritoneal dialysis transfer set
+450865002,Insertion of nontunneled hemodialysis catheter
+451000124109,Increase in hemodialysis blood flow
+461000124106,Increase in hemodialysis dialyzer size
+471000124104,Increase in hemodialysis session time
+473034005,Complication associated with dialysis catheter
+473069007,Infection associated with peritoneal dialysis catheter
+473112005,Leakage from Tenckhoff catheter
+473147002,Malfunction of peritoneal dialysis catheter
+473186003,Migration of Tenckhoff catheter
+473190001,Leakage of peritoneal dialysis catheter
+473193004,Mode of dialysis access by patient choice
+473397008,Dialysis catheter in situ usable
+473398003,Dialysis catheter in situ unusable
+48781000175105,Nocturnal dialysis
+52127004,"Anesthesia for shunt revision, dialysis"
+54817007,Arteriovenous shunt for renal dialysis by external cannula
+571000124100,Requires additional education about peritoneal dialysis
+57274006,Initial hemodialysis
+581000124102,Complies with collection of peritoneal dialysate specimen
+591000124104,Complies with analysis of peritoneal dialysate
+601000124107,Inadequate monitoring of dose delivery of peritoneal dialysis
+611000124105,Non-compliance with collection of peritoneal dialysate specimen
+621000124102,Non-compliance with analysis of peritoneal dialysate
+631000124104,Compliant with peritoneal dialysis prescription
+63421002,Insertion of cannula for hemodialysis
+641000124109,Non-compliant with peritoneal dialysis prescription
+66402002,Peritoneal dialysis education
+676002,Peritoneal dialysis including cannulation
+67970008,"Hemodialysis, maintenance at home"
+68341005,"Hemodialysis, supervision at home"
+69380006,Venous catheterization for renal dialysis
+698074000,Sustained low-efficiency dialysis
+702634004,Inadequate peritoneal dialysis
+702635003,Inadequate hemodialysis
+703094009,Peritoneal dialysis catheter procedure using fluoroscopic guidance
+703102004,Dialysis catheter procedure using fluoroscopic guidance
+704308002,Difficulty managing peritoneal dialysis
+704377006,Deficient knowledge of peritoneal dialysis
+704667004,Hypertension concurrent and due to end stage renal disease on dialysis
+707090004,Spondyloarthropathy due to hemodialysis-associated amyloidosis
+708008000,Increase exchange volume of peritoneal dialysis
+708009008,Increase number of perfusion exchanges per 24 hours of peritoneal dialysis
+708930002,Maintenance hemodiafiltration
+708931003,Maintenance hemodialysis
+708932005,Emergency hemodialysis
+708933000,Emergency hemodiafiltration
+708934006,Maintenance hemofiltration
+708988001,Laparoscopic repositioning of Tenckhoff catheter
+709188009,Infection caused by Tenckhoff catheter
+710071003,Management of peritoneal dialysis
+71192002,Peritoneal dialysis
+712754003,Replacement of continuous ambulatory peritoneal dialysis transfer set
+713720009,Sclerosing peritonitis as complication of peritoneal dialysis
+713721008,Hydrothorax as complication of peritoneal dialysis
+713724000,Abdominal hernia as complication of peritoneal dialysis
+713727007,Hemoperitoneum as complication of peritoneal dialysis
+714152005,Chronic kidney disease stage 5 on dialysis
+714749008,Continuous renal replacement therapy
+715272002,Infection of hemodialysis catheter exit site
+715743002,Emergency hemofiltration
+717738008,Peritoneal dialysis care assessment
+718019005,Hemodialysis care management
+718308002,Peritoneal dialysis care
+718330001,Hemodialysis care
+718331002,Hemodialysis care assessment
+719501003,Ultrafiltration failure
+724612006,Avascular necrosis of bone due to and following renal dialysis
+73257006,Peritoneal dialysis catheter maintenance
+736918003,Infection of bloodstream associated with hemodialysis catheter in situ
+736919006,Insertion of hemodialysis catheter
+736920000,Infection of bloodstream associated with tunneled hemodialysis catheter in situ
+736922008,Insertion of tunneled hemodialysis catheter
+736984007,Infection of bloodstream associated with temporary hemodialysis catheter in situ
+736987000,Mechanical complication of hemodialysis catheter
+783187005,Aseptic peritoneal eosinophilia due to and following dialysis
+79827002,Arteriovenous anastomosis for renal dialysis
+846461000000102,Ruptured aneurysm of dialysis vascular access
+85223007,Complication of hemodialysis
+853631000000103,Stenosis of dialysis vascular access
+853651000000105,Thrombosis of dialysis vascular access
+854131000000107,Thrombus in peritoneal dialysis catheter
+854161000000102,Anaphylactoid reaction due to haemodialysis
+865761000000105,Occlusion of dialysis vascular access
+865781000000101,Infection of dialysis vascular access
+865801000000100,Haemorrhage of dialysis vascular access
+865821000000109,Rupture of dialysis vascular access
+865861000000101,Stenosis of dialysis arteriovenous shunt
+866081000000107,Occlusion of dialysis arteriovenous shunt
+866951000000102,Infection of dialysis arteriovenous shunt
+867051000000103,Rupture of dialysis arteriovenous graft
+867091000000106,Rupture of dialysis arteriovenous shunt
+87235005,Dialysis disequilibrium syndrome
+872461000000102,Stenosis of arterial side of dialysis arteriovenous shunt
+88351001,Hypercalcemia associated with chronic dialysis
+895382009,Prolonged intermittent renal replacement therapy
+898185002,Dependence on prolonged intermittent renal replacement therapy due to renal failure
+90771000119100,End stage renal disease on dialysis due to type 1 diabetes mellitus
+90791000119104,End stage renal disease on dialysis due to type 2 diabetes mellitus
+96701000119107,Hypertensive heart AND chronic kidney disease on dialysis
+99591000119101,Hemorrhage associated with renal dialysis graft

@@ -1,0 +1,28 @@
+── Data Summary ────────────────────────
+                           Values              
+Name                       data_processed_fixed
+Number of rows             10000               
+Number of columns          7                   
+_______________________                        
+Column type frequency:                         
+  Date                     2                   
+  factor                   3                   
+  numeric                  2                   
+________________________                       
+Group variables            None                
+
+── Variable type: Date ─────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable    n_missing complete_rate min        max        median     n_unique
+1 death_date            9805       0.0195  2027-01-04 2035-02-14 2031-02-01      183
+2 covid_death_date      9931       0.00690 2027-01-10 2035-02-14 2030-10-08       68
+
+── Variable type: factor ───────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable n_missing complete_rate ordered n_unique top_counts                             
+1 sex                   0         1     FALSE          2 Fem: 5152, Mal: 4848                   
+2 ethnicity5          961         0.904 FALSE          5 Whi: 5448, Chi: 944, Mix: 886, Bla: 883
+3 ethnicity16         961         0.904 FALSE         16 Bri: 4513, Chi: 509, Any: 475, Iri: 460
+
+── Variable type: numeric ──────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────────
+  skim_variable   n_missing complete_rate    mean      sd p0   p25   p50   p75  p100
+1 patient_id              0             1 5000.   2887.    1 2501. 5000. 7500. 10000
+2 covid_vax_count         0             1    6.99    4.30  0    3     7    11     14

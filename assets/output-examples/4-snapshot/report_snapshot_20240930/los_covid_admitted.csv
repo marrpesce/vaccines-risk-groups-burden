@@ -1,0 +1,2780 @@
+group1,group2,label1,label2,n,n_at_least_1_event,median_los,p10,p25,p75,p90
+all,all,All,All,4932,1525,5,1,3,7,9
+all,ageband4,All,50-64,822,263,5,1,3,7,9
+all,ageband4,All,65-74,2181,669,5,1,3,7,8.200000000000045
+all,ageband4,All,75-104,1411,439,5,1,3,7,9
+all,ageband4,All,12-49,518,154,5,1,3,7,9
+all,ageband13,All,55-59,274,95,5,1,3,7,9
+all,ageband13,All,60-64,303,97,4,1,3,6,8
+all,ageband13,All,70-74,950,297,5,1,3,7,9
+all,ageband13,All,50-54,245,71,6,1,3,7,9
+all,ageband13,All,80-84,392,120,5,1,3,7,8
+all,ageband13,All,75-79,649,193,5,1.2000000000000028,3,8,9
+all,ageband13,All,65-69,1231,372,5,1,3,7,8
+all,ageband13,All,30-39,135,43,5,2,3,8,9
+all,ageband13,All,85-89,207,75,5,1,3,7.5,9
+all,ageband13,All,90-104,163,51,4,2,3,6,8
+all,ageband13,All,40-49,355,101,4,1,3,7,8
+all,ageband13,All,18-29,27,9,5,1,2,6,7.399999999999999
+all,ageband13,All,12-17,1,1,7,7,7,7,7
+all,sex,All,Female,2571,791,5,1,3,7,9
+all,sex,All,Male,2361,734,5,1,3,7,9
+all,ethnicity5,All,White,2691,816,5,1,3,7,9
+all,ethnicity5,All,(Missing),475,153,5,1,3,7,8
+all,ethnicity5,All,Mixed,441,150,5,1,3,7,9
+all,ethnicity5,All,Chinese or Other Ethnic Groups,456,138,5,1,3.25,7,8.299999999999997
+all,ethnicity5,All,Asian or Asian British,424,122,4.5,1,3,7,8
+all,ethnicity5,All,Black or Black British,445,146,5,1,3,7,8
+all,region,All,North East and Yorkshire,2495,744,5,1,3,7,9
+all,region,All,North West,989,314,5,2,3,7,9
+all,region,All,South East,241,76,5,1,3,7,8.5
+all,region,All,Midlands,504,175,5,1,2,7,8
+all,region,All,London,238,79,5,1,3,7,9
+all,region,All,East of England,228,70,5,1,2,7,9
+all,region,All,South West,237,67,5,1,3,6,8
+all,imd_quintile,All,2,1016,336,5,2,3,7,9
+all,imd_quintile,All,1 (most deprived),917,264,5,1.3000000000000007,3,7,9
+all,imd_quintile,All,3,978,289,5,1,2,7,8
+all,imd_quintile,All,4,903,269,5,1,3,7,9
+all,imd_quintile,All,5 (least deprived),878,298,5,1,3,7,8
+all,imd_quintile,All,(Missing),240,69,6,2,3,8,9
+all,carehome_status,All,FALSE,4201,1300,5,1,3,7,9
+all,carehome_status,All,TRUE,731,225,5,1,3,7,8
+all,primis_atrisk,All,TRUE,1999,635,5,1,3,7,9
+all,primis_atrisk,All,FALSE,2933,890,5,1,3,7,9
+all,crd,All,TRUE,198,72,5,2,3,7,8
+all,crd,All,FALSE,4734,1453,5,1,3,7,9
+all,chd,All,FALSE,4738,1457,5,1,3,7,9
+all,chd,All,TRUE,194,68,5.5,1,3,7,9
+all,ckd,All,FALSE,4724,1457,5,1,3,7,9
+all,ckd,All,TRUE,208,68,5,2,3,7,9
+all,cld,All,FALSE,4736,1465,5,1,3,7,9
+all,cld,All,TRUE,196,60,5,1,3,7,8
+all,cns_learndis,All,FALSE,4554,1421,5,1,3,7,9
+all,cns_learndis,All,TRUE,378,104,5,1,3,7,8
+all,diabetes,All,FALSE,4724,1468,5,1,3,7,9
+all,diabetes,All,TRUE,208,57,6,2.6000000000000005,4,8,9
+all,immunosuppressed,All,FALSE,4710,1446,5,1,3,7,9
+all,immunosuppressed,All,TRUE,222,79,5,1,3,7,9
+all,asplenia,All,FALSE,4747,1467,5,1,3,7,9
+all,asplenia,All,TRUE,185,58,5,1,3,7.75,9
+all,severe_obesity,All,FALSE,4714,1461,5,1,3,7,9
+all,severe_obesity,All,TRUE,218,64,5,1,3,6.25,8
+all,smi,All,FALSE,4738,1450,5,1,3,7,9
+all,smi,All,TRUE,194,75,6,1,3,8,8.600000000000009
+all,ckd_rrt,All,Stage 3,308,88,5,1,3,7,8
+all,ckd_rrt,All,No CKD or RRT,4389,1364,5,1,3,7,9
+all,ckd_rrt,All,Stage 4,106,40,4,2,3,7,8
+all,ckd_rrt,All,RRT (transplant),39,5,2,1.4,2,6,7.199999999999999
+all,ckd_rrt,All,RRT (dialysis),39,10,5,1,2.25,8.5,9
+all,ckd_rrt,All,Stage 5,51,18,3.5,1,1.25,5.75,6.300000000000001
+all,copd,All,FALSE,4818,1490,5,1,3,7,9
+all,copd,All,TRUE,114,35,5,2,3,8,8.600000000000001
+all,learndis_cat,All,(Missing),3970,1234,5,1,3,7,9
+all,learndis_cat,All,Learning disability register,243,80,4.5,1,3,7,9
+all,learndis_cat,All,Other learning disability,487,138,6,2,3,7,9
+all,learndis_cat,All,Down's syndrome,232,73,5,1.1999999999999993,2,7,8
+all,sickle_cell_asplenia,All,FALSE,4651,1440,5,1,3,7,9
+all,sickle_cell_asplenia,All,TRUE,281,85,5,1.4000000000000004,3,8,9
+all,cirrhosis,All,FALSE,4831,1493,5,1,3,7,9
+all,cirrhosis,All,TRUE,101,32,5,1.0999999999999996,3,7.25,8.900000000000002
+all,cochlear_implant,All,FALSE,4828,1487,5,1,3,7,9
+all,cochlear_implant,All,TRUE,104,38,4,1,3,7,8
+all,cystic_fibrosis,All,FALSE,4816,1491,5,1,3,7,9
+all,cystic_fibrosis,All,TRUE,116,34,4,1.3000000000000007,3,6,8
+all,csfl,All,FALSE,4846,1498,5,1,3,7,9
+all,csfl,All,TRUE,86,27,5,3,3.5,8,8.400000000000002
+all,homeless,All,FALSE,4829,1495,5,1,3,7,9
+all,homeless,All,TRUE,103,30,3,1,2,4,8.100000000000001
+ageband4,all,50-64,All,822,263,5,1,3,7,9
+ageband4,all,65-74,All,2181,669,5,1,3,7,8.200000000000045
+ageband4,all,75-104,All,1411,439,5,1,3,7,9
+ageband4,all,12-49,All,518,154,5,1,3,7,9
+ageband4,ageband13,50-64,55-59,274,95,5,1,3,7,9
+ageband4,ageband13,50-64,60-64,303,97,4,1,3,6,8
+ageband4,ageband13,50-64,50-54,245,71,6,1,3,7,9
+ageband4,ageband13,65-74,70-74,950,297,5,1,3,7,9
+ageband4,ageband13,65-74,65-69,1231,372,5,1,3,7,8
+ageband4,ageband13,75-104,80-84,392,120,5,1,3,7,8
+ageband4,ageband13,75-104,75-79,649,193,5,1.2000000000000028,3,8,9
+ageband4,ageband13,75-104,85-89,207,75,5,1,3,7.5,9
+ageband4,ageband13,75-104,90-104,163,51,4,2,3,6,8
+ageband4,ageband13,12-49,30-39,135,43,5,2,3,8,9
+ageband4,ageband13,12-49,40-49,355,101,4,1,3,7,8
+ageband4,ageband13,12-49,18-29,27,9,5,1,2,6,7.399999999999999
+ageband4,ageband13,12-49,12-17,1,1,7,7,7,7,7
+ageband4,sex,50-64,Female,417,137,5,1,3,7,9
+ageband4,sex,50-64,Male,405,126,5,1,3,7,8.5
+ageband4,sex,65-74,Female,1110,326,5,1,3,7,8
+ageband4,sex,65-74,Male,1071,343,5,1,3,7,9
+ageband4,sex,75-104,Male,656,198,5,1,3,7,9
+ageband4,sex,75-104,Female,755,241,5,2,3,7,9
+ageband4,sex,12-49,Female,289,87,5,1,3,7,8.400000000000006
+ageband4,sex,12-49,Male,229,67,5,2,3,7,9
+ageband4,ethnicity5,50-64,White,453,140,5,1,3,7,9
+ageband4,ethnicity5,50-64,Mixed,69,25,4,2,3,7,8
+ageband4,ethnicity5,50-64,(Missing),85,30,6,1.9000000000000004,3,8,9
+ageband4,ethnicity5,50-64,Chinese or Other Ethnic Groups,66,20,5.5,1,3,6.25,8.100000000000001
+ageband4,ethnicity5,50-64,Asian or Asian British,77,22,5,2,3.25,6,8
+ageband4,ethnicity5,50-64,Black or Black British,72,26,4,1,2,6.75,8
+ageband4,ethnicity5,65-74,(Missing),192,62,4,1,2,6,8
+ageband4,ethnicity5,65-74,Chinese or Other Ethnic Groups,228,76,5,1,3,7,8
+ageband4,ethnicity5,65-74,White,1176,349,5,1,2,7,8.199999999999989
+ageband4,ethnicity5,65-74,Asian or Asian British,194,58,5.5,2.7,3,8,9
+ageband4,ethnicity5,65-74,Black or Black British,195,68,4.5,1,3,7,8
+ageband4,ethnicity5,65-74,Mixed,196,56,6,2,4,8,9
+ageband4,ethnicity5,75-104,White,749,225,5,2,3,7,9
+ageband4,ethnicity5,75-104,Mixed,129,53,5,1,2,7,8.800000000000004
+ageband4,ethnicity5,75-104,Asian or Asian British,112,33,4,1,2,6,7
+ageband4,ethnicity5,75-104,Black or Black British,135,43,5,1.2000000000000002,2.5,7,8
+ageband4,ethnicity5,75-104,Chinese or Other Ethnic Groups,135,35,7,1,4,7.5,9
+ageband4,ethnicity5,75-104,(Missing),151,50,5,1.9000000000000004,3,7,8
+ageband4,ethnicity5,12-49,Asian or Asian British,41,9,3,1,1,4,6.599999999999998
+ageband4,ethnicity5,12-49,White,313,102,5,1.1000000000000014,3,7,8.900000000000006
+ageband4,ethnicity5,12-49,(Missing),47,11,6,3,3.5,7,9
+ageband4,ethnicity5,12-49,Black or Black British,43,9,6,2.8000000000000003,3,8,9
+ageband4,ethnicity5,12-49,Mixed,47,16,5,1,2.75,6.25,7
+ageband4,ethnicity5,12-49,Chinese or Other Ethnic Groups,27,7,5,3.8000000000000003,5,5,6.600000000000001
+ageband4,region,50-64,North East and Yorkshire,409,126,4,1,3,7,9
+ageband4,region,50-64,North West,170,56,6,2,3,8,9
+ageband4,region,50-64,South East,38,12,5.5,3,3,7.25,8
+ageband4,region,50-64,Midlands,85,34,4,2,2.25,6.75,8
+ageband4,region,50-64,East of England,37,9,5,1.8,2,8,8.2
+ageband4,region,50-64,London,41,16,4,2.5,3,7,8
+ageband4,region,50-64,South West,42,10,5,1.9,2.75,5.75,6
+ageband4,region,65-74,North West,433,128,5,1.700000000000001,3,7,8
+ageband4,region,65-74,North East and Yorkshire,1109,335,5,1,3,7,8
+ageband4,region,65-74,Midlands,214,80,5,2,3,7,8.100000000000009
+ageband4,region,65-74,East of England,98,33,4,1.2000000000000002,2,6,8.8
+ageband4,region,65-74,London,109,25,6,2.4000000000000004,4,7,8.600000000000001
+ageband4,region,65-74,South West,113,33,6,2.2,3,7,8
+ageband4,region,65-74,South East,105,35,5,1.4000000000000004,3,7.5,9
+ageband4,region,75-104,North East and Yorkshire,705,206,6,2,3,7.75,9
+ageband4,region,75-104,London,66,30,5,1,3,7.75,9
+ageband4,region,75-104,North West,288,92,4,2,3,7,9
+ageband4,region,75-104,South East,65,23,5,1,1.5,7,8
+ageband4,region,75-104,Midlands,155,51,4,1,2,6,8
+ageband4,region,75-104,East of England,75,24,6,1,2,7.25,8
+ageband4,region,75-104,South West,57,13,4,2,3,5,5.800000000000001
+ageband4,region,12-49,Midlands,50,10,4.5,1.9,3,7.75,9
+ageband4,region,12-49,North West,98,38,4,1,3.25,7.75,9
+ageband4,region,12-49,North East and Yorkshire,272,77,5,2,3,7,8
+ageband4,region,12-49,South East,33,6,6.5,4,5.25,7.75,8.5
+ageband4,region,12-49,East of England,18,4,6.5,3.9,5.25,7.5,8.4
+ageband4,region,12-49,London,22,8,5,1,1.75,6,6.3
+ageband4,region,12-49,South West,25,11,3,1,1,5.5,6
+ageband4,imd_quintile,50-64,2,157,56,5,1.5,3,7,8.5
+ageband4,imd_quintile,50-64,1 (most deprived),161,48,4,1.7000000000000002,3,8,8.300000000000004
+ageband4,imd_quintile,50-64,3,154,45,6,1.4000000000000004,3,8,9
+ageband4,imd_quintile,50-64,4,165,53,5,1.2000000000000002,3,8,9
+ageband4,imd_quintile,50-64,5 (least deprived),145,46,4,1,3,7,7.5
+ageband4,imd_quintile,50-64,(Missing),40,15,6,1,2,7.5,8
+ageband4,imd_quintile,65-74,2,437,144,6,2,3,7,9
+ageband4,imd_quintile,65-74,4,405,117,5,1,2,7,9
+ageband4,imd_quintile,65-74,1 (most deprived),386,103,4,2,3,7,8
+ageband4,imd_quintile,65-74,3,433,130,5,1,2,7,8
+ageband4,imd_quintile,65-74,(Missing),118,31,6,2,3,7,9
+ageband4,imd_quintile,65-74,5 (least deprived),402,144,5,1,3,7,8
+ageband4,imd_quintile,75-104,3,296,85,5,1,3,7,8
+ageband4,imd_quintile,75-104,2,299,101,5,2,3,7,8
+ageband4,imd_quintile,75-104,5 (least deprived),234,76,5,1,2.75,7,9
+ageband4,imd_quintile,75-104,4,245,76,5,1,3,8,9
+ageband4,imd_quintile,75-104,(Missing),68,20,7,2.9000000000000004,4,8,8.100000000000001
+ageband4,imd_quintile,75-104,1 (most deprived),269,81,5,2,3,7,9
+ageband4,imd_quintile,12-49,1 (most deprived),101,32,5.5,1,3,8,8
+ageband4,imd_quintile,12-49,4,88,23,4,2.2,3,6,8
+ageband4,imd_quintile,12-49,3,95,29,5,1,3,7,8.2
+ageband4,imd_quintile,12-49,2,123,35,5,1,2.5,7,8.600000000000001
+ageband4,imd_quintile,12-49,5 (least deprived),97,32,5,2,3,7,8.900000000000002
+ageband4,imd_quintile,12-49,(Missing),14,3,9,5,6.5,9,9
+ageband4,carehome_status,50-64,FALSE,780,254,5,1,3,7,9
+ageband4,carehome_status,50-64,TRUE,42,9,5,1.8,2,5,7.199999999999999
+ageband4,carehome_status,65-74,FALSE,1766,537,5,1,3,7,9
+ageband4,carehome_status,65-74,TRUE,415,132,4.5,1,3,7,8
+ageband4,carehome_status,75-104,FALSE,1156,361,5,1,3,7,9
+ageband4,carehome_status,75-104,TRUE,255,78,5,1,3,7,9
+ageband4,carehome_status,12-49,FALSE,499,148,5,1,3,7,8.300000000000011
+ageband4,carehome_status,12-49,TRUE,19,6,5,2,2.25,8.5,9
+ageband4,primis_atrisk,50-64,TRUE,791,257,5,1,3,7,9
+ageband4,primis_atrisk,50-64,FALSE,31,6,4,1.5,2.25,5,5
+ageband4,primis_atrisk,65-74,FALSE,1752,528,5,1,3,7,8
+ageband4,primis_atrisk,65-74,TRUE,429,141,6,2,3,7,9
+ageband4,primis_atrisk,75-104,FALSE,1139,353,5,1,3,7,9
+ageband4,primis_atrisk,75-104,TRUE,272,86,5,1.5,3,7,8
+ageband4,primis_atrisk,12-49,TRUE,507,151,5,1,3,7,9
+ageband4,primis_atrisk,12-49,FALSE,11,3,3,2.2,2.5,5,6.199999999999999
+ageband4,crd,50-64,TRUE,74,27,4,1,3,7,8
+ageband4,crd,50-64,FALSE,748,236,5,1,3,7,9
+ageband4,crd,65-74,FALSE,2136,649,5,1,3,7,8.200000000000045
+ageband4,crd,65-74,TRUE,45,20,5.5,1.9000000000000004,4,7,8.100000000000001
+ageband4,crd,75-104,FALSE,1385,430,5,1,3,7,9
+ageband4,crd,75-104,TRUE,26,9,4,1.8,2,5,6.199999999999999
+ageband4,crd,12-49,FALSE,465,138,5,1,3,7,9
+ageband4,crd,12-49,TRUE,53,16,5.5,2,3,7.25,8.5
+ageband4,chd,50-64,FALSE,745,236,5,1,3,7,9
+ageband4,chd,50-64,TRUE,77,27,5,1,2,7,8
+ageband4,chd,65-74,FALSE,2137,657,5,1,3,7,8
+ageband4,chd,65-74,TRUE,44,12,7,3,5.25,9,9
+ageband4,chd,75-104,FALSE,1382,429,5,1,3,7,9
+ageband4,chd,75-104,TRUE,29,10,4.5,1,2.25,6.75,7.199999999999999
+ageband4,chd,12-49,FALSE,474,135,5,1,3,7,8.600000000000009
+ageband4,chd,12-49,TRUE,44,19,6,2.8,3,7.5,9
+ageband4,ckd,50-64,FALSE,743,237,5,1,3,7,9
+ageband4,ckd,50-64,TRUE,79,26,6,3,5,7.75,8.5
+ageband4,ckd,65-74,FALSE,2134,652,5,1,3,7,8
+ageband4,ckd,65-74,TRUE,47,17,6,2,3,8,9
+ageband4,ckd,75-104,FALSE,1372,426,5,1,3,7,9
+ageband4,ckd,75-104,TRUE,39,13,5,3.2,4,7,8.8
+ageband4,ckd,12-49,FALSE,475,142,5,1,3,7,9
+ageband4,ckd,12-49,TRUE,43,12,3,2.1,3,4.25,5
+ageband4,cld,50-64,FALSE,738,239,5,1,3,7,9
+ageband4,cld,50-64,TRUE,84,24,4,1.3000000000000003,3,6,7
+ageband4,cld,65-74,FALSE,2151,657,5,1,3,7,9
+ageband4,cld,65-74,TRUE,30,12,5.5,1.1,2.75,7,7
+ageband4,cld,75-104,FALSE,1387,435,5,1,3,7,9
+ageband4,cld,75-104,TRUE,24,4,4.5,2,2,7,7
+ageband4,cld,12-49,FALSE,460,134,5,1,3,7,8.700000000000003
+ageband4,cld,12-49,TRUE,58,20,6,2.8000000000000007,4,7.25,9
+ageband4,cns_learndis,50-64,FALSE,684,217,5,1,3,7,9
+ageband4,cns_learndis,50-64,TRUE,138,46,6,3,4,8,9
+ageband4,cns_learndis,65-74,FALSE,2092,648,5,1,3,7,9
+ageband4,cns_learndis,65-74,TRUE,89,21,4,1,2,6,8
+ageband4,cns_learndis,75-104,FALSE,1360,425,5,1,3,7,9
+ageband4,cns_learndis,75-104,TRUE,51,14,4.5,1.2999999999999998,3.25,6.75,8
+ageband4,cns_learndis,12-49,FALSE,418,131,5,2,3,7,9
+ageband4,cns_learndis,12-49,TRUE,100,23,3,1,2,6,7
+ageband4,diabetes,50-64,FALSE,729,238,5,1,3,7,8.300000000000011
+ageband4,diabetes,50-64,TRUE,93,25,5,1.4000000000000004,4,8,9
+ageband4,diabetes,65-74,FALSE,2132,655,5,1,3,7,8
+ageband4,diabetes,65-74,TRUE,49,14,7,3.3,4,7.75,8.700000000000001
+ageband4,diabetes,75-104,FALSE,1384,429,5,1,3,7,9
+ageband4,diabetes,75-104,TRUE,27,10,6.5,1.9,4.5,7,8
+ageband4,diabetes,12-49,FALSE,479,146,5,1,3,7,8.5
+ageband4,diabetes,12-49,TRUE,39,8,7.5,4,4.75,8.25,9
+ageband4,immunosuppressed,50-64,FALSE,729,232,5,1,3,7,9
+ageband4,immunosuppressed,50-64,TRUE,93,31,4,1,2.5,6.5,8
+ageband4,immunosuppressed,65-74,FALSE,2134,649,5,1,3,7,8
+ageband4,immunosuppressed,65-74,TRUE,47,20,5,1.9000000000000004,3.75,7,9
+ageband4,immunosuppressed,75-104,FALSE,1382,429,5,1,3,7,9
+ageband4,immunosuppressed,75-104,TRUE,29,10,7,1.9,4,8,9
+ageband4,immunosuppressed,12-49,FALSE,465,136,5,1,3,7,9
+ageband4,immunosuppressed,12-49,TRUE,53,18,5.5,3,4,6,8.3
+ageband4,asplenia,50-64,FALSE,743,241,5,1,3,7,9
+ageband4,asplenia,50-64,TRUE,79,22,5,2,3.25,7,9
+ageband4,asplenia,65-74,FALSE,2142,657,5,1,3,7,8
+ageband4,asplenia,65-74,TRUE,39,12,5.5,3,3.75,8.25,9
+ageband4,asplenia,75-104,FALSE,1391,432,5,1,3,7,9
+ageband4,asplenia,75-104,TRUE,20,7,3,2.6,3,7,8.4
+ageband4,asplenia,12-49,FALSE,471,137,5,2,3,7,9
+ageband4,asplenia,12-49,TRUE,47,17,4,1,1,5,8.4
+ageband4,severe_obesity,50-64,FALSE,734,233,5,1,3,7,9
+ageband4,severe_obesity,50-64,TRUE,88,30,4,1,3,6.75,8
+ageband4,severe_obesity,65-74,FALSE,2145,659,5,1,3,7,8.200000000000045
+ageband4,severe_obesity,65-74,TRUE,36,10,5,2.8,4,6,7.199999999999999
+ageband4,severe_obesity,75-104,FALSE,1377,428,5,1,3,7,9
+ageband4,severe_obesity,75-104,TRUE,34,11,5,3,3.5,5.5,6
+ageband4,severe_obesity,12-49,TRUE,60,13,5,1.2000000000000002,3,7,9
+ageband4,severe_obesity,12-49,FALSE,458,141,5,1,3,7,8
+ageband4,smi,50-64,FALSE,744,231,5,1,3,7,8
+ageband4,smi,50-64,TRUE,78,32,4,1,2,7.25,9
+ageband4,smi,65-74,FALSE,2138,651,5,1,3,7,9
+ageband4,smi,65-74,TRUE,43,18,6.5,2.7,3.25,7,8
+ageband4,smi,75-104,FALSE,1389,433,5,1,3,7,9
+ageband4,smi,75-104,TRUE,22,6,6,2.5,3.5,7.75,8
+ageband4,smi,12-49,FALSE,467,135,5,1,3,7,9
+ageband4,smi,12-49,TRUE,51,19,5,1.7999999999999998,2.5,8,8.2
+ageband4,ckd_rrt,50-64,Stage 3,54,17,4,1,1,4,8.4
+ageband4,ckd_rrt,50-64,No CKD or RRT,724,236,5,1,3,7,9
+ageband4,ckd_rrt,50-64,RRT (transplant),10,0,NA,NA,NA,NA,NA
+ageband4,ckd_rrt,50-64,Stage 5,9,2,3,2.2,2.5,3.5,3.8
+ageband4,ckd_rrt,50-64,RRT (dialysis),8,4,3.5,1.3,1.75,5,5
+ageband4,ckd_rrt,50-64,Stage 4,17,4,3,1.6,2.5,3.75,5.1000000000000005
+ageband4,ckd_rrt,65-74,No CKD or RRT,1952,601,5,1,3,7,8
+ageband4,ckd_rrt,65-74,Stage 4,51,19,4,2,3,7,8.2
+ageband4,ckd_rrt,65-74,Stage 3,128,35,5,2,4,7.5,8
+ageband4,ckd_rrt,65-74,RRT (transplant),15,3,2,1.2,1.5,5,6.799999999999999
+ageband4,ckd_rrt,65-74,Stage 5,24,9,2,1,1,6,6.599999999999998
+ageband4,ckd_rrt,65-74,RRT (dialysis),11,2,9,9,9,9,9
+ageband4,ckd_rrt,75-104,No CKD or RRT,1258,394,5,1,3,7,9
+ageband4,ckd_rrt,75-104,Stage 3,91,25,5,1,3,7,7.600000000000001
+ageband4,ckd_rrt,75-104,Stage 4,29,13,4,3,3,7,7.800000000000001
+ageband4,ckd_rrt,75-104,RRT (dialysis),14,4,5,1.6,2.5,7.5,8.4
+ageband4,ckd_rrt,75-104,Stage 5,11,3,3,1.4,2,5,6.199999999999999
+ageband4,ckd_rrt,75-104,RRT (transplant),8,0,NA,NA,NA,NA,NA
+ageband4,ckd_rrt,12-49,No CKD or RRT,455,133,5,1,3,7,9
+ageband4,ckd_rrt,12-49,Stage 3,35,11,5,3,3.5,7,8
+ageband4,ckd_rrt,12-49,Stage 4,9,4,4.5,1.3,1.75,7.25,7.7
+ageband4,ckd_rrt,12-49,Stage 5,7,4,4.5,1.9000000000000001,3.25,5.25,5.7
+ageband4,ckd_rrt,12-49,RRT (transplant),6,2,4,2.4000000000000004,3,5,5.6
+ageband4,ckd_rrt,12-49,RRT (dialysis),6,0,NA,NA,NA,NA,NA
+ageband4,copd,50-64,FALSE,802,256,5,1,3,7,9
+ageband4,copd,50-64,TRUE,20,7,5,2.2,3.5,7,8
+ageband4,copd,65-74,FALSE,2136,659,5,1,3,7,8
+ageband4,copd,65-74,TRUE,45,10,7,3.8,5.25,8,9
+ageband4,copd,75-104,FALSE,1372,425,5,1,3,7,9
+ageband4,copd,75-104,TRUE,39,14,4.5,1.2999999999999998,3,6.75,8
+ageband4,copd,12-49,TRUE,10,4,4,3,3,6,7.800000000000001
+ageband4,copd,12-49,FALSE,508,150,5,1,3,7,9
+ageband4,learndis_cat,50-64,(Missing),657,210,4.5,1,3,7,8
+ageband4,learndis_cat,50-64,Down's syndrome,46,17,6,1.6,3,8,8.4
+ageband4,learndis_cat,50-64,Learning disability register,39,13,5,2.2,3,9,9
+ageband4,learndis_cat,50-64,Other learning disability,80,23,6,2.2,5,8,9
+ageband4,learndis_cat,65-74,Learning disability register,105,35,4,1.4000000000000004,3,6,7.600000000000001
+ageband4,learndis_cat,65-74,(Missing),1775,545,5,1,3,7,9
+ageband4,learndis_cat,65-74,Other learning disability,214,62,6,2,3,7,9
+ageband4,learndis_cat,65-74,Down's syndrome,87,27,4,1,2,7,8
+ageband4,learndis_cat,75-104,(Missing),1108,353,5,1,3,7,9
+ageband4,learndis_cat,75-104,Other learning disability,152,36,5,3,3.75,7,9
+ageband4,learndis_cat,75-104,Down's syndrome,78,26,5,2,3,7,8
+ageband4,learndis_cat,75-104,Learning disability register,73,24,4,1,3,6.25,8
+ageband4,learndis_cat,12-49,(Missing),430,126,5,1,3,7,8.5
+ageband4,learndis_cat,12-49,Learning disability register,26,8,6,3.1000000000000005,4.75,7.5,9
+ageband4,learndis_cat,12-49,Other learning disability,41,17,5,1,3,6,8.4
+ageband4,learndis_cat,12-49,Down's syndrome,21,3,3,3,3,5,6.199999999999999
+ageband4,sickle_cell_asplenia,50-64,FALSE,725,236,5,1,3,7,8.5
+ageband4,sickle_cell_asplenia,50-64,TRUE,97,27,5,2,3.5,7,9
+ageband4,sickle_cell_asplenia,65-74,FALSE,2105,647,5,1,3,7,8
+ageband4,sickle_cell_asplenia,65-74,TRUE,76,22,5,3,4,8,8.900000000000002
+ageband4,sickle_cell_asplenia,75-104,FALSE,1364,425,5,1,3,7,9
+ageband4,sickle_cell_asplenia,75-104,TRUE,47,14,3,2,3,6.75,8
+ageband4,sickle_cell_asplenia,12-49,TRUE,61,22,4,1,1.25,7.25,8.900000000000002
+ageband4,sickle_cell_asplenia,12-49,FALSE,457,132,5,2,3,7,8.900000000000006
+ageband4,cirrhosis,50-64,FALSE,807,262,5,1,3,7,9
+ageband4,cirrhosis,50-64,TRUE,15,1,5,5,5,5,5
+ageband4,cirrhosis,65-74,FALSE,2129,649,5,1,3,7,8
+ageband4,cirrhosis,65-74,TRUE,52,20,5.5,1.9000000000000004,3,7,9
+ageband4,cirrhosis,75-104,FALSE,1386,431,5,1,3,7,9
+ageband4,cirrhosis,75-104,TRUE,25,8,4.5,1,3.25,7.25,8
+ageband4,cirrhosis,12-49,FALSE,509,151,5,1,3,7,9
+ageband4,cirrhosis,12-49,TRUE,9,3,8,4,5.5,8.5,8.8
+ageband4,cochlear_implant,50-64,FALSE,805,259,5,1,3,7,9
+ageband4,cochlear_implant,50-64,TRUE,17,4,3.5,1.6,2.5,4.5,5.4
+ageband4,cochlear_implant,65-74,FALSE,2133,650,5,1,3,7,8
+ageband4,cochlear_implant,65-74,TRUE,48,19,5,1,2.5,8,9
+ageband4,cochlear_implant,75-104,FALSE,1380,429,5,1,3,7,9
+ageband4,cochlear_implant,75-104,TRUE,31,10,3,1,1.5,3.75,4.1
+ageband4,cochlear_implant,12-49,FALSE,510,149,5,1,3,7,9
+ageband4,cochlear_implant,12-49,TRUE,8,5,5,3.4,4,7,7
+ageband4,cystic_fibrosis,50-64,FALSE,803,257,5,1,3,7,9
+ageband4,cystic_fibrosis,50-64,TRUE,19,6,3,2.5,3,3.75,5
+ageband4,cystic_fibrosis,65-74,FALSE,2136,653,5,1,3,7,8
+ageband4,cystic_fibrosis,65-74,TRUE,45,16,5,1,1.75,7.25,8.5
+ageband4,cystic_fibrosis,75-104,FALSE,1371,430,5,1,3,7,9
+ageband4,cystic_fibrosis,75-104,TRUE,40,9,6,3,3,6,7.399999999999999
+ageband4,cystic_fibrosis,12-49,FALSE,506,151,5,1,3,7,9
+ageband4,cystic_fibrosis,12-49,TRUE,12,3,4,2.4,3,5,5.6
+ageband4,csfl,50-64,FALSE,809,258,5,1,3,7,9
+ageband4,csfl,50-64,TRUE,13,5,8,3.8,5,8,8.6
+ageband4,csfl,65-74,FALSE,2141,656,5,1,3,7,8.5
+ageband4,csfl,65-74,TRUE,40,13,4,3,4,8,8
+ageband4,csfl,75-104,FALSE,1386,433,5,1,3,7,9
+ageband4,csfl,75-104,TRUE,25,6,4.5,2,3.25,6.5,7
+ageband4,csfl,12-49,FALSE,510,151,5,1,3,7,9
+ageband4,csfl,12-49,TRUE,8,3,8,4,5.5,8.5,8.8
+ageband4,homeless,50-64,FALSE,798,257,5,1,3,7,9
+ageband4,homeless,50-64,TRUE,24,6,6,2.5,3.25,8.75,9
+ageband4,homeless,65-74,FALSE,2137,654,5,1,3,7,9
+ageband4,homeless,65-74,TRUE,44,15,3,1,1,4,6
+ageband4,homeless,75-104,FALSE,1389,433,5,1,3,7,9
+ageband4,homeless,75-104,TRUE,22,6,3,2.5,3,3.75,6.5
+ageband4,homeless,12-49,FALSE,505,151,5,1,3,7,9
+ageband4,homeless,12-49,TRUE,13,3,2,1.2,1.5,2,2
+any_eligibility,all,TRUE,All,4932,1525,5,1,3,7,9
+any_eligibility,ageband4,TRUE,50-64,822,263,5,1,3,7,9
+any_eligibility,ageband4,TRUE,65-74,2181,669,5,1,3,7,8.200000000000045
+any_eligibility,ageband4,TRUE,75-104,1411,439,5,1,3,7,9
+any_eligibility,ageband4,TRUE,12-49,518,154,5,1,3,7,9
+any_eligibility,ageband13,TRUE,55-59,274,95,5,1,3,7,9
+any_eligibility,ageband13,TRUE,60-64,303,97,4,1,3,6,8
+any_eligibility,ageband13,TRUE,70-74,950,297,5,1,3,7,9
+any_eligibility,ageband13,TRUE,50-54,245,71,6,1,3,7,9
+any_eligibility,ageband13,TRUE,80-84,392,120,5,1,3,7,8
+any_eligibility,ageband13,TRUE,75-79,649,193,5,1.2000000000000028,3,8,9
+any_eligibility,ageband13,TRUE,65-69,1231,372,5,1,3,7,8
+any_eligibility,ageband13,TRUE,30-39,135,43,5,2,3,8,9
+any_eligibility,ageband13,TRUE,85-89,207,75,5,1,3,7.5,9
+any_eligibility,ageband13,TRUE,90-104,163,51,4,2,3,6,8
+any_eligibility,ageband13,TRUE,40-49,355,101,4,1,3,7,8
+any_eligibility,ageband13,TRUE,18-29,27,9,5,1,2,6,7.399999999999999
+any_eligibility,ageband13,TRUE,12-17,1,1,7,7,7,7,7
+any_eligibility,sex,TRUE,Female,2571,791,5,1,3,7,9
+any_eligibility,sex,TRUE,Male,2361,734,5,1,3,7,9
+any_eligibility,ethnicity5,TRUE,White,2691,816,5,1,3,7,9
+any_eligibility,ethnicity5,TRUE,(Missing),475,153,5,1,3,7,8
+any_eligibility,ethnicity5,TRUE,Mixed,441,150,5,1,3,7,9
+any_eligibility,ethnicity5,TRUE,Chinese or Other Ethnic Groups,456,138,5,1,3.25,7,8.299999999999997
+any_eligibility,ethnicity5,TRUE,Asian or Asian British,424,122,4.5,1,3,7,8
+any_eligibility,ethnicity5,TRUE,Black or Black British,445,146,5,1,3,7,8
+any_eligibility,region,TRUE,North East and Yorkshire,2495,744,5,1,3,7,9
+any_eligibility,region,TRUE,North West,989,314,5,2,3,7,9
+any_eligibility,region,TRUE,South East,241,76,5,1,3,7,8.5
+any_eligibility,region,TRUE,Midlands,504,175,5,1,2,7,8
+any_eligibility,region,TRUE,London,238,79,5,1,3,7,9
+any_eligibility,region,TRUE,East of England,228,70,5,1,2,7,9
+any_eligibility,region,TRUE,South West,237,67,5,1,3,6,8
+any_eligibility,imd_quintile,TRUE,2,1016,336,5,2,3,7,9
+any_eligibility,imd_quintile,TRUE,1 (most deprived),917,264,5,1.3000000000000007,3,7,9
+any_eligibility,imd_quintile,TRUE,3,978,289,5,1,2,7,8
+any_eligibility,imd_quintile,TRUE,4,903,269,5,1,3,7,9
+any_eligibility,imd_quintile,TRUE,5 (least deprived),878,298,5,1,3,7,8
+any_eligibility,imd_quintile,TRUE,(Missing),240,69,6,2,3,8,9
+any_eligibility,carehome_status,TRUE,FALSE,4201,1300,5,1,3,7,9
+any_eligibility,carehome_status,TRUE,TRUE,731,225,5,1,3,7,8
+any_eligibility,primis_atrisk,TRUE,TRUE,1999,635,5,1,3,7,9
+any_eligibility,primis_atrisk,TRUE,FALSE,2933,890,5,1,3,7,9
+any_eligibility,crd,TRUE,TRUE,198,72,5,2,3,7,8
+any_eligibility,crd,TRUE,FALSE,4734,1453,5,1,3,7,9
+any_eligibility,chd,TRUE,FALSE,4738,1457,5,1,3,7,9
+any_eligibility,chd,TRUE,TRUE,194,68,5.5,1,3,7,9
+any_eligibility,ckd,TRUE,FALSE,4724,1457,5,1,3,7,9
+any_eligibility,ckd,TRUE,TRUE,208,68,5,2,3,7,9
+any_eligibility,cld,TRUE,FALSE,4736,1465,5,1,3,7,9
+any_eligibility,cld,TRUE,TRUE,196,60,5,1,3,7,8
+any_eligibility,cns_learndis,TRUE,FALSE,4554,1421,5,1,3,7,9
+any_eligibility,cns_learndis,TRUE,TRUE,378,104,5,1,3,7,8
+any_eligibility,diabetes,TRUE,FALSE,4724,1468,5,1,3,7,9
+any_eligibility,diabetes,TRUE,TRUE,208,57,6,2.6000000000000005,4,8,9
+any_eligibility,immunosuppressed,TRUE,FALSE,4710,1446,5,1,3,7,9
+any_eligibility,immunosuppressed,TRUE,TRUE,222,79,5,1,3,7,9
+any_eligibility,asplenia,TRUE,FALSE,4747,1467,5,1,3,7,9
+any_eligibility,asplenia,TRUE,TRUE,185,58,5,1,3,7.75,9
+any_eligibility,severe_obesity,TRUE,FALSE,4714,1461,5,1,3,7,9
+any_eligibility,severe_obesity,TRUE,TRUE,218,64,5,1,3,6.25,8
+any_eligibility,smi,TRUE,FALSE,4738,1450,5,1,3,7,9
+any_eligibility,smi,TRUE,TRUE,194,75,6,1,3,8,8.600000000000009
+any_eligibility,ckd_rrt,TRUE,Stage 3,308,88,5,1,3,7,8
+any_eligibility,ckd_rrt,TRUE,No CKD or RRT,4389,1364,5,1,3,7,9
+any_eligibility,ckd_rrt,TRUE,Stage 4,106,40,4,2,3,7,8
+any_eligibility,ckd_rrt,TRUE,RRT (transplant),39,5,2,1.4,2,6,7.199999999999999
+any_eligibility,ckd_rrt,TRUE,RRT (dialysis),39,10,5,1,2.25,8.5,9
+any_eligibility,ckd_rrt,TRUE,Stage 5,51,18,3.5,1,1.25,5.75,6.300000000000001
+any_eligibility,copd,TRUE,FALSE,4818,1490,5,1,3,7,9
+any_eligibility,copd,TRUE,TRUE,114,35,5,2,3,8,8.600000000000001
+any_eligibility,learndis_cat,TRUE,(Missing),3970,1234,5,1,3,7,9
+any_eligibility,learndis_cat,TRUE,Learning disability register,243,80,4.5,1,3,7,9
+any_eligibility,learndis_cat,TRUE,Other learning disability,487,138,6,2,3,7,9
+any_eligibility,learndis_cat,TRUE,Down's syndrome,232,73,5,1.1999999999999993,2,7,8
+any_eligibility,sickle_cell_asplenia,TRUE,FALSE,4651,1440,5,1,3,7,9
+any_eligibility,sickle_cell_asplenia,TRUE,TRUE,281,85,5,1.4000000000000004,3,8,9
+any_eligibility,cirrhosis,TRUE,FALSE,4831,1493,5,1,3,7,9
+any_eligibility,cirrhosis,TRUE,TRUE,101,32,5,1.0999999999999996,3,7.25,8.900000000000002
+any_eligibility,cochlear_implant,TRUE,FALSE,4828,1487,5,1,3,7,9
+any_eligibility,cochlear_implant,TRUE,TRUE,104,38,4,1,3,7,8
+any_eligibility,cystic_fibrosis,TRUE,FALSE,4816,1491,5,1,3,7,9
+any_eligibility,cystic_fibrosis,TRUE,TRUE,116,34,4,1.3000000000000007,3,6,8
+any_eligibility,csfl,TRUE,FALSE,4846,1498,5,1,3,7,9
+any_eligibility,csfl,TRUE,TRUE,86,27,5,3,3.5,8,8.400000000000002
+any_eligibility,homeless,TRUE,FALSE,4829,1495,5,1,3,7,9
+any_eligibility,homeless,TRUE,TRUE,103,30,3,1,2,4,8.100000000000001
+age_above_eligiblity_threshold,all,FALSE,All,1340,417,5,1,3,7,9
+age_above_eligiblity_threshold,all,TRUE,All,3592,1108,5,1,3,7,9
+age_above_eligiblity_threshold,ageband4,FALSE,50-64,822,263,5,1,3,7,9
+age_above_eligiblity_threshold,ageband4,FALSE,12-49,518,154,5,1,3,7,9
+age_above_eligiblity_threshold,ageband4,TRUE,65-74,2181,669,5,1,3,7,8.200000000000045
+age_above_eligiblity_threshold,ageband4,TRUE,75-104,1411,439,5,1,3,7,9
+age_above_eligiblity_threshold,ageband13,FALSE,55-59,274,95,5,1,3,7,9
+age_above_eligiblity_threshold,ageband13,FALSE,60-64,303,97,4,1,3,6,8
+age_above_eligiblity_threshold,ageband13,FALSE,50-54,245,71,6,1,3,7,9
+age_above_eligiblity_threshold,ageband13,FALSE,30-39,135,43,5,2,3,8,9
+age_above_eligiblity_threshold,ageband13,FALSE,40-49,355,101,4,1,3,7,8
+age_above_eligiblity_threshold,ageband13,FALSE,18-29,27,9,5,1,2,6,7.399999999999999
+age_above_eligiblity_threshold,ageband13,FALSE,12-17,1,1,7,7,7,7,7
+age_above_eligiblity_threshold,ageband13,TRUE,70-74,950,297,5,1,3,7,9
+age_above_eligiblity_threshold,ageband13,TRUE,80-84,392,120,5,1,3,7,8
+age_above_eligiblity_threshold,ageband13,TRUE,75-79,649,193,5,1.2000000000000028,3,8,9
+age_above_eligiblity_threshold,ageband13,TRUE,65-69,1231,372,5,1,3,7,8
+age_above_eligiblity_threshold,ageband13,TRUE,85-89,207,75,5,1,3,7.5,9
+age_above_eligiblity_threshold,ageband13,TRUE,90-104,163,51,4,2,3,6,8
+age_above_eligiblity_threshold,sex,FALSE,Female,706,224,5,1,3,7,9
+age_above_eligiblity_threshold,sex,FALSE,Male,634,193,5,1.2000000000000028,3,7,9
+age_above_eligiblity_threshold,sex,TRUE,Female,1865,567,5,2,3,7,9
+age_above_eligiblity_threshold,sex,TRUE,Male,1727,541,5,1,3,7,9
+age_above_eligiblity_threshold,ethnicity5,FALSE,White,766,242,5,1,3,7,9
+age_above_eligiblity_threshold,ethnicity5,FALSE,Mixed,116,41,5,1,3,7,8
+age_above_eligiblity_threshold,ethnicity5,FALSE,(Missing),132,41,6,2,3,8,9
+age_above_eligiblity_threshold,ethnicity5,FALSE,Asian or Asian British,118,31,5,1,3,6,8
+age_above_eligiblity_threshold,ethnicity5,FALSE,Chinese or Other Ethnic Groups,93,27,5,1,3.5,6,8.400000000000002
+age_above_eligiblity_threshold,ethnicity5,FALSE,Black or Black British,115,35,4,1.4000000000000004,2,7,8.600000000000001
+age_above_eligiblity_threshold,ethnicity5,TRUE,(Missing),343,112,4,1,2,7,8
+age_above_eligiblity_threshold,ethnicity5,TRUE,Chinese or Other Ethnic Groups,363,111,5,1,3.5,7,8
+age_above_eligiblity_threshold,ethnicity5,TRUE,White,1925,574,5,2,3,7,9
+age_above_eligiblity_threshold,ethnicity5,TRUE,Asian or Asian British,306,91,4,1,3,7,9
+age_above_eligiblity_threshold,ethnicity5,TRUE,Mixed,325,109,5,1,3,7,9
+age_above_eligiblity_threshold,ethnicity5,TRUE,Black or Black British,330,111,5,1,3,7,8
+age_above_eligiblity_threshold,region,FALSE,North East and Yorkshire,681,203,5,1,3,7,9
+age_above_eligiblity_threshold,region,FALSE,North West,268,94,5,2,3,8,9
+age_above_eligiblity_threshold,region,FALSE,South East,71,18,6,3,3.5,7.75,8
+age_above_eligiblity_threshold,region,FALSE,Midlands,135,44,4,2,2.75,7,8.700000000000003
+age_above_eligiblity_threshold,region,FALSE,East of England,55,13,6,2,3,8,8.8
+age_above_eligiblity_threshold,region,FALSE,London,63,24,4.5,1.3000000000000003,3,6.25,7.699999999999999
+age_above_eligiblity_threshold,region,FALSE,South West,67,21,5,1,2,6,6
+age_above_eligiblity_threshold,region,TRUE,North West,721,220,5,2,3,7,9
+age_above_eligiblity_threshold,region,TRUE,North East and Yorkshire,1814,541,5,1,3,7,9
+age_above_eligiblity_threshold,region,TRUE,Midlands,369,131,5,1,2,7,8
+age_above_eligiblity_threshold,region,TRUE,London,175,55,6,1.4000000000000004,3,7,9
+age_above_eligiblity_threshold,region,TRUE,East of England,173,57,5,1,2,7,8.399999999999999
+age_above_eligiblity_threshold,region,TRUE,South East,170,58,5,1,3,7,9
+age_above_eligiblity_threshold,region,TRUE,South West,170,46,4.5,2,3,6.75,8
+age_above_eligiblity_threshold,imd_quintile,FALSE,2,280,91,5,1,3,7,9
+age_above_eligiblity_threshold,imd_quintile,FALSE,1 (most deprived),262,80,5,1,3,8,8.100000000000009
+age_above_eligiblity_threshold,imd_quintile,FALSE,3,249,74,5,1,3,7,9
+age_above_eligiblity_threshold,imd_quintile,FALSE,4,253,76,5,2,3,7,8.5
+age_above_eligiblity_threshold,imd_quintile,FALSE,5 (least deprived),242,78,5,1,3,7,8
+age_above_eligiblity_threshold,imd_quintile,FALSE,(Missing),54,18,6,1,2.5,8,9
+age_above_eligiblity_threshold,imd_quintile,TRUE,2,736,245,5,2,3,7,9
+age_above_eligiblity_threshold,imd_quintile,TRUE,3,729,215,5,1,2,7,8
+age_above_eligiblity_threshold,imd_quintile,TRUE,4,650,193,5,1,3,7,9
+age_above_eligiblity_threshold,imd_quintile,TRUE,5 (least deprived),636,220,5,1,3,7,8
+age_above_eligiblity_threshold,imd_quintile,TRUE,1 (most deprived),655,184,5,2,3,7,9
+age_above_eligiblity_threshold,imd_quintile,TRUE,(Missing),186,51,6,2,3.5,7.5,9
+age_above_eligiblity_threshold,carehome_status,FALSE,FALSE,1279,402,5,1,3,7,9
+age_above_eligiblity_threshold,carehome_status,FALSE,TRUE,61,15,5,2,2,7,8.6
+age_above_eligiblity_threshold,carehome_status,TRUE,FALSE,2922,898,5,1,3,7,9
+age_above_eligiblity_threshold,carehome_status,TRUE,TRUE,670,210,5,1,3,7,8
+age_above_eligiblity_threshold,primis_atrisk,FALSE,TRUE,1298,408,5,1,3,7,9
+age_above_eligiblity_threshold,primis_atrisk,FALSE,FALSE,42,9,3,1.8,2,5,5.399999999999999
+age_above_eligiblity_threshold,primis_atrisk,TRUE,FALSE,2891,881,5,1,3,7,9
+age_above_eligiblity_threshold,primis_atrisk,TRUE,TRUE,701,227,5,2,3,7,9
+age_above_eligiblity_threshold,crd,FALSE,TRUE,127,43,4,2,3,7,8
+age_above_eligiblity_threshold,crd,FALSE,FALSE,1213,374,5,1,3,7,9
+age_above_eligiblity_threshold,crd,TRUE,FALSE,3521,1079,5,1,3,7,9
+age_above_eligiblity_threshold,crd,TRUE,TRUE,71,29,5,1.8000000000000003,3,7,8
+age_above_eligiblity_threshold,chd,FALSE,FALSE,1219,371,5,1,3,7,9
+age_above_eligiblity_threshold,chd,FALSE,TRUE,121,46,5,1,3,7,8.5
+age_above_eligiblity_threshold,chd,TRUE,FALSE,3519,1086,5,1,3,7,9
+age_above_eligiblity_threshold,chd,TRUE,TRUE,73,22,6,1.1,3,7.75,9
+age_above_eligiblity_threshold,ckd,FALSE,FALSE,1218,379,5,1,3,7,9
+age_above_eligiblity_threshold,ckd,FALSE,TRUE,122,38,5,2.7,3,7,8
+age_above_eligiblity_threshold,ckd,TRUE,FALSE,3506,1078,5,1,3,7,9
+age_above_eligiblity_threshold,ckd,TRUE,TRUE,86,30,6,2,4,7.75,9
+age_above_eligiblity_threshold,cld,FALSE,FALSE,1198,373,5,1,3,7,9
+age_above_eligiblity_threshold,cld,FALSE,TRUE,142,44,5,1.2999999999999998,3,7,8
+age_above_eligiblity_threshold,cld,TRUE,FALSE,3538,1092,5,1,3,7,9
+age_above_eligiblity_threshold,cld,TRUE,TRUE,54,16,5.5,1.5,2,7,7
+age_above_eligiblity_threshold,cns_learndis,FALSE,FALSE,1102,348,5,1,3,7,9
+age_above_eligiblity_threshold,cns_learndis,FALSE,TRUE,238,69,5,1,3,7,8.200000000000003
+age_above_eligiblity_threshold,cns_learndis,TRUE,FALSE,3452,1073,5,1,3,7,9
+age_above_eligiblity_threshold,cns_learndis,TRUE,TRUE,140,35,4,1,2,6,8
+age_above_eligiblity_threshold,diabetes,FALSE,FALSE,1208,384,5,1,3,7,8.699999999999989
+age_above_eligiblity_threshold,diabetes,FALSE,TRUE,132,33,6,2.2,4,8,9
+age_above_eligiblity_threshold,diabetes,TRUE,FALSE,3516,1084,5,1,3,7,9
+age_above_eligiblity_threshold,diabetes,TRUE,TRUE,76,24,7,3,4,7.25,8
+age_above_eligiblity_threshold,immunosuppressed,FALSE,FALSE,1194,368,5,1,3,7,9
+age_above_eligiblity_threshold,immunosuppressed,FALSE,TRUE,146,49,5,1,3,6,8
+age_above_eligiblity_threshold,immunosuppressed,TRUE,FALSE,3516,1078,5,1,3,7,9
+age_above_eligiblity_threshold,immunosuppressed,TRUE,TRUE,76,30,5,1.9000000000000004,4,8,9
+age_above_eligiblity_threshold,asplenia,FALSE,FALSE,1214,378,5,1,3,7,9
+age_above_eligiblity_threshold,asplenia,FALSE,TRUE,126,39,5,1,2.5,7,9
+age_above_eligiblity_threshold,asplenia,TRUE,FALSE,3533,1089,5,1,3,7,9
+age_above_eligiblity_threshold,asplenia,TRUE,TRUE,59,19,5,2.8,3,8,9
+age_above_eligiblity_threshold,severe_obesity,FALSE,FALSE,1192,374,5,1,3,7,9
+age_above_eligiblity_threshold,severe_obesity,FALSE,TRUE,148,43,4,1,3,7,8
+age_above_eligiblity_threshold,severe_obesity,TRUE,FALSE,3522,1087,5,1,3,7,9
+age_above_eligiblity_threshold,severe_obesity,TRUE,TRUE,70,21,5,3,4,6,7
+age_above_eligiblity_threshold,smi,FALSE,FALSE,1211,366,5,1,3,7,9
+age_above_eligiblity_threshold,smi,FALSE,TRUE,129,51,5,1,2,8,9
+age_above_eligiblity_threshold,smi,TRUE,FALSE,3527,1084,5,1,3,7,9
+age_above_eligiblity_threshold,smi,TRUE,TRUE,65,24,6.5,2.3000000000000003,3,7,8
+age_above_eligiblity_threshold,ckd_rrt,FALSE,Stage 3,89,28,4,1,3,6.25,8.3
+age_above_eligiblity_threshold,ckd_rrt,FALSE,No CKD or RRT,1179,369,5,1,3,7,9
+age_above_eligiblity_threshold,ckd_rrt,FALSE,RRT (transplant),16,2,4,2.4000000000000004,3,5,5.6
+age_above_eligiblity_threshold,ckd_rrt,FALSE,Stage 5,16,6,4,1.5,2.5,4.75,5.5
+age_above_eligiblity_threshold,ckd_rrt,FALSE,Stage 4,26,8,3,1,1.75,6.25,7.3
+age_above_eligiblity_threshold,ckd_rrt,FALSE,RRT (dialysis),14,4,3.5,1.3,1.75,5,5
+age_above_eligiblity_threshold,ckd_rrt,TRUE,No CKD or RRT,3210,995,5,1,3,7,9
+age_above_eligiblity_threshold,ckd_rrt,TRUE,Stage 3,219,60,5,2,3.75,7,8
+age_above_eligiblity_threshold,ckd_rrt,TRUE,Stage 4,80,32,4,2.0999999999999996,3,7,8
+age_above_eligiblity_threshold,ckd_rrt,TRUE,RRT (dialysis),25,6,8,2,4,9,9
+age_above_eligiblity_threshold,ckd_rrt,TRUE,Stage 5,35,12,2.5,1,1,6,6.9
+age_above_eligiblity_threshold,ckd_rrt,TRUE,RRT (transplant),23,3,2,1.2,1.5,5,6.799999999999999
+age_above_eligiblity_threshold,copd,FALSE,FALSE,1310,406,5,1,3,7,9
+age_above_eligiblity_threshold,copd,FALSE,TRUE,30,11,5,3,3,7,8
+age_above_eligiblity_threshold,copd,TRUE,FALSE,3508,1084,5,1,3,7,9
+age_above_eligiblity_threshold,copd,TRUE,TRUE,84,24,5.5,2,3,8,8.7
+age_above_eligiblity_threshold,learndis_cat,FALSE,(Missing),1087,336,5,1,3,7,8
+age_above_eligiblity_threshold,learndis_cat,FALSE,Down's syndrome,67,20,6,1.9000000000000004,3,7.25,8.100000000000001
+age_above_eligiblity_threshold,learndis_cat,FALSE,Learning disability register,65,21,5,2,4,9,9
+age_above_eligiblity_threshold,learndis_cat,FALSE,Other learning disability,121,40,6,1,3,8,9
+age_above_eligiblity_threshold,learndis_cat,TRUE,Learning disability register,178,59,4,1,3,6,8
+age_above_eligiblity_threshold,learndis_cat,TRUE,(Missing),2883,898,5,1,3,7,9
+age_above_eligiblity_threshold,learndis_cat,TRUE,Other learning disability,366,98,6,2,3,7,9
+age_above_eligiblity_threshold,learndis_cat,TRUE,Down's syndrome,165,53,5,1.2000000000000002,2,7,8
+age_above_eligiblity_threshold,sickle_cell_asplenia,FALSE,FALSE,1182,368,5,1,3,7,9
+age_above_eligiblity_threshold,sickle_cell_asplenia,FALSE,TRUE,158,49,5,1,2,7,9
+age_above_eligiblity_threshold,sickle_cell_asplenia,TRUE,FALSE,3469,1072,5,1,3,7,9
+age_above_eligiblity_threshold,sickle_cell_asplenia,TRUE,TRUE,123,36,4.5,2,3,8,8.5
+age_above_eligiblity_threshold,cirrhosis,FALSE,FALSE,1316,413,5,1,3,7,9
+age_above_eligiblity_threshold,cirrhosis,FALSE,TRUE,24,4,6.5,3.5999999999999996,4.5,8.25,8.7
+age_above_eligiblity_threshold,cirrhosis,TRUE,FALSE,3515,1080,5,1,3,7,9
+age_above_eligiblity_threshold,cirrhosis,TRUE,TRUE,77,28,5,1,3,7,8.3
+age_above_eligiblity_threshold,cochlear_implant,FALSE,FALSE,1315,408,5,1,3,7,9
+age_above_eligiblity_threshold,cochlear_implant,FALSE,TRUE,25,9,4,2.6000000000000005,3,6,7
+age_above_eligiblity_threshold,cochlear_implant,TRUE,FALSE,3513,1079,5,1,3,7,9
+age_above_eligiblity_threshold,cochlear_implant,TRUE,TRUE,79,29,4,1,2,8,8.2
+age_above_eligiblity_threshold,cystic_fibrosis,FALSE,FALSE,1309,408,5,1,3,7,9
+age_above_eligiblity_threshold,cystic_fibrosis,FALSE,TRUE,31,9,3,2,3,4,6
+age_above_eligiblity_threshold,cystic_fibrosis,TRUE,FALSE,3507,1083,5,1,3,7,9
+age_above_eligiblity_threshold,cystic_fibrosis,TRUE,TRUE,85,25,6,1,3,7,8.600000000000001
+age_above_eligiblity_threshold,csfl,FALSE,FALSE,1319,409,5,1,3,7,9
+age_above_eligiblity_threshold,csfl,FALSE,TRUE,21,8,8,3,4.5,8.25,9
+age_above_eligiblity_threshold,csfl,TRUE,FALSE,3527,1089,5,1,3,7,9
+age_above_eligiblity_threshold,csfl,TRUE,TRUE,65,19,4,2.5999999999999996,3.5,7,8
+age_above_eligiblity_threshold,homeless,FALSE,FALSE,1303,408,5,1,3,7,9
+age_above_eligiblity_threshold,homeless,FALSE,TRUE,37,9,3,1.8,2,8,9
+age_above_eligiblity_threshold,homeless,TRUE,FALSE,3526,1087,5,1,3,7,9
+age_above_eligiblity_threshold,homeless,TRUE,TRUE,66,21,3,1,1,4,6
+clinical_priority,all,TRUE,All,1999,635,5,1,3,7,9
+clinical_priority,all,FALSE,All,2933,890,5,1,3,7,9
+clinical_priority,ageband4,TRUE,50-64,791,257,5,1,3,7,9
+clinical_priority,ageband4,TRUE,65-74,429,141,6,2,3,7,9
+clinical_priority,ageband4,TRUE,12-49,507,151,5,1,3,7,9
+clinical_priority,ageband4,TRUE,75-104,272,86,5,1.5,3,7,8
+clinical_priority,ageband4,FALSE,65-74,1752,528,5,1,3,7,8
+clinical_priority,ageband4,FALSE,75-104,1139,353,5,1,3,7,9
+clinical_priority,ageband4,FALSE,50-64,31,6,4,1.5,2.25,5,5
+clinical_priority,ageband4,FALSE,12-49,11,3,3,2.2,2.5,5,6.199999999999999
+clinical_priority,ageband13,TRUE,55-59,262,92,5,1,3,7,9
+clinical_priority,ageband13,TRUE,60-64,291,96,4,1,3,6,8
+clinical_priority,ageband13,TRUE,50-54,238,69,6,1,3,7,9
+clinical_priority,ageband13,TRUE,65-69,238,79,5,1.8000000000000007,3.5,7,8
+clinical_priority,ageband13,TRUE,30-39,133,42,5.5,2,3,8,9
+clinical_priority,ageband13,TRUE,40-49,347,99,4,1,3,7,8
+clinical_priority,ageband13,TRUE,75-79,127,42,5,2,3,7.75,8
+clinical_priority,ageband13,TRUE,85-89,37,17,5,1,2,7,8
+clinical_priority,ageband13,TRUE,80-84,78,19,5,1.7999999999999998,3.5,6,7
+clinical_priority,ageband13,TRUE,90-104,30,8,5,2.4000000000000004,3.75,8,8.3
+clinical_priority,ageband13,TRUE,70-74,191,62,6,2,3,8,9
+clinical_priority,ageband13,TRUE,18-29,26,9,5,1,2,6,7.399999999999999
+clinical_priority,ageband13,TRUE,12-17,1,1,7,7,7,7,7
+clinical_priority,ageband13,FALSE,70-74,759,235,5,1,2,7,9
+clinical_priority,ageband13,FALSE,80-84,314,101,5,1,3,7,8
+clinical_priority,ageband13,FALSE,75-79,522,151,5,1,3,8,9
+clinical_priority,ageband13,FALSE,65-69,993,293,5,1,3,7,8
+clinical_priority,ageband13,FALSE,85-89,170,58,5.5,1.7000000000000002,3,7.75,9
+clinical_priority,ageband13,FALSE,90-104,133,43,4,2,3,6,7.800000000000004
+clinical_priority,ageband13,FALSE,60-64,12,1,1,1,1,1,1
+clinical_priority,ageband13,FALSE,55-59,12,3,5,3.4000000000000004,4,5,5
+clinical_priority,ageband13,FALSE,40-49,8,2,4.5,2.5000000000000004,3.25,5.75,6.499999999999999
+clinical_priority,ageband13,FALSE,30-39,2,1,3,3,3,3,3
+clinical_priority,ageband13,FALSE,50-54,7,2,3.5,2.3000000000000003,2.75,4.25,4.7
+clinical_priority,ageband13,FALSE,18-29,1,0,NA,NA,NA,NA,NA
+clinical_priority,sex,TRUE,Female,1062,352,5,1,3,7,9
+clinical_priority,sex,TRUE,Male,937,283,5,1,3,7,9
+clinical_priority,sex,FALSE,Female,1509,439,5,1,3,7,9
+clinical_priority,sex,FALSE,Male,1424,451,5,1,2.5,7,8
+clinical_priority,ethnicity5,TRUE,White,1143,363,5,1.2000000000000028,3,7,9
+clinical_priority,ethnicity5,TRUE,Mixed,164,58,6,1.7000000000000002,3,7,8
+clinical_priority,ethnicity5,TRUE,Asian or Asian British,172,47,4,1,3,6,8
+clinical_priority,ethnicity5,TRUE,(Missing),187,63,6,2,3,7,9
+clinical_priority,ethnicity5,TRUE,Chinese or Other Ethnic Groups,157,50,5,1,3.25,7,8.100000000000001
+clinical_priority,ethnicity5,TRUE,Black or Black British,176,54,4,1,2,7,8.700000000000003
+clinical_priority,ethnicity5,FALSE,(Missing),288,90,4,1,2.25,7,8
+clinical_priority,ethnicity5,FALSE,Chinese or Other Ethnic Groups,299,88,5,1,3.75,7,8.299999999999997
+clinical_priority,ethnicity5,FALSE,White,1548,453,5,1,3,7,9
+clinical_priority,ethnicity5,FALSE,Mixed,277,92,5,1,2.75,7.25,9
+clinical_priority,ethnicity5,FALSE,Black or Black British,269,92,5,2,3,7,8
+clinical_priority,ethnicity5,FALSE,Asian or Asian British,252,75,5,2,3,7,9
+clinical_priority,region,TRUE,North East and Yorkshire,1030,317,5,1,3,7,9
+clinical_priority,region,TRUE,North West,402,138,5,2,3,8,9
+clinical_priority,region,TRUE,South East,99,29,6,1.8000000000000003,3,7,8
+clinical_priority,region,TRUE,Midlands,197,70,4,1,2,6,8
+clinical_priority,region,TRUE,East of England,90,22,7,2,3.25,8,9
+clinical_priority,region,TRUE,London,86,31,6,2,4,7,8
+clinical_priority,region,TRUE,South West,95,28,4,1,2,6,6.300000000000001
+clinical_priority,region,FALSE,North West,587,176,5,2,3,7,8
+clinical_priority,region,FALSE,North East and Yorkshire,1465,427,5,1,3,7,8.400000000000034
+clinical_priority,region,FALSE,London,152,48,5,1,3,7,9
+clinical_priority,region,FALSE,East of England,138,48,4,1,2,6,8
+clinical_priority,region,FALSE,South East,142,47,5,1,3,7,9
+clinical_priority,region,FALSE,Midlands,307,105,5,2,2,7,8.600000000000009
+clinical_priority,region,FALSE,South West,142,39,5,2,3,6.5,8
+clinical_priority,imd_quintile,TRUE,2,422,148,5,2,3,7,9
+clinical_priority,imd_quintile,TRUE,1 (most deprived),380,114,6,1.3000000000000007,3,8,8.700000000000003
+clinical_priority,imd_quintile,TRUE,3,394,121,5,1,3,7,9
+clinical_priority,imd_quintile,TRUE,4,364,107,5,2,3,7,8.400000000000006
+clinical_priority,imd_quintile,TRUE,5 (least deprived),349,115,5,1,3,7,9
+clinical_priority,imd_quintile,TRUE,(Missing),90,30,6.5,1.9000000000000004,4,8,9
+clinical_priority,imd_quintile,FALSE,2,594,188,5,2,3,7.25,9
+clinical_priority,imd_quintile,FALSE,3,584,168,5,1,2,7,8
+clinical_priority,imd_quintile,FALSE,4,539,162,5,1,3,7,9
+clinical_priority,imd_quintile,FALSE,5 (least deprived),529,183,5,1,3,7,8
+clinical_priority,imd_quintile,FALSE,1 (most deprived),537,150,4,1.9000000000000004,3,7,9
+clinical_priority,imd_quintile,FALSE,(Missing),150,39,6,2,3,7,8
+clinical_priority,carehome_status,TRUE,FALSE,1848,587,5,1,3,7,9
+clinical_priority,carehome_status,TRUE,TRUE,151,48,5.5,2,3,7,8.300000000000004
+clinical_priority,carehome_status,FALSE,FALSE,2353,713,5,1,3,7,9
+clinical_priority,carehome_status,FALSE,TRUE,580,177,5,1,3,7,8
+clinical_priority,primis_atrisk,TRUE,TRUE,1999,635,5,1,3,7,9
+clinical_priority,primis_atrisk,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority,crd,TRUE,TRUE,198,72,5,2,3,7,8
+clinical_priority,crd,TRUE,FALSE,1801,563,5,1,3,7,9
+clinical_priority,crd,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority,chd,TRUE,FALSE,1805,567,5,1,3,7,9
+clinical_priority,chd,TRUE,TRUE,194,68,5.5,1,3,7,9
+clinical_priority,chd,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority,ckd,TRUE,FALSE,1791,567,5,1,3,7,9
+clinical_priority,ckd,TRUE,TRUE,208,68,5,2,3,7,9
+clinical_priority,ckd,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority,cld,TRUE,FALSE,1803,575,5,1,3,7,9
+clinical_priority,cld,TRUE,TRUE,196,60,5,1,3,7,8
+clinical_priority,cld,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority,cns_learndis,TRUE,FALSE,1621,531,5,1,3,7,9
+clinical_priority,cns_learndis,TRUE,TRUE,378,104,5,1,3,7,8
+clinical_priority,cns_learndis,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority,diabetes,TRUE,FALSE,1791,578,5,1,3,7,9
+clinical_priority,diabetes,TRUE,TRUE,208,57,6,2.6000000000000005,4,8,9
+clinical_priority,diabetes,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority,immunosuppressed,TRUE,FALSE,1777,556,5,1,3,7,9
+clinical_priority,immunosuppressed,TRUE,TRUE,222,79,5,1,3,7,9
+clinical_priority,immunosuppressed,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority,asplenia,TRUE,FALSE,1814,577,5,1,3,7,9
+clinical_priority,asplenia,TRUE,TRUE,185,58,5,1,3,7.75,9
+clinical_priority,asplenia,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority,severe_obesity,TRUE,FALSE,1781,571,5,1,3,7,9
+clinical_priority,severe_obesity,TRUE,TRUE,218,64,5,1,3,6.25,8
+clinical_priority,severe_obesity,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority,smi,TRUE,FALSE,1805,560,5,1,3,7,9
+clinical_priority,smi,TRUE,TRUE,194,75,6,1,3,8,8.600000000000009
+clinical_priority,smi,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority,ckd_rrt,TRUE,Stage 3,134,42,4,1.1000000000000005,3,7,8
+clinical_priority,ckd_rrt,TRUE,No CKD or RRT,1762,568,5,1,3,7,9
+clinical_priority,ckd_rrt,TRUE,Stage 4,43,12,4,1.1,2.75,7,7.9
+clinical_priority,ckd_rrt,TRUE,RRT (transplant),23,3,6,2.8,4,7,7.6
+clinical_priority,ckd_rrt,TRUE,RRT (dialysis),18,3,2,1.2,1.5,3.5,4.3999999999999995
+clinical_priority,ckd_rrt,TRUE,Stage 5,19,7,4,1.6,3,4.5,5.4
+clinical_priority,ckd_rrt,FALSE,No CKD or RRT,2627,796,5,1,3,7,8
+clinical_priority,ckd_rrt,FALSE,Stage 3,174,46,5.5,1.5,3,7,8
+clinical_priority,ckd_rrt,FALSE,Stage 4,63,28,4,2,3,7,8.3
+clinical_priority,ckd_rrt,FALSE,RRT (transplant),16,2,1.5,1.1,1.25,1.75,1.9
+clinical_priority,ckd_rrt,FALSE,Stage 5,32,11,2,1,1,6,7
+clinical_priority,ckd_rrt,FALSE,RRT (dialysis),21,7,7,2.2,4,9,9
+clinical_priority,copd,TRUE,FALSE,1952,618,5,1,3,7,9
+clinical_priority,copd,TRUE,TRUE,47,17,5,2.2,3,7,8.4
+clinical_priority,copd,FALSE,FALSE,2866,872,5,1,3,7,8.899999999999977
+clinical_priority,copd,FALSE,TRUE,67,18,5.5,2,3.25,8,8.3
+clinical_priority,learndis_cat,TRUE,(Missing),1620,516,5,1,3,7,9
+clinical_priority,learndis_cat,TRUE,Down's syndrome,90,28,5.5,1.7000000000000002,3,7,8.3
+clinical_priority,learndis_cat,TRUE,Learning disability register,97,35,6,2,3.5,7.5,9
+clinical_priority,learndis_cat,TRUE,Other learning disability,192,56,6,2.5,4,8,9
+clinical_priority,learndis_cat,FALSE,Learning disability register,146,45,4,1,3,6,7.600000000000001
+clinical_priority,learndis_cat,FALSE,(Missing),2350,718,5,1,3,7,9
+clinical_priority,learndis_cat,FALSE,Other learning disability,295,82,5.5,2,3,7,9
+clinical_priority,learndis_cat,FALSE,Down's syndrome,142,45,5,1.4000000000000004,2,7,8
+clinical_priority,sickle_cell_asplenia,TRUE,FALSE,1772,566,5,1,3,7,9
+clinical_priority,sickle_cell_asplenia,TRUE,TRUE,227,69,5,1,3,8,9
+clinical_priority,sickle_cell_asplenia,FALSE,FALSE,2879,874,5,1,3,7,9
+clinical_priority,sickle_cell_asplenia,FALSE,TRUE,54,16,4,2,3,7.25,8
+clinical_priority,cirrhosis,TRUE,FALSE,1968,626,5,1,3,7,9
+clinical_priority,cirrhosis,TRUE,TRUE,31,9,7,3,5,9,9
+clinical_priority,cirrhosis,FALSE,FALSE,2863,867,5,1,3,7,9
+clinical_priority,cirrhosis,FALSE,TRUE,70,23,4,1,3,7,8
+clinical_priority,cochlear_implant,TRUE,FALSE,1957,625,5,1,3,7,9
+clinical_priority,cochlear_implant,TRUE,TRUE,42,10,4,2.8,3,5.75,7
+clinical_priority,cochlear_implant,FALSE,FALSE,2871,862,5,1,3,7,8.899999999999977
+clinical_priority,cochlear_implant,FALSE,TRUE,62,28,4,1,2,8,8.3
+clinical_priority,cystic_fibrosis,TRUE,FALSE,1948,620,5,1,3,7,9
+clinical_priority,cystic_fibrosis,TRUE,TRUE,51,15,4,2.4000000000000004,3,6,6.6
+clinical_priority,cystic_fibrosis,FALSE,FALSE,2868,871,5,1,3,7,9
+clinical_priority,cystic_fibrosis,FALSE,TRUE,65,19,5,1,2.5,7,8.2
+clinical_priority,csfl,TRUE,FALSE,1967,622,5,1,3,7,9
+clinical_priority,csfl,TRUE,TRUE,32,13,7,3,3,8,9
+clinical_priority,csfl,FALSE,FALSE,2879,876,5,1,3,7,9
+clinical_priority,csfl,FALSE,TRUE,54,14,4.5,3,4,7,8
+clinical_priority,homeless,TRUE,FALSE,1954,625,5,1,3,7,9
+clinical_priority,homeless,TRUE,TRUE,45,10,3.5,1.9,2,7,9
+clinical_priority,homeless,FALSE,FALSE,2875,870,5,1,3,7,9
+clinical_priority,homeless,FALSE,TRUE,58,20,3,1,1,4,6.100000000000001
+clinical_priority_only,all,TRUE,All,1298,408,5,1,3,7,9
+clinical_priority_only,all,FALSE,All,3634,1117,5,1,3,7,9
+clinical_priority_only,ageband4,TRUE,50-64,791,257,5,1,3,7,9
+clinical_priority_only,ageband4,TRUE,12-49,507,151,5,1,3,7,9
+clinical_priority_only,ageband4,FALSE,65-74,2181,669,5,1,3,7,8.200000000000045
+clinical_priority_only,ageband4,FALSE,75-104,1411,439,5,1,3,7,9
+clinical_priority_only,ageband4,FALSE,50-64,31,6,4,1.5,2.25,5,5
+clinical_priority_only,ageband4,FALSE,12-49,11,3,3,2.2,2.5,5,6.199999999999999
+clinical_priority_only,ageband13,TRUE,55-59,262,92,5,1,3,7,9
+clinical_priority_only,ageband13,TRUE,60-64,291,96,4,1,3,6,8
+clinical_priority_only,ageband13,TRUE,50-54,238,69,6,1,3,7,9
+clinical_priority_only,ageband13,TRUE,30-39,133,42,5.5,2,3,8,9
+clinical_priority_only,ageband13,TRUE,40-49,347,99,4,1,3,7,8
+clinical_priority_only,ageband13,TRUE,18-29,26,9,5,1,2,6,7.399999999999999
+clinical_priority_only,ageband13,TRUE,12-17,1,1,7,7,7,7,7
+clinical_priority_only,ageband13,FALSE,70-74,950,297,5,1,3,7,9
+clinical_priority_only,ageband13,FALSE,80-84,392,120,5,1,3,7,8
+clinical_priority_only,ageband13,FALSE,75-79,649,193,5,1.2000000000000028,3,8,9
+clinical_priority_only,ageband13,FALSE,65-69,1231,372,5,1,3,7,8
+clinical_priority_only,ageband13,FALSE,85-89,207,75,5,1,3,7.5,9
+clinical_priority_only,ageband13,FALSE,90-104,163,51,4,2,3,6,8
+clinical_priority_only,ageband13,FALSE,60-64,12,1,1,1,1,1,1
+clinical_priority_only,ageband13,FALSE,55-59,12,3,5,3.4000000000000004,4,5,5
+clinical_priority_only,ageband13,FALSE,40-49,8,2,4.5,2.5000000000000004,3.25,5.75,6.499999999999999
+clinical_priority_only,ageband13,FALSE,30-39,2,1,3,3,3,3,3
+clinical_priority_only,ageband13,FALSE,50-54,7,2,3.5,2.3000000000000003,2.75,4.25,4.7
+clinical_priority_only,ageband13,FALSE,18-29,1,0,NA,NA,NA,NA,NA
+clinical_priority_only,sex,TRUE,Female,689,221,5,1,3,7,9
+clinical_priority_only,sex,TRUE,Male,609,187,5,1.6000000000000014,3,7,9
+clinical_priority_only,sex,FALSE,Female,1882,570,5,2,3,7,9
+clinical_priority_only,sex,FALSE,Male,1752,547,5,1,3,7,9
+clinical_priority_only,ethnicity5,TRUE,White,745,239,5,1,3,7,9
+clinical_priority_only,ethnicity5,TRUE,Mixed,112,39,5,1,3,7,8
+clinical_priority_only,ethnicity5,TRUE,(Missing),124,41,6,2,3,8,9
+clinical_priority_only,ethnicity5,TRUE,Asian or Asian British,114,29,5,1,3,6,8
+clinical_priority_only,ethnicity5,TRUE,Chinese or Other Ethnic Groups,90,26,5,1,3.25,6,8.5
+clinical_priority_only,ethnicity5,TRUE,Black or Black British,113,34,4,2,2.25,7,8.7
+clinical_priority_only,ethnicity5,FALSE,(Missing),351,112,4,1,2,7,8
+clinical_priority_only,ethnicity5,FALSE,Chinese or Other Ethnic Groups,366,112,5,1,3.75,7,8
+clinical_priority_only,ethnicity5,FALSE,White,1946,577,5,2,3,7,9
+clinical_priority_only,ethnicity5,FALSE,Asian or Asian British,310,93,4,1.200000000000001,3,7,8.799999999999997
+clinical_priority_only,ethnicity5,FALSE,Mixed,329,111,5,1,3,7,9
+clinical_priority_only,ethnicity5,FALSE,Black or Black British,332,112,5,1,3,7,8
+clinical_priority_only,region,TRUE,North East and Yorkshire,661,201,5,1,3,7,9
+clinical_priority_only,region,TRUE,North West,259,92,5,2,3,8,9
+clinical_priority_only,region,TRUE,South East,69,18,6,3,3.5,7.75,8
+clinical_priority_only,region,TRUE,Midlands,131,43,4,2,2.5,7,8.800000000000004
+clinical_priority_only,region,TRUE,East of England,54,12,6.5,2.1,3.75,8,8.9
+clinical_priority_only,region,TRUE,London,62,23,5,1.2000000000000002,3,6.5,7.800000000000001
+clinical_priority_only,region,TRUE,South West,62,19,5,1,1.5,6,6
+clinical_priority_only,region,FALSE,North West,730,222,5,2,3,7,9
+clinical_priority_only,region,FALSE,North East and Yorkshire,1834,543,5,1,3,7,9
+clinical_priority_only,region,FALSE,Midlands,373,132,5,1,2,7,8
+clinical_priority_only,region,FALSE,London,176,56,5.5,1.5,3,7,9
+clinical_priority_only,region,FALSE,East of England,174,58,5,1,2,7,8.300000000000004
+clinical_priority_only,region,FALSE,South East,172,58,5,1,3,7,9
+clinical_priority_only,region,FALSE,South West,175,48,4.5,2,3,6.25,8
+clinical_priority_only,imd_quintile,TRUE,2,275,91,5,1,3,7,9
+clinical_priority_only,imd_quintile,TRUE,1 (most deprived),253,77,5,1,3,8,8.400000000000006
+clinical_priority_only,imd_quintile,TRUE,3,243,73,5,1,3,7,9
+clinical_priority_only,imd_quintile,TRUE,4,241,73,5,2,3,7,8.799999999999997
+clinical_priority_only,imd_quintile,TRUE,5 (least deprived),232,76,5,1,3,7,8
+clinical_priority_only,imd_quintile,TRUE,(Missing),54,18,6,1,2.5,8,9
+clinical_priority_only,imd_quintile,FALSE,2,741,245,5,2,3,7,9
+clinical_priority_only,imd_quintile,FALSE,3,735,216,5,1,2,7,8
+clinical_priority_only,imd_quintile,FALSE,4,662,196,5,1,3,7,9
+clinical_priority_only,imd_quintile,FALSE,5 (least deprived),646,222,5,1,3,7,8
+clinical_priority_only,imd_quintile,FALSE,1 (most deprived),664,187,5,2,3,7,9
+clinical_priority_only,imd_quintile,FALSE,(Missing),186,51,6,2,3.5,7.5,9
+clinical_priority_only,carehome_status,TRUE,FALSE,1279,402,5,1,3,7,9
+clinical_priority_only,carehome_status,TRUE,TRUE,19,6,7.5,2,3.25,8.75,9
+clinical_priority_only,carehome_status,FALSE,FALSE,2922,898,5,1,3,7,9
+clinical_priority_only,carehome_status,FALSE,TRUE,712,219,5,1,3,7,8
+clinical_priority_only,primis_atrisk,TRUE,TRUE,1298,408,5,1,3,7,9
+clinical_priority_only,primis_atrisk,FALSE,FALSE,2933,890,5,1,3,7,9
+clinical_priority_only,primis_atrisk,FALSE,TRUE,701,227,5,2,3,7,9
+clinical_priority_only,crd,TRUE,TRUE,127,43,4,2,3,7,8
+clinical_priority_only,crd,TRUE,FALSE,1171,365,5,1,3,7,9
+clinical_priority_only,crd,FALSE,FALSE,3563,1088,5,1,3,7,9
+clinical_priority_only,crd,FALSE,TRUE,71,29,5,1.8000000000000003,3,7,8
+clinical_priority_only,chd,TRUE,FALSE,1177,362,5,1,3,7,9
+clinical_priority_only,chd,TRUE,TRUE,121,46,5,1,3,7,8.5
+clinical_priority_only,chd,FALSE,FALSE,3561,1095,5,1,3,7,9
+clinical_priority_only,chd,FALSE,TRUE,73,22,6,1.1,3,7.75,9
+clinical_priority_only,ckd,TRUE,FALSE,1176,370,5,1,3,7,9
+clinical_priority_only,ckd,TRUE,TRUE,122,38,5,2.7,3,7,8
+clinical_priority_only,ckd,FALSE,FALSE,3548,1087,5,1,3,7,9
+clinical_priority_only,ckd,FALSE,TRUE,86,30,6,2,4,7.75,9
+clinical_priority_only,cld,TRUE,FALSE,1156,364,5,1,3,7,9
+clinical_priority_only,cld,TRUE,TRUE,142,44,5,1.2999999999999998,3,7,8
+clinical_priority_only,cld,FALSE,FALSE,3580,1101,5,1,3,7,9
+clinical_priority_only,cld,FALSE,TRUE,54,16,5.5,1.5,2,7,7
+clinical_priority_only,cns_learndis,TRUE,FALSE,1060,339,5,1,3,7,9
+clinical_priority_only,cns_learndis,TRUE,TRUE,238,69,5,1,3,7,8.200000000000003
+clinical_priority_only,cns_learndis,FALSE,FALSE,3494,1082,5,1,3,7,9
+clinical_priority_only,cns_learndis,FALSE,TRUE,140,35,4,1,2,6,8
+clinical_priority_only,diabetes,TRUE,FALSE,1166,375,5,1,3,7,9
+clinical_priority_only,diabetes,TRUE,TRUE,132,33,6,2.2,4,8,9
+clinical_priority_only,diabetes,FALSE,FALSE,3558,1093,5,1,3,7,9
+clinical_priority_only,diabetes,FALSE,TRUE,76,24,7,3,4,7.25,8
+clinical_priority_only,immunosuppressed,TRUE,FALSE,1152,359,5,1,3,7,9
+clinical_priority_only,immunosuppressed,TRUE,TRUE,146,49,5,1,3,6,8
+clinical_priority_only,immunosuppressed,FALSE,FALSE,3558,1087,5,1,3,7,9
+clinical_priority_only,immunosuppressed,FALSE,TRUE,76,30,5,1.9000000000000004,4,8,9
+clinical_priority_only,asplenia,TRUE,FALSE,1172,369,5,1,3,7,9
+clinical_priority_only,asplenia,TRUE,TRUE,126,39,5,1,2.5,7,9
+clinical_priority_only,asplenia,FALSE,FALSE,3575,1098,5,1,3,7,9
+clinical_priority_only,asplenia,FALSE,TRUE,59,19,5,2.8,3,8,9
+clinical_priority_only,severe_obesity,TRUE,FALSE,1150,365,5,1,3,7,9
+clinical_priority_only,severe_obesity,TRUE,TRUE,148,43,4,1,3,7,8
+clinical_priority_only,severe_obesity,FALSE,FALSE,3564,1096,5,1,3,7,9
+clinical_priority_only,severe_obesity,FALSE,TRUE,70,21,5,3,4,6,7
+clinical_priority_only,smi,TRUE,FALSE,1169,357,5,1,3,7,9
+clinical_priority_only,smi,TRUE,TRUE,129,51,5,1,2,8,9
+clinical_priority_only,smi,FALSE,FALSE,3569,1093,5,1,3,7,9
+clinical_priority_only,smi,FALSE,TRUE,65,24,6.5,2.3000000000000003,3,7,8
+clinical_priority_only,ckd_rrt,TRUE,Stage 3,88,28,4,1,3,6.25,8.3
+clinical_priority_only,ckd_rrt,TRUE,No CKD or RRT,1139,361,5,1,3,7,9
+clinical_priority_only,ckd_rrt,TRUE,RRT (transplant),16,2,4,2.4000000000000004,3,5,5.6
+clinical_priority_only,ckd_rrt,TRUE,Stage 5,16,6,4,1.5,2.5,4.75,5.5
+clinical_priority_only,ckd_rrt,TRUE,Stage 4,26,8,3,1,1.75,6.25,7.3
+clinical_priority_only,ckd_rrt,TRUE,RRT (dialysis),13,3,2,1.2,1.5,3.5,4.3999999999999995
+clinical_priority_only,ckd_rrt,FALSE,No CKD or RRT,3250,1003,5,1,3,7,9
+clinical_priority_only,ckd_rrt,FALSE,Stage 3,220,60,5,2,3.75,7,8
+clinical_priority_only,ckd_rrt,FALSE,Stage 4,80,32,4,2.0999999999999996,3,7,8
+clinical_priority_only,ckd_rrt,FALSE,RRT (dialysis),26,7,7,2.2,4,9,9
+clinical_priority_only,ckd_rrt,FALSE,Stage 5,35,12,2.5,1,1,6,6.9
+clinical_priority_only,ckd_rrt,FALSE,RRT (transplant),23,3,2,1.2,1.5,5,6.799999999999999
+clinical_priority_only,copd,TRUE,FALSE,1269,398,5,1,3,7,9
+clinical_priority_only,copd,TRUE,TRUE,29,10,4.5,2.8,3,7.5,8.1
+clinical_priority_only,copd,FALSE,FALSE,3549,1092,5,1,3,7,9
+clinical_priority_only,copd,FALSE,TRUE,85,25,5,2,3,8,8.600000000000001
+clinical_priority_only,learndis_cat,TRUE,(Missing),1058,328,5,1,3,7,8
+clinical_priority_only,learndis_cat,TRUE,Down's syndrome,63,20,6,1.9000000000000004,3,7.25,8.100000000000001
+clinical_priority_only,learndis_cat,TRUE,Learning disability register,61,21,5,2,4,9,9
+clinical_priority_only,learndis_cat,TRUE,Other learning disability,116,39,6,1,3,8,9
+clinical_priority_only,learndis_cat,FALSE,Learning disability register,182,59,4,1,3,6,8
+clinical_priority_only,learndis_cat,FALSE,(Missing),2912,906,5,1,3,7,9
+clinical_priority_only,learndis_cat,FALSE,Other learning disability,371,99,6,2,3,7,9
+clinical_priority_only,learndis_cat,FALSE,Down's syndrome,169,53,5,1.2000000000000002,2,7,8
+clinical_priority_only,sickle_cell_asplenia,TRUE,FALSE,1141,359,5,1,3,7,9
+clinical_priority_only,sickle_cell_asplenia,TRUE,TRUE,157,49,5,1,2,7,9
+clinical_priority_only,sickle_cell_asplenia,FALSE,FALSE,3510,1081,5,1,3,7,9
+clinical_priority_only,sickle_cell_asplenia,FALSE,TRUE,124,36,4.5,2,3,8,8.5
+clinical_priority_only,cirrhosis,TRUE,FALSE,1276,404,5,1,3,7,9
+clinical_priority_only,cirrhosis,TRUE,TRUE,22,4,6.5,3.5999999999999996,4.5,8.25,8.7
+clinical_priority_only,cirrhosis,FALSE,FALSE,3555,1089,5,1,3,7,9
+clinical_priority_only,cirrhosis,FALSE,TRUE,79,28,5,1,3,7,8.3
+clinical_priority_only,cochlear_implant,TRUE,FALSE,1273,399,5,1,3,7,9
+clinical_priority_only,cochlear_implant,TRUE,TRUE,25,9,4,2.6000000000000005,3,6,7
+clinical_priority_only,cochlear_implant,FALSE,FALSE,3555,1088,5,1,3,7,9
+clinical_priority_only,cochlear_implant,FALSE,TRUE,79,29,4,1,2,8,8.2
+clinical_priority_only,cystic_fibrosis,TRUE,FALSE,1269,399,5,1,3,7,9
+clinical_priority_only,cystic_fibrosis,TRUE,TRUE,29,9,3,2,3,4,6
+clinical_priority_only,cystic_fibrosis,FALSE,FALSE,3547,1092,5,1,3,7,9
+clinical_priority_only,cystic_fibrosis,FALSE,TRUE,87,25,6,1,3,7,8.600000000000001
+clinical_priority_only,csfl,TRUE,FALSE,1279,401,5,1,3,7,9
+clinical_priority_only,csfl,TRUE,TRUE,19,7,8,3,5.5,8.5,9
+clinical_priority_only,csfl,FALSE,FALSE,3567,1097,5,1,3,7,9
+clinical_priority_only,csfl,FALSE,TRUE,67,20,4,2.8000000000000007,3.75,7,8
+clinical_priority_only,homeless,TRUE,FALSE,1264,399,5,1,3,7,9
+clinical_priority_only,homeless,TRUE,TRUE,34,9,3,1.8,2,8,9
+clinical_priority_only,homeless,FALSE,FALSE,3565,1096,5,1,3,7,9
+clinical_priority_only,homeless,FALSE,TRUE,69,21,3,1,1,4,6
+carehome_status,all,FALSE,All,4201,1300,5,1,3,7,9
+carehome_status,all,TRUE,All,731,225,5,1,3,7,8
+carehome_status,ageband4,FALSE,50-64,780,254,5,1,3,7,9
+carehome_status,ageband4,FALSE,65-74,1766,537,5,1,3,7,9
+carehome_status,ageband4,FALSE,75-104,1156,361,5,1,3,7,9
+carehome_status,ageband4,FALSE,12-49,499,148,5,1,3,7,8.300000000000011
+carehome_status,ageband4,TRUE,65-74,415,132,4.5,1,3,7,8
+carehome_status,ageband4,TRUE,75-104,255,78,5,1,3,7,9
+carehome_status,ageband4,TRUE,50-64,42,9,5,1.8,2,5,7.199999999999999
+carehome_status,ageband4,TRUE,12-49,19,6,5,2,2.25,8.5,9
+carehome_status,ageband13,FALSE,55-59,258,91,5,1,3,7,9
+carehome_status,ageband13,FALSE,60-64,287,95,4,1,3,6,8
+carehome_status,ageband13,FALSE,70-74,783,240,5,1,2.75,7,9
+carehome_status,ageband13,FALSE,50-54,235,68,6,1,3,7.25,9
+carehome_status,ageband13,FALSE,80-84,323,101,5,1,3,7,8
+carehome_status,ageband13,FALSE,75-79,538,162,5,2,3,8,9
+carehome_status,ageband13,FALSE,65-69,983,297,5,2,3,7,8
+carehome_status,ageband13,FALSE,30-39,131,41,5,2,3,8,9
+carehome_status,ageband13,FALSE,85-89,164,58,5,1.7000000000000002,3,7,9
+carehome_status,ageband13,FALSE,90-104,131,40,4,1,3,6,8
+carehome_status,ageband13,FALSE,40-49,342,97,4,1,3,7,8
+carehome_status,ageband13,FALSE,18-29,25,9,5,1,2,6,7.399999999999999
+carehome_status,ageband13,FALSE,12-17,1,1,7,7,7,7,7
+carehome_status,ageband13,TRUE,65-69,248,75,4,1,3,7,8
+carehome_status,ageband13,TRUE,90-104,32,11,5,2,3,7,8
+carehome_status,ageband13,TRUE,85-89,43,17,6,1,3,8,9
+carehome_status,ageband13,TRUE,60-64,16,2,4.5,1.7000000000000006,2.75,6.25,7.299999999999999
+carehome_status,ageband13,TRUE,70-74,167,57,5,2,3,7,8
+carehome_status,ageband13,TRUE,75-79,111,31,6,1,2,8,9
+carehome_status,ageband13,TRUE,80-84,69,19,4,1.7999999999999998,3.5,6,7
+carehome_status,ageband13,TRUE,55-59,16,4,5,3.5999999999999996,4.5,5.5,6.4
+carehome_status,ageband13,TRUE,40-49,13,4,4.5,2,2,7.5,8.4
+carehome_status,ageband13,TRUE,30-39,4,2,6,3.6000000000000005,4.5,7.5,8.4
+carehome_status,ageband13,TRUE,50-54,10,3,2,2,2,3.5,4.3999999999999995
+carehome_status,ageband13,TRUE,18-29,2,0,NA,NA,NA,NA,NA
+carehome_status,sex,FALSE,Female,2185,688,5,1,3,7,9
+carehome_status,sex,FALSE,Male,2016,612,5,1,3,7,9
+carehome_status,sex,TRUE,Female,386,103,4,1.200000000000001,3,7,8
+carehome_status,sex,TRUE,Male,345,122,5,1,2.25,7,8
+carehome_status,ethnicity5,FALSE,White,2311,710,5,1,3,7,9
+carehome_status,ethnicity5,FALSE,(Missing),395,130,5,1,3,7,8.100000000000009
+carehome_status,ethnicity5,FALSE,Mixed,379,122,6,1,3,7,9
+carehome_status,ethnicity5,FALSE,Chinese or Other Ethnic Groups,380,110,5,1,3,7,8.100000000000009
+carehome_status,ethnicity5,FALSE,Asian or Asian British,363,104,5,1,3,7,8
+carehome_status,ethnicity5,FALSE,Black or Black British,373,124,5,1.3000000000000007,3,7,8
+carehome_status,ethnicity5,TRUE,White,380,106,5,1.5,3,7,8
+carehome_status,ethnicity5,TRUE,Mixed,62,28,3.5,1,2,6,8
+carehome_status,ethnicity5,TRUE,(Missing),80,23,5,2,4,6,8
+carehome_status,ethnicity5,TRUE,Asian or Asian British,61,18,3,2,3,4.75,8.3
+carehome_status,ethnicity5,TRUE,Chinese or Other Ethnic Groups,76,28,6,1,4.75,7.25,8.3
+carehome_status,ethnicity5,TRUE,Black or Black British,72,22,3.5,1,2.25,7,8
+carehome_status,region,FALSE,North East and Yorkshire,2137,637,5,1,3,7,9
+carehome_status,region,FALSE,North West,831,270,5,2,3,7,9
+carehome_status,region,FALSE,South East,210,63,6,1,3.5,8,8.800000000000004
+carehome_status,region,FALSE,Midlands,431,147,5,1,2,7,8.400000000000006
+carehome_status,region,FALSE,London,209,67,6,2,3.5,7,9
+carehome_status,region,FALSE,East of England,187,59,5,1.8000000000000007,2.5,7,9
+carehome_status,region,FALSE,South West,196,57,5,1,3,6,7.399999999999999
+carehome_status,region,TRUE,North West,158,44,4.5,1,2.75,7,8.700000000000003
+carehome_status,region,TRUE,North East and Yorkshire,358,107,5,2,3.5,7,8
+carehome_status,region,TRUE,Midlands,73,28,4,2,2.75,7,8
+carehome_status,region,TRUE,South East,31,13,3,1,2,4,5.800000000000001
+carehome_status,region,TRUE,South West,41,10,3.5,2,3,5.75,8.1
+carehome_status,region,TRUE,London,29,12,4,1,1.75,5,5.9
+carehome_status,region,TRUE,East of England,41,11,4,1,1.5,7,8
+carehome_status,imd_quintile,FALSE,2,861,295,5,1.4000000000000021,3,7,9
+carehome_status,imd_quintile,FALSE,1 (most deprived),787,228,5,1.7000000000000028,3,7,9
+carehome_status,imd_quintile,FALSE,3,825,242,5,1,3,7,8
+carehome_status,imd_quintile,FALSE,5 (least deprived),753,251,5,1,3,7,8
+carehome_status,imd_quintile,FALSE,4,773,226,5,1,3,7,9
+carehome_status,imd_quintile,FALSE,(Missing),202,58,6,2,4,8,9
+carehome_status,imd_quintile,TRUE,2,155,41,5,2,3,6,8
+carehome_status,imd_quintile,TRUE,4,130,43,6,2.2,4,8,8.800000000000004
+carehome_status,imd_quintile,TRUE,1 (most deprived),130,36,4,1.5,3,8,8.5
+carehome_status,imd_quintile,TRUE,5 (least deprived),125,47,4,1,2,7,8.399999999999999
+carehome_status,imd_quintile,TRUE,(Missing),38,11,6,2,2.5,7,7
+carehome_status,imd_quintile,TRUE,3,153,47,4,1,2,7,8
+carehome_status,primis_atrisk,FALSE,TRUE,1848,587,5,1,3,7,9
+carehome_status,primis_atrisk,FALSE,FALSE,2353,713,5,1,3,7,9
+carehome_status,primis_atrisk,TRUE,FALSE,580,177,5,1,3,7,8
+carehome_status,primis_atrisk,TRUE,TRUE,151,48,5.5,2,3,7,8.300000000000004
+carehome_status,crd,FALSE,TRUE,186,67,5,2,3,7,8
+carehome_status,crd,FALSE,FALSE,4015,1233,5,1,3,7,9
+carehome_status,crd,TRUE,FALSE,719,220,5,1,3,7,8
+carehome_status,crd,TRUE,TRUE,12,5,6,1.4,2,6,6.6
+carehome_status,chd,FALSE,FALSE,4031,1242,5,1,3,7,9
+carehome_status,chd,FALSE,TRUE,170,58,5,1,3,7,9
+carehome_status,chd,TRUE,FALSE,707,215,5,1,3,7,8
+carehome_status,chd,TRUE,TRUE,24,10,6,2.9,3.25,7.75,9
+carehome_status,ckd,FALSE,FALSE,4005,1237,5,1,3,7,9
+carehome_status,ckd,FALSE,TRUE,196,63,6,2,3.5,7.5,9
+carehome_status,ckd,TRUE,FALSE,719,220,5,1,3,7,8
+carehome_status,ckd,TRUE,TRUE,12,5,4,2.4,3,5,6.199999999999999
+carehome_status,cld,FALSE,FALSE,4018,1243,5,1,3,7,9
+carehome_status,cld,FALSE,TRUE,183,57,5,1,3,7,8
+carehome_status,cld,TRUE,FALSE,718,222,5,1,3,7,8
+carehome_status,cld,TRUE,TRUE,13,3,7,7,7,7.5,7.8
+carehome_status,cns_learndis,FALSE,FALSE,3857,1201,5,1,3,7,9
+carehome_status,cns_learndis,FALSE,TRUE,344,99,5,1,3,7,8
+carehome_status,cns_learndis,TRUE,FALSE,697,220,5,1,3,7,8
+carehome_status,cns_learndis,TRUE,TRUE,34,5,3,1,1,4,4.6
+carehome_status,diabetes,FALSE,FALSE,4010,1250,5,1,3,7,9
+carehome_status,diabetes,FALSE,TRUE,191,50,6,2,4,8,9
+carehome_status,diabetes,TRUE,FALSE,714,218,5,1,3,7,8
+carehome_status,diabetes,TRUE,TRUE,17,7,4,3,3.5,7,7.800000000000001
+carehome_status,immunosuppressed,FALSE,FALSE,3993,1229,5,1,3,7,9
+carehome_status,immunosuppressed,FALSE,TRUE,208,71,5,1,3,7,8
+carehome_status,immunosuppressed,TRUE,FALSE,717,217,5,1,3,7,8
+carehome_status,immunosuppressed,TRUE,TRUE,14,8,7,3.1000000000000005,4.75,9,9
+carehome_status,asplenia,FALSE,FALSE,4030,1247,5,1,3,7,9
+carehome_status,asplenia,FALSE,TRUE,171,53,4,1,3,7,9
+carehome_status,asplenia,TRUE,FALSE,717,220,5,1,3,7,8
+carehome_status,asplenia,TRUE,TRUE,14,5,8,4.8,6,8,8.6
+carehome_status,severe_obesity,FALSE,FALSE,3997,1239,5,1,3,7,9
+carehome_status,severe_obesity,FALSE,TRUE,204,61,5,1,3,7,8
+carehome_status,severe_obesity,TRUE,FALSE,717,222,5,1,3,7,8
+carehome_status,severe_obesity,TRUE,TRUE,14,3,4,3.2,3.5,4.5,4.8
+carehome_status,smi,FALSE,FALSE,4019,1228,5,1,3,7,9
+carehome_status,smi,FALSE,TRUE,182,72,5,1,2.75,7.25,8
+carehome_status,smi,TRUE,FALSE,719,222,5,1,3,7,8
+carehome_status,smi,TRUE,TRUE,12,3,8,6.4,7,8.5,8.8
+carehome_status,ckd_rrt,FALSE,Stage 3,262,76,5,1.5,3,7,8
+carehome_status,ckd_rrt,FALSE,No CKD or RRT,3734,1159,5,1,3,7,9
+carehome_status,ckd_rrt,FALSE,Stage 4,91,35,4,2,3,7,8
+carehome_status,ckd_rrt,FALSE,RRT (transplant),35,4,4,2,2,6.5,7.4
+carehome_status,ckd_rrt,FALSE,Stage 5,44,17,4,1,2,6,6.4
+carehome_status,ckd_rrt,FALSE,RRT (dialysis),35,9,5,1,2,9,9
+carehome_status,ckd_rrt,TRUE,No CKD or RRT,655,205,5,1.4000000000000021,3,7,8
+carehome_status,ckd_rrt,TRUE,RRT (dialysis),4,1,5,5,5,5,5
+carehome_status,ckd_rrt,TRUE,Stage 3,46,12,4.5,1.1,2.75,7,7
+carehome_status,ckd_rrt,TRUE,Stage 5,7,1,1,1,1,1,1
+carehome_status,ckd_rrt,TRUE,RRT (transplant),4,1,1,1,1,1,1
+carehome_status,ckd_rrt,TRUE,Stage 4,15,5,3,1.7999999999999998,3,4,6.999999999999998
+carehome_status,copd,FALSE,FALSE,4112,1274,5,1,3,7,9
+carehome_status,copd,FALSE,TRUE,89,26,5,2,3,7.75,8.5
+carehome_status,copd,TRUE,FALSE,706,216,5,1,3,7,8
+carehome_status,copd,TRUE,TRUE,25,9,5,2.6000000000000005,3,8,8.2
+carehome_status,learndis_cat,FALSE,(Missing),3399,1053,5,1,3,7,9
+carehome_status,learndis_cat,FALSE,Learning disability register,196,68,4,1,3,7,9
+carehome_status,learndis_cat,FALSE,Down's syndrome,199,62,5,1,2,7,8
+carehome_status,learndis_cat,FALSE,Other learning disability,407,117,6,2,3,7,9
+carehome_status,learndis_cat,TRUE,Other learning disability,80,21,5,2,3,7,9
+carehome_status,learndis_cat,TRUE,(Missing),571,181,5,1,3,7,8
+carehome_status,learndis_cat,TRUE,Learning disability register,47,12,5.5,4,4,6,6
+carehome_status,learndis_cat,TRUE,Down's syndrome,33,11,4,2,2.5,7.5,8
+carehome_status,sickle_cell_asplenia,FALSE,FALSE,3945,1222,5,1,3,7,9
+carehome_status,sickle_cell_asplenia,FALSE,TRUE,256,78,4.5,1,3,7,9
+carehome_status,sickle_cell_asplenia,TRUE,FALSE,706,218,5,1,3,7,8
+carehome_status,sickle_cell_asplenia,TRUE,TRUE,25,7,6,4,5,8,8.4
+carehome_status,cirrhosis,FALSE,FALSE,4117,1274,5,1,3,7,9
+carehome_status,cirrhosis,FALSE,TRUE,84,26,5.5,2,3,8,9
+carehome_status,cirrhosis,TRUE,FALSE,714,219,5,1,3,7,8
+carehome_status,cirrhosis,TRUE,TRUE,17,6,4.5,1.5,2.5,5.75,6.5
+carehome_status,cochlear_implant,FALSE,FALSE,4106,1266,5,1,3,7,9
+carehome_status,cochlear_implant,FALSE,TRUE,95,34,4,1,2.25,7,8
+carehome_status,cochlear_implant,TRUE,FALSE,722,221,5,1,3,7,8
+carehome_status,cochlear_implant,TRUE,TRUE,9,4,3.5,3,3,5,6.800000000000001
+carehome_status,cystic_fibrosis,FALSE,FALSE,4106,1270,5,1,3,7,9
+carehome_status,cystic_fibrosis,FALSE,TRUE,95,30,5,1,3,6.75,8.100000000000001
+carehome_status,cystic_fibrosis,TRUE,FALSE,710,221,5,1,3,7,8
+carehome_status,cystic_fibrosis,TRUE,TRUE,21,4,3,3,3,3.5,4.4
+carehome_status,csfl,FALSE,FALSE,4128,1276,5,1,3,7,9
+carehome_status,csfl,FALSE,TRUE,73,24,4.5,3,3,8,8
+carehome_status,csfl,TRUE,FALSE,718,222,5,1,3,7,8
+carehome_status,csfl,TRUE,TRUE,13,3,5,4.2,4.5,7,8.2
+carehome_status,homeless,FALSE,FALSE,4114,1277,5,1,3,7,9
+carehome_status,homeless,FALSE,TRUE,87,23,3,1,2,6,8.8
+carehome_status,homeless,TRUE,FALSE,715,218,5,1,3,7,8
+carehome_status,homeless,TRUE,TRUE,16,7,2,1,1.5,3.5,4
+primis_atrisk,all,TRUE,All,1999,635,5,1,3,7,9
+primis_atrisk,all,FALSE,All,2933,890,5,1,3,7,9
+primis_atrisk,ageband4,TRUE,50-64,791,257,5,1,3,7,9
+primis_atrisk,ageband4,TRUE,65-74,429,141,6,2,3,7,9
+primis_atrisk,ageband4,TRUE,12-49,507,151,5,1,3,7,9
+primis_atrisk,ageband4,TRUE,75-104,272,86,5,1.5,3,7,8
+primis_atrisk,ageband4,FALSE,65-74,1752,528,5,1,3,7,8
+primis_atrisk,ageband4,FALSE,75-104,1139,353,5,1,3,7,9
+primis_atrisk,ageband4,FALSE,50-64,31,6,4,1.5,2.25,5,5
+primis_atrisk,ageband4,FALSE,12-49,11,3,3,2.2,2.5,5,6.199999999999999
+primis_atrisk,ageband13,TRUE,55-59,262,92,5,1,3,7,9
+primis_atrisk,ageband13,TRUE,60-64,291,96,4,1,3,6,8
+primis_atrisk,ageband13,TRUE,50-54,238,69,6,1,3,7,9
+primis_atrisk,ageband13,TRUE,65-69,238,79,5,1.8000000000000007,3.5,7,8
+primis_atrisk,ageband13,TRUE,30-39,133,42,5.5,2,3,8,9
+primis_atrisk,ageband13,TRUE,40-49,347,99,4,1,3,7,8
+primis_atrisk,ageband13,TRUE,75-79,127,42,5,2,3,7.75,8
+primis_atrisk,ageband13,TRUE,85-89,37,17,5,1,2,7,8
+primis_atrisk,ageband13,TRUE,80-84,78,19,5,1.7999999999999998,3.5,6,7
+primis_atrisk,ageband13,TRUE,90-104,30,8,5,2.4000000000000004,3.75,8,8.3
+primis_atrisk,ageband13,TRUE,70-74,191,62,6,2,3,8,9
+primis_atrisk,ageband13,TRUE,18-29,26,9,5,1,2,6,7.399999999999999
+primis_atrisk,ageband13,TRUE,12-17,1,1,7,7,7,7,7
+primis_atrisk,ageband13,FALSE,70-74,759,235,5,1,2,7,9
+primis_atrisk,ageband13,FALSE,80-84,314,101,5,1,3,7,8
+primis_atrisk,ageband13,FALSE,75-79,522,151,5,1,3,8,9
+primis_atrisk,ageband13,FALSE,65-69,993,293,5,1,3,7,8
+primis_atrisk,ageband13,FALSE,85-89,170,58,5.5,1.7000000000000002,3,7.75,9
+primis_atrisk,ageband13,FALSE,90-104,133,43,4,2,3,6,7.800000000000004
+primis_atrisk,ageband13,FALSE,60-64,12,1,1,1,1,1,1
+primis_atrisk,ageband13,FALSE,55-59,12,3,5,3.4000000000000004,4,5,5
+primis_atrisk,ageband13,FALSE,40-49,8,2,4.5,2.5000000000000004,3.25,5.75,6.499999999999999
+primis_atrisk,ageband13,FALSE,30-39,2,1,3,3,3,3,3
+primis_atrisk,ageband13,FALSE,50-54,7,2,3.5,2.3000000000000003,2.75,4.25,4.7
+primis_atrisk,ageband13,FALSE,18-29,1,0,NA,NA,NA,NA,NA
+primis_atrisk,sex,TRUE,Female,1062,352,5,1,3,7,9
+primis_atrisk,sex,TRUE,Male,937,283,5,1,3,7,9
+primis_atrisk,sex,FALSE,Female,1509,439,5,1,3,7,9
+primis_atrisk,sex,FALSE,Male,1424,451,5,1,2.5,7,8
+primis_atrisk,ethnicity5,TRUE,White,1143,363,5,1.2000000000000028,3,7,9
+primis_atrisk,ethnicity5,TRUE,Mixed,164,58,6,1.7000000000000002,3,7,8
+primis_atrisk,ethnicity5,TRUE,Asian or Asian British,172,47,4,1,3,6,8
+primis_atrisk,ethnicity5,TRUE,(Missing),187,63,6,2,3,7,9
+primis_atrisk,ethnicity5,TRUE,Chinese or Other Ethnic Groups,157,50,5,1,3.25,7,8.100000000000001
+primis_atrisk,ethnicity5,TRUE,Black or Black British,176,54,4,1,2,7,8.700000000000003
+primis_atrisk,ethnicity5,FALSE,(Missing),288,90,4,1,2.25,7,8
+primis_atrisk,ethnicity5,FALSE,Chinese or Other Ethnic Groups,299,88,5,1,3.75,7,8.299999999999997
+primis_atrisk,ethnicity5,FALSE,White,1548,453,5,1,3,7,9
+primis_atrisk,ethnicity5,FALSE,Mixed,277,92,5,1,2.75,7.25,9
+primis_atrisk,ethnicity5,FALSE,Black or Black British,269,92,5,2,3,7,8
+primis_atrisk,ethnicity5,FALSE,Asian or Asian British,252,75,5,2,3,7,9
+primis_atrisk,region,TRUE,North East and Yorkshire,1030,317,5,1,3,7,9
+primis_atrisk,region,TRUE,North West,402,138,5,2,3,8,9
+primis_atrisk,region,TRUE,South East,99,29,6,1.8000000000000003,3,7,8
+primis_atrisk,region,TRUE,Midlands,197,70,4,1,2,6,8
+primis_atrisk,region,TRUE,East of England,90,22,7,2,3.25,8,9
+primis_atrisk,region,TRUE,London,86,31,6,2,4,7,8
+primis_atrisk,region,TRUE,South West,95,28,4,1,2,6,6.300000000000001
+primis_atrisk,region,FALSE,North West,587,176,5,2,3,7,8
+primis_atrisk,region,FALSE,North East and Yorkshire,1465,427,5,1,3,7,8.400000000000034
+primis_atrisk,region,FALSE,London,152,48,5,1,3,7,9
+primis_atrisk,region,FALSE,East of England,138,48,4,1,2,6,8
+primis_atrisk,region,FALSE,South East,142,47,5,1,3,7,9
+primis_atrisk,region,FALSE,Midlands,307,105,5,2,2,7,8.600000000000009
+primis_atrisk,region,FALSE,South West,142,39,5,2,3,6.5,8
+primis_atrisk,imd_quintile,TRUE,2,422,148,5,2,3,7,9
+primis_atrisk,imd_quintile,TRUE,1 (most deprived),380,114,6,1.3000000000000007,3,8,8.700000000000003
+primis_atrisk,imd_quintile,TRUE,3,394,121,5,1,3,7,9
+primis_atrisk,imd_quintile,TRUE,4,364,107,5,2,3,7,8.400000000000006
+primis_atrisk,imd_quintile,TRUE,5 (least deprived),349,115,5,1,3,7,9
+primis_atrisk,imd_quintile,TRUE,(Missing),90,30,6.5,1.9000000000000004,4,8,9
+primis_atrisk,imd_quintile,FALSE,2,594,188,5,2,3,7.25,9
+primis_atrisk,imd_quintile,FALSE,3,584,168,5,1,2,7,8
+primis_atrisk,imd_quintile,FALSE,4,539,162,5,1,3,7,9
+primis_atrisk,imd_quintile,FALSE,5 (least deprived),529,183,5,1,3,7,8
+primis_atrisk,imd_quintile,FALSE,1 (most deprived),537,150,4,1.9000000000000004,3,7,9
+primis_atrisk,imd_quintile,FALSE,(Missing),150,39,6,2,3,7,8
+primis_atrisk,carehome_status,TRUE,FALSE,1848,587,5,1,3,7,9
+primis_atrisk,carehome_status,TRUE,TRUE,151,48,5.5,2,3,7,8.300000000000004
+primis_atrisk,carehome_status,FALSE,FALSE,2353,713,5,1,3,7,9
+primis_atrisk,carehome_status,FALSE,TRUE,580,177,5,1,3,7,8
+primis_atrisk,crd,TRUE,TRUE,198,72,5,2,3,7,8
+primis_atrisk,crd,TRUE,FALSE,1801,563,5,1,3,7,9
+primis_atrisk,crd,FALSE,FALSE,2933,890,5,1,3,7,9
+primis_atrisk,chd,TRUE,FALSE,1805,567,5,1,3,7,9
+primis_atrisk,chd,TRUE,TRUE,194,68,5.5,1,3,7,9
+primis_atrisk,chd,FALSE,FALSE,2933,890,5,1,3,7,9
+primis_atrisk,ckd,TRUE,FALSE,1791,567,5,1,3,7,9
+primis_atrisk,ckd,TRUE,TRUE,208,68,5,2,3,7,9
+primis_atrisk,ckd,FALSE,FALSE,2933,890,5,1,3,7,9
+primis_atrisk,cld,TRUE,FALSE,1803,575,5,1,3,7,9
+primis_atrisk,cld,TRUE,TRUE,196,60,5,1,3,7,8
+primis_atrisk,cld,FALSE,FALSE,2933,890,5,1,3,7,9
+primis_atrisk,cns_learndis,TRUE,FALSE,1621,531,5,1,3,7,9
+primis_atrisk,cns_learndis,TRUE,TRUE,378,104,5,1,3,7,8
+primis_atrisk,cns_learndis,FALSE,FALSE,2933,890,5,1,3,7,9
+primis_atrisk,diabetes,TRUE,FALSE,1791,578,5,1,3,7,9
+primis_atrisk,diabetes,TRUE,TRUE,208,57,6,2.6000000000000005,4,8,9
+primis_atrisk,diabetes,FALSE,FALSE,2933,890,5,1,3,7,9
+primis_atrisk,immunosuppressed,TRUE,FALSE,1777,556,5,1,3,7,9
+primis_atrisk,immunosuppressed,TRUE,TRUE,222,79,5,1,3,7,9
+primis_atrisk,immunosuppressed,FALSE,FALSE,2933,890,5,1,3,7,9
+primis_atrisk,asplenia,TRUE,FALSE,1814,577,5,1,3,7,9
+primis_atrisk,asplenia,TRUE,TRUE,185,58,5,1,3,7.75,9
+primis_atrisk,asplenia,FALSE,FALSE,2933,890,5,1,3,7,9
+primis_atrisk,severe_obesity,TRUE,FALSE,1781,571,5,1,3,7,9
+primis_atrisk,severe_obesity,TRUE,TRUE,218,64,5,1,3,6.25,8
+primis_atrisk,severe_obesity,FALSE,FALSE,2933,890,5,1,3,7,9
+primis_atrisk,smi,TRUE,FALSE,1805,560,5,1,3,7,9
+primis_atrisk,smi,TRUE,TRUE,194,75,6,1,3,8,8.600000000000009
+primis_atrisk,smi,FALSE,FALSE,2933,890,5,1,3,7,9
+primis_atrisk,ckd_rrt,TRUE,Stage 3,134,42,4,1.1000000000000005,3,7,8
+primis_atrisk,ckd_rrt,TRUE,No CKD or RRT,1762,568,5,1,3,7,9
+primis_atrisk,ckd_rrt,TRUE,Stage 4,43,12,4,1.1,2.75,7,7.9
+primis_atrisk,ckd_rrt,TRUE,RRT (transplant),23,3,6,2.8,4,7,7.6
+primis_atrisk,ckd_rrt,TRUE,RRT (dialysis),18,3,2,1.2,1.5,3.5,4.3999999999999995
+primis_atrisk,ckd_rrt,TRUE,Stage 5,19,7,4,1.6,3,4.5,5.4
+primis_atrisk,ckd_rrt,FALSE,No CKD or RRT,2627,796,5,1,3,7,8
+primis_atrisk,ckd_rrt,FALSE,Stage 3,174,46,5.5,1.5,3,7,8
+primis_atrisk,ckd_rrt,FALSE,Stage 4,63,28,4,2,3,7,8.3
+primis_atrisk,ckd_rrt,FALSE,RRT (transplant),16,2,1.5,1.1,1.25,1.75,1.9
+primis_atrisk,ckd_rrt,FALSE,Stage 5,32,11,2,1,1,6,7
+primis_atrisk,ckd_rrt,FALSE,RRT (dialysis),21,7,7,2.2,4,9,9
+primis_atrisk,copd,TRUE,FALSE,1952,618,5,1,3,7,9
+primis_atrisk,copd,TRUE,TRUE,47,17,5,2.2,3,7,8.4
+primis_atrisk,copd,FALSE,FALSE,2866,872,5,1,3,7,8.899999999999977
+primis_atrisk,copd,FALSE,TRUE,67,18,5.5,2,3.25,8,8.3
+primis_atrisk,learndis_cat,TRUE,(Missing),1620,516,5,1,3,7,9
+primis_atrisk,learndis_cat,TRUE,Down's syndrome,90,28,5.5,1.7000000000000002,3,7,8.3
+primis_atrisk,learndis_cat,TRUE,Learning disability register,97,35,6,2,3.5,7.5,9
+primis_atrisk,learndis_cat,TRUE,Other learning disability,192,56,6,2.5,4,8,9
+primis_atrisk,learndis_cat,FALSE,Learning disability register,146,45,4,1,3,6,7.600000000000001
+primis_atrisk,learndis_cat,FALSE,(Missing),2350,718,5,1,3,7,9
+primis_atrisk,learndis_cat,FALSE,Other learning disability,295,82,5.5,2,3,7,9
+primis_atrisk,learndis_cat,FALSE,Down's syndrome,142,45,5,1.4000000000000004,2,7,8
+primis_atrisk,sickle_cell_asplenia,TRUE,FALSE,1772,566,5,1,3,7,9
+primis_atrisk,sickle_cell_asplenia,TRUE,TRUE,227,69,5,1,3,8,9
+primis_atrisk,sickle_cell_asplenia,FALSE,FALSE,2879,874,5,1,3,7,9
+primis_atrisk,sickle_cell_asplenia,FALSE,TRUE,54,16,4,2,3,7.25,8
+primis_atrisk,cirrhosis,TRUE,FALSE,1968,626,5,1,3,7,9
+primis_atrisk,cirrhosis,TRUE,TRUE,31,9,7,3,5,9,9
+primis_atrisk,cirrhosis,FALSE,FALSE,2863,867,5,1,3,7,9
+primis_atrisk,cirrhosis,FALSE,TRUE,70,23,4,1,3,7,8
+primis_atrisk,cochlear_implant,TRUE,FALSE,1957,625,5,1,3,7,9
+primis_atrisk,cochlear_implant,TRUE,TRUE,42,10,4,2.8,3,5.75,7
+primis_atrisk,cochlear_implant,FALSE,FALSE,2871,862,5,1,3,7,8.899999999999977
+primis_atrisk,cochlear_implant,FALSE,TRUE,62,28,4,1,2,8,8.3
+primis_atrisk,cystic_fibrosis,TRUE,FALSE,1948,620,5,1,3,7,9
+primis_atrisk,cystic_fibrosis,TRUE,TRUE,51,15,4,2.4000000000000004,3,6,6.6
+primis_atrisk,cystic_fibrosis,FALSE,FALSE,2868,871,5,1,3,7,9
+primis_atrisk,cystic_fibrosis,FALSE,TRUE,65,19,5,1,2.5,7,8.2
+primis_atrisk,csfl,TRUE,FALSE,1967,622,5,1,3,7,9
+primis_atrisk,csfl,TRUE,TRUE,32,13,7,3,3,8,9
+primis_atrisk,csfl,FALSE,FALSE,2879,876,5,1,3,7,9
+primis_atrisk,csfl,FALSE,TRUE,54,14,4.5,3,4,7,8
+primis_atrisk,homeless,TRUE,FALSE,1954,625,5,1,3,7,9
+primis_atrisk,homeless,TRUE,TRUE,45,10,3.5,1.9,2,7,9
+primis_atrisk,homeless,FALSE,FALSE,2875,870,5,1,3,7,9
+primis_atrisk,homeless,FALSE,TRUE,58,20,3,1,1,4,6.100000000000001
+crd,all,TRUE,All,198,72,5,2,3,7,8
+crd,all,FALSE,All,4734,1453,5,1,3,7,9
+crd,ageband4,TRUE,50-64,74,27,4,1,3,7,8
+crd,ageband4,TRUE,65-74,45,20,5.5,1.9000000000000004,4,7,8.100000000000001
+crd,ageband4,TRUE,75-104,26,9,4,1.8,2,5,6.199999999999999
+crd,ageband4,TRUE,12-49,53,16,5.5,2,3,7.25,8.5
+crd,ageband4,FALSE,50-64,748,236,5,1,3,7,9
+crd,ageband4,FALSE,65-74,2136,649,5,1,3,7,8.200000000000045
+crd,ageband4,FALSE,75-104,1385,430,5,1,3,7,9
+crd,ageband4,FALSE,12-49,465,138,5,1,3,7,9
+crd,ageband13,TRUE,55-59,29,12,4,2.1,3,6.25,7
+crd,ageband13,TRUE,65-69,26,13,5,1.2000000000000002,4,7,7.800000000000001
+crd,ageband13,TRUE,75-79,12,4,4,2.3,2.75,5.5,6.4
+crd,ageband13,TRUE,50-54,24,9,6,1.8,3,7,8.2
+crd,ageband13,TRUE,40-49,36,9,6,2,3,7,8.2
+crd,ageband13,TRUE,60-64,21,6,3.5,1,1.5,7,8.5
+crd,ageband13,TRUE,18-29,2,0,NA,NA,NA,NA,NA
+crd,ageband13,TRUE,30-39,14,6,4.5,2.5,3.25,7.25,8.5
+crd,ageband13,TRUE,70-74,19,7,6,3.6,4.5,7,8.4
+crd,ageband13,TRUE,80-84,5,2,5,4.2,4.5,5.5,5.8
+crd,ageband13,TRUE,85-89,6,3,2,1.2,1.5,3.5,4.3999999999999995
+crd,ageband13,TRUE,90-104,3,0,NA,NA,NA,NA,NA
+crd,ageband13,TRUE,12-17,1,1,7,7,7,7,7
+crd,ageband13,FALSE,60-64,282,91,4,1,3,6,8
+crd,ageband13,FALSE,70-74,931,290,5,1,3,7,9
+crd,ageband13,FALSE,50-54,221,62,6,1,3,7,9
+crd,ageband13,FALSE,80-84,387,118,5,1,3,7,8
+crd,ageband13,FALSE,75-79,637,189,5,1,3,8,9
+crd,ageband13,FALSE,65-69,1205,359,5,1,3,7,8
+crd,ageband13,FALSE,55-59,245,83,5,1,3,7.5,9
+crd,ageband13,FALSE,30-39,121,37,6,2,3,8,9
+crd,ageband13,FALSE,85-89,201,72,6,1.1000000000000014,3,8,9
+crd,ageband13,FALSE,90-104,160,51,4,2,3,6,8
+crd,ageband13,FALSE,40-49,319,92,4,1,3,7,8
+crd,ageband13,FALSE,18-29,25,9,5,1,2,6,7.399999999999999
+crd,sex,TRUE,Female,104,39,4,1.8000000000000007,3,7,8
+crd,sex,TRUE,Male,94,33,5,2,3,7,8.8
+crd,sex,FALSE,Female,2467,752,5,1,3,7,9
+crd,sex,FALSE,Male,2267,701,5,1,3,7,9
+crd,ethnicity5,TRUE,White,111,40,5.5,2,3.75,7,8.100000000000001
+crd,ethnicity5,TRUE,Asian or Asian British,23,5,6,2.4,3,6,7.199999999999999
+crd,ethnicity5,TRUE,Black or Black British,21,8,5.5,2,3.5,7.25,8.3
+crd,ethnicity5,TRUE,(Missing),18,9,3,1,2,5,5.199999999999999
+crd,ethnicity5,TRUE,Mixed,13,6,3,1.5,2.25,6,7.5
+crd,ethnicity5,TRUE,Chinese or Other Ethnic Groups,12,4,3,1,1,6,7.800000000000001
+crd,ethnicity5,FALSE,White,2580,776,5,1,3,7,9
+crd,ethnicity5,FALSE,(Missing),457,144,5,1,3,7,8
+crd,ethnicity5,FALSE,Mixed,428,144,5,1,3,7,9
+crd,ethnicity5,FALSE,Chinese or Other Ethnic Groups,444,134,5,1,4,7,8
+crd,ethnicity5,FALSE,Asian or Asian British,401,117,4,1,3,7,8.400000000000006
+crd,ethnicity5,FALSE,Black or Black British,424,138,5,1,3,7,8
+crd,region,TRUE,North East and Yorkshire,96,36,5,1.5,3,7,8
+crd,region,TRUE,Midlands,27,10,4.5,1.9,2.25,6,8.1
+crd,region,TRUE,London,7,2,5,3.4000000000000004,4,6,6.6
+crd,region,TRUE,South East,8,2,4.5,1.7000000000000006,2.75,6.25,7.299999999999999
+crd,region,TRUE,East of England,7,2,4.5,2.5000000000000004,3.25,5.75,6.499999999999999
+crd,region,TRUE,North West,38,15,4,3,3.5,7,8.6
+crd,region,TRUE,South West,15,5,6,2.4,3,6,7.199999999999999
+crd,region,FALSE,North East and Yorkshire,2399,708,5,1,3,7,9
+crd,region,FALSE,North West,951,299,5,2,3,7,9
+crd,region,FALSE,South East,233,74,5,1,3,7,8.700000000000003
+crd,region,FALSE,London,231,77,5,1,3,7,9
+crd,region,FALSE,Midlands,477,165,5,1,2,7,8
+crd,region,FALSE,East of England,221,68,5,1,2,7.25,9
+crd,region,FALSE,South West,222,62,4.5,1,3,6,7.899999999999999
+crd,imd_quintile,TRUE,2,46,18,4,2,3,6.75,7.300000000000001
+crd,imd_quintile,TRUE,5 (least deprived),41,16,4.5,1.5,3,6,8
+crd,imd_quintile,TRUE,(Missing),12,6,6.5,2.5,4.5,7.75,8
+crd,imd_quintile,TRUE,3,30,11,5,2,2.5,7,7
+crd,imd_quintile,TRUE,4,32,10,6.5,2.9,5,8,9
+crd,imd_quintile,TRUE,1 (most deprived),37,11,3,1,2.5,5.5,8
+crd,imd_quintile,FALSE,1 (most deprived),880,253,5,2,3,7,9
+crd,imd_quintile,FALSE,2,970,318,5,2,3,7,9
+crd,imd_quintile,FALSE,3,948,278,5,1,2.25,7,8
+crd,imd_quintile,FALSE,4,871,259,5,1,3,7,9
+crd,imd_quintile,FALSE,5 (least deprived),837,282,5,1,3,7,8
+crd,imd_quintile,FALSE,(Missing),228,63,6,2,3,8,9
+crd,carehome_status,TRUE,FALSE,186,67,5,2,3,7,8
+crd,carehome_status,TRUE,TRUE,12,5,6,1.4,2,6,6.6
+crd,carehome_status,FALSE,FALSE,4015,1233,5,1,3,7,9
+crd,carehome_status,FALSE,TRUE,719,220,5,1,3,7,8
+crd,primis_atrisk,TRUE,TRUE,198,72,5,2,3,7,8
+crd,primis_atrisk,FALSE,TRUE,1801,563,5,1,3,7,9
+crd,primis_atrisk,FALSE,FALSE,2933,890,5,1,3,7,9
+crd,chd,TRUE,FALSE,195,71,5,2,3,7,8
+crd,chd,TRUE,TRUE,3,1,4,4,4,4,4
+crd,chd,FALSE,FALSE,4543,1386,5,1,3,7,9
+crd,chd,FALSE,TRUE,191,67,6,1,3,7,9
+crd,ckd,TRUE,FALSE,192,72,5,2,3,7,8
+crd,ckd,TRUE,TRUE,6,0,NA,NA,NA,NA,NA
+crd,ckd,FALSE,FALSE,4532,1385,5,1,3,7,9
+crd,ckd,FALSE,TRUE,202,68,5,2,3,7,9
+crd,cld,TRUE,FALSE,194,69,5,1.8000000000000007,3,7,8
+crd,cld,TRUE,TRUE,4,3,4,3.2,3.5,5.5,6.3999999999999995
+crd,cld,FALSE,FALSE,4542,1396,5,1,3,7,9
+crd,cld,FALSE,TRUE,192,57,5,1,3,7,8
+crd,cns_learndis,TRUE,FALSE,184,65,5,2,3,7,8
+crd,cns_learndis,TRUE,TRUE,14,7,5,1.6,2.5,6.5,8
+crd,cns_learndis,FALSE,FALSE,4370,1356,5,1,3,7,9
+crd,cns_learndis,FALSE,TRUE,364,97,5,1,3,7,8
+crd,diabetes,TRUE,FALSE,196,72,5,2,3,7,8
+crd,diabetes,TRUE,TRUE,2,0,NA,NA,NA,NA,NA
+crd,diabetes,FALSE,FALSE,4528,1396,5,1,3,7,9
+crd,diabetes,FALSE,TRUE,206,57,6,2.6000000000000005,4,8,9
+crd,immunosuppressed,TRUE,FALSE,194,70,5,1.9000000000000004,3,7,8
+crd,immunosuppressed,TRUE,TRUE,4,2,4,3.2,3.5,4.5,4.800000000000001
+crd,immunosuppressed,FALSE,FALSE,4516,1376,5,1,3,7,9
+crd,immunosuppressed,FALSE,TRUE,218,77,5,1,3,7,9
+crd,asplenia,TRUE,FALSE,195,72,5,2,3,7,8
+crd,asplenia,TRUE,TRUE,3,0,NA,NA,NA,NA,NA
+crd,asplenia,FALSE,FALSE,4552,1395,5,1,3,7,9
+crd,asplenia,FALSE,TRUE,182,58,5,1,3,7.75,9
+crd,severe_obesity,TRUE,FALSE,194,69,5,2,3,7,8
+crd,severe_obesity,TRUE,TRUE,4,3,3,1.4,2,4.5,5.3999999999999995
+crd,severe_obesity,FALSE,FALSE,4520,1392,5,1,3,7,9
+crd,severe_obesity,FALSE,TRUE,214,61,5,1,3,7,8
+crd,smi,TRUE,FALSE,194,69,5,1.8000000000000007,3,7,8
+crd,smi,TRUE,TRUE,4,3,7,6.2,6.5,7.5,7.8
+crd,smi,FALSE,TRUE,190,72,5,1,2.75,8,8.900000000000006
+crd,smi,FALSE,FALSE,4544,1381,5,1,3,7,9
+crd,ckd_rrt,TRUE,Stage 3,11,2,3.5,3.1,3.25,3.75,3.9
+crd,ckd_rrt,TRUE,No CKD or RRT,176,64,5,2,3,7,8
+crd,ckd_rrt,TRUE,Stage 4,5,3,2,1.2,1.5,2.5,2.8
+crd,ckd_rrt,TRUE,RRT (dialysis),3,1,1,1,1,1,1
+crd,ckd_rrt,TRUE,Stage 5,3,2,3,2.2,2.5,3.5,3.8
+crd,ckd_rrt,FALSE,Stage 3,297,86,5,1,3,7,8
+crd,ckd_rrt,FALSE,No CKD or RRT,4213,1300,5,1,3,7,9
+crd,ckd_rrt,FALSE,Stage 4,101,37,4,2,3,7,8
+crd,ckd_rrt,FALSE,RRT (transplant),39,5,2,1.4,2,6,7.199999999999999
+crd,ckd_rrt,FALSE,RRT (dialysis),36,9,5,1.8,3,9,9
+crd,ckd_rrt,FALSE,Stage 5,48,16,3.5,1,1,6,6.5
+crd,copd,TRUE,FALSE,195,70,5,2,3,7,8
+crd,copd,TRUE,TRUE,3,2,5,1.8000000000000007,3,7,8.2
+crd,copd,FALSE,FALSE,4623,1420,5,1,3,7,9
+crd,copd,FALSE,TRUE,111,33,5,2.2,3,8,8
+crd,learndis_cat,TRUE,(Missing),157,56,5,2,3,7,8
+crd,learndis_cat,TRUE,Down's syndrome,9,4,2.5,1.3,1.75,3.5,4.4
+crd,learndis_cat,TRUE,Learning disability register,9,5,4,1.7999999999999998,3,5,5.6
+crd,learndis_cat,TRUE,Other learning disability,23,7,6,2.2,3,8,9
+crd,learndis_cat,FALSE,(Missing),3813,1178,5,1,3,7,9
+crd,learndis_cat,FALSE,Learning disability register,234,75,5,1,3,7,9
+crd,learndis_cat,FALSE,Other learning disability,464,131,6,2,3,7,9
+crd,learndis_cat,FALSE,Down's syndrome,223,69,6,1.8000000000000007,2,7,8
+crd,sickle_cell_asplenia,TRUE,FALSE,187,70,5,1.9000000000000004,3,7,8
+crd,sickle_cell_asplenia,TRUE,TRUE,11,2,3.5,2.3000000000000003,2.75,4.25,4.7
+crd,sickle_cell_asplenia,FALSE,FALSE,4464,1370,5,1,3,7,9
+crd,sickle_cell_asplenia,FALSE,TRUE,270,83,5,1.200000000000001,3,8,9
+crd,cirrhosis,TRUE,FALSE,193,70,5,1.9000000000000004,3,7,8
+crd,cirrhosis,TRUE,TRUE,5,2,9,9,9,9,9
+crd,cirrhosis,FALSE,FALSE,4638,1423,5,1,3,7,9
+crd,cirrhosis,FALSE,TRUE,96,30,5,1,3,7,8
+crd,cochlear_implant,TRUE,FALSE,193,71,5,2,3,7,8
+crd,cochlear_implant,TRUE,TRUE,5,1,4,4,4,4,4
+crd,cochlear_implant,FALSE,FALSE,4635,1416,5,1,3,7,9
+crd,cochlear_implant,FALSE,TRUE,99,37,4,1,3,7,8
+crd,cystic_fibrosis,TRUE,FALSE,190,71,5,2,3,7,8
+crd,cystic_fibrosis,TRUE,TRUE,8,1,2,2,2,2,2
+crd,cystic_fibrosis,FALSE,FALSE,4626,1420,5,1,3,7,9
+crd,cystic_fibrosis,FALSE,TRUE,108,33,4,1.2000000000000002,3,6,8
+crd,csfl,TRUE,FALSE,197,72,5,2,3,7,8
+crd,csfl,TRUE,TRUE,1,0,NA,NA,NA,NA,NA
+crd,csfl,FALSE,FALSE,4649,1426,5,1,3,7,9
+crd,csfl,FALSE,TRUE,85,27,5,3,3.5,8,8.400000000000002
+crd,homeless,TRUE,FALSE,194,70,5,1.9000000000000004,3,7,8
+crd,homeless,TRUE,TRUE,4,2,2,2,2,2,2
+crd,homeless,FALSE,FALSE,4635,1425,5,1,3,7,9
+crd,homeless,FALSE,TRUE,99,28,3,1,1.75,4.5,8.3
+chd,all,FALSE,All,4738,1457,5,1,3,7,9
+chd,all,TRUE,All,194,68,5.5,1,3,7,9
+chd,ageband4,FALSE,50-64,745,236,5,1,3,7,9
+chd,ageband4,FALSE,65-74,2137,657,5,1,3,7,8
+chd,ageband4,FALSE,75-104,1382,429,5,1,3,7,9
+chd,ageband4,FALSE,12-49,474,135,5,1,3,7,8.600000000000009
+chd,ageband4,TRUE,50-64,77,27,5,1,2,7,8
+chd,ageband4,TRUE,75-104,29,10,4.5,1,2.25,6.75,7.199999999999999
+chd,ageband4,TRUE,65-74,44,12,7,3,5.25,9,9
+chd,ageband4,TRUE,12-49,44,19,6,2.8,3,7.5,9
+chd,ageband13,FALSE,55-59,248,87,5,1.5999999999999996,3,7,9
+chd,ageband13,FALSE,60-64,272,88,4,1,3,6,8
+chd,ageband13,FALSE,70-74,927,289,5,1,3,7,9
+chd,ageband13,FALSE,50-54,225,61,6,1,3,8,9
+chd,ageband13,FALSE,80-84,380,114,5,1,3,7,8
+chd,ageband13,FALSE,75-79,640,191,5,1,3,8,9
+chd,ageband13,FALSE,65-69,1210,368,5,1,3,7,8
+chd,ageband13,FALSE,30-39,118,35,5,2,3,8,9
+chd,ageband13,FALSE,85-89,202,74,5.5,1.3000000000000007,3,7.75,9
+chd,ageband13,FALSE,90-104,160,50,4,1.9000000000000004,3,6,8
+chd,ageband13,FALSE,40-49,330,90,4,1,3,6,8
+chd,ageband13,FALSE,18-29,25,9,5,1,2,6,7.399999999999999
+chd,ageband13,FALSE,12-17,1,1,7,7,7,7,7
+chd,ageband13,TRUE,60-64,31,9,5,1.8,2,8,8.2
+chd,ageband13,TRUE,85-89,5,1,1,1,1,1,1
+chd,ageband13,TRUE,65-69,21,4,7,4.2,6,7.25,7.7
+chd,ageband13,TRUE,50-54,20,10,5,1,2.5,6,7.199999999999999
+chd,ageband13,TRUE,30-39,17,8,6.5,3,4.5,7.5,9
+chd,ageband13,TRUE,55-59,26,8,3.5,1,1.75,6.25,7.3
+chd,ageband13,TRUE,40-49,25,11,4,2,3,7.5,8
+chd,ageband13,TRUE,80-84,12,6,4.5,2,3.25,5.75,6.5
+chd,ageband13,TRUE,75-79,9,2,4.5,2.5000000000000004,3.25,5.75,6.499999999999999
+chd,ageband13,TRUE,70-74,23,8,7.5,2.4000000000000004,5.25,9,9
+chd,ageband13,TRUE,18-29,2,0,NA,NA,NA,NA,NA
+chd,ageband13,TRUE,90-104,3,1,9,9,9,9,9
+chd,sex,FALSE,Female,2471,756,5,1,3,7,9
+chd,sex,FALSE,Male,2267,701,5,1,3,7,9
+chd,sex,TRUE,Female,100,35,6,2,3,7.5,9
+chd,sex,TRUE,Male,94,33,4,1,2,7,8.8
+chd,ethnicity5,FALSE,White,2577,779,5,1,3,7,9
+chd,ethnicity5,FALSE,(Missing),457,148,5,1,3,7,8
+chd,ethnicity5,FALSE,Mixed,427,143,5,1,3,7,9
+chd,ethnicity5,FALSE,Chinese or Other Ethnic Groups,441,131,5,1,4,7,8
+chd,ethnicity5,FALSE,Asian or Asian British,407,116,4.5,1,3,7,8
+chd,ethnicity5,FALSE,Black or Black British,429,140,5,1,3,7,8
+chd,ethnicity5,TRUE,White,114,37,6,2,3,8,9
+chd,ethnicity5,TRUE,Asian or Asian British,17,6,4,1.5,2.25,5.75,7.5
+chd,ethnicity5,TRUE,Black or Black British,16,6,3.5,1,1.5,4,5
+chd,ethnicity5,TRUE,Chinese or Other Ethnic Groups,15,7,5,1,1,6.5,7.800000000000001
+chd,ethnicity5,TRUE,(Missing),18,5,2,1,1,7,8.2
+chd,ethnicity5,TRUE,Mixed,14,7,7,5.6,6.5,7.5,8
+chd,region,FALSE,North East and Yorkshire,2392,707,5,1,3,7,9
+chd,region,FALSE,North West,954,306,5,2,3,7,9
+chd,region,FALSE,South East,232,75,5,1,3,7,8.600000000000009
+chd,region,FALSE,Midlands,487,164,5,1,2,7,8
+chd,region,FALSE,London,232,76,5,1,3,7,9
+chd,region,FALSE,East of England,216,66,5,1,2.25,7,8.5
+chd,region,FALSE,South West,225,63,5,2,3,6,8
+chd,region,TRUE,North East and Yorkshire,103,37,5,1,3,7,9
+chd,region,TRUE,North West,35,8,7,4.7,5.75,8.25,9
+chd,region,TRUE,South West,12,4,1.5,1,1,2.75,4.1000000000000005
+chd,region,TRUE,Midlands,17,11,5,3,3.5,7,8
+chd,region,TRUE,East of England,12,4,4,1.3,1.75,6.75,8.100000000000001
+chd,region,TRUE,South East,9,1,7,7,7,7,7
+chd,region,TRUE,London,6,3,7,6.2,6.5,7.5,7.8
+chd,imd_quintile,FALSE,2,971,319,5,2,3,7,9
+chd,imd_quintile,FALSE,1 (most deprived),880,254,5,2,3,7,9
+chd,imd_quintile,FALSE,3,954,282,5,1,2,7,8
+chd,imd_quintile,FALSE,4,860,252,5,1,3,7,9
+chd,imd_quintile,FALSE,5 (least deprived),839,283,5,1,3,7,8
+chd,imd_quintile,FALSE,(Missing),234,67,6,2,3,8,9
+chd,imd_quintile,TRUE,1 (most deprived),37,10,6,1,6,8,8.1
+chd,imd_quintile,TRUE,4,43,17,4,1.6,3,8,9
+chd,imd_quintile,TRUE,5 (least deprived),39,15,5,1,1.5,7,7.6
+chd,imd_quintile,TRUE,2,45,17,6,2,3,7,9
+chd,imd_quintile,TRUE,(Missing),6,2,6.5,4.5,5.25,7.75,8.5
+chd,imd_quintile,TRUE,3,24,7,4,2.6,3,5.5,6.4
+chd,carehome_status,FALSE,FALSE,4031,1242,5,1,3,7,9
+chd,carehome_status,FALSE,TRUE,707,215,5,1,3,7,8
+chd,carehome_status,TRUE,FALSE,170,58,5,1,3,7,9
+chd,carehome_status,TRUE,TRUE,24,10,6,2.9,3.25,7.75,9
+chd,primis_atrisk,FALSE,TRUE,1805,567,5,1,3,7,9
+chd,primis_atrisk,FALSE,FALSE,2933,890,5,1,3,7,9
+chd,primis_atrisk,TRUE,TRUE,194,68,5.5,1,3,7,9
+chd,crd,FALSE,TRUE,195,71,5,2,3,7,8
+chd,crd,FALSE,FALSE,4543,1386,5,1,3,7,9
+chd,crd,TRUE,FALSE,191,67,6,1,3,7,9
+chd,crd,TRUE,TRUE,3,1,4,4,4,4,4
+chd,ckd,FALSE,FALSE,4535,1389,5,1,3,7,9
+chd,ckd,FALSE,TRUE,203,68,5,2,3,7,9
+chd,ckd,TRUE,FALSE,189,68,5.5,1,3,7,9
+chd,ckd,TRUE,TRUE,5,0,NA,NA,NA,NA,NA
+chd,cld,FALSE,FALSE,4548,1399,5,1,3,7,9
+chd,cld,FALSE,TRUE,190,58,5,1,3,7,8
+chd,cld,TRUE,FALSE,188,66,5.5,1,3,7,9
+chd,cld,TRUE,TRUE,6,2,5.5,4.300000000000001,4.75,6.25,6.699999999999999
+chd,cns_learndis,FALSE,FALSE,4367,1355,5,1,3,7,9
+chd,cns_learndis,FALSE,TRUE,371,102,5,1,3,7,8
+chd,cns_learndis,TRUE,FALSE,187,66,5.5,1,3,7,9
+chd,cns_learndis,TRUE,TRUE,7,2,4.5,2.5000000000000004,3.25,5.75,6.499999999999999
+chd,diabetes,FALSE,FALSE,4530,1400,5,1,3,7,9
+chd,diabetes,FALSE,TRUE,208,57,6,2.6000000000000005,4,8,9
+chd,diabetes,TRUE,FALSE,194,68,5.5,1,3,7,9
+chd,immunosuppressed,FALSE,FALSE,4516,1378,5,1,3,7,9
+chd,immunosuppressed,FALSE,TRUE,222,79,5,1,3,7,9
+chd,immunosuppressed,TRUE,FALSE,194,68,5.5,1,3,7,9
+chd,asplenia,FALSE,FALSE,4558,1400,5,1,3,7,9
+chd,asplenia,FALSE,TRUE,180,57,5,1,3,8,9
+chd,asplenia,TRUE,FALSE,189,67,6,1,3,7,9
+chd,asplenia,TRUE,TRUE,5,1,3,3,3,3,3
+chd,severe_obesity,FALSE,FALSE,4523,1394,5,1,3,7,9
+chd,severe_obesity,FALSE,TRUE,215,63,5,1,3,6.5,8
+chd,severe_obesity,TRUE,FALSE,191,67,6,1,3,7,9
+chd,severe_obesity,TRUE,TRUE,3,1,5,5,5,5,5
+chd,smi,FALSE,FALSE,4549,1384,5,1,3,7,9
+chd,smi,FALSE,TRUE,189,73,6,1,3,8,8.799999999999997
+chd,smi,TRUE,FALSE,189,66,6,1,3,7,9
+chd,smi,TRUE,TRUE,5,2,3.5,2.3000000000000003,2.75,4.25,4.7
+chd,ckd_rrt,FALSE,Stage 3,293,82,5,1.0999999999999996,3,7,8
+chd,ckd_rrt,FALSE,No CKD or RRT,4218,1304,5,1,3,7,9
+chd,ckd_rrt,FALSE,Stage 4,102,39,4,2,3,7,8
+chd,ckd_rrt,FALSE,RRT (transplant),39,5,2,1.4,2,6,7.199999999999999
+chd,ckd_rrt,FALSE,RRT (dialysis),37,9,5,1,3,9,9
+chd,ckd_rrt,FALSE,Stage 5,49,18,3.5,1,1.25,5.75,6.300000000000001
+chd,ckd_rrt,TRUE,Stage 3,15,6,5.5,2.5,4.25,6.75,7.5
+chd,ckd_rrt,TRUE,No CKD or RRT,171,60,5.5,1,3,7.25,9
+chd,ckd_rrt,TRUE,RRT (dialysis),2,1,2,2,2,2,2
+chd,ckd_rrt,TRUE,Stage 4,4,1,7,7,7,7,7
+chd,ckd_rrt,TRUE,Stage 5,2,0,NA,NA,NA,NA,NA
+chd,copd,FALSE,FALSE,4630,1423,5,1,3,7,9
+chd,copd,FALSE,TRUE,108,34,5,2,3,8,8.7
+chd,copd,TRUE,FALSE,188,67,5,1,3,7,9
+chd,copd,TRUE,TRUE,6,1,7,7,7,7,7
+chd,learndis_cat,FALSE,(Missing),3806,1173,5,1,3,7,9
+chd,learndis_cat,FALSE,Learning disability register,236,77,5,1.6000000000000014,3,7,8.400000000000006
+chd,learndis_cat,FALSE,Other learning disability,475,136,6,2,3,7,9
+chd,learndis_cat,FALSE,Down's syndrome,221,71,5,1,2,7,8
+chd,learndis_cat,TRUE,(Missing),164,61,6,1,3,7,9
+chd,learndis_cat,TRUE,Down's syndrome,11,2,4.5,2.5000000000000004,3.25,5.75,6.499999999999999
+chd,learndis_cat,TRUE,Other learning disability,12,2,5,5,5,5,5
+chd,learndis_cat,TRUE,Learning disability register,7,3,1,1,1,5,7.399999999999999
+chd,sickle_cell_asplenia,FALSE,FALSE,4467,1375,5,1,3,7,9
+chd,sickle_cell_asplenia,FALSE,TRUE,271,82,5,2,3,8,9
+chd,sickle_cell_asplenia,TRUE,FALSE,184,65,6,1,3,7,9
+chd,sickle_cell_asplenia,TRUE,TRUE,10,3,3,1.4,2,4.5,5.3999999999999995
+chd,cirrhosis,FALSE,FALSE,4637,1425,5,1,3,7,9
+chd,cirrhosis,FALSE,TRUE,101,32,5,1.0999999999999996,3,7.25,8.900000000000002
+chd,cirrhosis,TRUE,FALSE,194,68,5.5,1,3,7,9
+chd,cochlear_implant,FALSE,FALSE,4640,1420,5,1,3,7,9
+chd,cochlear_implant,FALSE,TRUE,98,37,4,1,3,7,8
+chd,cochlear_implant,TRUE,FALSE,188,67,6,1,3,7,9
+chd,cochlear_implant,TRUE,TRUE,6,1,3,3,3,3,3
+chd,cystic_fibrosis,FALSE,FALSE,4624,1423,5,1,3,7,9
+chd,cystic_fibrosis,FALSE,TRUE,114,34,4,1.3000000000000007,3,6,8
+chd,cystic_fibrosis,TRUE,FALSE,192,68,5.5,1,3,7,9
+chd,cystic_fibrosis,TRUE,TRUE,2,0,NA,NA,NA,NA,NA
+chd,csfl,FALSE,FALSE,4656,1432,5,1,3,7,9
+chd,csfl,FALSE,TRUE,82,25,5,3,4,8,8.600000000000001
+chd,csfl,TRUE,FALSE,190,66,5.5,1,3,7,9
+chd,csfl,TRUE,TRUE,4,2,4.5,1.7000000000000006,2.75,6.25,7.299999999999999
+chd,homeless,FALSE,FALSE,4640,1428,5,1,3,7,9
+chd,homeless,FALSE,TRUE,98,29,3,1,2,4,7.399999999999999
+chd,homeless,TRUE,FALSE,189,67,5,1,3,7,9
+chd,homeless,TRUE,TRUE,5,1,8,8,8,8,8
+ckd,all,FALSE,All,4724,1457,5,1,3,7,9
+ckd,all,TRUE,All,208,68,5,2,3,7,9
+ckd,ageband4,FALSE,50-64,743,237,5,1,3,7,9
+ckd,ageband4,FALSE,65-74,2134,652,5,1,3,7,8
+ckd,ageband4,FALSE,75-104,1372,426,5,1,3,7,9
+ckd,ageband4,FALSE,12-49,475,142,5,1,3,7,9
+ckd,ageband4,TRUE,50-64,79,26,6,3,5,7.75,8.5
+ckd,ageband4,TRUE,65-74,47,17,6,2,3,8,9
+ckd,ageband4,TRUE,12-49,43,12,3,2.1,3,4.25,5
+ckd,ageband4,TRUE,75-104,39,13,5,3.2,4,7,8.8
+ckd,ageband13,FALSE,55-59,250,87,4,1,3,7,8.400000000000006
+ckd,ageband13,FALSE,60-64,270,86,4,1,3,6,8
+ckd,ageband13,FALSE,70-74,926,288,5,1,3,7,9
+ckd,ageband13,FALSE,80-84,382,117,5,1,3,7,8
+ckd,ageband13,FALSE,75-79,634,188,5,1,3,8,9
+ckd,ageband13,FALSE,65-69,1208,364,5,1,3,7,8
+ckd,ageband13,FALSE,50-54,223,64,6,1,2.75,7,9
+ckd,ageband13,FALSE,30-39,122,39,6,2,3,8,9
+ckd,ageband13,FALSE,85-89,198,72,5,1.1000000000000014,3,7.25,9
+ckd,ageband13,FALSE,90-104,158,49,4,1.8000000000000007,3,6,8
+ckd,ageband13,FALSE,40-49,326,93,5,1,3,7,8
+ckd,ageband13,FALSE,18-29,26,9,5,1,2,6,7.399999999999999
+ckd,ageband13,FALSE,12-17,1,1,7,7,7,7,7
+ckd,ageband13,TRUE,50-54,22,7,6,4.6,5.5,7.5,8.4
+ckd,ageband13,TRUE,60-64,33,11,6,3,4,6.5,8
+ckd,ageband13,TRUE,55-59,24,8,7,3.4000000000000004,4.75,8.25,9
+ckd,ageband13,TRUE,65-69,23,8,6.5,3.4000000000000004,5.5,8.25,9
+ckd,ageband13,TRUE,30-39,13,4,4,1.6,2.5,5.75,7.1000000000000005
+ckd,ageband13,TRUE,70-74,24,9,5,1.8,2,7,8.2
+ckd,ageband13,TRUE,40-49,29,8,3,2.7,3,4,4.3
+ckd,ageband13,TRUE,75-79,15,5,7,4.8,6,9,9
+ckd,ageband13,TRUE,90-104,5,2,3.5,3.1,3.25,3.75,3.9
+ckd,ageband13,TRUE,80-84,10,3,4,4,4,4.5,4.8
+ckd,ageband13,TRUE,18-29,1,0,NA,NA,NA,NA,NA
+ckd,ageband13,TRUE,85-89,9,3,6,1.9999999999999998,3.5,7,7.6
+ckd,sex,FALSE,Female,2457,748,5,1,3,7,9
+ckd,sex,FALSE,Male,2267,709,5,1,3,7,9
+ckd,sex,TRUE,Male,94,25,6,3,4,8,9
+ckd,sex,TRUE,Female,114,43,5,2,3,7,8
+ckd,ethnicity5,FALSE,White,2564,771,5,1,3,7,9
+ckd,ethnicity5,FALSE,(Missing),458,149,5,1,3,7,8
+ckd,ethnicity5,FALSE,Chinese or Other Ethnic Groups,447,137,5,1,3,7,8
+ckd,ethnicity5,FALSE,Asian or Asian British,412,119,4,1,3,7,8.200000000000003
+ckd,ethnicity5,FALSE,Mixed,423,144,5,1,3,7,8.700000000000017
+ckd,ethnicity5,FALSE,Black or Black British,420,137,5,1,3,7,8
+ckd,ethnicity5,TRUE,Mixed,18,6,6.5,3.5,5.25,7.75,8.5
+ckd,ethnicity5,TRUE,White,127,45,5,2.4000000000000004,3,7,8
+ckd,ethnicity5,TRUE,Chinese or Other Ethnic Groups,9,1,9,9,9,9,9
+ckd,ethnicity5,TRUE,(Missing),17,4,7.5,2.5,4.75,9,9
+ckd,ethnicity5,TRUE,Asian or Asian British,12,3,7,3.8,5,7.5,7.8
+ckd,ethnicity5,TRUE,Black or Black British,25,9,6,1.8,4,7,8
+ckd,region,FALSE,North East and Yorkshire,2395,716,5,1,3,7,8.5
+ckd,region,FALSE,North West,941,293,5,2,3,7,9
+ckd,region,FALSE,Midlands,482,167,5,1,2,7,8.400000000000006
+ckd,region,FALSE,London,228,74,5,1,3,7,8.700000000000003
+ckd,region,FALSE,East of England,216,67,5,1,2,7,9
+ckd,region,FALSE,South East,230,74,5,1,3,7,8.700000000000003
+ckd,region,FALSE,South West,232,66,4.5,1,3,6,8
+ckd,region,TRUE,South East,11,2,7.5,7.1,7.25,7.75,7.9
+ckd,region,TRUE,North East and Yorkshire,100,28,5,2,3,8.25,9
+ckd,region,TRUE,Midlands,22,8,4.5,1.7000000000000002,2.75,6,6.3
+ckd,region,TRUE,North West,48,21,5,3,3,6,7
+ckd,region,TRUE,London,10,5,7,3.1999999999999997,5,8,8.6
+ckd,region,TRUE,East of England,12,3,8,6.4,7,8,8
+ckd,region,TRUE,South West,5,1,6,6,6,6,6
+ckd,imd_quintile,FALSE,2,961,320,5,1.9000000000000057,3,7,9
+ckd,imd_quintile,FALSE,1 (most deprived),884,248,5,1,3,7,9
+ckd,imd_quintile,FALSE,3,937,274,5,1,2,7,8
+ckd,imd_quintile,FALSE,4,871,260,5,1,3,7,9
+ckd,imd_quintile,FALSE,5 (least deprived),841,289,5,1,3,7,8
+ckd,imd_quintile,FALSE,(Missing),230,66,6,2,3.25,8,9
+ckd,imd_quintile,TRUE,3,41,15,6,3.4000000000000004,5,6,8.6
+ckd,imd_quintile,TRUE,1 (most deprived),33,16,4.5,2,2.75,8,8
+ckd,imd_quintile,TRUE,2,55,16,5,3.5,4,7,9
+ckd,imd_quintile,TRUE,5 (least deprived),37,9,7,3,4,7,9
+ckd,imd_quintile,TRUE,4,32,9,4,1.8,3,6,8
+ckd,imd_quintile,TRUE,(Missing),10,3,4,2.4,3,5,5.6
+ckd,carehome_status,FALSE,FALSE,4005,1237,5,1,3,7,9
+ckd,carehome_status,FALSE,TRUE,719,220,5,1,3,7,8
+ckd,carehome_status,TRUE,FALSE,196,63,6,2,3.5,7.5,9
+ckd,carehome_status,TRUE,TRUE,12,5,4,2.4,3,5,6.199999999999999
+ckd,primis_atrisk,FALSE,TRUE,1791,567,5,1,3,7,9
+ckd,primis_atrisk,FALSE,FALSE,2933,890,5,1,3,7,9
+ckd,primis_atrisk,TRUE,TRUE,208,68,5,2,3,7,9
+ckd,crd,FALSE,TRUE,192,72,5,2,3,7,8
+ckd,crd,FALSE,FALSE,4532,1385,5,1,3,7,9
+ckd,crd,TRUE,FALSE,202,68,5,2,3,7,9
+ckd,crd,TRUE,TRUE,6,0,NA,NA,NA,NA,NA
+ckd,chd,FALSE,FALSE,4535,1389,5,1,3,7,9
+ckd,chd,FALSE,TRUE,189,68,5.5,1,3,7,9
+ckd,chd,TRUE,FALSE,203,68,5,2,3,7,9
+ckd,chd,TRUE,TRUE,5,0,NA,NA,NA,NA,NA
+ckd,cld,FALSE,FALSE,4535,1401,5,1,3,7,9
+ckd,cld,FALSE,TRUE,189,56,5,1,3,7,8
+ckd,cld,TRUE,FALSE,201,64,5.5,2,3,7,9
+ckd,cld,TRUE,TRUE,7,4,4.5,4,4,5.75,7.1000000000000005
+ckd,cns_learndis,FALSE,FALSE,4350,1356,5,1,3,7,9
+ckd,cns_learndis,FALSE,TRUE,374,101,5,1,3,7,8
+ckd,cns_learndis,TRUE,FALSE,204,65,5,2,3,7,9
+ckd,cns_learndis,TRUE,TRUE,4,3,5,4.2,4.5,6,6.6
+ckd,diabetes,FALSE,FALSE,4522,1404,5,1,3,7,9
+ckd,diabetes,FALSE,TRUE,202,53,6,2.2,4,8,9
+ckd,diabetes,TRUE,FALSE,202,64,5.5,2,3,7,8.700000000000003
+ckd,diabetes,TRUE,TRUE,6,4,4.5,3.3,3.75,6,7.800000000000001
+ckd,immunosuppressed,FALSE,FALSE,4509,1380,5,1,3,7,9
+ckd,immunosuppressed,FALSE,TRUE,215,77,5,1,3,7,9
+ckd,immunosuppressed,TRUE,FALSE,201,66,5,2,3,7,8.5
+ckd,immunosuppressed,TRUE,TRUE,7,2,8,7.199999999999999,7.5,8.5,8.8
+ckd,asplenia,FALSE,FALSE,4543,1400,5,1,3,7,9
+ckd,asplenia,FALSE,TRUE,181,57,5,1,3,8,9
+ckd,asplenia,TRUE,FALSE,204,67,5,2,3,7,9
+ckd,asplenia,TRUE,TRUE,4,1,5,5,5,5,5
+ckd,severe_obesity,FALSE,FALSE,4512,1394,5,1,3,7,9
+ckd,severe_obesity,FALSE,TRUE,212,63,5,1,3,6.5,8
+ckd,severe_obesity,TRUE,TRUE,6,1,6,6,6,6,6
+ckd,severe_obesity,TRUE,FALSE,202,67,5,2,3,7,9
+ckd,smi,FALSE,FALSE,4533,1383,5,1,3,7,9
+ckd,smi,FALSE,TRUE,191,74,5.5,1,3,8,8.700000000000003
+ckd,smi,TRUE,FALSE,205,67,5,2,3,7,9
+ckd,smi,TRUE,TRUE,3,1,6,6,6,6,6
+ckd,ckd_rrt,FALSE,Stage 3,287,81,5,1,3,7,8
+ckd,ckd_rrt,FALSE,No CKD or RRT,4212,1304,5,1,3,7,9
+ckd,ckd_rrt,FALSE,Stage 4,103,40,4,2,3,7,8
+ckd,ckd_rrt,FALSE,RRT (transplant),36,5,2,1.4,2,6,7.199999999999999
+ckd,ckd_rrt,FALSE,RRT (dialysis),38,10,5,1,2.25,8.5,9
+ckd,ckd_rrt,FALSE,Stage 5,48,17,3,1,1,6,6.4
+ckd,ckd_rrt,TRUE,No CKD or RRT,177,60,6,2,3,7.25,9
+ckd,ckd_rrt,TRUE,Stage 3,21,7,4,2,3,6,7.4
+ckd,ckd_rrt,TRUE,Stage 4,3,0,NA,NA,NA,NA,NA
+ckd,ckd_rrt,TRUE,RRT (transplant),3,0,NA,NA,NA,NA,NA
+ckd,ckd_rrt,TRUE,Stage 5,3,1,5,5,5,5,5
+ckd,ckd_rrt,TRUE,RRT (dialysis),1,0,NA,NA,NA,NA,NA
+ckd,copd,FALSE,FALSE,4617,1424,5,1,3,7,9
+ckd,copd,FALSE,TRUE,107,33,5,2,3,8,8
+ckd,copd,TRUE,FALSE,201,66,5,2,3.25,7,8.5
+ckd,copd,TRUE,TRUE,7,2,6,3.6000000000000005,4.5,7.5,8.4
+ckd,learndis_cat,FALSE,(Missing),3799,1177,5,1,3,7,9
+ckd,learndis_cat,FALSE,Learning disability register,236,79,4,1,3,6.5,8.200000000000003
+ckd,learndis_cat,FALSE,Other learning disability,467,131,6,2,3,7,9
+ckd,learndis_cat,FALSE,Down's syndrome,222,70,5,1.9000000000000004,2,7,8
+ckd,learndis_cat,TRUE,(Missing),171,57,5,2,3,7,8
+ckd,learndis_cat,TRUE,Learning disability register,7,1,9,9,9,9,9
+ckd,learndis_cat,TRUE,Other learning disability,20,7,5,2.2,3.5,7,8.4
+ckd,learndis_cat,TRUE,Down's syndrome,10,3,6,1.9999999999999998,3.5,7.5,8.399999999999999
+ckd,sickle_cell_asplenia,FALSE,FALSE,4450,1373,5,1,3,7,9
+ckd,sickle_cell_asplenia,FALSE,TRUE,274,84,5,1.3000000000000007,3,8,9
+ckd,sickle_cell_asplenia,TRUE,FALSE,201,67,5,2,3,7,9
+ckd,sickle_cell_asplenia,TRUE,TRUE,7,1,5,5,5,5,5
+ckd,cirrhosis,FALSE,FALSE,4626,1425,5,1,3,7,9
+ckd,cirrhosis,FALSE,TRUE,98,32,5,1.0999999999999996,3,7.25,8.900000000000002
+ckd,cirrhosis,TRUE,FALSE,205,68,5,2,3,7,9
+ckd,cirrhosis,TRUE,TRUE,3,0,NA,NA,NA,NA,NA
+ckd,cochlear_implant,FALSE,FALSE,4626,1420,5,1,3,7,9
+ckd,cochlear_implant,FALSE,TRUE,98,37,4,1,3,7,8
+ckd,cochlear_implant,TRUE,FALSE,202,67,5,2,3,7,9
+ckd,cochlear_implant,TRUE,TRUE,6,1,4,4,4,4,4
+ckd,cystic_fibrosis,FALSE,FALSE,4612,1424,5,1,3,7,9
+ckd,cystic_fibrosis,FALSE,TRUE,112,33,4,1.2000000000000002,3,6,8
+ckd,cystic_fibrosis,TRUE,FALSE,204,67,5,2,3,7,9
+ckd,cystic_fibrosis,TRUE,TRUE,4,1,6,6,6,6,6
+ckd,csfl,FALSE,FALSE,4640,1430,5,1,3,7,9
+ckd,csfl,FALSE,TRUE,84,27,5,3,3.5,8,8.400000000000002
+ckd,csfl,TRUE,FALSE,206,68,5,2,3,7,9
+ckd,csfl,TRUE,TRUE,2,0,NA,NA,NA,NA,NA
+ckd,homeless,FALSE,FALSE,4630,1428,5,1,3,7,9
+ckd,homeless,FALSE,TRUE,94,29,3,1,2,4,8.2
+ckd,homeless,TRUE,FALSE,199,67,5,2,3.5,7,9
+ckd,homeless,TRUE,TRUE,9,1,2,2,2,2,2
+cld,all,FALSE,All,4736,1465,5,1,3,7,9
+cld,all,TRUE,All,196,60,5,1,3,7,8
+cld,ageband4,FALSE,50-64,738,239,5,1,3,7,9
+cld,ageband4,FALSE,65-74,2151,657,5,1,3,7,9
+cld,ageband4,FALSE,75-104,1387,435,5,1,3,7,9
+cld,ageband4,FALSE,12-49,460,134,5,1,3,7,8.700000000000003
+cld,ageband4,TRUE,50-64,84,24,4,1.3000000000000003,3,6,7
+cld,ageband4,TRUE,75-104,24,4,4.5,2,2,7,7
+cld,ageband4,TRUE,12-49,58,20,6,2.8000000000000007,4,7.25,9
+cld,ageband4,TRUE,65-74,30,12,5.5,1.1,2.75,7,7
+cld,ageband13,FALSE,55-59,240,86,5,1,3,7,9
+cld,ageband13,FALSE,60-64,279,89,4,1,3,6,8
+cld,ageband13,FALSE,70-74,939,292,5,1,3,7,9
+cld,ageband13,FALSE,50-54,219,64,6,1,3,8,9
+cld,ageband13,FALSE,80-84,384,119,5,1,3,7,8
+cld,ageband13,FALSE,75-79,640,192,5,1.1000000000000014,3,8,9
+cld,ageband13,FALSE,65-69,1212,365,5,1,3,7,8
+cld,ageband13,FALSE,30-39,118,38,5,2,3,8,9
+cld,ageband13,FALSE,85-89,203,73,6,1,3,8,9
+cld,ageband13,FALSE,90-104,160,51,4,2,3,6,8
+cld,ageband13,FALSE,40-49,315,87,4,1,3,6,8
+cld,ageband13,FALSE,18-29,26,8,5.5,1,1.75,6.25,7.6
+cld,ageband13,FALSE,12-17,1,1,7,7,7,7,7
+cld,ageband13,TRUE,60-64,24,8,4.5,2.4000000000000004,3,5.25,6.6
+cld,ageband13,TRUE,90-104,3,0,NA,NA,NA,NA,NA
+cld,ageband13,TRUE,30-39,17,5,6,4.8,6,8,8
+cld,ageband13,TRUE,55-59,34,9,5,3,3,7,7.399999999999999
+cld,ageband13,TRUE,80-84,8,1,7,7,7,7,7
+cld,ageband13,TRUE,50-54,26,7,4,1,1.5,4,5.200000000000001
+cld,ageband13,TRUE,40-49,40,14,6,1.5999999999999996,4,7,9
+cld,ageband13,TRUE,65-69,19,7,7,2.8000000000000003,4.5,7,7.4
+cld,ageband13,TRUE,75-79,9,1,7,7,7,7,7
+cld,ageband13,TRUE,85-89,4,2,2,2,2,2,2
+cld,ageband13,TRUE,70-74,11,5,3,1.4,2,6,6.6
+cld,ageband13,TRUE,18-29,1,1,4,4,4,4,4
+cld,sex,FALSE,Female,2454,751,5,1,3,7,9
+cld,sex,FALSE,Male,2282,714,5,1,3,7,9
+cld,sex,TRUE,Female,117,40,5,1,3,7,7
+cld,sex,TRUE,Male,79,20,4.5,1.9000000000000004,3,7.25,8.100000000000001
+cld,ethnicity5,FALSE,White,2576,777,5,1,3,7,9
+cld,ethnicity5,FALSE,(Missing),461,147,5,1,3,7,8
+cld,ethnicity5,FALSE,Mixed,425,147,5,1,3,7,9
+cld,ethnicity5,FALSE,Chinese or Other Ethnic Groups,437,134,5,1,3.25,7,8.700000000000003
+cld,ethnicity5,FALSE,Asian or Asian British,411,119,5,1,3,7,8.200000000000003
+cld,ethnicity5,FALSE,Black or Black British,426,141,5,1,3,7,8
+cld,ethnicity5,TRUE,Asian or Asian British,13,3,4,2.4,3,5,5.6
+cld,ethnicity5,TRUE,White,115,39,6,2,4,7,8
+cld,ethnicity5,TRUE,(Missing),14,6,3,2.5,3,5.25,6
+cld,ethnicity5,TRUE,Chinese or Other Ethnic Groups,19,4,6.5,2.5,4.75,7,7
+cld,ethnicity5,TRUE,Mixed,16,3,1,1,1,4,5.799999999999999
+cld,ethnicity5,TRUE,Black or Black British,19,5,4,1.7999999999999998,3,5,7.399999999999999
+cld,region,FALSE,North East and Yorkshire,2389,711,5,1,3,7,9
+cld,region,FALSE,North West,950,300,5,2,3,7,9
+cld,region,FALSE,South East,233,74,5,1,3,7,8.700000000000003
+cld,region,FALSE,Midlands,485,172,5,1,2,7,8
+cld,region,FALSE,London,232,78,5,1.6999999999999993,3,7,9
+cld,region,FALSE,East of England,219,67,5,1,2,7,8.399999999999999
+cld,region,FALSE,South West,228,63,5,1,3,6,8
+cld,region,TRUE,Midlands,19,3,1,1,1,2.5,3.3999999999999995
+cld,region,TRUE,North East and Yorkshire,106,33,6,3,4,7,8
+cld,region,TRUE,North West,39,14,4,1.2999999999999998,3,5.75,7
+cld,region,TRUE,South West,9,4,5,2.6,3.5,6,6
+cld,region,TRUE,East of England,9,3,5,3.4000000000000004,4,7,8.2
+cld,region,TRUE,South East,8,2,4.5,2.5000000000000004,3.25,5.75,6.499999999999999
+cld,region,TRUE,London,6,1,1,1,1,1,1
+cld,imd_quintile,FALSE,2,968,320,5,2,3,7,9
+cld,imd_quintile,FALSE,1 (most deprived),882,253,5,1.2000000000000028,3,7,9
+cld,imd_quintile,FALSE,3,931,277,5,1,2,7,8
+cld,imd_quintile,FALSE,4,873,261,5,1,3,7,9
+cld,imd_quintile,FALSE,5 (least deprived),852,287,5,1,3,7,8
+cld,imd_quintile,FALSE,(Missing),230,67,6,2,3,8,9
+cld,imd_quintile,TRUE,1 (most deprived),35,11,6,3,4.5,7,8
+cld,imd_quintile,TRUE,3,47,12,4.5,1.2000000000000002,3.75,7,8.8
+cld,imd_quintile,TRUE,4,30,8,6,3.4000000000000004,4,8,8
+cld,imd_quintile,TRUE,(Missing),10,2,7,7,7,7,7
+cld,imd_quintile,TRUE,2,48,16,4,1.5,2.75,6,7
+cld,imd_quintile,TRUE,5 (least deprived),26,11,3,1,2.5,6,7
+cld,carehome_status,FALSE,FALSE,4018,1243,5,1,3,7,9
+cld,carehome_status,FALSE,TRUE,718,222,5,1,3,7,8
+cld,carehome_status,TRUE,FALSE,183,57,5,1,3,7,8
+cld,carehome_status,TRUE,TRUE,13,3,7,7,7,7.5,7.8
+cld,primis_atrisk,FALSE,TRUE,1803,575,5,1,3,7,9
+cld,primis_atrisk,FALSE,FALSE,2933,890,5,1,3,7,9
+cld,primis_atrisk,TRUE,TRUE,196,60,5,1,3,7,8
+cld,crd,FALSE,TRUE,194,69,5,1.8000000000000007,3,7,8
+cld,crd,FALSE,FALSE,4542,1396,5,1,3,7,9
+cld,crd,TRUE,FALSE,192,57,5,1,3,7,8
+cld,crd,TRUE,TRUE,4,3,4,3.2,3.5,5.5,6.3999999999999995
+cld,chd,FALSE,FALSE,4548,1399,5,1,3,7,9
+cld,chd,FALSE,TRUE,188,66,5.5,1,3,7,9
+cld,chd,TRUE,FALSE,190,58,5,1,3,7,8
+cld,chd,TRUE,TRUE,6,2,5.5,4.300000000000001,4.75,6.25,6.699999999999999
+cld,ckd,FALSE,FALSE,4535,1401,5,1,3,7,9
+cld,ckd,FALSE,TRUE,201,64,5.5,2,3,7,9
+cld,ckd,TRUE,FALSE,189,56,5,1,3,7,8
+cld,ckd,TRUE,TRUE,7,4,4.5,4,4,5.75,7.1000000000000005
+cld,cns_learndis,FALSE,FALSE,4360,1362,5,1,3,7,9
+cld,cns_learndis,FALSE,TRUE,376,103,5,1,3,7,8
+cld,cns_learndis,TRUE,FALSE,194,59,5,1,3,7,8
+cld,cns_learndis,TRUE,TRUE,2,1,5,5,5,5,5
+cld,diabetes,FALSE,FALSE,4530,1408,5,1,3,7,9
+cld,diabetes,FALSE,TRUE,206,57,6,2.6000000000000005,4,8,9
+cld,diabetes,TRUE,FALSE,194,60,5,1,3,7,8
+cld,diabetes,TRUE,TRUE,2,0,NA,NA,NA,NA,NA
+cld,immunosuppressed,FALSE,FALSE,4516,1387,5,1,3,7,9
+cld,immunosuppressed,FALSE,TRUE,220,78,5,1,3,7,9
+cld,immunosuppressed,TRUE,FALSE,194,59,5,1,3,7,8
+cld,immunosuppressed,TRUE,TRUE,2,1,4,4,4,4,4
+cld,asplenia,FALSE,FALSE,4557,1410,5,1,3,7,9
+cld,asplenia,FALSE,TRUE,179,55,5,1,3,8,9
+cld,asplenia,TRUE,FALSE,190,57,5,1,3,7,8
+cld,asplenia,TRUE,TRUE,6,3,5,4.2,4.5,6,6.6
+cld,severe_obesity,FALSE,FALSE,4524,1401,5,1,3,7,9
+cld,severe_obesity,FALSE,TRUE,212,64,5,1,3,6.25,8
+cld,severe_obesity,TRUE,FALSE,190,60,5,1,3,7,8
+cld,severe_obesity,TRUE,TRUE,6,0,NA,NA,NA,NA,NA
+cld,smi,FALSE,FALSE,4548,1392,5,1,3,7,9
+cld,smi,FALSE,TRUE,188,73,5,1,3,8,8.799999999999997
+cld,smi,TRUE,FALSE,190,58,5,1,3,7,8
+cld,smi,TRUE,TRUE,6,2,7.5,7.1,7.25,7.75,7.9
+cld,ckd_rrt,FALSE,Stage 3,297,86,5,1,3,7,8
+cld,ckd_rrt,FALSE,No CKD or RRT,4218,1311,5,1,3,7,9
+cld,ckd_rrt,FALSE,Stage 4,98,37,4,2,3,7,8
+cld,ckd_rrt,FALSE,RRT (transplant),37,5,2,1.4,2,6,7.199999999999999
+cld,ckd_rrt,FALSE,RRT (dialysis),38,9,5,1,2,9,9
+cld,ckd_rrt,FALSE,Stage 5,48,17,3,1,1,5,6.4
+cld,ckd_rrt,TRUE,No CKD or RRT,171,53,5,1.2000000000000002,3,7,8
+cld,ckd_rrt,TRUE,Stage 5,3,1,6,6,6,6,6
+cld,ckd_rrt,TRUE,Stage 3,11,2,4,3.2,3.5,4.5,4.800000000000001
+cld,ckd_rrt,TRUE,Stage 4,8,3,6,1.9999999999999998,3.5,6.5,6.8
+cld,ckd_rrt,TRUE,RRT (transplant),2,0,NA,NA,NA,NA,NA
+cld,ckd_rrt,TRUE,RRT (dialysis),1,1,5,5,5,5,5
+cld,copd,FALSE,FALSE,4629,1432,5,1,3,7,9
+cld,copd,FALSE,TRUE,107,33,5,2,3,8,8.8
+cld,copd,TRUE,FALSE,189,58,5,1,3,7,8
+cld,copd,TRUE,TRUE,7,2,3.5,3.1,3.25,3.75,3.9
+cld,learndis_cat,FALSE,(Missing),3808,1188,5,1,3,7,9
+cld,learndis_cat,FALSE,Learning disability register,235,75,5,1,3,7,9
+cld,learndis_cat,FALSE,Other learning disability,467,130,6,2,3,7,9
+cld,learndis_cat,FALSE,Down's syndrome,226,72,5,1.1000000000000014,2,7,8
+cld,learndis_cat,TRUE,(Missing),162,46,5,1,3.25,7,8
+cld,learndis_cat,TRUE,Other learning disability,20,8,7,2.4000000000000004,3.75,7.25,8.3
+cld,learndis_cat,TRUE,Learning disability register,8,5,3,2.4,3,6,6
+cld,learndis_cat,TRUE,Down's syndrome,6,1,3,3,3,3,3
+cld,sickle_cell_asplenia,FALSE,FALSE,4466,1385,5,1,3,7,9
+cld,sickle_cell_asplenia,FALSE,TRUE,270,80,5,1,3,8,9
+cld,sickle_cell_asplenia,TRUE,FALSE,185,55,5,1,3,7,8
+cld,sickle_cell_asplenia,TRUE,TRUE,11,5,5,3.4,4,7,8.2
+cld,cirrhosis,FALSE,FALSE,4638,1433,5,1,3,7,9
+cld,cirrhosis,FALSE,TRUE,98,32,5,1.0999999999999996,3,7.25,8.900000000000002
+cld,cirrhosis,TRUE,FALSE,193,60,5,1,3,7,8
+cld,cirrhosis,TRUE,TRUE,3,0,NA,NA,NA,NA,NA
+cld,cochlear_implant,FALSE,FALSE,4637,1427,5,1,3,7,9
+cld,cochlear_implant,FALSE,TRUE,99,38,4,1,3,7,8
+cld,cochlear_implant,TRUE,FALSE,191,60,5,1,3,7,8
+cld,cochlear_implant,TRUE,TRUE,5,0,NA,NA,NA,NA,NA
+cld,cystic_fibrosis,FALSE,FALSE,4627,1434,5,1,3,7,9
+cld,cystic_fibrosis,FALSE,TRUE,109,31,4,1,3,6.5,8
+cld,cystic_fibrosis,TRUE,FALSE,189,57,5,1,3,7,8
+cld,cystic_fibrosis,TRUE,TRUE,7,3,4,3.2,3.5,5,5.6
+cld,csfl,FALSE,FALSE,4652,1438,5,1,3,7,9
+cld,csfl,FALSE,TRUE,84,27,5,3,3.5,8,8.400000000000002
+cld,csfl,TRUE,FALSE,194,60,5,1,3,7,8
+cld,csfl,TRUE,TRUE,2,0,NA,NA,NA,NA,NA
+cld,homeless,FALSE,FALSE,4634,1435,5,1,3,7,9
+cld,homeless,FALSE,TRUE,102,30,3,1,2,4,8.100000000000001
+cld,homeless,TRUE,FALSE,195,60,5,1,3,7,8
+cld,homeless,TRUE,TRUE,1,0,NA,NA,NA,NA,NA
+cns_learndis,all,FALSE,All,4554,1421,5,1,3,7,9
+cns_learndis,all,TRUE,All,378,104,5,1,3,7,8
+cns_learndis,ageband4,FALSE,50-64,684,217,5,1,3,7,9
+cns_learndis,ageband4,FALSE,65-74,2092,648,5,1,3,7,9
+cns_learndis,ageband4,FALSE,75-104,1360,425,5,1,3,7,9
+cns_learndis,ageband4,FALSE,12-49,418,131,5,2,3,7,9
+cns_learndis,ageband4,TRUE,50-64,138,46,6,3,4,8,9
+cns_learndis,ageband4,TRUE,12-49,100,23,3,1,2,6,7
+cns_learndis,ageband4,TRUE,75-104,51,14,4.5,1.2999999999999998,3.25,6.75,8
+cns_learndis,ageband4,TRUE,65-74,89,21,4,1,2,6,8
+cns_learndis,ageband13,FALSE,55-59,231,77,4,1,3,7,8.400000000000006
+cns_learndis,ageband13,FALSE,60-64,245,80,4,1,2.75,6,8
+cns_learndis,ageband13,FALSE,70-74,914,291,5,1,3,7,9
+cns_learndis,ageband13,FALSE,50-54,208,60,6,1,3,7,9
+cns_learndis,ageband13,FALSE,80-84,375,120,5,1,3,7,8
+cns_learndis,ageband13,FALSE,75-79,625,184,5.5,2,3,8,9
+cns_learndis,ageband13,FALSE,65-69,1178,357,5,2,3,7,8
+cns_learndis,ageband13,FALSE,30-39,106,35,6,2.4000000000000004,3.5,8,9
+cns_learndis,ageband13,FALSE,85-89,202,72,5,1,3,7.25,9
+cns_learndis,ageband13,FALSE,90-104,158,49,4,1.8000000000000007,3,6,8
+cns_learndis,ageband13,FALSE,40-49,287,88,4.5,1.700000000000001,3,7,8
+cns_learndis,ageband13,FALSE,18-29,24,7,4,1,1.5,6.5,7.800000000000001
+cns_learndis,ageband13,FALSE,12-17,1,1,7,7,7,7,7
+cns_learndis,ageband13,TRUE,50-54,37,11,6,1,4.5,8,8
+cns_learndis,ageband13,TRUE,30-39,29,8,4,1.7000000000000002,2.75,7,7.3
+cns_learndis,ageband13,TRUE,40-49,68,13,3,1,1,5,6.800000000000001
+cns_learndis,ageband13,TRUE,60-64,58,17,5,3.6,4,8,8.4
+cns_learndis,ageband13,TRUE,80-84,17,0,NA,NA,NA,NA,NA
+cns_learndis,ageband13,TRUE,55-59,43,18,5.5,3,4,8,9
+cns_learndis,ageband13,TRUE,70-74,36,6,4.5,2,3.25,7.25,8.5
+cns_learndis,ageband13,TRUE,65-69,53,15,4,1,1.5,6,6
+cns_learndis,ageband13,TRUE,75-79,24,9,4,1,2,7,8.2
+cns_learndis,ageband13,TRUE,90-104,5,2,4,4,4,4,4
+cns_learndis,ageband13,TRUE,18-29,3,2,5.5,5.1000000000000005,5.25,5.75,5.9
+cns_learndis,ageband13,TRUE,85-89,5,3,6,5.199999999999999,5.5,7,7.6
+cns_learndis,sex,FALSE,Female,2379,736,5,1,3,7,9
+cns_learndis,sex,FALSE,Male,2175,685,5,1,3,7,9
+cns_learndis,sex,TRUE,Female,192,55,5,1,2,8,8.600000000000001
+cns_learndis,sex,TRUE,Male,186,49,5,2,4,6,8
+cns_learndis,ethnicity5,FALSE,White,2469,763,5,2,3,7,9
+cns_learndis,ethnicity5,FALSE,(Missing),438,141,5,1,3,7,8
+cns_learndis,ethnicity5,FALSE,Mixed,411,136,5,1,3,7,9
+cns_learndis,ethnicity5,FALSE,Chinese or Other Ethnic Groups,427,131,5,1,3,7,9
+cns_learndis,ethnicity5,FALSE,Asian or Asian British,394,112,4.5,1,3,7,8
+cns_learndis,ethnicity5,FALSE,Black or Black British,415,138,5,1,3,7,8
+cns_learndis,ethnicity5,TRUE,White,222,53,5,1,2,7,8
+cns_learndis,ethnicity5,TRUE,Black or Black British,30,8,4,1,2.5,6.5,8.3
+cns_learndis,ethnicity5,TRUE,(Missing),37,12,6,2,3.5,8,8.9
+cns_learndis,ethnicity5,TRUE,Chinese or Other Ethnic Groups,29,7,5,3.6,4.5,6,6.800000000000001
+cns_learndis,ethnicity5,TRUE,Mixed,30,14,5,3,3.25,6,7
+cns_learndis,ethnicity5,TRUE,Asian or Asian British,30,10,4.5,2.8,4,7.5,8.1
+cns_learndis,region,FALSE,North East and Yorkshire,2301,697,5,1,3,7,9
+cns_learndis,region,FALSE,North West,904,294,5,2,3,7,9
+cns_learndis,region,FALSE,South East,226,71,5,1,3,7,9
+cns_learndis,region,FALSE,Midlands,467,158,5,1,2,7,8
+cns_learndis,region,FALSE,London,220,71,5,1,3,7,9
+cns_learndis,region,FALSE,East of England,215,67,5,1,2,7,9
+cns_learndis,region,FALSE,South West,221,63,5,1.2000000000000002,3,6,8
+cns_learndis,region,TRUE,North East and Yorkshire,194,47,5,1,2,6,8
+cns_learndis,region,TRUE,North West,85,20,5,1,3.75,8,9
+cns_learndis,region,TRUE,Midlands,37,17,4,1,3,6,8.4
+cns_learndis,region,TRUE,London,18,8,6,4,4.75,7,7.6
+cns_learndis,region,TRUE,East of England,13,3,8,3.1999999999999997,5,8,8
+cns_learndis,region,TRUE,South East,15,5,5,3,3,6,7.199999999999999
+cns_learndis,region,TRUE,South West,16,4,4,1.9000000000000001,3.25,4,4
+cns_learndis,imd_quintile,FALSE,2,948,315,5,2,3,7,9
+cns_learndis,imd_quintile,FALSE,1 (most deprived),844,248,5,1,3,7,9
+cns_learndis,imd_quintile,FALSE,3,907,269,5,1,3,7,8
+cns_learndis,imd_quintile,FALSE,4,831,252,5,1,3,7,9
+cns_learndis,imd_quintile,FALSE,5 (least deprived),802,275,5,1,3,7,8.599999999999994
+cns_learndis,imd_quintile,FALSE,(Missing),222,62,6,2,3,7.75,9
+cns_learndis,imd_quintile,TRUE,2,68,21,5,1,2,8,9
+cns_learndis,imd_quintile,TRUE,4,72,17,5,3,4,7,8.4
+cns_learndis,imd_quintile,TRUE,1 (most deprived),73,16,5,2.5,3.75,6,8
+cns_learndis,imd_quintile,TRUE,3,71,20,4,1,1,6.25,8.100000000000001
+cns_learndis,imd_quintile,TRUE,(Missing),18,7,6,2.8000000000000003,5,8,8
+cns_learndis,imd_quintile,TRUE,5 (least deprived),76,23,4,1.2000000000000002,3,6,7
+cns_learndis,carehome_status,FALSE,FALSE,3857,1201,5,1,3,7,9
+cns_learndis,carehome_status,FALSE,TRUE,697,220,5,1,3,7,8
+cns_learndis,carehome_status,TRUE,FALSE,344,99,5,1,3,7,8
+cns_learndis,carehome_status,TRUE,TRUE,34,5,3,1,1,4,4.6
+cns_learndis,primis_atrisk,FALSE,TRUE,1621,531,5,1,3,7,9
+cns_learndis,primis_atrisk,FALSE,FALSE,2933,890,5,1,3,7,9
+cns_learndis,primis_atrisk,TRUE,TRUE,378,104,5,1,3,7,8
+cns_learndis,crd,FALSE,TRUE,184,65,5,2,3,7,8
+cns_learndis,crd,FALSE,FALSE,4370,1356,5,1,3,7,9
+cns_learndis,crd,TRUE,FALSE,364,97,5,1,3,7,8
+cns_learndis,crd,TRUE,TRUE,14,7,5,1.6,2.5,6.5,8
+cns_learndis,chd,FALSE,FALSE,4367,1355,5,1,3,7,9
+cns_learndis,chd,FALSE,TRUE,187,66,5.5,1,3,7,9
+cns_learndis,chd,TRUE,FALSE,371,102,5,1,3,7,8
+cns_learndis,chd,TRUE,TRUE,7,2,4.5,2.5000000000000004,3.25,5.75,6.499999999999999
+cns_learndis,ckd,FALSE,FALSE,4350,1356,5,1,3,7,9
+cns_learndis,ckd,FALSE,TRUE,204,65,5,2,3,7,9
+cns_learndis,ckd,TRUE,FALSE,374,101,5,1,3,7,8
+cns_learndis,ckd,TRUE,TRUE,4,3,5,4.2,4.5,6,6.6
+cns_learndis,cld,FALSE,FALSE,4360,1362,5,1,3,7,9
+cns_learndis,cld,FALSE,TRUE,194,59,5,1,3,7,8
+cns_learndis,cld,TRUE,FALSE,376,103,5,1,3,7,8
+cns_learndis,cld,TRUE,TRUE,2,1,5,5,5,5,5
+cns_learndis,diabetes,FALSE,FALSE,4352,1366,5,1,3,7,9
+cns_learndis,diabetes,FALSE,TRUE,202,55,6,2.4000000000000004,4,8,9
+cns_learndis,diabetes,TRUE,FALSE,372,102,5,1,3,7,8
+cns_learndis,diabetes,TRUE,TRUE,6,2,4,4,4,4,4
+cns_learndis,immunosuppressed,FALSE,FALSE,4338,1344,5,1,3,7,9
+cns_learndis,immunosuppressed,FALSE,TRUE,216,77,5,2,3,7,9
+cns_learndis,immunosuppressed,TRUE,FALSE,372,102,5,1,3,7,8
+cns_learndis,immunosuppressed,TRUE,TRUE,6,2,1,1,1,1,1
+cns_learndis,asplenia,FALSE,FALSE,4374,1363,5,1,3,7,9
+cns_learndis,asplenia,FALSE,TRUE,180,58,5,1,3,7.75,9
+cns_learndis,asplenia,TRUE,FALSE,373,104,5,1,3,7,8
+cns_learndis,asplenia,TRUE,TRUE,5,0,NA,NA,NA,NA,NA
+cns_learndis,severe_obesity,FALSE,FALSE,4345,1361,5,1,3,7,9
+cns_learndis,severe_obesity,FALSE,TRUE,209,60,5,1,3,6.25,8
+cns_learndis,severe_obesity,TRUE,FALSE,369,100,5,1,3,7,8
+cns_learndis,severe_obesity,TRUE,TRUE,9,4,4.5,1.9000000000000001,3.25,5.75,7.1000000000000005
+cns_learndis,smi,FALSE,FALSE,4367,1350,5,1,3,7,9
+cns_learndis,smi,FALSE,TRUE,187,71,6,2,3,8,9
+cns_learndis,smi,TRUE,FALSE,371,100,5,1,3,7,8
+cns_learndis,smi,TRUE,TRUE,7,4,2.5,1,1,4.5,5.4
+cns_learndis,ckd_rrt,FALSE,Stage 3,285,78,5,1,3,7,8
+cns_learndis,ckd_rrt,FALSE,No CKD or RRT,4054,1272,5,1,3,7,9
+cns_learndis,ckd_rrt,FALSE,Stage 4,98,39,4,2,3,7,8
+cns_learndis,ckd_rrt,FALSE,RRT (transplant),31,4,4,1.3,1.75,6.5,7.4
+cns_learndis,ckd_rrt,FALSE,Stage 5,50,18,3.5,1,1.25,5.75,6.300000000000001
+cns_learndis,ckd_rrt,FALSE,RRT (dialysis),36,10,5,1,2.25,8.5,9
+cns_learndis,ckd_rrt,TRUE,No CKD or RRT,335,92,5,1,3,7,8
+cns_learndis,ckd_rrt,TRUE,Stage 4,8,1,7,7,7,7,7
+cns_learndis,ckd_rrt,TRUE,RRT (dialysis),3,0,NA,NA,NA,NA,NA
+cns_learndis,ckd_rrt,TRUE,Stage 3,23,10,4.5,3.6999999999999997,4,6.5,9
+cns_learndis,ckd_rrt,TRUE,RRT (transplant),8,1,2,2,2,2,2
+cns_learndis,ckd_rrt,TRUE,Stage 5,1,0,NA,NA,NA,NA,NA
+cns_learndis,copd,FALSE,FALSE,4443,1388,5,1,3,7,9
+cns_learndis,copd,FALSE,TRUE,111,33,5,2,3,8,8.8
+cns_learndis,copd,TRUE,FALSE,375,102,5,1,3,7,8
+cns_learndis,copd,TRUE,TRUE,3,2,4,3.2,3.5,4.5,4.800000000000001
+cns_learndis,learndis_cat,FALSE,(Missing),3671,1150,5,1,3,7,9
+cns_learndis,learndis_cat,FALSE,Learning disability register,226,76,4,1,3,7,9
+cns_learndis,learndis_cat,FALSE,Other learning disability,445,130,6,2,3,7,9
+cns_learndis,learndis_cat,FALSE,Down's syndrome,212,65,5,1,2,7,8
+cns_learndis,learndis_cat,TRUE,(Missing),299,84,5,1,3,7,8
+cns_learndis,learndis_cat,TRUE,Down's syndrome,20,8,5,2,3.5,8.25,9
+cns_learndis,learndis_cat,TRUE,Other learning disability,42,8,4.5,1,2.5,5.75,8.3
+cns_learndis,learndis_cat,TRUE,Learning disability register,17,4,6,3.2,5,6.5,7.4
+cns_learndis,sickle_cell_asplenia,FALSE,FALSE,4281,1337,5,1,3,7,9
+cns_learndis,sickle_cell_asplenia,FALSE,TRUE,273,84,5,1.3000000000000007,3,8,9
+cns_learndis,sickle_cell_asplenia,TRUE,FALSE,370,103,5,1,3,7,8
+cns_learndis,sickle_cell_asplenia,TRUE,TRUE,8,1,6,6,6,6,6
+cns_learndis,cirrhosis,FALSE,FALSE,4459,1390,5,1,3,7,9
+cns_learndis,cirrhosis,FALSE,TRUE,95,31,5,1,3,7,9
+cns_learndis,cirrhosis,TRUE,FALSE,372,103,5,1,3,7,8
+cns_learndis,cirrhosis,TRUE,TRUE,6,1,8,8,8,8,8
+cns_learndis,cochlear_implant,FALSE,FALSE,4456,1387,5,1,3,7,9
+cns_learndis,cochlear_implant,FALSE,TRUE,98,34,4,1,2.25,7,8
+cns_learndis,cochlear_implant,TRUE,FALSE,372,100,5,1,3,7,8
+cns_learndis,cochlear_implant,TRUE,TRUE,6,4,4,3,3,5.5,6.4
+cns_learndis,cystic_fibrosis,FALSE,FALSE,4446,1389,5,1,3,7,9
+cns_learndis,cystic_fibrosis,FALSE,TRUE,108,32,4,1.0999999999999996,3,6.25,8
+cns_learndis,cystic_fibrosis,TRUE,FALSE,370,102,5,1,3,7,8
+cns_learndis,cystic_fibrosis,TRUE,TRUE,8,2,6,6,6,6,6
+cns_learndis,csfl,FALSE,FALSE,4476,1399,5,1,3,7,9
+cns_learndis,csfl,FALSE,TRUE,78,22,5,3,4,8,8
+cns_learndis,csfl,TRUE,FALSE,370,99,5,1,3,7,8
+cns_learndis,csfl,TRUE,TRUE,8,5,4,3,3,8,8.6
+cns_learndis,homeless,FALSE,FALSE,4462,1392,5,1,3,7,9
+cns_learndis,homeless,FALSE,TRUE,92,29,3,1,2,4,7.199999999999999
+cns_learndis,homeless,TRUE,FALSE,367,103,5,1,3,7,8
+cns_learndis,homeless,TRUE,TRUE,11,1,9,9,9,9,9
+diabetes,all,FALSE,All,4724,1468,5,1,3,7,9
+diabetes,all,TRUE,All,208,57,6,2.6000000000000005,4,8,9
+diabetes,ageband4,FALSE,50-64,729,238,5,1,3,7,8.300000000000011
+diabetes,ageband4,FALSE,65-74,2132,655,5,1,3,7,8
+diabetes,ageband4,FALSE,75-104,1384,429,5,1,3,7,9
+diabetes,ageband4,FALSE,12-49,479,146,5,1,3,7,8.5
+diabetes,ageband4,TRUE,50-64,93,25,5,1.4000000000000004,4,8,9
+diabetes,ageband4,TRUE,12-49,39,8,7.5,4,4.75,8.25,9
+diabetes,ageband4,TRUE,65-74,49,14,7,3.3,4,7.75,8.700000000000001
+diabetes,ageband4,TRUE,75-104,27,10,6.5,1.9,4.5,7,8
+diabetes,ageband13,FALSE,55-59,252,89,5,1.8000000000000007,3,7,8.200000000000003
+diabetes,ageband13,FALSE,60-64,266,86,4,1,3,6.75,8
+diabetes,ageband13,FALSE,70-74,930,293,5,1,3,7,9
+diabetes,ageband13,FALSE,50-54,211,63,6,1,3,7,8.800000000000004
+diabetes,ageband13,FALSE,80-84,384,118,5,1,3,7,8
+diabetes,ageband13,FALSE,75-79,636,189,5,1,3,8,9
+diabetes,ageband13,FALSE,65-69,1202,362,5,1,3,7,8
+diabetes,ageband13,FALSE,30-39,124,40,5,2,3,8,9
+diabetes,ageband13,FALSE,85-89,205,73,5,1,3,8,9
+diabetes,ageband13,FALSE,90-104,159,49,4,1.8000000000000007,3,6,8
+diabetes,ageband13,FALSE,40-49,331,97,4,1,3,7,8
+diabetes,ageband13,FALSE,18-29,23,8,4.5,1,1.75,6,6.3
+diabetes,ageband13,FALSE,12-17,1,1,7,7,7,7,7
+diabetes,ageband13,TRUE,60-64,37,11,5,3,3.5,6,6
+diabetes,ageband13,TRUE,50-54,34,8,6,3.8000000000000007,5,9,9
+diabetes,ageband13,TRUE,40-49,24,4,5.5,4,4,7.5,8.4
+diabetes,ageband13,TRUE,65-69,29,10,4.5,3,4,7,8
+diabetes,ageband13,TRUE,70-74,20,4,8,7,7,9,9
+diabetes,ageband13,TRUE,85-89,2,2,7,7,7,7,7
+diabetes,ageband13,TRUE,18-29,4,1,9,9,9,9,9
+diabetes,ageband13,TRUE,75-79,13,4,6.5,3.2,5,7.25,7.7
+diabetes,ageband13,TRUE,30-39,11,3,8,5.6,6.5,8,8
+diabetes,ageband13,TRUE,80-84,8,2,3.5,1.5000000000000004,2.25,4.75,5.5
+diabetes,ageband13,TRUE,90-104,4,2,6,4.4,5,7,7.6
+diabetes,ageband13,TRUE,55-59,22,6,6,1,1.75,8.75,9
+diabetes,sex,FALSE,Female,2458,760,5,1,3,7,9
+diabetes,sex,FALSE,Male,2266,708,5,1,3,7,9
+diabetes,sex,TRUE,Female,113,31,6,1,4,7,8
+diabetes,sex,TRUE,Male,95,26,6,3,5,8.75,9
+diabetes,ethnicity5,FALSE,White,2592,790,5,1,3,7,9
+diabetes,ethnicity5,FALSE,(Missing),452,144,5,1,3,7,8
+diabetes,ethnicity5,FALSE,Mixed,419,145,5,1,3,7,8.599999999999994
+diabetes,ethnicity5,FALSE,Chinese or Other Ethnic Groups,439,130,5,1,3.25,7,9
+diabetes,ethnicity5,FALSE,Asian or Asian British,399,117,4,1,3,7,8.400000000000006
+diabetes,ethnicity5,FALSE,Black or Black British,423,142,5,1,2.25,7,8
+diabetes,ethnicity5,TRUE,White,99,26,6,2.5,4,8,8.5
+diabetes,ethnicity5,TRUE,(Missing),23,9,6,4,5,9,9
+diabetes,ethnicity5,TRUE,Chinese or Other Ethnic Groups,17,8,5.5,1.7000000000000002,3.5,7.25,8
+diabetes,ethnicity5,TRUE,Mixed,22,5,7,6,6,7,8.2
+diabetes,ethnicity5,TRUE,Black or Black British,22,4,6.5,3.3,3.75,9,9
+diabetes,ethnicity5,TRUE,Asian or Asian British,25,5,5,1.7999999999999998,3,5,6.199999999999999
+diabetes,region,FALSE,North East and Yorkshire,2402,717,5,1,3,7,9
+diabetes,region,FALSE,North West,948,300,5,2,3,7,9
+diabetes,region,FALSE,South East,229,70,5,1,3,7,8.100000000000001
+diabetes,region,FALSE,Midlands,476,169,5,1,2,7,8
+diabetes,region,FALSE,London,227,78,5,1,3,7,9
+diabetes,region,FALSE,East of England,218,68,5,1,2,7,8.300000000000004
+diabetes,region,FALSE,South West,224,66,4.5,1,3,6,8
+diabetes,region,TRUE,North East and Yorkshire,93,27,6,1.6,4,7.5,8.400000000000002
+diabetes,region,TRUE,North West,41,14,7,4,4,8,9
+diabetes,region,TRUE,London,11,1,7,7,7,7,7
+diabetes,region,TRUE,East of England,10,2,6.5,4.5,5.25,7.75,8.5
+diabetes,region,TRUE,Midlands,28,6,5.5,2,3.5,6,7.5
+diabetes,region,TRUE,South West,13,1,5,5,5,5,5
+diabetes,region,TRUE,South East,12,6,7,4,5.5,7,8
+diabetes,imd_quintile,FALSE,2,970,322,5,2,3,7,9
+diabetes,imd_quintile,FALSE,1 (most deprived),877,252,5,1.1000000000000014,3,7,9
+diabetes,imd_quintile,FALSE,3,931,277,5,1,2,7,8
+diabetes,imd_quintile,FALSE,4,867,258,5,1,3,7,9
+diabetes,imd_quintile,FALSE,5 (least deprived),844,290,5,1,3,7,8
+diabetes,imd_quintile,FALSE,(Missing),235,69,6,2,3,8,9
+diabetes,imd_quintile,TRUE,1 (most deprived),40,12,6.5,3.1,4,7.25,8
+diabetes,imd_quintile,TRUE,4,36,11,5,2,3.5,6.5,9
+diabetes,imd_quintile,TRUE,3,47,12,7,4.1,5.75,8.25,9
+diabetes,imd_quintile,TRUE,5 (least deprived),34,8,7,3.7,4.75,8.25,9
+diabetes,imd_quintile,TRUE,2,46,14,5,1.5999999999999996,4,7,8
+diabetes,imd_quintile,TRUE,(Missing),5,0,NA,NA,NA,NA,NA
+diabetes,carehome_status,FALSE,FALSE,4010,1250,5,1,3,7,9
+diabetes,carehome_status,FALSE,TRUE,714,218,5,1,3,7,8
+diabetes,carehome_status,TRUE,FALSE,191,50,6,2,4,8,9
+diabetes,carehome_status,TRUE,TRUE,17,7,4,3,3.5,7,7.800000000000001
+diabetes,primis_atrisk,FALSE,TRUE,1791,578,5,1,3,7,9
+diabetes,primis_atrisk,FALSE,FALSE,2933,890,5,1,3,7,9
+diabetes,primis_atrisk,TRUE,TRUE,208,57,6,2.6000000000000005,4,8,9
+diabetes,crd,FALSE,TRUE,196,72,5,2,3,7,8
+diabetes,crd,FALSE,FALSE,4528,1396,5,1,3,7,9
+diabetes,crd,TRUE,FALSE,206,57,6,2.6000000000000005,4,8,9
+diabetes,crd,TRUE,TRUE,2,0,NA,NA,NA,NA,NA
+diabetes,chd,FALSE,FALSE,4530,1400,5,1,3,7,9
+diabetes,chd,FALSE,TRUE,194,68,5.5,1,3,7,9
+diabetes,chd,TRUE,FALSE,208,57,6,2.6000000000000005,4,8,9
+diabetes,ckd,FALSE,FALSE,4522,1404,5,1,3,7,9
+diabetes,ckd,FALSE,TRUE,202,64,5.5,2,3,7,8.700000000000003
+diabetes,ckd,TRUE,TRUE,6,4,4.5,3.3,3.75,6,7.800000000000001
+diabetes,ckd,TRUE,FALSE,202,53,6,2.2,4,8,9
+diabetes,cld,FALSE,FALSE,4530,1408,5,1,3,7,9
+diabetes,cld,FALSE,TRUE,194,60,5,1,3,7,8
+diabetes,cld,TRUE,FALSE,206,57,6,2.6000000000000005,4,8,9
+diabetes,cld,TRUE,TRUE,2,0,NA,NA,NA,NA,NA
+diabetes,cns_learndis,FALSE,FALSE,4352,1366,5,1,3,7,9
+diabetes,cns_learndis,FALSE,TRUE,372,102,5,1,3,7,8
+diabetes,cns_learndis,TRUE,FALSE,202,55,6,2.4000000000000004,4,8,9
+diabetes,cns_learndis,TRUE,TRUE,6,2,4,4,4,4,4
+diabetes,immunosuppressed,FALSE,FALSE,4507,1390,5,1,3,7,9
+diabetes,immunosuppressed,FALSE,TRUE,217,78,5,1,3,7,9
+diabetes,immunosuppressed,TRUE,FALSE,203,56,6,2.5,4,8,9
+diabetes,immunosuppressed,TRUE,TRUE,5,1,9,9,9,9,9
+diabetes,asplenia,FALSE,FALSE,4544,1412,5,1,3,7,9
+diabetes,asplenia,FALSE,TRUE,180,56,4.5,1,3,7.25,9
+diabetes,asplenia,TRUE,FALSE,203,55,6,2.4000000000000004,4,8,9
+diabetes,asplenia,TRUE,TRUE,5,2,7,5.4,6,8,8.6
+diabetes,severe_obesity,FALSE,FALSE,4510,1405,5,1,3,7,9
+diabetes,severe_obesity,FALSE,TRUE,214,63,5,1,3,6,8
+diabetes,severe_obesity,TRUE,FALSE,204,56,6,2.5,4,8,9
+diabetes,severe_obesity,TRUE,TRUE,4,1,9,9,9,9,9
+diabetes,smi,FALSE,FALSE,4537,1397,5,1,3,7,9
+diabetes,smi,FALSE,TRUE,187,71,6,1,3,7.5,8
+diabetes,smi,TRUE,FALSE,201,53,6,3,4,8,9
+diabetes,smi,TRUE,TRUE,7,4,6.5,1.9000000000000001,3.25,9,9
+diabetes,ckd_rrt,FALSE,Stage 3,295,84,5,2,3,7,8
+diabetes,ckd_rrt,FALSE,No CKD or RRT,4199,1311,5,1,3,7,9
+diabetes,ckd_rrt,FALSE,Stage 4,103,40,4,2,3,7,8
+diabetes,ckd_rrt,FALSE,RRT (transplant),38,5,2,1.4,2,6,7.199999999999999
+diabetes,ckd_rrt,FALSE,RRT (dialysis),38,10,5,1,2.25,8.5,9
+diabetes,ckd_rrt,FALSE,Stage 5,51,18,3.5,1,1.25,5.75,6.300000000000001
+diabetes,ckd_rrt,TRUE,No CKD or RRT,190,53,6,3,4,8,9
+diabetes,ckd_rrt,TRUE,Stage 4,3,0,NA,NA,NA,NA,NA
+diabetes,ckd_rrt,TRUE,Stage 3,13,4,3,1,1,5.5,6.4
+diabetes,ckd_rrt,TRUE,RRT (transplant),1,0,NA,NA,NA,NA,NA
+diabetes,ckd_rrt,TRUE,RRT (dialysis),1,0,NA,NA,NA,NA,NA
+diabetes,copd,FALSE,FALSE,4615,1436,5,1,3,7,9
+diabetes,copd,FALSE,TRUE,109,32,5,2.0999999999999996,3,8,8.900000000000002
+diabetes,copd,TRUE,FALSE,203,54,6,3,4,8,9
+diabetes,copd,TRUE,TRUE,5,3,6,1.9999999999999998,3.5,6.5,6.8
+diabetes,learndis_cat,FALSE,(Missing),3800,1189,5,1,3,7,9
+diabetes,learndis_cat,FALSE,Learning disability register,229,75,4,1,3,6,8
+diabetes,learndis_cat,FALSE,Other learning disability,472,135,6,2,3,7,9
+diabetes,learndis_cat,FALSE,Down's syndrome,223,69,5,1,2,7,8
+diabetes,learndis_cat,TRUE,(Missing),170,45,6,2,4,8,9
+diabetes,learndis_cat,TRUE,Down's syndrome,9,4,6,5.300000000000001,5.75,6.25,6.7
+diabetes,learndis_cat,TRUE,Learning disability register,14,5,9,4,4,9,9
+diabetes,learndis_cat,TRUE,Other learning disability,15,3,6,3.6,4.5,7,7.6
+diabetes,sickle_cell_asplenia,FALSE,FALSE,4450,1385,5,1,3,7,9
+diabetes,sickle_cell_asplenia,FALSE,TRUE,274,83,5,1.200000000000001,3,7.5,9
+diabetes,sickle_cell_asplenia,TRUE,FALSE,201,55,6,2.4000000000000004,4,8,9
+diabetes,sickle_cell_asplenia,TRUE,TRUE,7,2,7,5.4,6,8,8.6
+diabetes,cirrhosis,FALSE,FALSE,4628,1438,5,1,3,7,9
+diabetes,cirrhosis,FALSE,TRUE,96,30,5,1,3,7,8.100000000000001
+diabetes,cirrhosis,TRUE,FALSE,203,55,6,2.4000000000000004,4,8,9
+diabetes,cirrhosis,TRUE,TRUE,5,2,8,7.199999999999999,7.5,8.5,8.8
+diabetes,cochlear_implant,FALSE,FALSE,4627,1432,5,1,3,7,9
+diabetes,cochlear_implant,FALSE,TRUE,97,36,4,1,3,7,8
+diabetes,cochlear_implant,TRUE,FALSE,201,55,6,3,4,8,9
+diabetes,cochlear_implant,TRUE,TRUE,7,2,3.5,1.5000000000000004,2.25,4.75,5.5
+diabetes,cystic_fibrosis,FALSE,FALSE,4616,1435,5,1,3,7,9
+diabetes,cystic_fibrosis,FALSE,TRUE,108,33,4,1.2000000000000002,3,6,8
+diabetes,cystic_fibrosis,TRUE,FALSE,200,56,6,2.5,4,8,9
+diabetes,cystic_fibrosis,TRUE,TRUE,8,1,7,7,7,7,7
+diabetes,csfl,FALSE,FALSE,4641,1442,5,1,3,7,9
+diabetes,csfl,FALSE,TRUE,83,26,4.5,3,3.25,8,8.5
+diabetes,csfl,TRUE,FALSE,205,56,6,2.5,4,8,9
+diabetes,csfl,TRUE,TRUE,3,1,7,7,7,7,7
+diabetes,homeless,FALSE,FALSE,4625,1439,5,1,3,7,9
+diabetes,homeless,FALSE,TRUE,99,29,3,1,2,4,7.199999999999999
+diabetes,homeless,TRUE,FALSE,204,56,6,2.5,4,8,9
+diabetes,homeless,TRUE,TRUE,4,1,9,9,9,9,9
+immunosuppressed,all,FALSE,All,4710,1446,5,1,3,7,9
+immunosuppressed,all,TRUE,All,222,79,5,1,3,7,9
+immunosuppressed,ageband4,FALSE,50-64,729,232,5,1,3,7,9
+immunosuppressed,ageband4,FALSE,65-74,2134,649,5,1,3,7,8
+immunosuppressed,ageband4,FALSE,75-104,1382,429,5,1,3,7,9
+immunosuppressed,ageband4,FALSE,12-49,465,136,5,1,3,7,9
+immunosuppressed,ageband4,TRUE,50-64,93,31,4,1,2.5,6.5,8
+immunosuppressed,ageband4,TRUE,75-104,29,10,7,1.9,4,8,9
+immunosuppressed,ageband4,TRUE,12-49,53,18,5.5,3,4,6,8.3
+immunosuppressed,ageband4,TRUE,65-74,47,20,5,1.9000000000000004,3.75,7,9
+immunosuppressed,ageband13,FALSE,55-59,245,84,4.5,1,3,7,9
+immunosuppressed,ageband13,FALSE,60-64,261,82,4,1.0999999999999996,3,6,8
+immunosuppressed,ageband13,FALSE,70-74,934,291,5,1,3,7,9
+immunosuppressed,ageband13,FALSE,50-54,223,66,6,1,3,7,9
+immunosuppressed,ageband13,FALSE,80-84,387,120,5,1,3,7,8
+immunosuppressed,ageband13,FALSE,75-79,631,186,5,1.5,3,8,9
+immunosuppressed,ageband13,FALSE,65-69,1200,358,5,1,3,7,8
+immunosuppressed,ageband13,FALSE,30-39,122,38,5.5,2,3,8,9
+immunosuppressed,ageband13,FALSE,85-89,202,72,5,1,3,7,9
+immunosuppressed,ageband13,FALSE,90-104,162,51,4,2,3,6,8
+immunosuppressed,ageband13,FALSE,40-49,317,89,4,1,3,7,8
+immunosuppressed,ageband13,FALSE,18-29,25,8,4.5,1,1.75,6.25,7.6
+immunosuppressed,ageband13,FALSE,12-17,1,1,7,7,7,7,7
+immunosuppressed,ageband13,TRUE,60-64,42,15,3,1,2,5.5,8.6
+immunosuppressed,ageband13,TRUE,75-79,18,7,6,1.6,3,8,8.4
+immunosuppressed,ageband13,TRUE,40-49,38,12,5,3.1,4,6,6.9
+immunosuppressed,ageband13,TRUE,55-59,29,11,5,3,3.5,7,8
+immunosuppressed,ageband13,TRUE,50-54,22,5,3,1.4,2,6,7.199999999999999
+immunosuppressed,ageband13,TRUE,30-39,13,5,5,3.8,5,8,8.6
+immunosuppressed,ageband13,TRUE,80-84,5,0,NA,NA,NA,NA,NA
+immunosuppressed,ageband13,TRUE,65-69,31,14,5,1.2999999999999998,3.25,8.5,9
+immunosuppressed,ageband13,TRUE,85-89,5,3,8,4.8,6,8.5,8.8
+immunosuppressed,ageband13,TRUE,70-74,16,6,4.5,3,4,5,6
+immunosuppressed,ageband13,TRUE,18-29,2,1,6,6,6,6,6
+immunosuppressed,ageband13,TRUE,90-104,1,0,NA,NA,NA,NA,NA
+immunosuppressed,sex,FALSE,Female,2453,748,5,1,3,7,9
+immunosuppressed,sex,FALSE,Male,2257,698,5,1,3,7,9
+immunosuppressed,sex,TRUE,Female,118,43,5,3,4,7,8
+immunosuppressed,sex,TRUE,Male,104,36,4,1,2,7.25,9
+immunosuppressed,ethnicity5,FALSE,White,2561,767,5,1,3,7,9
+immunosuppressed,ethnicity5,FALSE,(Missing),451,148,5,1,3,7,8
+immunosuppressed,ethnicity5,FALSE,Mixed,424,144,5,1,3,7,8.700000000000017
+immunosuppressed,ethnicity5,FALSE,Chinese or Other Ethnic Groups,435,132,5,1,3,7,8
+immunosuppressed,ethnicity5,FALSE,Asian or Asian British,407,116,5,1,3,7,8
+immunosuppressed,ethnicity5,FALSE,Black or Black British,432,139,5,1,2.5,7,8
+immunosuppressed,ethnicity5,TRUE,White,130,49,5,1,3,7,9
+immunosuppressed,ethnicity5,TRUE,Mixed,17,6,4.5,2.5,3.25,5.75,7.5
+immunosuppressed,ethnicity5,TRUE,Chinese or Other Ethnic Groups,21,6,5,4.5,5,6.5,8
+immunosuppressed,ethnicity5,TRUE,(Missing),24,5,5,2.4,3,8,8
+immunosuppressed,ethnicity5,TRUE,Black or Black British,13,7,3,2.6,3,6.5,8.4
+immunosuppressed,ethnicity5,TRUE,Asian or Asian British,17,6,3.5,2,3,6.25,8
+immunosuppressed,region,FALSE,North East and Yorkshire,2370,701,5,1,3,7,9
+immunosuppressed,region,FALSE,North West,946,298,5,2,3,7,9
+immunosuppressed,region,FALSE,South East,228,72,5,1,3,7.25,8.900000000000006
+immunosuppressed,region,FALSE,Midlands,493,168,5,1,2,7,8
+immunosuppressed,region,FALSE,London,228,76,5,1,3,7,8.5
+immunosuppressed,region,FALSE,East of England,217,67,5,1,2,7,8.399999999999999
+immunosuppressed,region,FALSE,South West,228,64,5,1,3,6,8
+immunosuppressed,region,TRUE,North West,43,16,5.5,2,4,8.25,9
+immunosuppressed,region,TRUE,North East and Yorkshire,125,43,5,1,3.5,7,8
+immunosuppressed,region,TRUE,South East,13,4,4,1.6,2.5,5.25,5.7
+immunosuppressed,region,TRUE,East of England,11,3,8,3.1999999999999997,5,8.5,8.8
+immunosuppressed,region,TRUE,Midlands,11,7,3,2.6,3,4,6.600000000000001
+immunosuppressed,region,TRUE,London,10,3,4,2.4,3,6.5,7.999999999999999
+immunosuppressed,region,TRUE,South West,9,3,4,3.2,3.5,5.5,6.3999999999999995
+immunosuppressed,imd_quintile,FALSE,2,975,318,5,1.7000000000000028,3,7,9
+immunosuppressed,imd_quintile,FALSE,1 (most deprived),876,248,5,1.7000000000000028,3,7,9
+immunosuppressed,imd_quintile,FALSE,3,932,276,5,1,2,7,8
+immunosuppressed,imd_quintile,FALSE,4,859,254,5,1.3000000000000007,3,7,9
+immunosuppressed,imd_quintile,FALSE,5 (least deprived),842,284,5,1,3,7,8
+immunosuppressed,imd_quintile,FALSE,(Missing),226,66,6,2,3,7.75,9
+immunosuppressed,imd_quintile,TRUE,2,41,18,5,3,4,7,7.300000000000001
+immunosuppressed,imd_quintile,TRUE,4,44,15,4,1,2,6,7.199999999999999
+immunosuppressed,imd_quintile,TRUE,1 (most deprived),41,16,5.5,1.5,3,8,8.5
+immunosuppressed,imd_quintile,TRUE,5 (least deprived),36,14,3.5,1,1.25,8,9
+immunosuppressed,imd_quintile,TRUE,3,46,13,5,2.2,4,7,8.8
+immunosuppressed,imd_quintile,TRUE,(Missing),14,3,8,4.8,6,8.5,8.8
+immunosuppressed,carehome_status,FALSE,FALSE,3993,1229,5,1,3,7,9
+immunosuppressed,carehome_status,FALSE,TRUE,717,217,5,1,3,7,8
+immunosuppressed,carehome_status,TRUE,FALSE,208,71,5,1,3,7,8
+immunosuppressed,carehome_status,TRUE,TRUE,14,8,7,3.1000000000000005,4.75,9,9
+immunosuppressed,primis_atrisk,FALSE,TRUE,1777,556,5,1,3,7,9
+immunosuppressed,primis_atrisk,FALSE,FALSE,2933,890,5,1,3,7,9
+immunosuppressed,primis_atrisk,TRUE,TRUE,222,79,5,1,3,7,9
+immunosuppressed,crd,FALSE,TRUE,194,70,5,1.9000000000000004,3,7,8
+immunosuppressed,crd,FALSE,FALSE,4516,1376,5,1,3,7,9
+immunosuppressed,crd,TRUE,FALSE,218,77,5,1,3,7,9
+immunosuppressed,crd,TRUE,TRUE,4,2,4,3.2,3.5,4.5,4.800000000000001
+immunosuppressed,chd,FALSE,FALSE,4516,1378,5,1,3,7,9
+immunosuppressed,chd,FALSE,TRUE,194,68,5.5,1,3,7,9
+immunosuppressed,chd,TRUE,FALSE,222,79,5,1,3,7,9
+immunosuppressed,ckd,FALSE,FALSE,4509,1380,5,1,3,7,9
+immunosuppressed,ckd,FALSE,TRUE,201,66,5,2,3,7,8.5
+immunosuppressed,ckd,TRUE,FALSE,215,77,5,1,3,7,9
+immunosuppressed,ckd,TRUE,TRUE,7,2,8,7.199999999999999,7.5,8.5,8.8
+immunosuppressed,cld,FALSE,FALSE,4516,1387,5,1,3,7,9
+immunosuppressed,cld,FALSE,TRUE,194,59,5,1,3,7,8
+immunosuppressed,cld,TRUE,FALSE,220,78,5,1,3,7,9
+immunosuppressed,cld,TRUE,TRUE,2,1,4,4,4,4,4
+immunosuppressed,cns_learndis,FALSE,FALSE,4338,1344,5,1,3,7,9
+immunosuppressed,cns_learndis,FALSE,TRUE,372,102,5,1,3,7,8
+immunosuppressed,cns_learndis,TRUE,FALSE,216,77,5,2,3,7,9
+immunosuppressed,cns_learndis,TRUE,TRUE,6,2,1,1,1,1,1
+immunosuppressed,diabetes,FALSE,FALSE,4507,1390,5,1,3,7,9
+immunosuppressed,diabetes,FALSE,TRUE,203,56,6,2.5,4,8,9
+immunosuppressed,diabetes,TRUE,FALSE,217,78,5,1,3,7,9
+immunosuppressed,diabetes,TRUE,TRUE,5,1,9,9,9,9,9
+immunosuppressed,asplenia,FALSE,FALSE,4528,1390,5,1,3,7,9
+immunosuppressed,asplenia,FALSE,TRUE,182,56,5,1,3,7.25,9
+immunosuppressed,asplenia,TRUE,FALSE,219,77,5,1,3,7,9
+immunosuppressed,asplenia,TRUE,TRUE,3,2,6,3.6000000000000005,4.5,7.5,8.4
+immunosuppressed,severe_obesity,FALSE,FALSE,4495,1383,5,1,3,7,9
+immunosuppressed,severe_obesity,FALSE,TRUE,215,63,5,1,3,6.5,8
+immunosuppressed,severe_obesity,TRUE,FALSE,219,78,5,1,3,7,9
+immunosuppressed,severe_obesity,TRUE,TRUE,3,1,5,5,5,5,5
+immunosuppressed,smi,FALSE,FALSE,4521,1373,5,1,3,7,9
+immunosuppressed,smi,FALSE,TRUE,189,73,6,1.1999999999999993,3,8,8
+immunosuppressed,smi,TRUE,FALSE,217,77,5,1.6000000000000014,3,7,9
+immunosuppressed,smi,TRUE,TRUE,5,2,5,1.8000000000000007,3,7,8.2
+immunosuppressed,ckd_rrt,FALSE,Stage 3,288,81,5,1,3,7,8
+immunosuppressed,ckd_rrt,FALSE,No CKD or RRT,4200,1296,5,1,3,7,9
+immunosuppressed,ckd_rrt,FALSE,Stage 4,101,39,4,2,3,7,8
+immunosuppressed,ckd_rrt,FALSE,RRT (transplant),37,4,2,1.3,1.75,3.5,6.200000000000001
+immunosuppressed,ckd_rrt,FALSE,Stage 5,48,16,2.5,1,1,6,6.5
+immunosuppressed,ckd_rrt,FALSE,RRT (dialysis),36,10,5,1,2.25,8.5,9
+immunosuppressed,ckd_rrt,TRUE,No CKD or RRT,189,68,5,1,3,7,9
+immunosuppressed,ckd_rrt,TRUE,Stage 3,20,7,3,2.2,3,5,7.4
+immunosuppressed,ckd_rrt,TRUE,RRT (dialysis),3,0,NA,NA,NA,NA,NA
+immunosuppressed,ckd_rrt,TRUE,Stage 5,3,2,4,4,4,4,4
+immunosuppressed,ckd_rrt,TRUE,RRT (transplant),2,1,6,6,6,6,6
+immunosuppressed,ckd_rrt,TRUE,Stage 4,5,1,8,8,8,8,8
+immunosuppressed,copd,FALSE,FALSE,4599,1413,5,1,3,7,9
+immunosuppressed,copd,FALSE,TRUE,111,33,5,2,3,7,8
+immunosuppressed,copd,TRUE,FALSE,219,77,5,1,3,7,9
+immunosuppressed,copd,TRUE,TRUE,3,2,8.5,8.1,8.25,8.75,8.9
+immunosuppressed,learndis_cat,FALSE,(Missing),3798,1166,5,1,3,7,9
+immunosuppressed,learndis_cat,FALSE,Learning disability register,230,77,4,1,3,7,9
+immunosuppressed,learndis_cat,FALSE,Other learning disability,461,132,6,2,3,7,9
+immunosuppressed,learndis_cat,FALSE,Down's syndrome,221,71,5,1,2,7,8
+immunosuppressed,learndis_cat,TRUE,(Missing),172,68,5,1,3,7,9
+immunosuppressed,learndis_cat,TRUE,Learning disability register,13,3,5,2.5999999999999996,3.5,6.5,7.3999999999999995
+immunosuppressed,learndis_cat,TRUE,Down's syndrome,11,2,5.5,3.5000000000000004,4.25,6.75,7.5
+immunosuppressed,learndis_cat,TRUE,Other learning disability,26,6,6.5,3.5,6,8.5,9
+immunosuppressed,sickle_cell_asplenia,FALSE,FALSE,4437,1364,5,1,3,7,9
+immunosuppressed,sickle_cell_asplenia,FALSE,TRUE,273,82,5,1.0999999999999996,3,7,9
+immunosuppressed,sickle_cell_asplenia,TRUE,FALSE,214,76,5,1,3,7,8.5
+immunosuppressed,sickle_cell_asplenia,TRUE,TRUE,8,3,9,4.2,6,9,9
+immunosuppressed,cirrhosis,FALSE,FALSE,4611,1415,5,1,3,7,9
+immunosuppressed,cirrhosis,FALSE,TRUE,99,31,5,1,3,7.5,9
+immunosuppressed,cirrhosis,TRUE,FALSE,220,78,5,1,3,7,9
+immunosuppressed,cirrhosis,TRUE,TRUE,2,1,3,3,3,3,3
+immunosuppressed,cochlear_implant,FALSE,FALSE,4610,1408,5,1,3,7,9
+immunosuppressed,cochlear_implant,FALSE,TRUE,100,38,4,1,3,7,8
+immunosuppressed,cochlear_implant,TRUE,FALSE,218,79,5,1,3,7,9
+immunosuppressed,cochlear_implant,TRUE,TRUE,4,0,NA,NA,NA,NA,NA
+immunosuppressed,cystic_fibrosis,FALSE,FALSE,4599,1415,5,1,3,7,9
+immunosuppressed,cystic_fibrosis,FALSE,TRUE,111,31,5,1,3,6.5,8
+immunosuppressed,cystic_fibrosis,TRUE,FALSE,217,76,5,1,3,7,9
+immunosuppressed,cystic_fibrosis,TRUE,TRUE,5,3,3,3,3,3.5,3.8
+immunosuppressed,csfl,FALSE,FALSE,4628,1421,5,1,3,7,9
+immunosuppressed,csfl,FALSE,TRUE,82,25,4,3,3,8,8
+immunosuppressed,csfl,TRUE,FALSE,218,77,5,1,3,7,9
+immunosuppressed,csfl,TRUE,TRUE,4,2,8.5,8.1,8.25,8.75,8.9
+immunosuppressed,homeless,FALSE,FALSE,4610,1417,5,1,3,7,9
+immunosuppressed,homeless,FALSE,TRUE,100,29,3,1,2,4,8.2
+immunosuppressed,homeless,TRUE,FALSE,219,78,5,1,3,7,9
+immunosuppressed,homeless,TRUE,TRUE,3,1,4,4,4,4,4
+severe_obesity,all,FALSE,All,4714,1461,5,1,3,7,9
+severe_obesity,all,TRUE,All,218,64,5,1,3,6.25,8
+severe_obesity,ageband4,FALSE,50-64,734,233,5,1,3,7,9
+severe_obesity,ageband4,FALSE,65-74,2145,659,5,1,3,7,8.200000000000045
+severe_obesity,ageband4,FALSE,75-104,1377,428,5,1,3,7,9
+severe_obesity,ageband4,FALSE,12-49,458,141,5,1,3,7,8
+severe_obesity,ageband4,TRUE,50-64,88,30,4,1,3,6.75,8
+severe_obesity,ageband4,TRUE,12-49,60,13,5,1.2000000000000002,3,7,9
+severe_obesity,ageband4,TRUE,65-74,36,10,5,2.8,4,6,7.199999999999999
+severe_obesity,ageband4,TRUE,75-104,34,11,5,3,3.5,5.5,6
+severe_obesity,ageband13,FALSE,55-59,243,83,5,1.200000000000001,3,7,9
+severe_obesity,ageband13,FALSE,60-64,276,88,4,1,3,6,8
+severe_obesity,ageband13,FALSE,70-74,932,292,5,1,3,7,9
+severe_obesity,ageband13,FALSE,80-84,385,117,5,1,3,7,8
+severe_obesity,ageband13,FALSE,75-79,632,187,5,1,3,8,9
+severe_obesity,ageband13,FALSE,65-69,1213,367,5,1,3,7,8
+severe_obesity,ageband13,FALSE,50-54,215,62,6,1,3,7,9
+severe_obesity,ageband13,FALSE,85-89,202,74,5.5,1,3,7.75,9
+severe_obesity,ageband13,FALSE,90-104,158,50,4,2,3,6,8
+severe_obesity,ageband13,FALSE,30-39,123,40,5,2,3,8,9
+severe_obesity,ageband13,FALSE,40-49,310,92,4,1,3,7,8
+severe_obesity,ageband13,FALSE,18-29,24,8,4.5,1,1.75,6,6.8999999999999995
+severe_obesity,ageband13,FALSE,12-17,1,1,7,7,7,7,7
+severe_obesity,ageband13,TRUE,50-54,30,9,6,2.6000000000000005,5,7,8.2
+severe_obesity,ageband13,TRUE,30-39,12,3,9,7.4,8,9,9
+severe_obesity,ageband13,TRUE,40-49,45,9,4,1,2,5,6.599999999999998
+severe_obesity,ageband13,TRUE,70-74,18,5,5,1.7999999999999998,3,7,8.2
+severe_obesity,ageband13,TRUE,90-104,5,1,1,1,1,1,1
+severe_obesity,ageband13,TRUE,75-79,17,6,5,4,4.25,5.75,7
+severe_obesity,ageband13,TRUE,65-69,18,5,5,4,4,6,6
+severe_obesity,ageband13,TRUE,55-59,31,12,3,1.1,2,4.25,7.700000000000001
+severe_obesity,ageband13,TRUE,80-84,7,3,5,3.4000000000000004,4,5.5,5.8
+severe_obesity,ageband13,TRUE,60-64,27,9,4,1,3,6,7.199999999999999
+severe_obesity,ageband13,TRUE,85-89,5,1,3,3,3,3,3
+severe_obesity,ageband13,TRUE,18-29,3,1,7,7,7,7,7
+severe_obesity,sex,FALSE,Female,2450,760,5,1,3,7,9
+severe_obesity,sex,FALSE,Male,2264,701,5,1,3,7,9
+severe_obesity,sex,TRUE,Male,97,33,5,1.2000000000000002,4,7,8
+severe_obesity,sex,TRUE,Female,121,31,4,1,3,6,8
+severe_obesity,ethnicity5,FALSE,White,2574,782,5,1,3,7,9
+severe_obesity,ethnicity5,FALSE,(Missing),453,145,5,1,3,7,8
+severe_obesity,ethnicity5,FALSE,Chinese or Other Ethnic Groups,434,131,5,1,4,7,9
+severe_obesity,ethnicity5,FALSE,Asian or Asian British,408,118,4.5,1,3,7,8.299999999999997
+severe_obesity,ethnicity5,FALSE,Mixed,417,143,5,1,3,7,9
+severe_obesity,ethnicity5,FALSE,Black or Black British,428,142,5,1,3,7,8
+severe_obesity,ethnicity5,TRUE,Mixed,24,7,6,3.6,4.5,6,6
+severe_obesity,ethnicity5,TRUE,Asian or Asian British,16,4,4.5,1.9000000000000001,3.25,5.75,7.1000000000000005
+severe_obesity,ethnicity5,TRUE,White,117,34,4,1,3,6.75,9
+severe_obesity,ethnicity5,TRUE,Chinese or Other Ethnic Groups,22,7,4,1,2,4.5,5.4
+severe_obesity,ethnicity5,TRUE,(Missing),22,8,6,3.7,4.75,7,7.3
+severe_obesity,ethnicity5,TRUE,Black or Black British,17,4,6,2.2,4,7.25,7.7
+severe_obesity,region,FALSE,North East and Yorkshire,2380,711,5,1,3,7,9
+severe_obesity,region,FALSE,North West,949,301,5,2,3,7,9
+severe_obesity,region,FALSE,Midlands,483,168,4,1,2,7,8.300000000000011
+severe_obesity,region,FALSE,London,227,74,5,1,3,7,9
+severe_obesity,region,FALSE,East of England,218,69,5,1,2,7,9
+severe_obesity,region,FALSE,South East,225,74,5,1,3,7,8.700000000000003
+severe_obesity,region,FALSE,South West,232,64,4.5,1,3,6,8
+severe_obesity,region,TRUE,South East,16,2,3.5,1.5000000000000004,2.25,4.75,5.5
+severe_obesity,region,TRUE,Midlands,21,7,5,3.4000000000000004,5,7,8
+severe_obesity,region,TRUE,North East and Yorkshire,115,33,4,1,3,6,8
+severe_obesity,region,TRUE,North West,40,13,4,2,3,7,8.8
+severe_obesity,region,TRUE,East of England,10,1,7,7,7,7,7
+severe_obesity,region,TRUE,South West,5,3,5,4.2,4.5,6,6.6
+severe_obesity,region,TRUE,London,11,5,5,3.4,4,6,6
+severe_obesity,imd_quintile,FALSE,2,973,321,5,2,3,7,9
+severe_obesity,imd_quintile,FALSE,1 (most deprived),869,254,5,1.3000000000000007,3,7,9
+severe_obesity,imd_quintile,FALSE,3,926,276,5,1,2,7,8
+severe_obesity,imd_quintile,FALSE,4,863,259,5,1,3,7,9
+severe_obesity,imd_quintile,FALSE,5 (least deprived),852,287,5,1,3,7,8
+severe_obesity,imd_quintile,FALSE,(Missing),231,64,6,2,3,7.25,8.700000000000003
+severe_obesity,imd_quintile,TRUE,3,52,13,5,1.4000000000000004,4,6,7
+severe_obesity,imd_quintile,TRUE,1 (most deprived),48,10,3.5,2.8,3,5.75,6
+severe_obesity,imd_quintile,TRUE,5 (least deprived),26,11,4,1,2.5,5.5,8
+severe_obesity,imd_quintile,TRUE,4,40,10,5,2.8,4.25,6.75,7.199999999999999
+severe_obesity,imd_quintile,TRUE,2,43,15,4,1.4000000000000004,2.5,7,8
+severe_obesity,imd_quintile,TRUE,(Missing),9,5,8,2.9999999999999996,6,9,9
+severe_obesity,carehome_status,FALSE,FALSE,3997,1239,5,1,3,7,9
+severe_obesity,carehome_status,FALSE,TRUE,717,222,5,1,3,7,8
+severe_obesity,carehome_status,TRUE,FALSE,204,61,5,1,3,7,8
+severe_obesity,carehome_status,TRUE,TRUE,14,3,4,3.2,3.5,4.5,4.8
+severe_obesity,primis_atrisk,FALSE,TRUE,1781,571,5,1,3,7,9
+severe_obesity,primis_atrisk,FALSE,FALSE,2933,890,5,1,3,7,9
+severe_obesity,primis_atrisk,TRUE,TRUE,218,64,5,1,3,6.25,8
+severe_obesity,crd,FALSE,TRUE,194,69,5,2,3,7,8
+severe_obesity,crd,FALSE,FALSE,4520,1392,5,1,3,7,9
+severe_obesity,crd,TRUE,FALSE,214,61,5,1,3,7,8
+severe_obesity,crd,TRUE,TRUE,4,3,3,1.4,2,4.5,5.3999999999999995
+severe_obesity,chd,FALSE,FALSE,4523,1394,5,1,3,7,9
+severe_obesity,chd,FALSE,TRUE,191,67,6,1,3,7,9
+severe_obesity,chd,TRUE,FALSE,215,63,5,1,3,6.5,8
+severe_obesity,chd,TRUE,TRUE,3,1,5,5,5,5,5
+severe_obesity,ckd,FALSE,FALSE,4512,1394,5,1,3,7,9
+severe_obesity,ckd,FALSE,TRUE,202,67,5,2,3,7,9
+severe_obesity,ckd,TRUE,TRUE,6,1,6,6,6,6,6
+severe_obesity,ckd,TRUE,FALSE,212,63,5,1,3,6.5,8
+severe_obesity,cld,FALSE,FALSE,4524,1401,5,1,3,7,9
+severe_obesity,cld,FALSE,TRUE,190,60,5,1,3,7,8
+severe_obesity,cld,TRUE,FALSE,212,64,5,1,3,6.25,8
+severe_obesity,cld,TRUE,TRUE,6,0,NA,NA,NA,NA,NA
+severe_obesity,cns_learndis,FALSE,FALSE,4345,1361,5,1,3,7,9
+severe_obesity,cns_learndis,FALSE,TRUE,369,100,5,1,3,7,8
+severe_obesity,cns_learndis,TRUE,FALSE,209,60,5,1,3,6.25,8
+severe_obesity,cns_learndis,TRUE,TRUE,9,4,4.5,1.9000000000000001,3.25,5.75,7.1000000000000005
+severe_obesity,diabetes,FALSE,FALSE,4510,1405,5,1,3,7,9
+severe_obesity,diabetes,FALSE,TRUE,204,56,6,2.5,4,8,9
+severe_obesity,diabetes,TRUE,FALSE,214,63,5,1,3,6,8
+severe_obesity,diabetes,TRUE,TRUE,4,1,9,9,9,9,9
+severe_obesity,immunosuppressed,FALSE,FALSE,4495,1383,5,1,3,7,9
+severe_obesity,immunosuppressed,FALSE,TRUE,219,78,5,1,3,7,9
+severe_obesity,immunosuppressed,TRUE,FALSE,215,63,5,1,3,6.5,8
+severe_obesity,immunosuppressed,TRUE,TRUE,3,1,5,5,5,5,5
+severe_obesity,asplenia,FALSE,FALSE,4535,1404,5,1,3,7,9
+severe_obesity,asplenia,FALSE,TRUE,179,57,5,1,3,8,9
+severe_obesity,asplenia,TRUE,FALSE,212,63,5,1,3,6,8
+severe_obesity,asplenia,TRUE,TRUE,6,1,7,7,7,7,7
+severe_obesity,smi,FALSE,FALSE,4526,1387,5,1,3,7,9
+severe_obesity,smi,FALSE,TRUE,188,74,6,1,3,8,8.700000000000003
+severe_obesity,smi,TRUE,FALSE,212,63,5,1,3,6.5,8
+severe_obesity,smi,TRUE,TRUE,6,1,3,3,3,3,3
+severe_obesity,ckd_rrt,FALSE,Stage 3,294,82,5,1,3,7,8
+severe_obesity,ckd_rrt,FALSE,No CKD or RRT,4194,1308,5,1,3,7,9
+severe_obesity,ckd_rrt,FALSE,Stage 4,102,38,4,2,3,7,8
+severe_obesity,ckd_rrt,FALSE,RRT (transplant),38,5,2,1.4,2,6,7.199999999999999
+severe_obesity,ckd_rrt,FALSE,RRT (dialysis),37,10,5,1,2.25,8.5,9
+severe_obesity,ckd_rrt,FALSE,Stage 5,49,18,3.5,1,1.25,5.75,6.300000000000001
+severe_obesity,ckd_rrt,TRUE,No CKD or RRT,195,56,4.5,1,3,6.25,8
+severe_obesity,ckd_rrt,TRUE,Stage 3,14,6,5.5,4,5,7.5,8.5
+severe_obesity,ckd_rrt,TRUE,Stage 5,2,0,NA,NA,NA,NA,NA
+severe_obesity,ckd_rrt,TRUE,RRT (dialysis),2,0,NA,NA,NA,NA,NA
+severe_obesity,ckd_rrt,TRUE,Stage 4,4,2,4,4,4,4,4
+severe_obesity,ckd_rrt,TRUE,RRT (transplant),1,0,NA,NA,NA,NA,NA
+severe_obesity,copd,FALSE,FALSE,4607,1427,5,1,3,7,9
+severe_obesity,copd,FALSE,TRUE,107,34,5,2,3,8,8.7
+severe_obesity,copd,TRUE,FALSE,211,63,5,1,3,6.5,8
+severe_obesity,copd,TRUE,TRUE,7,1,5,5,5,5,5
+severe_obesity,learndis_cat,FALSE,(Missing),3792,1186,5,1,3,7,9
+severe_obesity,learndis_cat,FALSE,Learning disability register,232,75,4,1,3,6.5,9
+severe_obesity,learndis_cat,FALSE,Other learning disability,469,130,6,2,3,7,9
+severe_obesity,learndis_cat,FALSE,Down's syndrome,221,70,5,1,2,7,8
+severe_obesity,learndis_cat,TRUE,(Missing),178,48,4,1,3,6,8.300000000000004
+severe_obesity,learndis_cat,TRUE,Other learning disability,18,8,5,2.4000000000000004,4.5,5.25,6.6
+severe_obesity,learndis_cat,TRUE,Down's syndrome,11,3,7,3.8,5,7.5,7.8
+severe_obesity,learndis_cat,TRUE,Learning disability register,11,5,5,4.4,5,7,7
+severe_obesity,sickle_cell_asplenia,FALSE,FALSE,4441,1377,5,1,3,7,9
+severe_obesity,sickle_cell_asplenia,FALSE,TRUE,273,84,5,1.3000000000000007,3,8,9
+severe_obesity,sickle_cell_asplenia,TRUE,FALSE,210,63,5,1,3,6,8
+severe_obesity,sickle_cell_asplenia,TRUE,TRUE,8,1,7,7,7,7,7
+severe_obesity,cirrhosis,FALSE,FALSE,4615,1429,5,1,3,7,9
+severe_obesity,cirrhosis,FALSE,TRUE,99,32,5,1.0999999999999996,3,7.25,8.900000000000002
+severe_obesity,cirrhosis,TRUE,FALSE,216,64,5,1,3,6.25,8
+severe_obesity,cirrhosis,TRUE,TRUE,2,0,NA,NA,NA,NA,NA
+severe_obesity,cochlear_implant,FALSE,FALSE,4615,1424,5,1,3,7,9
+severe_obesity,cochlear_implant,FALSE,TRUE,99,37,4,1,3,7,8
+severe_obesity,cochlear_implant,TRUE,FALSE,213,63,5,1,3,6,8
+severe_obesity,cochlear_implant,TRUE,TRUE,5,1,7,7,7,7,7
+severe_obesity,cystic_fibrosis,FALSE,FALSE,4604,1430,5,1,3,7,9
+severe_obesity,cystic_fibrosis,FALSE,TRUE,110,31,4,1,3,6,8
+severe_obesity,cystic_fibrosis,TRUE,FALSE,212,61,5,1,3,6,8
+severe_obesity,cystic_fibrosis,TRUE,TRUE,6,3,3,3,3,6,7.799999999999999
+severe_obesity,csfl,FALSE,FALSE,4631,1435,5,1,3,7,9
+severe_obesity,csfl,FALSE,TRUE,83,26,5,3,4,8,8.5
+severe_obesity,csfl,TRUE,FALSE,215,63,5,1,3,6.5,8
+severe_obesity,csfl,TRUE,TRUE,3,1,3,3,3,3,3
+severe_obesity,homeless,FALSE,FALSE,4614,1432,5,1,3,7,9
+severe_obesity,homeless,FALSE,TRUE,100,29,3,1,2,4,8.2
+severe_obesity,homeless,TRUE,FALSE,215,63,5,1,3,6.5,8
+severe_obesity,homeless,TRUE,TRUE,3,1,3,3,3,3,3
+smi,all,FALSE,All,4738,1450,5,1,3,7,9
+smi,all,TRUE,All,194,75,6,1,3,8,8.600000000000009
+smi,ageband4,FALSE,50-64,744,231,5,1,3,7,8
+smi,ageband4,FALSE,65-74,2138,651,5,1,3,7,9
+smi,ageband4,FALSE,75-104,1389,433,5,1,3,7,9
+smi,ageband4,FALSE,12-49,467,135,5,1,3,7,9
+smi,ageband4,TRUE,50-64,78,32,4,1,2,7.25,9
+smi,ageband4,TRUE,12-49,51,19,5,1.7999999999999998,2.5,8,8.2
+smi,ageband4,TRUE,65-74,43,18,6.5,2.7,3.25,7,8
+smi,ageband4,TRUE,75-104,22,6,6,2.5,3.5,7.75,8
+smi,ageband13,FALSE,55-59,246,85,5,2,3,7,8.600000000000009
+smi,ageband13,FALSE,70-74,930,286,5,1,3,7,9
+smi,ageband13,FALSE,60-64,277,85,4,1,3,6,8
+smi,ageband13,FALSE,50-54,221,61,6,1,3,7,9
+smi,ageband13,FALSE,80-84,384,119,5,1,3,7,8
+smi,ageband13,FALSE,75-79,637,188,5,1,3,8,9
+smi,ageband13,FALSE,65-69,1208,365,5,1,3,7,8
+smi,ageband13,FALSE,30-39,124,40,5.5,2.9000000000000004,3,8,9
+smi,ageband13,FALSE,85-89,207,75,5,1,3,7.5,9
+smi,ageband13,FALSE,90-104,161,51,4,2,3,6,8
+smi,ageband13,FALSE,40-49,319,86,4,1,3,6,8
+smi,ageband13,FALSE,18-29,23,8,5.5,1,3.25,6.25,7.6
+smi,ageband13,FALSE,12-17,1,1,7,7,7,7,7
+smi,ageband13,TRUE,60-64,26,12,4,2,2.75,5.25,7.800000000000001
+smi,ageband13,TRUE,55-59,28,10,3,1,1.25,6.75,9
+smi,ageband13,TRUE,30-39,11,3,2,1.2,1.5,5,6.799999999999999
+smi,ageband13,TRUE,40-49,36,15,6,2.4000000000000004,4.5,8,8.6
+smi,ageband13,TRUE,50-54,24,10,6.5,1,3,8.75,9
+smi,ageband13,TRUE,65-69,23,7,4,1.6,2.5,6.5,7
+smi,ageband13,TRUE,18-29,4,1,2,2,2,2,2
+smi,ageband13,TRUE,70-74,20,11,7,3,6,7.5,8
+smi,ageband13,TRUE,75-79,12,5,5,2.4,3,8,8
+smi,ageband13,TRUE,80-84,8,1,7,7,7,7,7
+smi,ageband13,TRUE,90-104,2,0,NA,NA,NA,NA,NA
+smi,sex,FALSE,Female,2465,747,5,1,3,7,9
+smi,sex,FALSE,Male,2273,703,5,1,3,7,9
+smi,sex,TRUE,Female,106,44,5.5,2,3,8,8.700000000000003
+smi,sex,TRUE,Male,88,31,6,1,2,7,8
+smi,ethnicity5,FALSE,White,2576,767,5,1,3,7,9
+smi,ethnicity5,FALSE,(Missing),461,149,5,1,3,7,8
+smi,ethnicity5,FALSE,Mixed,424,143,5,1,3,7,9
+smi,ethnicity5,FALSE,Chinese or Other Ethnic Groups,445,132,5,1,3,7,8
+smi,ethnicity5,FALSE,Asian or Asian British,408,119,4,1,3,7,8.200000000000003
+smi,ethnicity5,FALSE,Black or Black British,424,140,5,1,3,7,8
+smi,ethnicity5,TRUE,White,115,49,6,1,3,8,8.200000000000003
+smi,ethnicity5,TRUE,Black or Black British,21,6,2,1.5,2,3.5,5.5
+smi,ethnicity5,TRUE,(Missing),14,4,7.5,2.5,4.75,9,9
+smi,ethnicity5,TRUE,Chinese or Other Ethnic Groups,11,6,7,3,4.5,8,8.5
+smi,ethnicity5,TRUE,Mixed,17,7,5,3.2,4.5,6.5,7
+smi,ethnicity5,TRUE,Asian or Asian British,16,3,8,3.1999999999999997,5,8,8
+smi,region,FALSE,North East and Yorkshire,2401,706,5,1,3,7,9
+smi,region,FALSE,North West,948,295,5,2,3,7,9
+smi,region,FALSE,South East,230,71,5,1,3,7,8
+smi,region,FALSE,Midlands,482,170,5,1,2.25,7,8.099999999999994
+smi,region,FALSE,London,231,75,5,1,3,7,9
+smi,region,FALSE,East of England,217,68,5,1,2,7.25,9
+smi,region,FALSE,South West,229,65,5,1,3,6,7.600000000000001
+smi,region,TRUE,North East and Yorkshire,94,38,6,1,3,8,8.300000000000004
+smi,region,TRUE,East of England,11,2,4.5,2.5000000000000004,3.25,5.75,6.499999999999999
+smi,region,TRUE,North West,41,19,5,1,3,7.5,9
+smi,region,TRUE,London,7,4,6.5,5.300000000000001,5.75,7,7
+smi,region,TRUE,South East,11,5,6,4.4,5,8,8.6
+smi,region,TRUE,Midlands,22,5,2,1.4,2,2,3.1999999999999993
+smi,region,TRUE,South West,8,2,5,2.6000000000000005,3.5,6.5,7.3999999999999995
+smi,imd_quintile,FALSE,2,983,323,5,2,3,7,9
+smi,imd_quintile,FALSE,3,939,274,5,1,2.25,7,8
+smi,imd_quintile,FALSE,1 (most deprived),869,247,5,1,3,7,9
+smi,imd_quintile,FALSE,4,871,256,5,1,3,7,9
+smi,imd_quintile,FALSE,5 (least deprived),842,286,5,1,3,7,8
+smi,imd_quintile,FALSE,(Missing),234,64,6,2,3.75,7.25,9
+smi,imd_quintile,TRUE,1 (most deprived),48,17,7,3,4,8,8.4
+smi,imd_quintile,TRUE,3,39,15,4,1.4000000000000004,2.5,6,8.2
+smi,imd_quintile,TRUE,4,32,13,4,2,2,8,8
+smi,imd_quintile,TRUE,(Missing),6,5,8,1,1,8,8
+smi,imd_quintile,TRUE,2,33,13,5,1.2000000000000002,3,6,7.800000000000001
+smi,imd_quintile,TRUE,5 (least deprived),36,12,6.5,1,2.5,7,8.8
+smi,carehome_status,FALSE,FALSE,4019,1228,5,1,3,7,9
+smi,carehome_status,FALSE,TRUE,719,222,5,1,3,7,8
+smi,carehome_status,TRUE,FALSE,182,72,5,1,2.75,7.25,8
+smi,carehome_status,TRUE,TRUE,12,3,8,6.4,7,8.5,8.8
+smi,primis_atrisk,FALSE,TRUE,1805,560,5,1,3,7,9
+smi,primis_atrisk,FALSE,FALSE,2933,890,5,1,3,7,9
+smi,primis_atrisk,TRUE,TRUE,194,75,6,1,3,8,8.600000000000009
+smi,crd,FALSE,TRUE,194,69,5,1.8000000000000007,3,7,8
+smi,crd,FALSE,FALSE,4544,1381,5,1,3,7,9
+smi,crd,TRUE,FALSE,190,72,5,1,2.75,8,8.900000000000006
+smi,crd,TRUE,TRUE,4,3,7,6.2,6.5,7.5,7.8
+smi,chd,FALSE,FALSE,4549,1384,5,1,3,7,9
+smi,chd,FALSE,TRUE,189,66,6,1,3,7,9
+smi,chd,TRUE,FALSE,189,73,6,1,3,8,8.799999999999997
+smi,chd,TRUE,TRUE,5,2,3.5,2.3000000000000003,2.75,4.25,4.7
+smi,ckd,FALSE,FALSE,4533,1383,5,1,3,7,9
+smi,ckd,FALSE,TRUE,205,67,5,2,3,7,9
+smi,ckd,TRUE,FALSE,191,74,5.5,1,3,8,8.700000000000003
+smi,ckd,TRUE,TRUE,3,1,6,6,6,6,6
+smi,cld,FALSE,FALSE,4548,1392,5,1,3,7,9
+smi,cld,FALSE,TRUE,190,58,5,1,3,7,8
+smi,cld,TRUE,FALSE,188,73,5,1,3,8,8.799999999999997
+smi,cld,TRUE,TRUE,6,2,7.5,7.1,7.25,7.75,7.9
+smi,cns_learndis,FALSE,FALSE,4367,1350,5,1,3,7,9
+smi,cns_learndis,FALSE,TRUE,371,100,5,1,3,7,8
+smi,cns_learndis,TRUE,FALSE,187,71,6,2,3,8,9
+smi,cns_learndis,TRUE,TRUE,7,4,2.5,1,1,4.5,5.4
+smi,diabetes,FALSE,FALSE,4537,1397,5,1,3,7,9
+smi,diabetes,FALSE,TRUE,201,53,6,3,4,8,9
+smi,diabetes,TRUE,FALSE,187,71,6,1,3,7.5,8
+smi,diabetes,TRUE,TRUE,7,4,6.5,1.9000000000000001,3.25,9,9
+smi,immunosuppressed,FALSE,FALSE,4521,1373,5,1,3,7,9
+smi,immunosuppressed,FALSE,TRUE,217,77,5,1.6000000000000014,3,7,9
+smi,immunosuppressed,TRUE,FALSE,189,73,6,1.1999999999999993,3,8,8
+smi,immunosuppressed,TRUE,TRUE,5,2,5,1.8000000000000007,3,7,8.2
+smi,asplenia,FALSE,FALSE,4556,1393,5,1,3,7,9
+smi,asplenia,FALSE,TRUE,182,57,5,1,3,7,9
+smi,asplenia,TRUE,FALSE,191,74,5.5,1,3,7.75,8
+smi,asplenia,TRUE,TRUE,3,1,9,9,9,9,9
+smi,severe_obesity,FALSE,FALSE,4526,1387,5,1,3,7,9
+smi,severe_obesity,FALSE,TRUE,212,63,5,1,3,6.5,8
+smi,severe_obesity,TRUE,FALSE,188,74,6,1,3,8,8.700000000000003
+smi,severe_obesity,TRUE,TRUE,6,1,3,3,3,3,3
+smi,ckd_rrt,FALSE,Stage 3,297,84,5,2,3,7,8
+smi,ckd_rrt,FALSE,No CKD or RRT,4215,1297,5,1,3,7,9
+smi,ckd_rrt,FALSE,Stage 4,102,38,4,2,3,7,8
+smi,ckd_rrt,FALSE,RRT (transplant),37,4,2,1.3,1.75,3,4.800000000000001
+smi,ckd_rrt,FALSE,RRT (dialysis),36,9,5,1,3,9,9
+smi,ckd_rrt,FALSE,Stage 5,51,18,3.5,1,1.25,5.75,6.300000000000001
+smi,ckd_rrt,TRUE,Stage 3,11,4,2.5,1,1,5,6.800000000000001
+smi,ckd_rrt,TRUE,No CKD or RRT,174,67,6,1.6000000000000005,3,7.5,9
+smi,ckd_rrt,TRUE,RRT (transplant),2,1,8,8,8,8,8
+smi,ckd_rrt,TRUE,Stage 4,4,2,5.5,3.5000000000000004,4.25,6.75,7.5
+smi,ckd_rrt,TRUE,RRT (dialysis),3,1,2,2,2,2,2
+smi,copd,FALSE,FALSE,4630,1417,5,1,3,7,9
+smi,copd,FALSE,TRUE,108,33,5,2,3,8,8.8
+smi,copd,TRUE,FALSE,188,73,6,1,3,8,8.799999999999997
+smi,copd,TRUE,TRUE,6,2,6,4.4,5,7,7.6
+smi,learndis_cat,FALSE,(Missing),3809,1172,5,1,3,7,9
+smi,learndis_cat,FALSE,Learning disability register,236,78,4,1,3,6,8
+smi,learndis_cat,FALSE,Other learning disability,468,129,6,2,3,7,9
+smi,learndis_cat,FALSE,Down's syndrome,225,71,5,2,2,7,8
+smi,learndis_cat,TRUE,(Missing),161,62,5,1,2,7.75,8
+smi,learndis_cat,TRUE,Down's syndrome,7,2,3.5,1.5000000000000004,2.25,4.75,5.5
+smi,learndis_cat,TRUE,Other learning disability,19,9,7,4.6,6,7,8.2
+smi,learndis_cat,TRUE,Learning disability register,7,2,9,9,9,9,9
+smi,sickle_cell_asplenia,FALSE,FALSE,4470,1369,5,1,3,7,9
+smi,sickle_cell_asplenia,FALSE,TRUE,268,81,5,1,3,7,9
+smi,sickle_cell_asplenia,TRUE,FALSE,181,71,5,1,3,7.5,8
+smi,sickle_cell_asplenia,TRUE,TRUE,13,4,7.5,3.5000000000000004,5.75,8.25,8.7
+smi,cirrhosis,FALSE,FALSE,4639,1419,5,1,3,7,9
+smi,cirrhosis,FALSE,TRUE,99,31,5,1,3,7.5,9
+smi,cirrhosis,TRUE,FALSE,192,74,6,1,3,8,8.700000000000003
+smi,cirrhosis,TRUE,TRUE,2,1,3,3,3,3,3
+smi,cochlear_implant,FALSE,FALSE,4637,1413,5,1,3,7,9
+smi,cochlear_implant,FALSE,TRUE,101,37,4,1,3,7,8
+smi,cochlear_implant,TRUE,FALSE,191,74,6,1.3000000000000007,3,8,8.700000000000003
+smi,cochlear_implant,TRUE,TRUE,3,1,1,1,1,1,1
+smi,cystic_fibrosis,FALSE,FALSE,4624,1416,5,1,3,7,9
+smi,cystic_fibrosis,FALSE,TRUE,114,34,4,1.3000000000000007,3,6,8
+smi,cystic_fibrosis,TRUE,FALSE,192,75,6,1,3,8,8.600000000000009
+smi,cystic_fibrosis,TRUE,TRUE,2,0,NA,NA,NA,NA,NA
+smi,csfl,FALSE,FALSE,4655,1423,5,1,3,7,9
+smi,csfl,FALSE,TRUE,83,27,5,3,3.5,8,8.400000000000002
+smi,csfl,TRUE,FALSE,191,75,6,1,3,8,8.600000000000009
+smi,csfl,TRUE,TRUE,3,0,NA,NA,NA,NA,NA
+smi,homeless,FALSE,FALSE,4640,1423,5,1,3,7,9
+smi,homeless,FALSE,TRUE,98,27,3,1,1.5,4,7.400000000000002
+smi,homeless,TRUE,FALSE,189,72,6,1,2.75,8,8
+smi,homeless,TRUE,TRUE,5,3,4,3.2,3.5,6.5,7.999999999999999

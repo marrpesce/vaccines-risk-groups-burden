@@ -1,0 +1,951 @@
+under12,campaign,vax_product,count_total,earliest_date,count_on_earliest_date
+FALSE,Pre-2020-07-01,pfizer_original,5,2019-02-05,1
+FALSE,Pre-2020-07-01,pfizer_BA1,5,2019-02-05,1
+FALSE,Pre-2020-07-01,pfizer_BA45,5,2019-01-17,1
+FALSE,Pre-2020-07-01,pfizer_XBB15,5,2019-02-18,1
+FALSE,Pre-2020-07-01,pfizer_JN1,5,2019-01-16,1
+FALSE,Pre-2020-07-01,pfizer_LP81,5,2019-03-01,1
+FALSE,Pre-2020-07-01,pfizer_KP2,5,2019-09-22,1
+FALSE,Pre-2020-07-01,pfizer_KP2_pfs,5,2019-01-14,1
+FALSE,Pre-2020-07-01,pfizer_unspecified,5,2019-11-26,1
+FALSE,Pre-2020-07-01,pfizer_original_children,5,2019-01-30,1
+FALSE,Pre-2020-07-01,pfizer_JN1_children,5,2019-02-10,1
+FALSE,Pre-2020-07-01,pfizer_XBB15_children,5,2019-05-14,1
+FALSE,Pre-2020-07-01,pfizer_LP81_children,5,2019-02-12,1
+FALSE,Pre-2020-07-01,pfizer_original_under5,15,2019-04-08,1
+FALSE,Pre-2020-07-01,pfizer_JN1_under5,5,2019-06-10,1
+FALSE,Pre-2020-07-01,pfizer_XBB15_under5,5,2019-05-20,1
+FALSE,Pre-2020-07-01,pfizer_LP81_under5,15,2019-01-20,1
+FALSE,Pre-2020-07-01,az_original,15,2019-01-25,1
+FALSE,Pre-2020-07-01,az_original_half,5,2019-06-03,1
+FALSE,Pre-2020-07-01,moderna_original,15,2019-02-05,1
+FALSE,Pre-2020-07-01,moderna_omicron,5,2019-02-11,1
+FALSE,Pre-2020-07-01,moderna_BA45,5,2019-01-25,1
+FALSE,Pre-2020-07-01,moderna_XBB15,5,2019-03-17,1
+FALSE,Pre-2020-07-01,moderna_JN1,5,2019-01-28,1
+FALSE,Pre-2020-07-01,moderna_omicron2,5,2019-01-28,1
+FALSE,Pre-2020-07-01,moderna_unspecified,15,2019-02-19,1
+FALSE,Pre-2020-07-01,sanofigsk_B1,5,2019-06-06,1
+FALSE,Pre-2020-07-01,sanofigsk_D614,5,2019-02-15,1
+FALSE,Pre-2020-07-01,sanofigsk_D614B1,5,2019-01-14,1
+FALSE,Pre-2020-07-01,novavax,5,2019-03-25,1
+FALSE,Pre-2020-07-01,sputnik_i_multi,5,2019-03-07,1
+FALSE,Pre-2020-07-01,sputnik_ii_multi,5,2019-02-16,1
+FALSE,Pre-2020-07-01,sputnik_i_inj,15,2019-01-16,1
+FALSE,Pre-2020-07-01,sputnik_ii_inj,5,2019-07-20,1
+FALSE,Pre-2020-07-01,jansenn,5,2019-02-27,1
+FALSE,Pre-2020-07-01,sinopharm,5,2019-03-19,1
+FALSE,Pre-2020-07-01,valneva,15,2019-03-19,1
+FALSE,Pre-2020-07-01,medicago,5,2019-05-22,1
+FALSE,Pre-2020-07-01,convidecia,15,2019-02-22,1
+FALSE,Pre-2020-07-01,covaxin,5,2019-02-28,1
+FALSE,Pre-2020-07-01,coronavac,5,2019-08-31,1
+FALSE,Pre-2020-07-01,covishield,5,2019-01-13,1
+FALSE,Pre-2020-07-01,covovax,5,2019-01-15,1
+FALSE,Pre-2020-07-01,unspecified,5,2019-02-11,1
+FALSE,Pre-roll-out,pfizer_original,5,2020-09-05,1
+FALSE,Pre-roll-out,pfizer_BA1,5,2020-07-08,1
+FALSE,Pre-roll-out,pfizer_BA45,5,2020-09-11,1
+FALSE,Pre-roll-out,pfizer_XBB15,5,2020-07-09,1
+FALSE,Pre-roll-out,pfizer_JN1,5,2020-11-05,1
+FALSE,Pre-roll-out,pfizer_LP81,5,2020-07-19,1
+FALSE,Pre-roll-out,pfizer_KP2,5,2020-07-11,1
+FALSE,Pre-roll-out,pfizer_KP2_pfs,5,2020-09-03,1
+FALSE,Pre-roll-out,pfizer_unspecified,5,2020-09-08,1
+FALSE,Pre-roll-out,pfizer_original_children,5,2020-12-04,1
+FALSE,Pre-roll-out,pfizer_JN1_children,5,2020-08-26,1
+FALSE,Pre-roll-out,pfizer_XBB15_children,5,2020-07-05,1
+FALSE,Pre-roll-out,pfizer_LP81_children,5,2020-09-06,1
+FALSE,Pre-roll-out,pfizer_original_under5,5,2020-07-26,1
+FALSE,Pre-roll-out,pfizer_JN1_under5,5,2020-11-01,1
+FALSE,Pre-roll-out,pfizer_XBB15_under5,5,2020-07-20,1
+FALSE,Pre-roll-out,pfizer_LP81_under5,5,2020-07-23,1
+FALSE,Pre-roll-out,az_original,5,2020-09-04,1
+FALSE,Pre-roll-out,az_original_half,5,2020-12-03,1
+FALSE,Pre-roll-out,moderna_original,5,2020-09-19,1
+FALSE,Pre-roll-out,moderna_omicron,5,2020-07-25,1
+FALSE,Pre-roll-out,moderna_BA45,5,2020-11-07,1
+FALSE,Pre-roll-out,moderna_XBB15,5,2020-08-08,1
+FALSE,Pre-roll-out,moderna_JN1,5,2020-07-10,1
+FALSE,Pre-roll-out,moderna_omicron2,5,2020-07-01,1
+FALSE,Pre-roll-out,moderna_unspecified,5,2020-09-21,1
+FALSE,Pre-roll-out,sanofigsk_B1,5,2020-07-12,1
+FALSE,Pre-roll-out,sanofigsk_D614,5,2020-08-16,1
+FALSE,Pre-roll-out,sanofigsk_D614B1,5,2020-11-14,1
+FALSE,Pre-roll-out,novavax,5,2020-10-29,1
+FALSE,Pre-roll-out,sputnik_i_multi,5,2020-07-03,1
+FALSE,Pre-roll-out,sputnik_ii_multi,5,2020-08-09,1
+FALSE,Pre-roll-out,sputnik_i_inj,5,2020-08-07,1
+FALSE,Pre-roll-out,sputnik_ii_inj,5,2020-11-14,1
+FALSE,Pre-roll-out,jansenn,5,2020-08-11,1
+FALSE,Pre-roll-out,sinopharm,5,2020-08-11,1
+FALSE,Pre-roll-out,valneva,5,2020-07-18,1
+FALSE,Pre-roll-out,medicago,5,2020-07-15,1
+FALSE,Pre-roll-out,convidecia,5,2020-09-16,1
+FALSE,Pre-roll-out,covaxin,5,2020-09-08,1
+FALSE,Pre-roll-out,coronavac,5,2020-07-25,1
+FALSE,Pre-roll-out,covishield,5,2020-07-25,1
+FALSE,Pre-roll-out,unspecified,5,2020-07-08,1
+FALSE,Primary series,pfizer_original,5,2021-01-01,1
+FALSE,Primary series,pfizer_BA1,5,2021-04-11,1
+FALSE,Primary series,pfizer_BA45,5,2020-12-18,1
+FALSE,Primary series,pfizer_XBB15,5,2020-12-29,1
+FALSE,Primary series,pfizer_JN1,5,2020-12-28,1
+FALSE,Primary series,pfizer_LP81,5,2021-05-11,1
+FALSE,Primary series,pfizer_KP2,5,2021-01-12,1
+FALSE,Primary series,pfizer_KP2_pfs,5,2021-02-18,2
+FALSE,Primary series,pfizer_unspecified,5,2021-01-18,1
+FALSE,Primary series,pfizer_original_children,5,2020-12-13,1
+FALSE,Primary series,pfizer_JN1_children,5,2020-12-20,1
+FALSE,Primary series,pfizer_XBB15_children,5,2021-02-04,1
+FALSE,Primary series,pfizer_LP81_children,5,2021-03-22,1
+FALSE,Primary series,pfizer_original_under5,5,2021-01-13,1
+FALSE,Primary series,pfizer_JN1_under5,5,2021-01-14,1
+FALSE,Primary series,pfizer_XBB15_under5,5,2021-01-27,1
+FALSE,Primary series,az_original,5,2021-05-30,1
+FALSE,Primary series,az_original_half,5,2021-02-24,1
+FALSE,Primary series,moderna_original,5,2020-12-30,1
+FALSE,Primary series,moderna_omicron,5,2020-12-20,1
+FALSE,Primary series,moderna_BA45,5,2020-12-10,1
+FALSE,Primary series,moderna_XBB15,5,2021-01-05,1
+FALSE,Primary series,moderna_JN1,5,2020-12-21,1
+FALSE,Primary series,moderna_omicron2,5,2021-02-03,1
+FALSE,Primary series,moderna_unspecified,5,2021-02-08,1
+FALSE,Primary series,sanofigsk_B1,5,2021-01-06,1
+FALSE,Primary series,sanofigsk_D614,15,2020-12-18,1
+FALSE,Primary series,sanofigsk_D614B1,5,2021-03-30,1
+FALSE,Primary series,novavax,5,2021-01-03,1
+FALSE,Primary series,sputnik_i_multi,5,2021-02-14,1
+FALSE,Primary series,sputnik_ii_multi,5,2021-07-21,1
+FALSE,Primary series,sputnik_i_inj,5,2020-12-30,1
+FALSE,Primary series,sputnik_ii_inj,5,2020-12-12,1
+FALSE,Primary series,jansenn,5,2021-02-06,1
+FALSE,Primary series,sinopharm,5,2021-04-24,1
+FALSE,Primary series,valneva,5,2020-12-14,1
+FALSE,Primary series,medicago,5,2020-12-31,1
+FALSE,Primary series,convidecia,5,2021-01-02,1
+FALSE,Primary series,covaxin,5,2021-02-18,1
+FALSE,Primary series,coronavac,5,2020-12-12,1
+FALSE,Primary series,covishield,5,2021-01-10,1
+FALSE,Primary series,covovax,5,2020-12-25,1
+FALSE,Primary series,unspecified,5,2021-01-21,1
+FALSE,Autumn 2021,pfizer_original,5,2021-09-06,1
+FALSE,Autumn 2021,pfizer_BA1,5,2021-09-06,1
+FALSE,Autumn 2021,pfizer_BA45,5,2021-10-01,1
+FALSE,Autumn 2021,pfizer_XBB15,5,2022-02-05,1
+FALSE,Autumn 2021,pfizer_JN1,5,2021-09-17,1
+FALSE,Autumn 2021,pfizer_LP81,5,2021-12-04,1
+FALSE,Autumn 2021,pfizer_KP2,5,2021-09-07,1
+FALSE,Autumn 2021,pfizer_unspecified,5,2021-11-22,1
+FALSE,Autumn 2021,pfizer_original_children,5,2021-09-30,1
+FALSE,Autumn 2021,pfizer_JN1_children,5,2022-02-10,1
+FALSE,Autumn 2021,pfizer_XBB15_children,5,2022-03-05,1
+FALSE,Autumn 2021,pfizer_LP81_children,5,2021-10-10,1
+FALSE,Autumn 2021,pfizer_XBB15_under5,5,2021-12-23,1
+FALSE,Autumn 2021,pfizer_LP81_under5,5,2022-02-09,1
+FALSE,Autumn 2021,az_original,5,2021-09-20,1
+FALSE,Autumn 2021,az_original_half,5,2022-01-18,1
+FALSE,Autumn 2021,moderna_original,5,2021-11-25,1
+FALSE,Autumn 2021,moderna_omicron,5,2021-11-11,1
+FALSE,Autumn 2021,moderna_BA45,5,2021-09-25,1
+FALSE,Autumn 2021,moderna_XBB15,5,2021-09-18,1
+FALSE,Autumn 2021,moderna_JN1,5,2021-10-09,1
+FALSE,Autumn 2021,moderna_omicron2,5,2021-11-12,1
+FALSE,Autumn 2021,moderna_unspecified,5,2021-10-02,1
+FALSE,Autumn 2021,sanofigsk_B1,5,2021-11-30,1
+FALSE,Autumn 2021,sanofigsk_D614B1,5,2021-10-14,2
+FALSE,Autumn 2021,novavax,5,2021-11-03,1
+FALSE,Autumn 2021,sputnik_i_multi,5,2022-03-09,1
+FALSE,Autumn 2021,sputnik_ii_multi,5,2021-12-12,1
+FALSE,Autumn 2021,sputnik_i_inj,5,2021-12-23,1
+FALSE,Autumn 2021,sputnik_ii_inj,5,2021-09-11,1
+FALSE,Autumn 2021,jansenn,5,2021-09-17,1
+FALSE,Autumn 2021,sinopharm,5,2021-09-23,1
+FALSE,Autumn 2021,valneva,5,2021-09-09,1
+FALSE,Autumn 2021,medicago,5,2021-10-06,1
+FALSE,Autumn 2021,convidecia,5,2021-10-07,1
+FALSE,Autumn 2021,covaxin,5,2021-09-28,1
+FALSE,Autumn 2021,coronavac,5,2022-02-19,1
+FALSE,Autumn 2021,covishield,5,2021-09-16,1
+FALSE,Autumn 2021,covovax,5,2022-01-19,1
+FALSE,Autumn 2021,unspecified,5,2021-09-08,1
+FALSE,Spring 2022,pfizer_original,5,2022-04-15,1
+FALSE,Spring 2022,pfizer_BA1,5,2022-05-01,1
+FALSE,Spring 2022,pfizer_BA45,5,2022-06-06,1
+FALSE,Spring 2022,pfizer_XBB15,5,2022-07-04,1
+FALSE,Spring 2022,pfizer_JN1,5,2022-05-30,1
+FALSE,Spring 2022,pfizer_LP81,5,2022-04-08,1
+FALSE,Spring 2022,pfizer_KP2,5,2022-07-05,1
+FALSE,Spring 2022,pfizer_KP2_pfs,5,2022-05-01,1
+FALSE,Spring 2022,pfizer_unspecified,5,2022-04-26,1
+FALSE,Spring 2022,pfizer_original_children,5,2022-03-21,1
+FALSE,Spring 2022,pfizer_JN1_children,5,2022-04-04,1
+FALSE,Spring 2022,pfizer_XBB15_children,5,2022-07-15,1
+FALSE,Spring 2022,pfizer_LP81_children,5,2022-07-22,1
+FALSE,Spring 2022,pfizer_original_under5,5,2022-04-04,1
+FALSE,Spring 2022,pfizer_JN1_under5,5,2022-07-15,1
+FALSE,Spring 2022,pfizer_XBB15_under5,5,2022-03-26,1
+FALSE,Spring 2022,pfizer_LP81_under5,5,2022-06-11,1
+FALSE,Spring 2022,az_original,5,2022-04-09,1
+FALSE,Spring 2022,az_original_half,5,2022-03-24,1
+FALSE,Spring 2022,moderna_original,5,2022-04-21,1
+FALSE,Spring 2022,moderna_BA45,5,2022-04-08,1
+FALSE,Spring 2022,moderna_XBB15,5,2022-04-19,1
+FALSE,Spring 2022,moderna_JN1,5,2022-05-26,1
+FALSE,Spring 2022,moderna_omicron2,5,2022-08-02,1
+FALSE,Spring 2022,moderna_unspecified,5,2022-04-17,1
+FALSE,Spring 2022,sanofigsk_B1,5,2022-03-29,1
+FALSE,Spring 2022,sanofigsk_D614,5,2022-05-06,1
+FALSE,Spring 2022,sanofigsk_D614B1,5,2022-04-22,1
+FALSE,Spring 2022,novavax,5,2022-05-01,1
+FALSE,Spring 2022,sputnik_i_multi,5,2022-07-13,1
+FALSE,Spring 2022,sputnik_ii_multi,5,2022-04-17,1
+FALSE,Spring 2022,jansenn,5,2022-04-11,1
+FALSE,Spring 2022,sinopharm,5,2022-05-18,1
+FALSE,Spring 2022,valneva,5,2022-08-03,1
+FALSE,Spring 2022,medicago,5,2022-04-07,1
+FALSE,Spring 2022,convidecia,5,2022-04-04,1
+FALSE,Spring 2022,covaxin,5,2022-06-17,1
+FALSE,Spring 2022,coronavac,5,2022-03-22,1
+FALSE,Spring 2022,covishield,5,2022-04-08,1
+FALSE,Spring 2022,covovax,5,2022-04-29,1
+FALSE,Spring 2022,unspecified,5,2022-04-02,1
+FALSE,Autumn 2022,pfizer_original,5,2022-09-03,1
+FALSE,Autumn 2022,pfizer_BA1,5,2022-11-16,1
+FALSE,Autumn 2022,pfizer_BA45,5,2022-09-14,1
+FALSE,Autumn 2022,pfizer_XBB15,5,2022-09-29,1
+FALSE,Autumn 2022,pfizer_JN1,5,2022-09-29,1
+FALSE,Autumn 2022,pfizer_LP81,5,2022-09-08,1
+FALSE,Autumn 2022,pfizer_KP2,5,2022-08-31,1
+FALSE,Autumn 2022,pfizer_KP2_pfs,5,2022-09-07,1
+FALSE,Autumn 2022,pfizer_unspecified,5,2022-09-13,1
+FALSE,Autumn 2022,pfizer_original_children,5,2023-02-03,1
+FALSE,Autumn 2022,pfizer_JN1_children,5,2022-10-31,1
+FALSE,Autumn 2022,pfizer_XBB15_children,5,2022-10-02,1
+FALSE,Autumn 2022,pfizer_LP81_children,5,2022-11-03,1
+FALSE,Autumn 2022,pfizer_original_under5,5,2022-11-28,1
+FALSE,Autumn 2022,pfizer_JN1_under5,5,2022-09-07,2
+FALSE,Autumn 2022,pfizer_XBB15_under5,5,2022-09-05,1
+FALSE,Autumn 2022,pfizer_LP81_under5,5,2022-09-23,1
+FALSE,Autumn 2022,az_original,5,2022-12-16,1
+FALSE,Autumn 2022,az_original_half,5,2022-11-11,1
+FALSE,Autumn 2022,moderna_original,5,2022-09-26,1
+FALSE,Autumn 2022,moderna_omicron,5,2022-10-07,1
+FALSE,Autumn 2022,moderna_BA45,5,2022-11-10,1
+FALSE,Autumn 2022,moderna_XBB15,5,2023-01-10,1
+FALSE,Autumn 2022,moderna_JN1,5,2022-10-15,1
+FALSE,Autumn 2022,moderna_omicron2,5,2023-02-22,1
+FALSE,Autumn 2022,moderna_unspecified,5,2022-09-17,1
+FALSE,Autumn 2022,sanofigsk_B1,5,2022-10-23,1
+FALSE,Autumn 2022,sanofigsk_D614,5,2022-09-23,1
+FALSE,Autumn 2022,sanofigsk_D614B1,5,2022-09-10,1
+FALSE,Autumn 2022,novavax,5,2022-09-04,1
+FALSE,Autumn 2022,sputnik_i_multi,5,2023-03-10,1
+FALSE,Autumn 2022,sputnik_ii_multi,5,2022-09-14,1
+FALSE,Autumn 2022,sputnik_i_inj,5,2022-09-26,1
+FALSE,Autumn 2022,sputnik_ii_inj,5,2022-11-20,1
+FALSE,Autumn 2022,jansenn,5,2022-10-01,1
+FALSE,Autumn 2022,sinopharm,5,2023-01-18,1
+FALSE,Autumn 2022,valneva,5,2022-09-07,1
+FALSE,Autumn 2022,medicago,5,2022-09-17,1
+FALSE,Autumn 2022,convidecia,5,2023-03-15,1
+FALSE,Autumn 2022,covaxin,5,2022-09-24,1
+FALSE,Autumn 2022,coronavac,5,2023-01-08,1
+FALSE,Autumn 2022,covishield,5,2022-09-01,1
+FALSE,Autumn 2022,covovax,5,2022-09-10,1
+FALSE,Autumn 2022,unspecified,5,2022-10-07,1
+FALSE,Spring 2023,pfizer_original,5,2023-06-22,1
+FALSE,Spring 2023,pfizer_BA1,5,2023-05-08,1
+FALSE,Spring 2023,pfizer_BA45,5,2023-07-19,1
+FALSE,Spring 2023,pfizer_XBB15,5,2023-04-09,1
+FALSE,Spring 2023,pfizer_LP81,5,2023-06-02,1
+FALSE,Spring 2023,pfizer_KP2,5,2023-05-02,1
+FALSE,Spring 2023,pfizer_KP2_pfs,5,2023-04-10,1
+FALSE,Spring 2023,pfizer_unspecified,5,2023-05-27,1
+FALSE,Spring 2023,pfizer_original_children,5,2023-05-09,1
+FALSE,Spring 2023,pfizer_JN1_children,5,2023-05-24,1
+FALSE,Spring 2023,pfizer_LP81_children,5,2023-05-03,1
+FALSE,Spring 2023,pfizer_original_under5,5,2023-06-19,1
+FALSE,Spring 2023,pfizer_JN1_under5,5,2023-05-18,1
+FALSE,Spring 2023,pfizer_LP81_under5,5,2023-04-13,1
+FALSE,Spring 2023,az_original,5,2023-06-27,1
+FALSE,Spring 2023,az_original_half,5,2023-05-19,1
+FALSE,Spring 2023,moderna_original,5,2023-07-26,1
+FALSE,Spring 2023,moderna_omicron,5,2023-04-07,1
+FALSE,Spring 2023,moderna_BA45,5,2023-08-06,1
+FALSE,Spring 2023,moderna_XBB15,5,2023-04-13,1
+FALSE,Spring 2023,moderna_JN1,5,2023-05-27,1
+FALSE,Spring 2023,moderna_omicron2,5,2023-06-22,1
+FALSE,Spring 2023,moderna_unspecified,5,2023-06-20,1
+FALSE,Spring 2023,sanofigsk_B1,5,2023-04-29,1
+FALSE,Spring 2023,sanofigsk_D614,5,2023-08-22,1
+FALSE,Spring 2023,sanofigsk_D614B1,5,2023-05-05,1
+FALSE,Spring 2023,sputnik_i_multi,5,2023-04-06,1
+FALSE,Spring 2023,sputnik_ii_multi,5,2023-04-10,1
+FALSE,Spring 2023,sputnik_i_inj,5,2023-04-04,1
+FALSE,Spring 2023,sputnik_ii_inj,5,2023-05-11,1
+FALSE,Spring 2023,sinopharm,5,2023-04-10,1
+FALSE,Spring 2023,valneva,5,2023-06-09,1
+FALSE,Spring 2023,medicago,5,2023-04-28,1
+FALSE,Spring 2023,convidecia,5,2023-07-12,1
+FALSE,Spring 2023,covaxin,5,2023-06-23,1
+FALSE,Spring 2023,coronavac,5,2023-04-09,1
+FALSE,Spring 2023,covishield,5,2023-06-06,1
+FALSE,Spring 2023,covovax,5,2023-05-23,1
+FALSE,Autumn 2023,pfizer_original,5,2023-09-07,1
+FALSE,Autumn 2023,pfizer_BA1,5,2023-10-20,1
+FALSE,Autumn 2023,pfizer_BA45,5,2023-09-23,1
+FALSE,Autumn 2023,pfizer_XBB15,5,2023-10-05,1
+FALSE,Autumn 2023,pfizer_JN1,5,2023-09-14,1
+FALSE,Autumn 2023,pfizer_LP81,5,2023-09-06,1
+FALSE,Autumn 2023,pfizer_KP2,5,2023-12-18,1
+FALSE,Autumn 2023,pfizer_KP2_pfs,5,2023-09-24,1
+FALSE,Autumn 2023,pfizer_unspecified,5,2023-11-16,1
+FALSE,Autumn 2023,pfizer_original_children,5,2023-10-19,1
+FALSE,Autumn 2023,pfizer_JN1_children,5,2023-10-11,1
+FALSE,Autumn 2023,pfizer_XBB15_children,5,2023-10-14,1
+FALSE,Autumn 2023,pfizer_LP81_children,5,2023-09-11,1
+FALSE,Autumn 2023,pfizer_original_under5,5,2023-10-18,1
+FALSE,Autumn 2023,pfizer_JN1_under5,5,2023-09-03,1
+FALSE,Autumn 2023,pfizer_XBB15_under5,5,2023-09-05,1
+FALSE,Autumn 2023,pfizer_LP81_under5,5,2023-10-03,1
+FALSE,Autumn 2023,az_original,5,2023-10-01,1
+FALSE,Autumn 2023,az_original_half,5,2023-09-17,1
+FALSE,Autumn 2023,moderna_original,5,2023-09-19,1
+FALSE,Autumn 2023,moderna_BA45,5,2023-09-16,1
+FALSE,Autumn 2023,moderna_XBB15,5,2023-09-10,1
+FALSE,Autumn 2023,moderna_JN1,5,2023-10-26,1
+FALSE,Autumn 2023,moderna_omicron2,5,2023-10-02,1
+FALSE,Autumn 2023,moderna_unspecified,5,2023-09-24,1
+FALSE,Autumn 2023,sanofigsk_B1,5,2023-09-12,1
+FALSE,Autumn 2023,sanofigsk_D614,5,2023-09-11,1
+FALSE,Autumn 2023,novavax,5,2023-10-20,1
+FALSE,Autumn 2023,sputnik_i_multi,5,2023-09-13,1
+FALSE,Autumn 2023,sputnik_ii_multi,5,2023-10-29,1
+FALSE,Autumn 2023,sputnik_i_inj,5,2023-08-30,1
+FALSE,Autumn 2023,sputnik_ii_inj,5,2023-10-05,1
+FALSE,Autumn 2023,jansenn,5,2024-03-16,1
+FALSE,Autumn 2023,sinopharm,5,2023-10-03,1
+FALSE,Autumn 2023,valneva,5,2023-09-13,1
+FALSE,Autumn 2023,medicago,5,2023-10-08,1
+FALSE,Autumn 2023,convidecia,5,2023-12-01,1
+FALSE,Autumn 2023,covaxin,5,2023-11-18,1
+FALSE,Autumn 2023,coronavac,5,2023-11-26,1
+FALSE,Autumn 2023,covishield,5,2023-09-09,1
+FALSE,Autumn 2023,covovax,5,2023-08-30,1
+FALSE,Autumn 2023,unspecified,5,2024-01-11,1
+FALSE,Spring 2024,pfizer_original,5,2024-05-21,1
+FALSE,Spring 2024,pfizer_BA45,5,2024-06-18,1
+FALSE,Spring 2024,pfizer_XBB15,5,2024-07-12,1
+FALSE,Spring 2024,pfizer_JN1,5,2024-07-26,1
+FALSE,Spring 2024,pfizer_LP81,5,2024-05-03,1
+FALSE,Spring 2024,pfizer_KP2_pfs,5,2024-08-30,1
+FALSE,Spring 2024,pfizer_unspecified,5,2024-07-02,1
+FALSE,Spring 2024,pfizer_original_children,5,2024-08-23,1
+FALSE,Spring 2024,pfizer_JN1_children,5,2024-04-27,1
+FALSE,Spring 2024,pfizer_XBB15_children,5,2024-08-03,1
+FALSE,Spring 2024,pfizer_LP81_children,5,2024-08-04,1
+FALSE,Spring 2024,pfizer_original_under5,5,2024-09-15,1
+FALSE,Spring 2024,pfizer_JN1_under5,5,2024-07-23,1
+FALSE,Spring 2024,pfizer_XBB15_under5,5,2024-05-05,1
+FALSE,Spring 2024,pfizer_LP81_under5,5,2024-06-07,1
+FALSE,Spring 2024,az_original,5,2024-04-19,1
+FALSE,Spring 2024,az_original_half,5,2024-05-13,1
+FALSE,Spring 2024,moderna_original,5,2024-05-02,1
+FALSE,Spring 2024,moderna_omicron,5,2024-05-12,1
+FALSE,Spring 2024,moderna_BA45,5,2024-04-28,1
+FALSE,Spring 2024,moderna_XBB15,5,2024-04-16,1
+FALSE,Spring 2024,moderna_JN1,5,2024-06-15,1
+FALSE,Spring 2024,moderna_omicron2,5,2024-04-20,1
+FALSE,Spring 2024,moderna_unspecified,5,2024-05-27,1
+FALSE,Spring 2024,sanofigsk_B1,5,2024-06-29,1
+FALSE,Spring 2024,sanofigsk_D614,5,2024-06-17,1
+FALSE,Spring 2024,sanofigsk_D614B1,5,2024-05-05,1
+FALSE,Spring 2024,novavax,5,2024-05-14,1
+FALSE,Spring 2024,sputnik_i_multi,5,2024-04-30,1
+FALSE,Spring 2024,sputnik_ii_multi,5,2024-07-10,1
+FALSE,Spring 2024,sputnik_i_inj,5,2024-05-09,1
+FALSE,Spring 2024,sputnik_ii_inj,5,2024-04-18,1
+FALSE,Spring 2024,jansenn,5,2024-08-10,1
+FALSE,Spring 2024,sinopharm,5,2024-06-03,1
+FALSE,Spring 2024,valneva,5,2024-05-17,1
+FALSE,Spring 2024,medicago,5,2024-05-07,1
+FALSE,Spring 2024,convidecia,5,2024-07-25,1
+FALSE,Spring 2024,covaxin,5,2024-07-08,1
+FALSE,Spring 2024,coronavac,5,2024-07-04,1
+FALSE,Spring 2024,covovax,5,2024-09-17,1
+FALSE,Spring 2024,unspecified,5,2024-05-03,1
+FALSE,Autumn 2024,pfizer_BA1,5,2024-11-16,1
+FALSE,Autumn 2024,pfizer_BA45,5,2024-12-30,1
+FALSE,Autumn 2024,pfizer_XBB15,5,2024-10-05,1
+FALSE,Autumn 2024,pfizer_JN1,5,2024-11-06,1
+FALSE,Autumn 2024,pfizer_LP81,5,2024-10-08,1
+FALSE,Autumn 2024,pfizer_KP2_pfs,5,2024-11-01,1
+FALSE,Autumn 2024,pfizer_unspecified,5,2025-01-29,1
+FALSE,Autumn 2024,pfizer_original_children,5,2025-01-22,1
+FALSE,Autumn 2024,pfizer_XBB15_children,5,2024-12-28,1
+FALSE,Autumn 2024,pfizer_LP81_children,5,2024-10-23,1
+FALSE,Autumn 2024,pfizer_original_under5,5,2024-10-22,1
+FALSE,Autumn 2024,pfizer_JN1_under5,5,2025-02-07,1
+FALSE,Autumn 2024,pfizer_XBB15_under5,5,2024-11-09,1
+FALSE,Autumn 2024,pfizer_LP81_under5,5,2024-11-23,1
+FALSE,Autumn 2024,az_original,5,2025-02-12,1
+FALSE,Autumn 2024,az_original_half,5,2024-12-17,1
+FALSE,Autumn 2024,moderna_original,5,2025-02-13,1
+FALSE,Autumn 2024,moderna_omicron,5,2025-02-22,1
+FALSE,Autumn 2024,moderna_BA45,5,2024-09-30,1
+FALSE,Autumn 2024,moderna_XBB15,5,2024-11-27,1
+FALSE,Autumn 2024,moderna_JN1,5,2024-12-14,1
+FALSE,Autumn 2024,moderna_omicron2,5,2024-12-11,1
+FALSE,Autumn 2024,moderna_unspecified,5,2024-10-15,1
+FALSE,Autumn 2024,sanofigsk_B1,5,2025-01-13,1
+FALSE,Autumn 2024,sanofigsk_D614,5,2024-10-20,1
+FALSE,Autumn 2024,sanofigsk_D614B1,5,2024-10-19,1
+FALSE,Autumn 2024,novavax,5,2024-10-09,1
+FALSE,Autumn 2024,sputnik_i_multi,5,2024-11-17,1
+FALSE,Autumn 2024,sputnik_ii_multi,5,2024-10-31,1
+FALSE,Autumn 2024,sputnik_i_inj,5,2024-11-04,1
+FALSE,Autumn 2024,sputnik_ii_inj,5,2024-11-26,2
+FALSE,Autumn 2024,jansenn,5,2024-10-20,1
+FALSE,Autumn 2024,sinopharm,5,2024-11-16,1
+FALSE,Autumn 2024,medicago,5,2024-11-06,1
+FALSE,Autumn 2024,convidecia,5,2024-10-25,1
+FALSE,Autumn 2024,covaxin,5,2024-11-18,1
+FALSE,Autumn 2024,coronavac,5,2024-10-19,1
+FALSE,Autumn 2024,covishield,5,2025-01-27,1
+FALSE,Autumn 2024,covovax,5,2024-10-13,1
+FALSE,Autumn 2024,unspecified,5,2025-03-12,1
+FALSE,Spring 2025,pfizer_original,5,2025-07-24,1
+FALSE,Spring 2025,pfizer_BA1,5,2025-04-22,1
+FALSE,Spring 2025,pfizer_BA45,5,2025-04-10,1
+FALSE,Spring 2025,pfizer_XBB15,5,2025-04-17,1
+FALSE,Spring 2025,pfizer_JN1,5,2025-06-11,1
+FALSE,Spring 2025,pfizer_LP81,5,2025-06-09,1
+FALSE,Spring 2025,pfizer_KP2,5,2025-06-26,1
+FALSE,Spring 2025,pfizer_KP2_pfs,5,2025-05-09,1
+FALSE,Spring 2025,pfizer_unspecified,5,2025-04-22,1
+FALSE,Spring 2025,pfizer_JN1_children,5,2025-08-04,1
+FALSE,Spring 2025,pfizer_XBB15_children,5,2025-06-09,1
+FALSE,Spring 2025,pfizer_LP81_children,5,2025-05-13,1
+FALSE,Spring 2025,pfizer_original_under5,5,2025-05-14,1
+FALSE,Spring 2025,pfizer_JN1_under5,5,2025-04-07,1
+FALSE,Spring 2025,pfizer_XBB15_under5,5,2025-04-03,1
+FALSE,Spring 2025,pfizer_LP81_under5,15,2025-04-04,2
+FALSE,Spring 2025,az_original,5,2025-05-03,1
+FALSE,Spring 2025,az_original_half,5,2025-04-01,1
+FALSE,Spring 2025,moderna_original,5,2025-08-16,1
+FALSE,Spring 2025,moderna_omicron,5,2025-04-19,1
+FALSE,Spring 2025,moderna_BA45,5,2025-04-04,1
+FALSE,Spring 2025,moderna_XBB15,5,2025-05-14,1
+FALSE,Spring 2025,moderna_JN1,5,2025-05-08,1
+FALSE,Spring 2025,moderna_omicron2,5,2025-07-21,1
+FALSE,Spring 2025,moderna_unspecified,5,2025-04-12,1
+FALSE,Spring 2025,sanofigsk_B1,5,2025-04-27,1
+FALSE,Spring 2025,sanofigsk_D614,5,2025-06-05,1
+FALSE,Spring 2025,sanofigsk_D614B1,5,2025-04-26,1
+FALSE,Spring 2025,novavax,5,2025-04-04,1
+FALSE,Spring 2025,sputnik_i_multi,5,2025-05-05,1
+FALSE,Spring 2025,sputnik_ii_multi,5,2025-04-12,1
+FALSE,Spring 2025,sputnik_i_inj,5,2025-08-14,1
+FALSE,Spring 2025,sputnik_ii_inj,5,2025-05-02,1
+FALSE,Spring 2025,jansenn,5,2025-04-01,1
+FALSE,Spring 2025,sinopharm,5,2025-06-10,1
+FALSE,Spring 2025,valneva,5,2025-04-25,1
+FALSE,Spring 2025,medicago,5,2025-05-20,1
+FALSE,Spring 2025,convidecia,5,2025-05-06,1
+FALSE,Spring 2025,covaxin,5,2025-05-18,1
+FALSE,Spring 2025,coronavac,5,2025-06-04,1
+FALSE,Spring 2025,covishield,5,2025-07-01,1
+FALSE,Spring 2025,covovax,5,2025-04-06,1
+FALSE,Spring 2025,unspecified,5,2025-04-08,1
+FALSE,Autumn 2025,pfizer_original,5,2025-10-08,1
+FALSE,Autumn 2025,pfizer_XBB15,5,2025-11-13,1
+FALSE,Autumn 2025,pfizer_JN1,5,2025-10-07,1
+FALSE,Autumn 2025,pfizer_KP2,5,2025-10-28,1
+FALSE,Autumn 2025,pfizer_original_children,5,2025-10-22,1
+FALSE,Autumn 2025,pfizer_LP81_children,5,2025-10-29,1
+FALSE,Autumn 2025,pfizer_original_under5,5,2025-10-18,1
+FALSE,Autumn 2025,pfizer_JN1_under5,5,2025-10-12,1
+FALSE,Autumn 2025,az_original_half,5,2025-10-05,1
+FALSE,Autumn 2025,moderna_omicron,5,2025-10-14,1
+FALSE,Autumn 2025,moderna_BA45,5,2025-11-09,1
+FALSE,Autumn 2025,moderna_JN1,5,2025-10-09,1
+FALSE,Autumn 2025,moderna_omicron2,5,2025-11-04,1
+FALSE,Autumn 2025,moderna_unspecified,5,2025-11-09,1
+FALSE,Autumn 2025,sanofigsk_D614,5,2025-10-09,1
+FALSE,Autumn 2025,sanofigsk_D614B1,5,2025-10-04,1
+FALSE,Autumn 2025,novavax,5,2025-10-22,1
+FALSE,Autumn 2025,sputnik_ii_inj,5,2025-11-22,1
+FALSE,Autumn 2025,sinopharm,5,2025-11-08,1
+FALSE,Autumn 2025,coronavac,5,2025-10-15,1
+FALSE,Autumn 2025,covishield,5,2025-09-29,1
+FALSE,Autumn 2025,unspecified,5,2025-10-02,1
+TRUE,Pre-2020-07-01,pfizer_original,15,2019-06-18,1
+TRUE,Pre-2020-07-01,pfizer_BA1,5,2019-02-10,1
+TRUE,Pre-2020-07-01,pfizer_BA45,5,2019-08-23,1
+TRUE,Pre-2020-07-01,pfizer_XBB15,5,2019-02-19,1
+TRUE,Pre-2020-07-01,pfizer_JN1,5,2019-03-10,1
+TRUE,Pre-2020-07-01,pfizer_LP81,5,2019-07-17,1
+TRUE,Pre-2020-07-01,pfizer_KP2,5,2019-02-21,1
+TRUE,Pre-2020-07-01,pfizer_KP2_pfs,5,2019-05-16,1
+TRUE,Pre-2020-07-01,pfizer_unspecified,5,2019-04-25,1
+TRUE,Pre-2020-07-01,pfizer_original_children,5,2019-09-02,1
+TRUE,Pre-2020-07-01,pfizer_JN1_children,5,2019-12-28,1
+TRUE,Pre-2020-07-01,pfizer_XBB15_children,5,2019-05-20,1
+TRUE,Pre-2020-07-01,pfizer_LP81_children,5,2019-04-17,1
+TRUE,Pre-2020-07-01,pfizer_original_under5,5,2019-04-12,1
+TRUE,Pre-2020-07-01,pfizer_JN1_under5,5,2019-09-29,1
+TRUE,Pre-2020-07-01,pfizer_XBB15_under5,5,2019-03-02,1
+TRUE,Pre-2020-07-01,pfizer_LP81_under5,5,2019-05-11,1
+TRUE,Pre-2020-07-01,az_original,5,2019-04-25,1
+TRUE,Pre-2020-07-01,az_original_half,5,2019-01-14,1
+TRUE,Pre-2020-07-01,moderna_original,5,2019-01-31,1
+TRUE,Pre-2020-07-01,moderna_omicron,5,2019-04-02,1
+TRUE,Pre-2020-07-01,moderna_BA45,5,2019-03-02,1
+TRUE,Pre-2020-07-01,moderna_XBB15,5,2019-02-05,1
+TRUE,Pre-2020-07-01,moderna_JN1,5,2019-02-17,1
+TRUE,Pre-2020-07-01,moderna_omicron2,5,2019-03-02,1
+TRUE,Pre-2020-07-01,moderna_unspecified,5,2019-01-14,1
+TRUE,Pre-2020-07-01,sanofigsk_B1,5,2019-01-24,1
+TRUE,Pre-2020-07-01,sanofigsk_D614,5,2019-03-10,1
+TRUE,Pre-2020-07-01,sanofigsk_D614B1,5,2019-01-19,1
+TRUE,Pre-2020-07-01,novavax,5,2019-02-04,1
+TRUE,Pre-2020-07-01,sputnik_i_multi,5,2019-01-31,1
+TRUE,Pre-2020-07-01,sputnik_ii_multi,5,2019-03-12,1
+TRUE,Pre-2020-07-01,sputnik_i_inj,5,2019-04-10,1
+TRUE,Pre-2020-07-01,sputnik_ii_inj,5,2020-01-05,1
+TRUE,Pre-2020-07-01,jansenn,5,2019-01-29,1
+TRUE,Pre-2020-07-01,sinopharm,5,2019-05-13,1
+TRUE,Pre-2020-07-01,valneva,5,2019-03-20,1
+TRUE,Pre-2020-07-01,medicago,5,2019-07-20,1
+TRUE,Pre-2020-07-01,convidecia,5,2019-04-11,1
+TRUE,Pre-2020-07-01,covaxin,5,2019-02-08,1
+TRUE,Pre-2020-07-01,coronavac,5,2019-09-06,1
+TRUE,Pre-2020-07-01,covishield,15,2019-06-24,1
+TRUE,Pre-2020-07-01,covovax,5,2019-09-06,1
+TRUE,Pre-2020-07-01,unspecified,5,2019-02-16,1
+TRUE,Pre-roll-out,pfizer_original,5,2020-08-21,1
+TRUE,Pre-roll-out,pfizer_BA1,5,2020-08-03,1
+TRUE,Pre-roll-out,pfizer_BA45,5,2020-08-16,1
+TRUE,Pre-roll-out,pfizer_XBB15,5,2020-08-23,1
+TRUE,Pre-roll-out,pfizer_JN1,5,2020-08-21,1
+TRUE,Pre-roll-out,pfizer_LP81,5,2020-11-05,1
+TRUE,Pre-roll-out,pfizer_KP2,5,2020-08-23,1
+TRUE,Pre-roll-out,pfizer_KP2_pfs,5,2020-08-14,1
+TRUE,Pre-roll-out,pfizer_unspecified,5,2020-10-16,1
+TRUE,Pre-roll-out,pfizer_original_children,5,2020-08-13,2
+TRUE,Pre-roll-out,pfizer_XBB15_children,5,2020-07-17,1
+TRUE,Pre-roll-out,pfizer_LP81_children,5,2020-08-18,1
+TRUE,Pre-roll-out,pfizer_JN1_under5,5,2020-10-23,1
+TRUE,Pre-roll-out,pfizer_XBB15_under5,5,2020-07-16,1
+TRUE,Pre-roll-out,pfizer_LP81_under5,5,2020-08-29,1
+TRUE,Pre-roll-out,az_original,5,2020-07-03,1
+TRUE,Pre-roll-out,az_original_half,5,2020-08-04,1
+TRUE,Pre-roll-out,moderna_original,5,2020-09-07,1
+TRUE,Pre-roll-out,moderna_omicron,5,2020-10-16,1
+TRUE,Pre-roll-out,moderna_BA45,5,2020-07-25,1
+TRUE,Pre-roll-out,moderna_JN1,5,2020-07-06,1
+TRUE,Pre-roll-out,moderna_omicron2,5,2020-09-06,1
+TRUE,Pre-roll-out,moderna_unspecified,5,2020-07-04,1
+TRUE,Pre-roll-out,sanofigsk_B1,5,2020-08-19,1
+TRUE,Pre-roll-out,sanofigsk_D614,5,2020-10-29,1
+TRUE,Pre-roll-out,sanofigsk_D614B1,5,2020-08-10,1
+TRUE,Pre-roll-out,novavax,5,2020-08-11,1
+TRUE,Pre-roll-out,sputnik_i_multi,5,2020-08-15,1
+TRUE,Pre-roll-out,sputnik_ii_multi,5,2020-09-17,1
+TRUE,Pre-roll-out,sputnik_i_inj,5,2020-07-12,1
+TRUE,Pre-roll-out,sputnik_ii_inj,5,2020-07-26,1
+TRUE,Pre-roll-out,jansenn,5,2020-07-10,1
+TRUE,Pre-roll-out,sinopharm,5,2020-07-29,1
+TRUE,Pre-roll-out,valneva,5,2020-07-18,1
+TRUE,Pre-roll-out,medicago,5,2020-08-21,1
+TRUE,Pre-roll-out,convidecia,5,2020-12-02,1
+TRUE,Pre-roll-out,covaxin,5,2020-08-01,1
+TRUE,Pre-roll-out,covishield,5,2020-08-16,1
+TRUE,Pre-roll-out,covovax,5,2020-09-11,1
+TRUE,Primary series,pfizer_original,5,2020-12-18,1
+TRUE,Primary series,pfizer_BA1,5,2020-12-18,1
+TRUE,Primary series,pfizer_BA45,5,2020-12-07,1
+TRUE,Primary series,pfizer_XBB15,5,2021-02-13,1
+TRUE,Primary series,pfizer_JN1,5,2020-12-07,1
+TRUE,Primary series,pfizer_LP81,5,2020-12-26,1
+TRUE,Primary series,pfizer_KP2,5,2021-04-24,1
+TRUE,Primary series,pfizer_KP2_pfs,5,2020-12-15,1
+TRUE,Primary series,pfizer_unspecified,5,2020-12-16,1
+TRUE,Primary series,pfizer_original_children,5,2020-12-22,1
+TRUE,Primary series,pfizer_JN1_children,5,2021-01-05,1
+TRUE,Primary series,pfizer_XBB15_children,5,2020-12-14,1
+TRUE,Primary series,pfizer_LP81_children,5,2021-01-08,1
+TRUE,Primary series,pfizer_original_under5,5,2020-12-23,1
+TRUE,Primary series,pfizer_JN1_under5,5,2021-01-04,1
+TRUE,Primary series,pfizer_LP81_under5,5,2021-05-19,1
+TRUE,Primary series,az_original_half,5,2021-01-02,1
+TRUE,Primary series,moderna_original,5,2021-05-11,1
+TRUE,Primary series,moderna_omicron,5,2021-02-02,1
+TRUE,Primary series,moderna_BA45,5,2020-12-31,1
+TRUE,Primary series,moderna_XBB15,5,2021-01-16,1
+TRUE,Primary series,moderna_JN1,5,2021-01-21,1
+TRUE,Primary series,moderna_omicron2,5,2021-04-18,1
+TRUE,Primary series,moderna_unspecified,5,2021-03-13,1
+TRUE,Primary series,sanofigsk_B1,5,2021-03-05,1
+TRUE,Primary series,sanofigsk_D614,5,2021-01-01,1
+TRUE,Primary series,sanofigsk_D614B1,5,2021-03-04,1
+TRUE,Primary series,novavax,5,2021-01-20,1
+TRUE,Primary series,sputnik_i_multi,5,2021-02-14,1
+TRUE,Primary series,sputnik_ii_multi,5,2021-01-26,1
+TRUE,Primary series,sputnik_i_inj,5,2021-02-19,1
+TRUE,Primary series,sputnik_ii_inj,5,2021-04-12,1
+TRUE,Primary series,jansenn,5,2021-01-17,1
+TRUE,Primary series,sinopharm,5,2020-12-18,1
+TRUE,Primary series,valneva,5,2021-01-04,1
+TRUE,Primary series,medicago,5,2021-06-29,1
+TRUE,Primary series,convidecia,5,2021-04-21,1
+TRUE,Primary series,covaxin,5,2020-12-30,1
+TRUE,Primary series,coronavac,5,2020-12-22,1
+TRUE,Primary series,covishield,5,2021-02-08,1
+TRUE,Primary series,covovax,5,2021-02-15,1
+TRUE,Primary series,unspecified,5,2021-04-11,1
+TRUE,Autumn 2021,pfizer_original,5,2021-09-16,1
+TRUE,Autumn 2021,pfizer_BA1,5,2021-11-25,1
+TRUE,Autumn 2021,pfizer_BA45,5,2021-09-22,1
+TRUE,Autumn 2021,pfizer_XBB15,5,2021-09-14,1
+TRUE,Autumn 2021,pfizer_JN1,5,2021-12-11,1
+TRUE,Autumn 2021,pfizer_LP81,5,2021-11-10,1
+TRUE,Autumn 2021,pfizer_KP2,5,2021-10-15,1
+TRUE,Autumn 2021,pfizer_KP2_pfs,5,2021-10-12,1
+TRUE,Autumn 2021,pfizer_unspecified,5,2021-10-06,1
+TRUE,Autumn 2021,pfizer_original_children,5,2022-01-03,1
+TRUE,Autumn 2021,pfizer_JN1_children,5,2021-11-27,1
+TRUE,Autumn 2021,pfizer_XBB15_children,5,2021-09-06,1
+TRUE,Autumn 2021,pfizer_LP81_children,5,2021-10-17,1
+TRUE,Autumn 2021,pfizer_original_under5,5,2021-12-20,1
+TRUE,Autumn 2021,pfizer_JN1_under5,5,2021-12-01,1
+TRUE,Autumn 2021,pfizer_XBB15_under5,5,2021-12-22,1
+TRUE,Autumn 2021,pfizer_LP81_under5,5,2021-09-19,1
+TRUE,Autumn 2021,az_original_half,5,2021-09-07,1
+TRUE,Autumn 2021,moderna_original,5,2021-09-19,1
+TRUE,Autumn 2021,moderna_omicron,5,2021-09-30,1
+TRUE,Autumn 2021,moderna_BA45,5,2021-09-06,1
+TRUE,Autumn 2021,moderna_JN1,5,2021-10-13,1
+TRUE,Autumn 2021,moderna_omicron2,5,2021-10-05,1
+TRUE,Autumn 2021,moderna_unspecified,5,2021-09-30,1
+TRUE,Autumn 2021,sanofigsk_B1,5,2021-12-06,1
+TRUE,Autumn 2021,sanofigsk_D614,5,2021-12-17,1
+TRUE,Autumn 2021,sanofigsk_D614B1,5,2021-11-08,1
+TRUE,Autumn 2021,novavax,5,2021-10-14,1
+TRUE,Autumn 2021,sputnik_i_multi,5,2021-12-04,1
+TRUE,Autumn 2021,sputnik_ii_multi,5,2021-09-29,1
+TRUE,Autumn 2021,sputnik_i_inj,5,2021-09-24,1
+TRUE,Autumn 2021,sputnik_ii_inj,5,2021-10-29,1
+TRUE,Autumn 2021,jansenn,5,2021-09-13,1
+TRUE,Autumn 2021,sinopharm,5,2022-02-01,1
+TRUE,Autumn 2021,valneva,5,2022-03-19,1
+TRUE,Autumn 2021,medicago,5,2021-10-06,1
+TRUE,Autumn 2021,convidecia,5,2022-02-17,1
+TRUE,Autumn 2021,covaxin,5,2021-09-19,1
+TRUE,Autumn 2021,coronavac,5,2022-02-26,1
+TRUE,Autumn 2021,covishield,5,2022-02-11,1
+TRUE,Autumn 2021,covovax,5,2021-10-12,1
+TRUE,Autumn 2021,unspecified,5,2021-10-16,1
+TRUE,Spring 2022,pfizer_original,5,2022-06-29,1
+TRUE,Spring 2022,pfizer_BA1,5,2022-04-03,1
+TRUE,Spring 2022,pfizer_BA45,5,2022-08-04,1
+TRUE,Spring 2022,pfizer_XBB15,5,2022-08-12,1
+TRUE,Spring 2022,pfizer_JN1,5,2022-06-17,1
+TRUE,Spring 2022,pfizer_LP81,5,2022-04-20,1
+TRUE,Spring 2022,pfizer_KP2_pfs,5,2022-06-08,1
+TRUE,Spring 2022,pfizer_unspecified,5,2022-03-27,1
+TRUE,Spring 2022,pfizer_original_children,5,2022-05-06,1
+TRUE,Spring 2022,pfizer_JN1_children,5,2022-05-28,1
+TRUE,Spring 2022,pfizer_XBB15_children,5,2022-05-21,1
+TRUE,Spring 2022,pfizer_LP81_children,5,2022-05-21,1
+TRUE,Spring 2022,pfizer_original_under5,5,2022-05-20,1
+TRUE,Spring 2022,pfizer_JN1_under5,5,2022-08-13,1
+TRUE,Spring 2022,pfizer_XBB15_under5,5,2022-06-14,1
+TRUE,Spring 2022,pfizer_LP81_under5,5,2022-06-21,1
+TRUE,Spring 2022,az_original,5,2022-07-02,1
+TRUE,Spring 2022,az_original_half,5,2022-04-16,1
+TRUE,Spring 2022,moderna_original,5,2022-06-04,1
+TRUE,Spring 2022,moderna_omicron,5,2022-03-27,1
+TRUE,Spring 2022,moderna_BA45,5,2022-03-27,1
+TRUE,Spring 2022,moderna_XBB15,5,2022-05-08,1
+TRUE,Spring 2022,moderna_JN1,5,2022-05-13,1
+TRUE,Spring 2022,moderna_omicron2,5,2022-05-01,1
+TRUE,Spring 2022,moderna_unspecified,5,2022-04-07,1
+TRUE,Spring 2022,sanofigsk_D614B1,5,2022-04-08,2
+TRUE,Spring 2022,novavax,5,2022-04-23,1
+TRUE,Spring 2022,sputnik_ii_multi,5,2022-06-06,1
+TRUE,Spring 2022,sputnik_i_inj,5,2022-04-25,1
+TRUE,Spring 2022,sputnik_ii_inj,5,2022-04-09,1
+TRUE,Spring 2022,jansenn,5,2022-08-05,1
+TRUE,Spring 2022,valneva,5,2022-04-20,1
+TRUE,Spring 2022,medicago,5,2022-06-18,1
+TRUE,Spring 2022,convidecia,5,2022-04-13,1
+TRUE,Spring 2022,covaxin,5,2022-04-09,1
+TRUE,Spring 2022,coronavac,5,2022-04-04,1
+TRUE,Spring 2022,covishield,5,2022-04-22,1
+TRUE,Spring 2022,covovax,5,2022-07-03,1
+TRUE,Spring 2022,unspecified,5,2022-05-31,1
+TRUE,Autumn 2022,pfizer_original,5,2022-09-02,1
+TRUE,Autumn 2022,pfizer_BA1,5,2022-10-01,1
+TRUE,Autumn 2022,pfizer_BA45,5,2022-11-27,1
+TRUE,Autumn 2022,pfizer_XBB15,5,2022-11-14,1
+TRUE,Autumn 2022,pfizer_JN1,5,2022-10-28,1
+TRUE,Autumn 2022,pfizer_LP81,5,2022-09-06,1
+TRUE,Autumn 2022,pfizer_KP2,5,2022-11-19,1
+TRUE,Autumn 2022,pfizer_KP2_pfs,5,2022-10-02,1
+TRUE,Autumn 2022,pfizer_unspecified,5,2022-10-15,1
+TRUE,Autumn 2022,pfizer_original_children,5,2022-11-23,1
+TRUE,Autumn 2022,pfizer_JN1_children,5,2023-01-06,1
+TRUE,Autumn 2022,pfizer_XBB15_children,5,2022-12-02,1
+TRUE,Autumn 2022,pfizer_LP81_children,5,2022-08-30,1
+TRUE,Autumn 2022,pfizer_original_under5,5,2023-03-14,1
+TRUE,Autumn 2022,pfizer_JN1_under5,5,2022-10-14,1
+TRUE,Autumn 2022,pfizer_XBB15_under5,5,2022-10-03,1
+TRUE,Autumn 2022,pfizer_LP81_under5,5,2022-10-02,1
+TRUE,Autumn 2022,az_original,5,2022-09-14,1
+TRUE,Autumn 2022,az_original_half,5,2022-08-31,1
+TRUE,Autumn 2022,moderna_original,5,2022-09-07,1
+TRUE,Autumn 2022,moderna_omicron,5,2022-11-13,1
+TRUE,Autumn 2022,moderna_BA45,5,2022-10-08,1
+TRUE,Autumn 2022,moderna_XBB15,5,2022-10-16,1
+TRUE,Autumn 2022,moderna_omicron2,5,2022-09-06,1
+TRUE,Autumn 2022,moderna_unspecified,5,2022-12-12,1
+TRUE,Autumn 2022,sanofigsk_B1,5,2022-09-21,1
+TRUE,Autumn 2022,sanofigsk_D614,5,2022-11-02,1
+TRUE,Autumn 2022,sanofigsk_D614B1,5,2023-01-13,1
+TRUE,Autumn 2022,novavax,5,2022-09-28,1
+TRUE,Autumn 2022,sputnik_i_multi,5,2022-09-08,1
+TRUE,Autumn 2022,sputnik_ii_multi,5,2022-10-26,1
+TRUE,Autumn 2022,sputnik_i_inj,5,2022-10-27,1
+TRUE,Autumn 2022,sputnik_ii_inj,5,2023-02-27,1
+TRUE,Autumn 2022,jansenn,5,2022-08-31,1
+TRUE,Autumn 2022,sinopharm,5,2022-11-14,1
+TRUE,Autumn 2022,valneva,5,2022-10-08,1
+TRUE,Autumn 2022,medicago,5,2022-12-20,1
+TRUE,Autumn 2022,convidecia,5,2022-09-24,1
+TRUE,Autumn 2022,covaxin,5,2022-10-20,1
+TRUE,Autumn 2022,coronavac,5,2022-10-26,1
+TRUE,Autumn 2022,unspecified,5,2022-12-07,1
+TRUE,Spring 2023,pfizer_BA45,5,2023-05-02,1
+TRUE,Spring 2023,pfizer_JN1,5,2023-05-16,1
+TRUE,Spring 2023,pfizer_LP81,5,2023-05-28,1
+TRUE,Spring 2023,pfizer_KP2,5,2023-05-06,1
+TRUE,Spring 2023,pfizer_KP2_pfs,5,2023-05-28,1
+TRUE,Spring 2023,pfizer_unspecified,5,2023-05-12,1
+TRUE,Spring 2023,pfizer_original_children,5,2023-05-04,1
+TRUE,Spring 2023,pfizer_JN1_children,5,2023-05-28,1
+TRUE,Spring 2023,pfizer_XBB15_children,5,2023-07-23,1
+TRUE,Spring 2023,pfizer_LP81_children,5,2023-05-22,1
+TRUE,Spring 2023,pfizer_original_under5,5,2023-05-06,1
+TRUE,Spring 2023,pfizer_JN1_under5,5,2023-06-16,1
+TRUE,Spring 2023,az_original_half,5,2023-04-03,1
+TRUE,Spring 2023,moderna_original,5,2023-08-01,1
+TRUE,Spring 2023,moderna_omicron,5,2023-07-04,1
+TRUE,Spring 2023,moderna_BA45,5,2023-08-13,1
+TRUE,Spring 2023,moderna_XBB15,5,2023-04-11,1
+TRUE,Spring 2023,moderna_omicron2,5,2023-05-28,1
+TRUE,Spring 2023,moderna_unspecified,5,2023-04-20,1
+TRUE,Spring 2023,sanofigsk_B1,5,2023-05-02,1
+TRUE,Spring 2023,sanofigsk_D614,5,2023-06-21,1
+TRUE,Spring 2023,sanofigsk_D614B1,5,2023-05-09,1
+TRUE,Spring 2023,novavax,5,2023-05-05,1
+TRUE,Spring 2023,sputnik_i_multi,5,2023-05-06,1
+TRUE,Spring 2023,sputnik_ii_multi,5,2023-05-28,1
+TRUE,Spring 2023,sputnik_i_inj,5,2023-06-20,1
+TRUE,Spring 2023,sputnik_ii_inj,5,2023-05-03,1
+TRUE,Spring 2023,jansenn,5,2023-04-28,1
+TRUE,Spring 2023,sinopharm,5,2023-07-26,1
+TRUE,Spring 2023,valneva,5,2023-07-10,1
+TRUE,Spring 2023,medicago,5,2023-04-14,1
+TRUE,Spring 2023,covaxin,5,2023-04-10,1
+TRUE,Spring 2023,coronavac,5,2023-05-10,1
+TRUE,Spring 2023,covovax,5,2023-04-18,1
+TRUE,Spring 2023,unspecified,5,2023-04-25,1
+TRUE,Autumn 2023,pfizer_original,5,2023-09-29,1
+TRUE,Autumn 2023,pfizer_BA1,5,2024-02-29,1
+TRUE,Autumn 2023,pfizer_BA45,5,2023-08-28,1
+TRUE,Autumn 2023,pfizer_XBB15,5,2023-10-11,1
+TRUE,Autumn 2023,pfizer_JN1,5,2024-03-21,1
+TRUE,Autumn 2023,pfizer_LP81,5,2024-02-11,1
+TRUE,Autumn 2023,pfizer_KP2,5,2023-12-01,1
+TRUE,Autumn 2023,pfizer_KP2_pfs,5,2023-12-01,1
+TRUE,Autumn 2023,pfizer_unspecified,5,2023-09-16,1
+TRUE,Autumn 2023,pfizer_JN1_children,5,2023-10-18,1
+TRUE,Autumn 2023,pfizer_LP81_children,5,2023-12-28,1
+TRUE,Autumn 2023,pfizer_original_under5,5,2023-11-11,1
+TRUE,Autumn 2023,pfizer_JN1_under5,5,2023-11-11,1
+TRUE,Autumn 2023,pfizer_XBB15_under5,5,2023-12-17,1
+TRUE,Autumn 2023,pfizer_LP81_under5,5,2023-09-04,1
+TRUE,Autumn 2023,az_original,5,2023-12-21,1
+TRUE,Autumn 2023,az_original_half,5,2023-12-05,1
+TRUE,Autumn 2023,moderna_original,5,2023-09-05,1
+TRUE,Autumn 2023,moderna_omicron,5,2023-12-03,1
+TRUE,Autumn 2023,moderna_BA45,5,2023-10-13,1
+TRUE,Autumn 2023,moderna_XBB15,5,2023-10-01,1
+TRUE,Autumn 2023,moderna_JN1,5,2024-03-11,1
+TRUE,Autumn 2023,moderna_omicron2,5,2023-10-11,1
+TRUE,Autumn 2023,moderna_unspecified,5,2023-10-04,1
+TRUE,Autumn 2023,sanofigsk_B1,5,2023-08-31,1
+TRUE,Autumn 2023,sanofigsk_D614,5,2023-10-28,1
+TRUE,Autumn 2023,sanofigsk_D614B1,5,2023-08-30,1
+TRUE,Autumn 2023,novavax,5,2023-09-30,1
+TRUE,Autumn 2023,sputnik_i_multi,5,2023-09-26,1
+TRUE,Autumn 2023,sputnik_ii_multi,5,2023-10-28,1
+TRUE,Autumn 2023,sputnik_i_inj,5,2024-03-21,1
+TRUE,Autumn 2023,sputnik_ii_inj,5,2023-09-18,1
+TRUE,Autumn 2023,jansenn,5,2024-01-24,1
+TRUE,Autumn 2023,sinopharm,5,2023-11-21,1
+TRUE,Autumn 2023,valneva,5,2023-11-30,1
+TRUE,Autumn 2023,medicago,5,2023-09-21,1
+TRUE,Autumn 2023,convidecia,5,2023-09-14,1
+TRUE,Autumn 2023,covaxin,5,2023-11-28,1
+TRUE,Autumn 2023,coronavac,5,2024-02-23,1
+TRUE,Autumn 2023,covishield,5,2023-12-09,1
+TRUE,Autumn 2023,covovax,5,2024-01-09,1
+TRUE,Spring 2024,pfizer_original,5,2024-08-11,1
+TRUE,Spring 2024,pfizer_BA1,5,2024-05-10,1
+TRUE,Spring 2024,pfizer_BA45,5,2024-07-13,1
+TRUE,Spring 2024,pfizer_XBB15,5,2024-06-13,1
+TRUE,Spring 2024,pfizer_JN1,5,2024-09-08,1
+TRUE,Spring 2024,pfizer_LP81,5,2024-07-16,1
+TRUE,Spring 2024,pfizer_KP2,5,2024-05-13,1
+TRUE,Spring 2024,pfizer_KP2_pfs,5,2024-08-19,1
+TRUE,Spring 2024,pfizer_unspecified,5,2024-05-31,1
+TRUE,Spring 2024,pfizer_original_children,5,2024-04-20,1
+TRUE,Spring 2024,pfizer_JN1_children,5,2024-06-10,1
+TRUE,Spring 2024,pfizer_XBB15_children,5,2024-06-02,1
+TRUE,Spring 2024,pfizer_original_under5,5,2024-07-18,1
+TRUE,Spring 2024,pfizer_JN1_under5,5,2024-06-25,1
+TRUE,Spring 2024,pfizer_XBB15_under5,5,2024-06-26,1
+TRUE,Spring 2024,pfizer_LP81_under5,5,2024-06-12,1
+TRUE,Spring 2024,az_original,5,2024-05-12,1
+TRUE,Spring 2024,az_original_half,5,2024-07-30,1
+TRUE,Spring 2024,moderna_original,5,2024-08-27,1
+TRUE,Spring 2024,moderna_omicron,5,2024-07-28,1
+TRUE,Spring 2024,moderna_XBB15,5,2024-04-17,1
+TRUE,Spring 2024,moderna_JN1,5,2024-07-31,1
+TRUE,Spring 2024,moderna_omicron2,5,2024-05-02,1
+TRUE,Spring 2024,moderna_unspecified,5,2024-04-16,1
+TRUE,Spring 2024,sanofigsk_B1,5,2024-06-25,1
+TRUE,Spring 2024,sanofigsk_D614,5,2024-06-11,1
+TRUE,Spring 2024,novavax,5,2024-08-20,1
+TRUE,Spring 2024,sputnik_i_multi,5,2024-07-12,1
+TRUE,Spring 2024,sputnik_ii_multi,5,2024-05-20,1
+TRUE,Spring 2024,sputnik_i_inj,5,2024-06-29,1
+TRUE,Spring 2024,sputnik_ii_inj,5,2024-07-30,1
+TRUE,Spring 2024,jansenn,5,2024-05-22,1
+TRUE,Spring 2024,sinopharm,5,2024-05-03,1
+TRUE,Spring 2024,valneva,5,2024-05-09,1
+TRUE,Spring 2024,medicago,5,2024-08-07,1
+TRUE,Spring 2024,convidecia,5,2024-08-04,1
+TRUE,Spring 2024,covaxin,5,2024-05-12,1
+TRUE,Spring 2024,coronavac,5,2024-04-20,1
+TRUE,Spring 2024,covishield,5,2024-05-19,1
+TRUE,Spring 2024,covovax,5,2024-04-22,1
+TRUE,Spring 2024,unspecified,5,2024-08-10,1
+TRUE,Autumn 2024,pfizer_original,5,2024-10-21,1
+TRUE,Autumn 2024,pfizer_BA45,5,2024-10-27,1
+TRUE,Autumn 2024,pfizer_XBB15,5,2024-10-01,1
+TRUE,Autumn 2024,pfizer_JN1,5,2025-02-19,1
+TRUE,Autumn 2024,pfizer_KP2,5,2024-11-04,1
+TRUE,Autumn 2024,pfizer_KP2_pfs,5,2025-02-13,1
+TRUE,Autumn 2024,pfizer_original_children,5,2024-11-12,1
+TRUE,Autumn 2024,pfizer_JN1_children,5,2024-10-20,1
+TRUE,Autumn 2024,pfizer_XBB15_children,5,2024-11-11,1
+TRUE,Autumn 2024,pfizer_LP81_children,5,2025-02-05,1
+TRUE,Autumn 2024,pfizer_original_under5,5,2024-11-04,1
+TRUE,Autumn 2024,pfizer_JN1_under5,5,2025-01-09,1
+TRUE,Autumn 2024,pfizer_XBB15_under5,5,2025-02-03,1
+TRUE,Autumn 2024,pfizer_LP81_under5,5,2025-02-17,1
+TRUE,Autumn 2024,az_original,5,2024-10-21,1
+TRUE,Autumn 2024,az_original_half,5,2024-10-21,1
+TRUE,Autumn 2024,moderna_original,5,2024-10-01,1
+TRUE,Autumn 2024,moderna_omicron,5,2024-12-05,1
+TRUE,Autumn 2024,moderna_BA45,5,2024-10-17,1
+TRUE,Autumn 2024,moderna_XBB15,5,2024-12-17,1
+TRUE,Autumn 2024,moderna_JN1,5,2024-10-09,1
+TRUE,Autumn 2024,moderna_omicron2,5,2025-01-08,1
+TRUE,Autumn 2024,moderna_unspecified,5,2024-11-05,1
+TRUE,Autumn 2024,sanofigsk_D614,5,2024-09-30,1
+TRUE,Autumn 2024,novavax,5,2024-11-20,1
+TRUE,Autumn 2024,sputnik_i_multi,5,2024-12-02,1
+TRUE,Autumn 2024,sputnik_ii_multi,5,2025-01-20,1
+TRUE,Autumn 2024,sputnik_i_inj,5,2024-10-21,1
+TRUE,Autumn 2024,sputnik_ii_inj,5,2024-12-28,1
+TRUE,Autumn 2024,jansenn,5,2024-11-22,1
+TRUE,Autumn 2024,sinopharm,5,2024-12-06,1
+TRUE,Autumn 2024,valneva,5,2025-01-15,1
+TRUE,Autumn 2024,medicago,5,2024-10-17,1
+TRUE,Autumn 2024,convidecia,5,2024-10-22,1
+TRUE,Autumn 2024,covaxin,5,2024-11-23,1
+TRUE,Autumn 2024,coronavac,5,2024-12-23,1
+TRUE,Autumn 2024,unspecified,5,2024-10-14,1
+TRUE,Spring 2025,pfizer_original,5,2025-05-29,1
+TRUE,Spring 2025,pfizer_BA45,5,2025-04-02,1
+TRUE,Spring 2025,pfizer_XBB15,5,2025-04-21,1
+TRUE,Spring 2025,pfizer_JN1,5,2025-04-18,1
+TRUE,Spring 2025,pfizer_LP81,5,2025-04-02,1
+TRUE,Spring 2025,pfizer_KP2,5,2025-05-09,1
+TRUE,Spring 2025,pfizer_KP2_pfs,5,2025-05-06,1
+TRUE,Spring 2025,pfizer_unspecified,5,2025-07-16,1
+TRUE,Spring 2025,pfizer_original_children,5,2025-05-23,1
+TRUE,Spring 2025,pfizer_JN1_children,5,2025-04-14,1
+TRUE,Spring 2025,pfizer_LP81_children,5,2025-03-31,1
+TRUE,Spring 2025,pfizer_original_under5,5,2025-05-13,1
+TRUE,Spring 2025,pfizer_JN1_under5,5,2025-06-11,1
+TRUE,Spring 2025,pfizer_XBB15_under5,5,2025-07-13,1
+TRUE,Spring 2025,pfizer_LP81_under5,5,2025-06-01,1
+TRUE,Spring 2025,az_original,5,2025-08-01,1
+TRUE,Spring 2025,az_original_half,5,2025-07-04,1
+TRUE,Spring 2025,moderna_original,5,2025-05-14,1
+TRUE,Spring 2025,moderna_omicron,5,2025-05-17,1
+TRUE,Spring 2025,moderna_BA45,5,2025-04-29,1
+TRUE,Spring 2025,moderna_XBB15,5,2025-04-05,1
+TRUE,Spring 2025,moderna_JN1,5,2025-05-07,1
+TRUE,Spring 2025,moderna_unspecified,5,2025-04-18,1
+TRUE,Spring 2025,sanofigsk_B1,5,2025-04-08,1
+TRUE,Spring 2025,sanofigsk_D614,5,2025-08-21,1
+TRUE,Spring 2025,sanofigsk_D614B1,5,2025-08-24,1
+TRUE,Spring 2025,novavax,5,2025-04-03,1
+TRUE,Spring 2025,sputnik_i_multi,5,2025-06-16,1
+TRUE,Spring 2025,sputnik_i_inj,5,2025-08-11,1
+TRUE,Spring 2025,sputnik_ii_inj,5,2025-08-26,1
+TRUE,Spring 2025,jansenn,5,2025-05-11,1
+TRUE,Spring 2025,sinopharm,5,2025-09-02,1
+TRUE,Spring 2025,valneva,5,2025-06-04,1
+TRUE,Spring 2025,medicago,5,2025-06-16,1
+TRUE,Spring 2025,convidecia,5,2025-05-18,1
+TRUE,Spring 2025,covaxin,5,2025-07-12,1
+TRUE,Spring 2025,coronavac,5,2025-07-11,1
+TRUE,Spring 2025,covishield,5,2025-04-13,1
+TRUE,Spring 2025,covovax,5,2025-04-14,1
+TRUE,Autumn 2025,pfizer_original,5,2025-10-19,1
+TRUE,Autumn 2025,pfizer_BA1,5,2025-11-20,1
+TRUE,Autumn 2025,pfizer_BA45,5,2025-10-09,1
+TRUE,Autumn 2025,pfizer_JN1,5,2025-10-17,1
+TRUE,Autumn 2025,pfizer_LP81,5,2025-10-07,1
+TRUE,Autumn 2025,pfizer_KP2,5,2025-10-14,1
+TRUE,Autumn 2025,pfizer_original_children,5,2025-11-06,1
+TRUE,Autumn 2025,pfizer_JN1_children,5,2025-09-29,1
+TRUE,Autumn 2025,pfizer_XBB15_children,5,2025-11-17,1
+TRUE,Autumn 2025,pfizer_XBB15_under5,5,2025-11-06,1
+TRUE,Autumn 2025,pfizer_LP81_under5,5,2025-10-13,1
+TRUE,Autumn 2025,az_original,5,2025-11-15,1
+TRUE,Autumn 2025,moderna_original,5,2025-10-08,1
+TRUE,Autumn 2025,moderna_BA45,5,2025-10-10,1
+TRUE,Autumn 2025,moderna_XBB15,5,2025-10-26,1
+TRUE,Autumn 2025,moderna_JN1,5,2025-10-08,1
+TRUE,Autumn 2025,moderna_omicron2,5,2025-10-06,1
+TRUE,Autumn 2025,moderna_unspecified,5,2025-10-18,1
+TRUE,Autumn 2025,sanofigsk_B1,5,2025-10-31,1
+TRUE,Autumn 2025,sanofigsk_D614,5,2025-10-24,1
+TRUE,Autumn 2025,novavax,5,2025-10-22,1
+TRUE,Autumn 2025,sputnik_i_multi,5,2025-10-05,1
+TRUE,Autumn 2025,sputnik_i_inj,5,2025-10-27,1
+TRUE,Autumn 2025,jansenn,5,2025-10-19,1
+TRUE,Autumn 2025,valneva,5,2025-10-05,1
+TRUE,Autumn 2025,convidecia,5,2025-10-28,1
+TRUE,Autumn 2025,covaxin,5,2025-10-23,1
+TRUE,Autumn 2025,covishield,5,2025-10-06,1
+TRUE,Autumn 2025,covovax,5,2025-11-20,1
