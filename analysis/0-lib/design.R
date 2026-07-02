@@ -128,7 +128,7 @@ cohort_info <-
   )|>
   mutate(
     across(
-      c(cohort_start_date, cohort_end_date, age_date),
+      c(cohort_start_date, cohort_end_date),
       as.Date
     )
   ) |>
