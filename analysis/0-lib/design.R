@@ -128,19 +128,12 @@ cohort_info <-
   )|>
   mutate(
     across(
-      c(cohort_start_date, cohort_end_date),
+      c(cohort_start_date, cohort_end_date, age_date),
       as.Date
     )
   ) |>
   mutate(
-    across(c(campaign_start_date, primary_milestone_date, age_date), as.Date),
-    early_milestone_date = campaign_start_date + (7 * 8) - 1, # end of eighth week after campaign_start_date
-    final_milestone_date = lead(campaign_start_date, 1, as.Date("2026-02-01")) - 1 # day before next campaign date (or some arbitrary future date if last campaign)
-  )  |>
-  mutate(
-    early_milestone_days = as.integer(early_milestone_date - campaign_start_date) + 1L,
-    primary_milestone_days = as.integer(primary_milestone_date - campaign_start_date) + 1L,
-    final_milestone_days = as.integer(final_milestone_date - campaign_start_date) + 1L
+    cohort_end_days = as.integer(cohort_end_date - cohort_start_date) + 1L
   )
 
 # output from https://jobs.opensafely.org/opensafely-internal/tpp-vaccination-names/ workspace
