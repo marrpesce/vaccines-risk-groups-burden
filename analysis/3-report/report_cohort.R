@@ -71,8 +71,6 @@ baseline_vax_summary <- function(data, ...) {
   data |>
     count(
       across(all_of(group_names)),
-      target,
-      cohort_id,
       cohort,
       baseline_vax_status,
       name = "n_round10"
@@ -620,7 +618,10 @@ get_all_estimates <- function(data, event_name, event_time, event_indicator) {
             nest(.by = c(label1), .key = "group1_subset") |>
             mutate(
               estimates = map(group1_subset, \(group1_subset) {
-                adjusted_estimates(group1_subset, group2, event_time, event_indicator)
+                bind_rows(
+                  adjusted_estimates(group1_subset, group2, event_time, event_indicator, model = 1),
+                  adjusted_estimates(group1_subset, group2, event_time, event_indicator, model = 2)
+                )
               })
             ) |>
             select(-group1_subset) |>
