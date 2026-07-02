@@ -406,30 +406,30 @@ level1_group <- c(
   "all",
 
   # level 1B (age4)
-  "ageband4",
+  "ageband4" #,
 
-  # level 1C (age13)
-  "ageband13",
+  # # level 1C (age13)
+  # "ageband13",
 
-  # Level 1D (eligibility)
-  "any_eligibility",
-  "age_above_eligiblity_threshold",
-  "clinical_priority",
-  "clinical_priority_only",
-  "carehome_status",
+  # # Level 1D (eligibility)
+  # "any_eligibility",
+  # "age_above_eligiblity_threshold",
+  # "clinical_priority",
+  # "clinical_priority_only",
+  # "carehome_status",
 
-  # Level 1E (clinical risk)
-  "primis_atrisk",
-  "crd",
-  "chd",
-  "ckd",
-  "cld",
-  "cns_learndis",
-  "diabetes",
-  "immunosuppressed",
-  "asplenia",
-  "severe_obesity",
-  "smi"
+  # # Level 1E (clinical risk)
+  # "primis_atrisk",
+  # "crd",
+  # "chd",
+  # "ckd",
+  # "cld",
+  # "cns_learndis",
+  # "diabetes",
+  # "immunosuppressed",
+  # "asplenia",
+  # "severe_obesity",
+  # "smi"
 )
 
 level2_group <- c(
@@ -440,7 +440,7 @@ level2_group <- c(
   "ageband13",
   "sex",
   "ethnicity5",
-  # "ethnicity16",
+  "ethnicity16",
   "region",
   "imd_quintile",
   "carehome_status",
