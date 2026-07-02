@@ -84,13 +84,15 @@ fct_case_when <- function(...) {
 # - start_date is when we start the observational period proper, at the start of the mass vax programme
 # - end_date is when we stop the observation period. This must be extended as the study progresses
 
-study_dates <-
-  list(
-    firstpossiblevax_date = "2020-07-01",
-    start_date = "2020-12-07",
-    end_date = "2026-03-31"
-  ) |>
-  lapply(as.Date)
+# study_dates <-
+#   list(
+#   #  firstpossiblevax_date = "2020-07-01",
+#     start_date1 = "2010-09-01",
+#     end_date1 = "2013-08-31",
+#     start_date2 = "2020-03-23",
+#     end_date2 = "2026-08-31"
+#   ) |>
+#   lapply(as.Date)
 
 # make these available in the global environment
 # so we don't have to use `study_dates$start_date` or `start_date <- study_dates$start_date` in each script
@@ -99,22 +101,36 @@ study_dates <-
 # statistical disclosure control rounding precision
 sdc_threshold <- 10
 
-# covid-19 vaccine campaign dates
-campaign_info <-
+# cohort dates
+cohort_info <-
   tribble(
-    ~campaign_label,        ~campaign_start_date,      ~primary_milestone_date, ~age_date, ~age_threshold, ~clinical_priority,
-    "Pre-2020-07-01", "1900-01-01", "1900-01-01", "1900-01-01", 16, "primis_atrisk",
-    "Pre-roll-out",   as.character(study_dates$firstpossiblevax_date), as.character(study_dates$firstpossiblevax_date), as.character(study_dates$firstpossiblevax_date), 16, "primis_atrisk",
-    "Primary series", "2020-12-07", "2021-06-30", "2021-03-31", 16, "primis_atrisk",
-    "Autumn 2021",    "2021-09-06", "2022-02-28", "2021-08-31", 16, "primis_atrisk",
-    "Spring 2022",    "2022-03-21", "2022-06-30", "2022-06-30", 75, "immunosuppressed",
-    "Autumn 2022",    "2022-08-29", "2023-02-28", "2023-03-31", 50, "primis_atrisk",
-    "Spring 2023",    "2023-04-03", "2023-06-30", "2023-06-30", 75, "immunosuppressed",
-    "Autumn 2023",    "2023-08-28", "2024-02-28", "2024-03-31", 65, "primis_atrisk",
-    "Spring 2024",    "2024-04-15", "2024-06-30", "2024-06-30", 75, "immunosuppressed",
-    "Autumn 2024",    "2024-09-30", "2025-02-28", "2025-03-31", 65, "primis_atrisk",
-    "Spring 2025",    "2025-03-31", "2025-06-30", "2025-06-30", 75, "immunosuppressed",
-    "Autumn 2025",    "2025-09-29", "2026-02-28", "2026-03-31", 75, "primis_atrisk",
+    ~cohort_id,        ~target,      ~cohort,          ~cohort_start_date, ~cohort_end_date, ~age_threshold, ~clinical_priority,
+
+    "flu_2023_24",     "Influenza",  "2023/24",        "2023-09-01",       "2024-03-31",     65,             "primis_atrisk",
+    "flu_2024_25",     "Influenza",  "2024/25",        "2024-09-01",       "2025-03-31",     65,             "primis_atrisk",
+    "flu_2025_26",     "Influenza",  "2025/26",        "2025-09-01",       "2026-03-31",     65,             "primis_atrisk",
+
+    "covid_wave_1",    "COVID-19",   "Wave 1",         "2020-03-23",       "2020-05-30",     NA,             "primis_atrisk",
+    "covid_ba1_ba2",   "COVID-19",   "BA.1/BA.2 wave", "2021-12-15",       "2022-04-29",     NA,             "primis_atrisk",
+    "covid_jn1",       "COVID-19",   "JN.1 wave",      "2023-12-04",       "2024-03-31",     NA,             "primis_atrisk",
+    "covid_2025_26",   "COVID-19",   "2025/26",        "2025-09-01",       "2026-03-31",     75,             "primis_atrisk",
+
+    "rsv_2023_24",     "RSV",        "2023/24",        "2023-09-01",       "2024-03-31",     NA,             "primis_atrisk",
+    "rsv_2024_25",     "RSV",        "2024/25",        "2024-09-01",       "2025-03-31",     NA,             "primis_atrisk",
+    "rsv_2025_26",     "RSV",        "2025/26",        "2025-09-01",       "2026-03-31",     75,             "primis_atrisk" #,
+
+    # "zoster_2010_11",  "Zoster",     "2010/11",        "2010-09-01",       "2011-08-31",     70,             "primis_atrisk",
+    # "zoster_2011_12",  "Zoster",     "2011/12",        "2011-09-01",       "2012-08-31",     70,             "primis_atrisk",
+    # "zoster_2012_13",  "Zoster",     "2012/13",        "2012-09-01",       "2013-08-31",     70,             "primis_atrisk",
+    # "zoster_2023_24",  "Zoster",     "2023/24",        "2023-09-01",       "2024-08-31",     65,             "primis_atrisk",
+    # "zoster_2024_25",  "Zoster",     "2024/25",        "2024-09-01",       "2025-08-31",     65,             "primis_atrisk",
+    # "zoster_2025_26",  "Zoster",     "2025/26",        "2025-09-01",       "2026-08-31",     65,             "primis_atrisk"
+  )|>
+  mutate(
+    across(
+      c(cohort_start_date, cohort_end_date),
+      as.Date
+    )
   ) |>
   mutate(
     across(c(campaign_start_date, primary_milestone_date, age_date), as.Date),
@@ -508,15 +524,16 @@ localrun <- Sys.getenv("OPENSAFELY_BACKEND") %in% c("", "expectations")
 
 if (localrun) {
 
-  jsonlite::write_json(
-    study_dates,
-    path = here::here("analysis", "0-lib", "study_dates.json"),
-    pretty = TRUE, auto_unbox = TRUE
-  )
+  # jsonlite::write_json(
+  #   study_dates,
+  #   path = here::here("analysis", "0-lib", "study_dates.json"),
+  #   pretty = TRUE, auto_unbox = TRUE
+  # )
 
   jsonlite::write_json(
-    split(campaign_info, f = campaign_info$campaign_start_date) |> lapply(as.list),
-    path = here::here("analysis", "0-lib", "campaign_info.json"),
-    pretty = TRUE, auto_unbox = TRUE,
+  split(cohort_info, f = cohort_info$cohort_id) |> lapply(as.list),
+  path = here::here("analysis", "0-lib", "cohort_info.json"),
+  pretty = TRUE,
+  auto_unbox = TRUE
   )
 }
