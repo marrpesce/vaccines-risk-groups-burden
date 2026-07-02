@@ -1,7 +1,6 @@
 # _________________________________________________
 # Purpose:
-# import vaccination date data extracted by ehrql
-# organise vaccination date data to "vax X product", "vax X date" (rather than "pfizer X date", "az X date", ...)
+# Prepare one cohort extract for vaccination coverage and burden analyses
 # _________________________________________________
 
 # Preliminaries ----
@@ -17,267 +16,338 @@ library("glue")
 # Import custom functions
 source(here("analysis", "0-lib", "design.R"))
 
-# create output directory
-output_dir <- here("output", "2-prepare", "prepare")
+args <- commandArgs(trailingOnly = TRUE)
+
+if (length(args) == 0) {
+  cohort_id <- "flu_2023_24"
+} else {
+  cohort_id <- args[[1]]
+}
+
+cohort_info <- cohort_info |>
+  filter(cohort_id == .env$cohort_id)
+
+cohort_id_value <- cohort_info$cohort_id[[1]]
+target_value <- cohort_info$target[[1]]
+cohort_value <- cohort_info$cohort[[1]]
+cohort_start_date_value <- cohort_info$cohort_start_date[[1]]
+cohort_end_date_value <- cohort_info$cohort_end_date[[1]]
+cohort_end_days_value <- cohort_info$cohort_end_days[[1]]
+age_threshold_value <- cohort_info$age_threshold[[1]]
+clinical_priority_value <- cohort_info$clinical_priority[[1]]
+
+output_dir <- here("output", "2-prepare", glue("prepare_{cohort_id}"))
 fs::dir_create(output_dir)
-options(width = 200) # set output width for capture.output
 
-# Import and process fixed dataset ----
+options(width = 200)
 
-# Import fixed dataset
-data_extract_fixed <- read_feather(here("output", "1-extract", "extract_fixed.arrow"))
+# Import extract ----
 
-stopifnot(
-  "inconsistency between ethnicity5 and ethnicity 16" = identical(data_extract_fixed$ethnicity5, ethnicity_16_to_5(data_extract_fixed$ethnicity16))
+data_extract <- read_feather(
+  here("output", "1-extract", glue("extract_{cohort_id}.arrow"))
 )
 
-# print details about dataset
 capture.output(
-  skimr::skim_without_charts(data_extract_fixed),
-  file = fs::path(output_dir, "data_extract_fixed_skim.txt"),
+  skimr::skim_without_charts(data_extract),
+  file = fs::path(output_dir, "data_extract_skim.txt"),
   split = FALSE
 )
 
-# Process snapshot dataset
-data_processed_fixed <-
-  data_extract_fixed |>
+# Prepare dataset ----
+
+data_prepared <-
+  data_extract |>
   lazy_dt() |>
   mutate(
-    sex = fct_case_when(
-      sex == "female" ~ "Female",
-      sex == "male" ~ "Male",
-      # sex == "intersex" ~ "Inter-sex",
-      # sex == "unknown" ~ "Unknown",
-      TRUE ~ NA_character_
-    ),
-    ethnicity5 = factor(ethnicity5, levels = factor_levels$ethnicity5, ordered = FALSE),
-    ethnicity16 = factor(ethnicity16, levels = factor_levels$ethnicity16, ordered = FALSE) |>
-      fct_relabel(~ str_extract(.x, "(?<= - )(.*)")), # pick up everything after " - "
-  ) |>
-  as_tibble()
+    cohort_id = cohort_id_value,
+    target = target_value,
+    cohort = cohort_value,
+    cohort_start_date = cohort_start_date_value,
+    cohort_end_date = cohort_end_date_value,
+    cohort_end_days = cohort_end_days_value,
+    age_threshold = age_threshold_value,
 
-# print details about dataset
-capture.output(
-  skimr::skim_without_charts(data_processed_fixed),
-  file = fs::path(output_dir, "data_processed_fixed_skim.txt"),
-  split = FALSE
-)
+    all = "All",
 
-# save processed fixed dataset
-data_processed_fixed |>
-  select(
-    patient_id,
-    sex,
-    ethnicity5,
-    ethnicity16,
-    death_date,
-    covid_death_date
-  ) |>
-  write_feather(fs::path(output_dir, "data_fixed.arrow"))
-
-
-
-## delete in-memory objects to save space
-rm(data_processed_fixed)
-rm(data_extract_fixed)
-
-
-# Import and process fixed dataset ----
-
-# import
-# data_extract_varying <-
-#  import_extract(
-#    here("lib", "dummydata", "dummyinput_varying.arrow"),
-#    here("output", "extracts", "extract_varying.arrow")
-#  )
-
-data_extract_varying <- read_feather(here("output", "1-extract", "extract_varying", "dataset.arrow"))
-
-# Reshape vaccination data
-data_vax <-
-  data_extract_varying |>
-  # lazy_dt() |>
-  select(
-    patient_id,
-    matches("covid_vax\\_\\d+\\_date"),
-    matches("covid_vax_product_\\d+"),
-    matches("registered_\\d+"),
-    matches("deregistered_\\d+"),
-    matches("age_\\d+"),
-    matches("region_\\d+"),
-    matches("stp_\\d+"),
-    matches("imd_\\d+"),
-    matches("imd_quintile_\\d+"),
-  ) |>
-  pivot_longer(
-    cols = -patient_id,
-    names_to = c(".value", "vax_index"),
-    names_pattern = "^(.*)_(\\d+)",
-    # values_drop_na = TRUE, # this causes an error in dtplyr - replace with filter(!is_na(covid_vax))
-    # names_transform = list(vax_index = as.integer) # not supported by dtplyr - use vax_index = as.integer(vax_index) in a mutate step
-  ) |>
-  filter(!is.na(covid_vax)) |>
-  mutate(
-    vax_index = as.integer(vax_index)
-  ) |>
-  rename(
-    vax_date = covid_vax,
-    vax_product = covid_vax_product,
-  ) |>
-  # as_tibble() |> # insert this here to revert to standard dplyr as `cut` function doesn't work with dtplyr
-  mutate(
+    # demographics
     !!!standardise_demographic_characteristics,
-    vax_campaign = cut(
-      vax_date,
-      breaks = c(campaign_info$campaign_start_date, study_dates$end_date),
-      labels = campaign_info$campaign_label,
-      include.lowest = TRUE, right = FALSE
-    )
-  ) |>
-  arrange(patient_id, vax_date) |>
+    !!!standardise_primis_and_extended_characteristics) |>
   mutate(
-    vax_product_raw = vax_product,
-    vax_product = fct_recode(factor(vax_product, vax_product_lookup), !!!vax_product_lookup) |> fct_na_value_to_level("UNMAPPED")
+
+    # eligibility
+    age_above_eligibility_threshold = age >= age_threshold,
+
+    # used to choose if the at risk group is all clinical risk variables
+    # or just immunosuppressed people
+    clinical_priority = .data[[clinical_priority_value]],
+
+    clinical_priority_only = clinical_priority & !age_above_eligibility_threshold,
+
+    any_eligibility = age_above_eligibility_threshold | clinical_priority | carehome_status,
+
+    # baseline vaccination history
+    baseline_vax_status = case_when(
+      target == "Influenza" &
+        last_vax_date_before_start_date >= cohort_start_date - years(1) ~ "Vaccinated",
+
+      target == "Influenza" ~ "Unvaccinated",
+
+      target == "COVID-19" &
+        last_vax_date_before_start_date >= cohort_start_date - months(6) ~ "<6 months",
+
+      target == "COVID-19" &
+        last_vax_date_before_start_date >= cohort_start_date - months(12) ~ "6-11 months",
+
+      target == "COVID-19" &
+        !is.na(last_vax_date_before_start_date) ~ ">=12 months",
+
+      target == "COVID-19" ~ "Unvaccinated",
+
+      target == "RSV" &
+        last_vax_date_before_start_date >= as.Date("2024-09-01") ~ "Vaccinated",
+
+      target == "RSV" ~ "Unvaccinated",
+
+      TRUE ~ NA_character_
+    ) |>
+      factor(),
+
+    # censoring
+    censor_date = pmin(
+      deregistered_date,
+      death_date,
+      cohort_end_date,
+      na.rm = TRUE
+    ),
+
+    # follow-up vaccination
+    vax_time = as.integer(
+      pmin(first_vax_date_after_start_date, death_date, censor_date, na.rm = TRUE) -
+        cohort_start_date
+    ) + 1L,
+
+    vax_indicator =
+      first_vax_date_after_start_date <= pmin(death_date, censor_date, na.rm = TRUE) &
+      !is.na(first_vax_date_after_start_date),
+
+    # severe outcome: admitted
+    admitted_time = as.integer(
+      pmin(admitted_date, death_date, censor_date, na.rm = TRUE) -
+        cohort_start_date
+    ) + 1L,
+
+    admitted_indicator =
+      admitted_date <= pmin(death_date, censor_date, na.rm = TRUE) &
+      !is.na(admitted_date),
+
+    # severe outcome: primary diagnosis admitted
+    admitted_primary_time = as.integer(
+      pmin(admitted_primary_date, death_date, censor_date, na.rm = TRUE) -
+        cohort_start_date
+    ) + 1L,
+
+    admitted_primary_indicator =
+      admitted_primary_date <= pmin(death_date, censor_date, na.rm = TRUE) &
+      !is.na(admitted_primary_date),
+
+    # disease-specific death
+    disease_death_time = as.integer(
+      pmin(disease_death_date, death_date, censor_date, na.rm = TRUE) -
+        cohort_start_date
+    ) + 1L,
+
+    disease_death_indicator =
+      disease_death_date <= pmin(death_date, censor_date, na.rm = TRUE) &
+      !is.na(disease_death_date),
+
+    # all-cause death
+    death_time = as.integer(
+      pmin(death_date, censor_date, na.rm = TRUE) -
+        cohort_start_date
+    ) + 1L,
+
+    death_indicator =
+      death_date <= censor_date &
+      !is.na(death_date),
+
+    # deregistration
+    deregistration_time = as.integer(
+      pmin(deregistered_date, censor_date, na.rm = TRUE) -
+        cohort_start_date
+    ) + 1L,
+
+    deregistration_indicator =
+      deregistered_date <= censor_date &
+      !is.na(deregistered_date),
+
+    alive_and_registered = !death_indicator & !deregistration_indicator
   ) |>
-  group_by(patient_id) |>
-  mutate(
-    vax_interval = as.integer(vax_date - lag(vax_date, 1))
-  ) |>
-  ungroup()
-
-capture.output(
-  skimr::skim_without_charts(data_vax),
-  file = fs::path(output_dir, "data_vax_skim.txt"),
-  split = FALSE
-)
-
-# save dataset with all vaccines
-write_feather(data_vax, fs::path(output_dir, "data_vax.arrow"))
-
-# remove vaccinations occurring within 14 days of a previous vaccination
-data_vax_clean <-
-  # remove vaccine events occurring within 14 days of a previous vaccine event
-  data_vax |>
-  filter(
-    !is.na(vax_date),
-    is.na(vax_interval) | vax_interval >= 14,
-    vax_date >= study_dates$start_date,
-    vax_date <= study_dates$end_date
-  ) |>
-  group_by(patient_id) |>
-  mutate(
-    vax_index = row_number()
-  ) |>
-  ungroup()
-
-capture.output(
-  skimr::skim_without_charts(data_vax_clean),
-  file = fs::path(output_dir, "data_vax_clean_skim.txt"),
-  split = FALSE
-)
-
-# save dataset with <14-day vaccines removed
-write_feather(data_vax_clean, fs::path(output_dir, "data_vax_clean.arrow"))
-
-
-# extract event level data for vaccines ----
-
-data_vax_ELD0 <- read_feather(here("output", "1-extract", "extract_varying", "vaccinations.arrow"))
-
-# - remove rows where vaccination date is missing
-# - attach info about the campaign during which the vaccination was given
-# - collapse exact duplicates (where patient id, date, and product all match)
-data_vax_ELD <-
-  data_vax_ELD0 |>
-  lazy_dt() |>
-  arrange(patient_id, vax_date) |>
-  filter(!is.na(vax_date)) |>
-  # distinct(.keep_all = TRUE) |> # remove exact duplicates # or use
-  count(patient_id, vax_date, vax_product, age) |> # or alternatively, capture how many duplicate vaccines there are. This creates a new variable `n` counting the duplicates
   as_tibble() |>
   mutate(
-    vax_product_raw = vax_product,
-    vax_product = fct_recode(factor(vax_product, vax_product_lookup), !!!vax_product_lookup) |> fct_na_value_to_level("UNMAPPED"),
-    campaign = cut(
-      vax_date,
-      breaks = c(campaign_info$campaign_start_date, as.Date(Inf)),
-      labels = campaign_info$campaign_label
+    vax_status = case_when(
+      vax_indicator ~ "vaccinated",
+      death_date <= censor_date & !is.na(death_date) ~ "died",
+      TRUE ~ "censored"
+    ) |>
+      factor(levels = c("censored", "vaccinated", "died")),
+
+    across(
+      where(is.factor) | where(is.character),
+      ~ fct_drop(fct_na_value_to_level(.x, level = "(Missing)"))
+    )
+  )
+
+# Checks ----
+
+time_check <- data_prepared |>
+  summarise(
+    min_vax_time = min(vax_time, na.rm = TRUE),
+    min_admitted_time = min(admitted_time, na.rm = TRUE),
+    min_admitted_primary_time = min(admitted_primary_time, na.rm = TRUE),
+    min_disease_death_time = min(disease_death_time, na.rm = TRUE),
+    min_death_time = min(death_time, na.rm = TRUE),
+    min_deregistration_time = min(deregistration_time, na.rm = TRUE)
+  )
+
+print(time_check)
+
+capture.output(
+  skimr::skim_without_charts(data_prepared),
+  file = fs::path(output_dir, "data_prepared_skim.txt"),
+  split = FALSE
+)
+
+write_feather(
+  data_prepared,
+  fs::path(output_dir, glue("prepare_{cohort_id}.arrow"))
+)
+
+
+vax_prod_table <- bind_rows(
+  data_prepared |>
+    transmute(
+      indicador = "last_vax_before_start",
+      date = last_vax_date_before_start_date,
+      product = last_vax_product_before_start
     ),
-    campaign_start = cut(
-      vax_date,
-      breaks = c(campaign_info$campaign_start_date, as.Date(Inf)),
-      labels = campaign_info$campaign_start_date
-    ),
+
+  data_prepared |>
+    transmute(
+      indicador = "first_vax_after_start",
+      date = first_vax_date_after_start_date,
+      product = first_vax_product_after_start
+    )
+) |>
+  filter(!is.na(date)) |>
+  mutate(
+    year = year(date),
+    period = case_when(
+      month(date) %in% 9:12 ~ paste0("Sep-Feb/", year(date)),
+      month(date) %in% 1:2  ~ paste0("Sep-Feb/", year(date) - 1),
+      month(date) %in% 3:8  ~ paste0("Feb-Aug/", year(date)),
+      TRUE ~ NA_character_
+    )
   ) |>
-  lazy_dt()
+  count(indicador, period, product, name = "n_round10") |>
+  mutate(
+    n_round10 = round_any(n_round10, sdc_threshold
+  )) |>
+  arrange(indicador, period, product)
 
-
-# Test equivalence of ELD extract ----
-
-data_vax_ELD_filtered <-
-  data_vax_ELD |>
-  filter(vax_date > as.Date("1899-01-01")) |>
-  group_by(patient_id) |>
-  filter((vax_date != lag(vax_date)) | row_number() == 1) |>
-  mutate(vax_index = row_number()) |>
-  filter(vax_index <= 16) |>
-  ungroup() |>
-  as_tibble()
-
-capture.output(
-  skimr::skim_without_charts(data_vax_ELD_filtered),
-  file = fs::path(output_dir, "data_vax_ELD_skim.txt"),
-  split = FALSE
-)
-write_feather(data_vax_ELD_filtered, fs::path(output_dir, "data_vax_ELD.arrow"))
-
-data_vax_PLD <-
-  data_vax |>
-  select(patient_id, vax_date, vax_product = vax_product_raw, age, vax_index)
-
-capture.output(
-  skimr::skim_without_charts(data_vax_PLD),
-  file = fs::path(output_dir, "data_vax_PLD_skim.txt"),
-  split = FALSE
-)
-write_feather(data_vax_PLD, fs::path(output_dir, "data_vax_PLD.arrow"))
-
-
-# check equality of datasets
-cat(
-  "\n",
-  "are datasets from ELD versus PLD identical after some standardisation? \n"
+write_csv(
+  vax_prod_table,
+  fs::path(output_dir, glue("vax_prod_table_{cohort_id}.csv"))
 )
 
-all.equal(data_vax_ELD_filtered, data_vax_PLD)
+# Table 1 ----
+# This information is inside each adjusted_estimates()
+# table1_summary <- function(...) {
+#   group_names <- c(...)
 
-# report multiple vaccinations on the same day
-cat(
-  "\n",
-  "number of occassions where a person is vaccinated more than once in a day:\n",
-  data_vax_ELD |>
-    group_by(patient_id, vax_date) |>
-    summarise(n = n()) |>
-    filter(n > 1) |>
-    nrow()
-)
+#   summary_table <-
+#     data_prepared |>
+#     group_by(across(all_of(group_names))) |>
+#     lazy_dt() |>
+#     summarise(
+#       target = first(target),
+#       cohort_id = first(cohort_id),
+#       cohort = first(cohort),
 
-# report no vax date
-cat(
-  "\n",
-  "number of occassions where a person is vaccinated with a null date:\n",
-  data_vax_ELD |>
-    as_tibble() |>
-    nrow()
-)
+#       number_total_subgroup = n(),
 
+#       number_baseline_vax_status_vaccinated =
+#         sum(baseline_vax_status == "Vaccinated", na.rm = TRUE),
 
-# report no vax date
-cat(
-  "\n",
-  "number of occassions where a person is vaccinated on or before 1899:\n",
-  data_vax_ELD |>
-    filter(vax_date <= as.Date("1899-01-01")) |>
-    as_tibble() |>
-    nrow()
-)
+#       number_baseline_vax_status_unvaccinated =
+#         sum(baseline_vax_status == "Unvaccinated", na.rm = TRUE),
+
+#       number_baseline_vax_status_less_than_6_months =
+#         sum(baseline_vax_status == "<6 months", na.rm = TRUE),
+
+#       number_baseline_vax_status_6_11_months =
+#         sum(baseline_vax_status == "6-11 months", na.rm = TRUE),
+
+#       number_baseline_vax_status_12_months_or_more =
+#         sum(baseline_vax_status == ">=12 months", na.rm = TRUE),
+
+#       number_vax_post_index_date =
+#         sum(vax_indicator, na.rm = TRUE),
+
+#       number_admitted =
+#         sum(admitted_indicator, na.rm = TRUE),
+
+#       number_admitted_primary =
+#         sum(admitted_primary_indicator, na.rm = TRUE),
+
+#       number_disease_death =
+#         sum(disease_death_indicator, na.rm = TRUE),
+
+#       number_all_cause_death =
+#         sum(death_indicator, na.rm = TRUE),
+
+#       number_deregistered =
+#         sum(deregistration_indicator, na.rm = TRUE),
+
+#       .groups = "drop"
+#     ) |>
+#     as_tibble()
+
+#   return(summary_table)
+# }
+
+# table1 <-
+#   level_combos |>
+#   mutate(
+#     table1 = map2(
+#       group1, group2,
+#       .f = function(x, y) {
+#         if (is.na(y)) y <- NULL
+
+#         lookup <- c(
+#           group1_value = x,
+#           group2_value = y
+#         )
+
+#         table1_summary(x, y) |>
+#           mutate(across(c(all_of(c(x, y))), as.character)) |>
+#           rename(any_of(lookup))
+#       }
+#     )
+#   ) |>
+#   unnest(table1) |>
+#   select(
+#     target,
+#     cohort_id,
+#     cohort,
+#     group1,
+#     group1_value,
+#     group2,
+#     group2_value,
+#     everything()
+#   )
+
+# Save ----
+# write_csv(
+#   table1,
+#   fs::path(output_dir, glue("table1_{cohort_id}.csv"))
+# )
