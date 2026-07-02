@@ -264,8 +264,25 @@ carehome_nhs_refset = codelist_from_csv(
     column="code",
 )
 
+# Outcomes -----------------------------
+#TODO mild outcomes
 # COVID-19 
-covid_icd10 = ["U071", "U072", "U109"]
+covid_icd10 = ["U071", "U072", "U109", "U075"]
+
+# Flu
+flu_icd10 = codelist_from_csv(
+    "codelists/opensafely-influenza-identification-secondary-care.csv", 
+    column="code",
+)
+
+# RSV
+rsv_icd10 = codelist_from_csv(
+    "codelists/opensafely-rsv-identification-secondary-care.csv", 
+    column="code",
+)
+
+#TODO: zoster
+
 
 # Extended subgroups
 

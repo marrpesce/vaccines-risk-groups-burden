@@ -317,6 +317,18 @@
       "url": "https://www.opencodelists.org/codelist/primis-covid19-vacc-uptake/reside_cod/v2.5/",
       "downloaded_at": "2026-01-07 16:52:31.359052Z",
       "sha": "906a866473bd4c99a48ddb1d86c08986d228ba38"
+    },
+    "opensafely-influenza-identification-secondary-care.csv": {
+      "id": "opensafely/influenza-identification-secondary-care/7d33be15",
+      "url": "https://www.opencodelists.org/codelist/opensafely/influenza-identification-secondary-care/7d33be15/",
+      "downloaded_at": "2026-06-19 17:39:13.237202Z",
+      "sha": "29f102e6fd667e9ed466cbfc06c310d7d781991e"
+    },
+    "opensafely-rsv-identification-secondary-care.csv": {
+      "id": "opensafely/rsv-identification-secondary-care/5ebecaf4",
+      "url": "https://www.opencodelists.org/codelist/opensafely/rsv-identification-secondary-care/5ebecaf4/",
+      "downloaded_at": "2026-06-19 17:39:13.327786Z",
+      "sha": "ab9f9712939394b9b8f6a261ab3afb2d9f94daa4"
     }
   }
 }

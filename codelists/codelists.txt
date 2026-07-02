@@ -116,3 +116,12 @@ nhsd-primary-care-domain-refsets/csflatrisk1_cod/20250912
 # Homeless
 primis-covid19-vacc-uptake/homeless_cod/v2.5
 primis-covid19-vacc-uptake/reside_cod/v2.5
+
+
+# Outcomes
+
+# flu
+opensafely/influenza-identification-secondary-care/7d33be15
+
+# rsv 
+opensafely/rsv-identification-secondary-care/5ebecaf4
