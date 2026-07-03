@@ -71,15 +71,13 @@ baseline_vax_summary <- function(data, ...) {
   data |>
     count(
       across(all_of(group_names)),
-      cohort,
+      cohort_id,
       baseline_vax_status,
       name = "n_round10"
     ) |>
     group_by(
       across(all_of(group_names)),
-      target,
-      cohort_id,
-      cohort
+      cohort_id
     ) |>
     mutate(
       n_total_round10 = sum(n_round10),
