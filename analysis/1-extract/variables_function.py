@@ -16,11 +16,11 @@ from ehrql.tables.core import (
 
 from ehrql.tables.tpp import (
   addresses,
-#  opa_cost,
   clinical_events,
   practice_registrations,
-# appointments,
-# vaccinations
+  vaccinations,
+  ons_deaths,
+  apcs
 )
 
 
@@ -79,9 +79,6 @@ def last_prior_meds(codelist, index_date, where=True):
 #######################################################
 # PRIMIS
 #######################################################
-
-
-
 
 # Asthma
 def has_asthma(index_date):
@@ -481,8 +478,6 @@ def extended_subgroups(dataset, index_date, var_name_suffix=""):
     ## extended subgroups
     dataset.add_column(f"rrt_cat{var_name_suffix}", rrt_cat(index_date)) # rrt
     dataset.add_column(f"ckd_stage_3to5{var_name_suffix}", ckd_stage_3to5(index_date)) # ckd 3-5
-    # dataset.add_column(f"creatinine_umol{var_name_suffix}", last_creatinine_event(index_date).numeric_value)
-    # dataset.add_column(f"creatinine_age{var_name_suffix}", patients.age_on(last_creatinine_event(index_date).date))
     dataset.add_column(f"copd{var_name_suffix}", has_prior_event(codelists.copd, index_date)) # Chronic obstructive pulmonary disease
     dataset.add_column(f"learndis_cat{var_name_suffix}", learndis_cat(index_date)) # Learning disabilities categories
     dataset.add_column(f"sickle_cell{var_name_suffix}", has_prior_event(codelists.sickle_cell, index_date)) # Sickle cell anaemia
@@ -491,74 +486,165 @@ def extended_subgroups(dataset, index_date, var_name_suffix=""):
     dataset.add_column(f"cystic_fibrosis{var_name_suffix}", has_prior_event(codelists.cystic_fibrosis, index_date)) # cystic fibrosis
     dataset.add_column(f"csfl{var_name_suffix}", has_prior_event(codelists.csfl, index_date)) # Cerebrospinal fluid leak
     dataset.add_column(f"homeless{var_name_suffix}", homeless(index_date)) # Homeless
-    
-
-# def other_cx_variables(dataset, index_date, var_name_suffix=""):
-    ## others of interest
-#    dataset.add_column(f"sol_org_trans{var_name_suffix}", has_prior_event(solid_organ_transplant, index_date)) # Organs transplant
-#    dataset.add_column(f"hiv{var_name_suffix}", has_prior_event(hiv_aids, index_date)) #HIV/AIDS
-#    dataset.add_column(f"cancer{var_name_suffix}", 
-#                       has_prior_event(cancer_nonhaem_snomed, index_date, where=clinical_events.date.is_after(index_date - days(int(3 * 365.25))))|
-#                       has_prior_event(cancer_haem_snomed, index_date, where=clinical_events.date.is_after(index_date - days(int(3 * 365.25))))
-#                       ) #cancer   
+     
 
 ############################################################
 # demographic variables
 ############################################################
+# Ethnicity
+def ethnicity5(index_date):
+    ethnicity5 = last_prior_event(codelists.ethnicity16, index_date).snomedct_code.to_category(codelists.ethnicity5)
+    return ethnicity5
+
+def ethnicity16(index_date):
+    ethnicity16 = last_prior_event(codelists.ethnicity16, index_date).snomedct_code.to_category(codelists.ethnicity16)
+    return ethnicity16
+
 def demographic_variables(dataset, index_date, var_name_suffix=""):
     registration = practice_registrations.for_patient_on(index_date)
-    dataset.add_column(f"age{var_name_suffix}", patients.age_on(index_date))
+    dataset.add_column(f"sex{var_name_suffix}", patients.sex)
+    dataset.add_column(f"age{var_name_suffix}", patients.age_on(index_date - days(1)))
+    dataset.add_column(f"ethnicity5{var_name_suffix}", ethnicity5(index_date))
+    dataset.add_column(f"ethnicity16{var_name_suffix}", ethnicity16(index_date))
     dataset.add_column(f"region{var_name_suffix}", registration.practice_nuts1_region_name)
     dataset.add_column(f"stp{var_name_suffix}", registration.practice_stp)
     dataset.add_column(f"imd{var_name_suffix}", addresses.for_patient_on(index_date).imd_rounded)
     dataset.add_column(f"carehome_status{var_name_suffix}", carehome_status(index_date))
-    
 
-# See https://github.com/opensafely/reusable-variables/blob/main/analysis/vaccine-history/vaccine_variables.py
-# this is an adpated version that only selects vaccines _near_ the index date 
-# without extracting the entire vacciantion history
 
-from ehrql.tables.tpp import (
-  vaccinations
-)
+# Target disease specific functions -------------------------------
 
-def add_n_vaccines(dataset, index_date, target_disease, name, direction = None, number_of_vaccines = 3, minimum_gap = 1):
+## Vaccination
+# TODO: should we add vaccine product name?
+# Identify target disease vaccinations
+def target_vaccinations(target_disease_values):
 
-    assert direction in ["after", "on_or_after", "before", "on_or_before"], "direction value must be after, on_or_after, before, on_or_before"
-    
-    assert minimum_gap > 0, "minimum_gap must be at least 1 to ensure that same-day vaccinations are not stuck in a loop"
-
-    if direction == "after":
-        current_date = index_date - days(minimum_gap-1)
-    elif direction == "on_or_after":
-        current_date = index_date - days(1) - days(minimum_gap-1)
-    elif direction == "before":
-        current_date = index_date + days(minimum_gap-1)
-    elif direction == "on_or_before":
-        current_date = index_date + days(1) + days(minimum_gap-1)
-    else:
-        raise ValueError("direction must be 'before' or 'after'") 
-    
-    # select all vaccination events that target {target_disease}
-    covid_vaccinations = (
+    target_vaccinations = (
         vaccinations
-        .where(vaccinations.target_disease == target_disease)
+        .where(vaccinations.target_disease.is_in(target_disease_values))
         .sort_by(vaccinations.date)
     )
 
-    # loop over first, second, ..., nth vaccination event ON OR AFTER or ON OR BEFORE index date for each person
-    # extract info on vaccination date and product
-    for i in range(1, number_of_vaccines + 1):
+    return target_vaccinations
 
-        # vaccine variables
-        if direction in ["after", "on_or_after"]:
-            current_vax = covid_vaccinations.where(covid_vaccinations.date > (current_date + days(minimum_gap-1))).first_for_patient()
-        if direction in ["before", "on_or_before"]:
-            current_vax = covid_vaccinations.where(covid_vaccinations.date < (current_date - days(minimum_gap-1))).last_for_patient()
-        
-        dataset.add_column(f"{name}_{i}_date", current_vax.date)
-        dataset.add_column(f"{name}_{i}_product", current_vax.product_name)
-        
-        current_date = current_vax.date
-        
+
+# Most recent vaccine before campaign
+def last_vax_before_start_date(target_disease_values, cohort_start_date):
+
+    last_vax_before_start_date = (
+        target_vaccinations(target_disease_values)
+        .where(vaccinations.date.is_before(cohort_start_date))
+        .last_for_patient()
+    )
+
+    return last_vax_before_start_date
+
+
+# First vaccine during campaign
+def first_vax_after_start_date(target_disease_values, cohort_start_date, cohort_end_date):
+
+    first_vax_after_start_date = (
+        target_vaccinations(target_disease_values)
+        .where(vaccinations.date.is_on_or_between(cohort_start_date, cohort_end_date))
+        .first_for_patient()
+    )
+
+    return first_vax_after_start_date
+
+
+def add_target_vaccines(dataset, target_disease_values, cohort_start_date, cohort_end_date, var_name_suffix=""):
+
+    last_vax = last_vax_before_start_date(
+        target_disease_values,
+        cohort_start_date,
+    )
+
+    first_vax = first_vax_after_start_date(
+        target_disease_values,
+        cohort_start_date,
+        cohort_end_date,
+    )
+
+    dataset.add_column(
+        f"last_vax_date_before_start_date{var_name_suffix}",
+        last_vax.date,
+    )
+
+    dataset.add_column(
+        f"last_vax_product_before_start{var_name_suffix}",
+        last_vax.product_name,
+    )
+
+    dataset.add_column(
+        f"first_vax_date_after_start_date{var_name_suffix}",
+        first_vax.date,
+    )
+
+    dataset.add_column(
+        f"first_vax_product_after_start{var_name_suffix}",
+        first_vax.product_name,
+    )
+    
+# Target disease
+## Mild outcome
+# TODO: add 
+# Severe outcomes
+def target_admissions(disease_icd10_codelist, cohort_start_date, cohort_end_date):
+    
+    target_admissions = (
+        apcs
+        .where(apcs.all_diagnoses.contains_any_of(disease_icd10_codelist))
+        .where(apcs.admission_method.is_in([
+            "21", "22", "23", "24", "25",
+            "2A", "2B", "2C", "2D", "28"
+        ]))
+        .where(apcs.patient_classification == "1")
+        .where(apcs.admission_date.is_on_or_between(cohort_start_date, cohort_end_date))
+        .sort_by(apcs.admission_date)
+    )
+    
+    return target_admissions
+
+
+def admitted_date(disease_icd10_codelist, cohort_start_date, cohort_end_date):
+    
+    admitted_date = (
+        target_admissions(disease_icd10_codelist, cohort_start_date, cohort_end_date)
+        .first_for_patient()
+        .admission_date
+    )
+    
+    return admitted_date
+
+
+def admitted_primary_date(disease_icd10_codelist, cohort_start_date, cohort_end_date):
+    
+    admitted_primary_date = (
+        target_admissions(disease_icd10_codelist, cohort_start_date, cohort_end_date)
+        .where(apcs.primary_diagnosis.is_in(disease_icd10_codelist))
+        .first_for_patient()
+        .admission_date
+    )
+    
+    return admitted_primary_date
+
+
+def disease_death_date(disease_icd10_codelist, cohort_start_date, cohort_end_date):
+
+    disease_death_date = case(
+        when(
+            ons_deaths.cause_of_death_is_in(disease_icd10_codelist)
+            & ons_deaths.date.is_on_or_between(cohort_start_date, cohort_end_date)
+        ).then(ons_deaths.date),
+        otherwise=None,
+    )
+
+    return disease_death_date
+
+
+def add_target_sev_outcomes(dataset, disease_icd10_codelist, cohort_start_date, cohort_end_date, var_name_suffix=""):
+    
+    dataset.add_column(f"admitted_date{var_name_suffix}", admitted_date(disease_icd10_codelist, cohort_start_date, cohort_end_date))
+    dataset.add_column(f"admitted_primary_date{var_name_suffix}", admitted_primary_date(disease_icd10_codelist, cohort_start_date, cohort_end_date))
+    dataset.add_column(f"disease_death_date{var_name_suffix}", disease_death_date(disease_icd10_codelist, cohort_start_date, cohort_end_date))
 

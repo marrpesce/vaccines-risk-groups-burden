@@ -1,0 +1,102 @@
+{
+  "covid_2025_26": {
+    "cohort_id": "covid_2025_26",
+    "target": "COVID-19",
+    "cohort": "2025/26",
+    "cohort_start_date": "2025-09-01",
+    "cohort_end_date": "2026-03-31",
+    "age_threshold": 75,
+    "clinical_priority": "primis_atrisk",
+    "cohort_end_days": 212
+  },
+  "covid_ba1_ba2": {
+    "cohort_id": "covid_ba1_ba2",
+    "target": "COVID-19",
+    "cohort": "BA.1/BA.2 wave",
+    "cohort_start_date": "2021-12-15",
+    "cohort_end_date": "2022-04-29",
+    "age_threshold": "NA",
+    "clinical_priority": "primis_atrisk",
+    "cohort_end_days": 136
+  },
+  "covid_jn1": {
+    "cohort_id": "covid_jn1",
+    "target": "COVID-19",
+    "cohort": "JN.1 wave",
+    "cohort_start_date": "2023-12-04",
+    "cohort_end_date": "2024-03-31",
+    "age_threshold": "NA",
+    "clinical_priority": "primis_atrisk",
+    "cohort_end_days": 119
+  },
+  "covid_wave_1": {
+    "cohort_id": "covid_wave_1",
+    "target": "COVID-19",
+    "cohort": "Wave 1",
+    "cohort_start_date": "2020-03-23",
+    "cohort_end_date": "2020-05-30",
+    "age_threshold": "NA",
+    "clinical_priority": "primis_atrisk",
+    "cohort_end_days": 69
+  },
+  "flu_2023_24": {
+    "cohort_id": "flu_2023_24",
+    "target": "Influenza",
+    "cohort": "2023/24",
+    "cohort_start_date": "2023-09-01",
+    "cohort_end_date": "2024-03-31",
+    "age_threshold": 65,
+    "clinical_priority": "primis_atrisk",
+    "cohort_end_days": 213
+  },
+  "flu_2024_25": {
+    "cohort_id": "flu_2024_25",
+    "target": "Influenza",
+    "cohort": "2024/25",
+    "cohort_start_date": "2024-09-01",
+    "cohort_end_date": "2025-03-31",
+    "age_threshold": 65,
+    "clinical_priority": "primis_atrisk",
+    "cohort_end_days": 212
+  },
+  "flu_2025_26": {
+    "cohort_id": "flu_2025_26",
+    "target": "Influenza",
+    "cohort": "2025/26",
+    "cohort_start_date": "2025-09-01",
+    "cohort_end_date": "2026-03-31",
+    "age_threshold": 65,
+    "clinical_priority": "primis_atrisk",
+    "cohort_end_days": 212
+  },
+  "rsv_2023_24": {
+    "cohort_id": "rsv_2023_24",
+    "target": "RSV",
+    "cohort": "2023/24",
+    "cohort_start_date": "2023-09-01",
+    "cohort_end_date": "2024-03-31",
+    "age_threshold": "NA",
+    "clinical_priority": "primis_atrisk",
+    "cohort_end_days": 213
+  },
+  "rsv_2024_25": {
+    "cohort_id": "rsv_2024_25",
+    "target": "RSV",
+    "cohort": "2024/25",
+    "cohort_start_date": "2024-09-01",
+    "cohort_end_date": "2025-03-31",
+    "age_threshold": "NA",
+    "clinical_priority": "primis_atrisk",
+    "cohort_end_days": 212
+  },
+  "rsv_2025_26": {
+    "cohort_id": "rsv_2025_26",
+    "target": "RSV",
+    "cohort": "2025/26",
+    "cohort_start_date": "2025-09-01",
+    "cohort_end_date": "2026-03-31",
+    "age_threshold": 75,
+    "clinical_priority": "primis_atrisk",
+    "cohort_end_days": 212
+  }
+}
